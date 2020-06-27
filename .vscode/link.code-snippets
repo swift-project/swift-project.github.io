@@ -1,0 +1,7 @@
+{
+	"Link markdown": {
+	  "prefix": ["link", "linkmd"],
+	  "body": ["[$1]({{< ref \"$2\" >}})"],
+	  "description": "A markdown shortcode link."
+	}
+  }

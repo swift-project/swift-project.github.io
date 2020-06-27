@@ -1,0 +1,7 @@
+{
+	"Important": {
+	  "prefix": ["important"],
+	  "body": ["{{% alert title=\"Important\" color=\"warning\" %}}\n$1\n{{% /alert %}}"],
+	  "description": "An important block."
+	}
+  }

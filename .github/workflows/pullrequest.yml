@@ -1,0 +1,34 @@
+name: Test-Build
+
+on:
+  push:
+    branches:
+      - '**' # build for all branches except master
+      - '!master'
+  pull_request:
+
+env:
+  baseURL: https://swift-project.github.io
+
+jobs:
+  test-build:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - run: npm install
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+         hugo-version: 'latest'
+         extended: true
+      - name: Checkout gh-pages worktree
+        run: |
+          rm -rf public 
+          git worktree add -B gh-pages public origin/gh-pages
+          rm -rf public/*
+      - name: Build
+        run: hugo --minify --baseURL ${{ env.baseURL }}

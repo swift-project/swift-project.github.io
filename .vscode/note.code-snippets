@@ -1,0 +1,7 @@
+{
+	"Note": {
+	  "prefix": ["note"],
+	  "body": ["{{% alert title=\"Note\" color=\"primary\" %}}\n$1\n{{% /alert %}}"],
+	  "description": "A note block."
+	}
+  }
