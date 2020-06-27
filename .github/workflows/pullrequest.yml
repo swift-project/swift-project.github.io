@@ -8,7 +8,7 @@ on:
   pull_request:
 
 env:
-  baseURL: https://swift-project.github.io
+  baseURL: https://swift-project.github.io/homepage
 
 jobs:
   test-build:

@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  baseURL: https://swift-project.github.io/
+  baseURL: https://swift-project.github.io/homepage
 
 jobs:
   deploy:

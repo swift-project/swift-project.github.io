@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/swift-project/swift-project.github.io"
+    "url": "git+https://github.com/swift-project/homepage"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/swift-project/swift-project.github.io/issues"
+    "url": "https://github.com/swift-project/homepage/issues"
   },
-  "homepage": "https://github.com/swift-project/swift-project.github.io#readme"
+  "homepage": "https://github.com/swift-project/homepage#readme"
 }
