@@ -1,0 +1,66 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Create mappings for swift</title><link>https://swift-project.github.io/docs/help/smt/createmappings/</link><description>Recent content in Create mappings for swift on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/help/smt/createmappings/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Effectively and efficiently create mappings</title><link>https://swift-project.github.io/docs/help/smt/createmappings/effmappings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/smt/createmappings/effmappings/</guid><description>
+&lt;p>First of all, swift mapping is about quality, not quantity. So just
+create a mapping which is wrong is not the goal. However, there are some
+tricks to speed up the mapping process.&lt;/p>
+&lt;h1 id="use-pre-selected-models">Use pre-selected models&lt;/h1>
+&lt;p>The process becomes much faster if you but models on the stash which
+have something in common. That can be the &amp;quot;distributor&amp;quot;, the &amp;quot;ICAO
+code&amp;quot; or even multiple attributes.&lt;/p>
+&lt;p>Example:&lt;/p>
+&lt;ul>
+&lt;li>Here I select all [B732]{.title-ref} of the [BVAI]{.title-ref}
+distribution. So I already know I will have only those models on the
+stash. Stash those&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/All_B732_BVAI.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Now on the stash, I select all of the, and assign [BVAI]{.title-ref}
+by pressing [distributor]{.title-ref} to all selected. So by one
+click, the distributor is set for all models.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/BVAI_distributor.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Same for the aircraft ICAO, select [B732]{.title-ref}, [aircraft
+ICAO]{.title-ref}, and all models have the correct ICAO code&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/B732_ICAO.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>With these 2 simple steps, you have fixed distributor and aircraft
+ICAO, now only the livery/airline is missing&lt;/li>
+&lt;li>Now we check the airlines one by one, remember it is about quality.
+A good share will already be correct.&lt;/li>
+&lt;li>Whenever I have found some correct ones, I select and publish them
+(small steps)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Published_models.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Then I remove them from the stash, so I have only those left which I
+still need to handle&lt;/li>
+&lt;li>After a few iterations I have one model left I still need to
+resolve. In my case [ModelConverterX]{.title-ref} could be used to
+check the model (what it really is)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Model_ConverterX.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>If you are unable to resolve the livery, you can provide at [temp
+livery]{.title-ref}. This is a special livery for those aircraft
+still need a correct livery assigned. In such a case &amp;quot;specialists&amp;quot;
+can select those models and add. the missing information&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Temp_livery.png" alt="image">&lt;/p>
+&lt;p>Summary: This examples shows how you can quickly write mappings for a
+larger number of aircraft. You do not need to follow each step, it is to
+give you an idea about mapping techniques.&lt;/p>
+&lt;h1 id="using-models-of-a-arbitrary-directory">Using models of a arbitrary directory&lt;/h1>
+&lt;p>Maybe you want to download models and do the mappings &lt;strong>without&lt;/strong>
+installing them for your flight simulator. In that case you can use a
+little trick and use &lt;code>force reload from directory&lt;/code>&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/forcereload.png" alt="image">&lt;/p>
+&lt;p>So when I install the [BVAI]{.title-ref} models (for example) in
+&lt;code>C:\temp\BVAI&lt;/code> I can load my own models from there. Then you can create
+the mapping for those models without installing them into you flight
+simulator directories.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Loading_from_directory.png" alt="image">&lt;/p>
+&lt;p>Unfortunately you have to reload you simulator models again, if you want
+to have those from the simulator back. But could also save the models to
+a file (like for a backup), and later load them again.&lt;/p></description></item></channel></rss>

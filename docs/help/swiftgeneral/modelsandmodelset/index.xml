@@ -1,0 +1,483 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Models (own installed models) and model set</title><link>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/</link><description>Recent content in Models (own installed models) and model set on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Export model set (backup a model set)</title><link>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/exportmodelset/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/exportmodelset/</guid><description>
+&lt;p>If you need to export your model set (for troubleshooting or just to
+send it to others) you can do this with the context menu in the mapping
+tool.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Save_models_from_set.png" alt="image">&lt;/p>
+&lt;p>Reasons why you might export a model set&lt;/p>
+&lt;ul>
+&lt;li>backup&lt;/li>
+&lt;li>send to someone else to help with matching&lt;/li>
+&lt;li>send model set for debugging&lt;/li>
+&lt;li>having multiple model sets for various purposes such as testing,
+special flights&lt;/li>
+&lt;li>you wanna try something (like adding some models or remove some),
+but you want to keep your original set.&lt;/li>
+&lt;/ul>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>Zipping the exported &lt;code>JSON&lt;/code> format can reduce the size dramatically, in
+case you need to upload the file
+:::&lt;/p></description></item><item><title>Docs: Model set - add new models</title><link>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/addtoms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/addtoms/</guid><description>
+&lt;p>If you have installed new models there is no need to re-create your
+model set. In case you want to completely re-create your set you can
+find that here: &lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>There are 2 steps involved:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>update your stored models, in most cases it is the easiest way just
+to force a reload&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>In the mapping tool, go to the &amp;quot;Own models&amp;quot; tab.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_mapping_tool_-_own_models.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>If you need to &lt;strong>reload your models&lt;/strong> you can use the [FORCE
+RELOAD]{.title-ref} context menu.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/forcereload.png" alt="image">&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>then you find the new models ad add them to the model set&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>you can sort by column to find the latest models&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/sortlatestmodels.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>or you filter if you know what you are looking for&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/filtermodels.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>You can add the models by {key ALT+A}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/addtoms.png" alt="image">&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Do NOT forget to save your &lt;strong>model set&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/activemstab.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/save.png" alt="image">&lt;/p></description></item><item><title>Docs: Model set - creating or recreate a model set</title><link>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/createms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/createms/</guid><description>
+&lt;h1 id="which-models-to-use">Which models to use?&lt;/h1>
+&lt;p>This is up to you, but maybe some hints:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>For XPlane:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>BlueBell is a good option, see
+&lt;code>examplemsbbxcsl&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>You can mix BlueBell with XCSL, use it alone, use BlueBell
+alone etc.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>For VATSIM and FSX/P3D FLAI is a good choice&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>For instance start with FLAI and the standard FSX/P3D models&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>For Flightgear:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Models within &amp;quot;FGDATA/AI/Aircraft&amp;quot; can be used.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>Some general tips:&lt;/p>
+&lt;ul>
+&lt;li>Do not simply add a huge bunch of models to your set, choose wisely&lt;/li>
+&lt;li>Add the default simulator models (if applicable) as models so they
+can be used if no other model is found&lt;/li>
+&lt;li>Start with one additional model library on top of that&lt;/li>
+&lt;li>Gradually add for specialized models as needed.&lt;/li>
+&lt;/ul>
+&lt;h1 id="installed-models-vs-model-set">Installed models vs. model set&lt;/h1>
+&lt;p>If you do not understand the difference (i.e. what a model set is), see
+&lt;code>mm&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;h1 id="creating-a-model-set-or-recreate-model-set">Creating a model set or recreate model set&lt;/h1>
+&lt;p>::: {.warning}
+::: {.title}
+Warning
+:::&lt;/p>
+&lt;p>It is the users responsibility to check if he is entitled to use the
+models in the set for online flights with a particular network. swift is
+an open source client for multiple networks, but this does not mean you
+are allowed to use it with all the networks.
+:::&lt;/p>
+&lt;ul>
+&lt;li>In the mapping tool, go to the &amp;quot;Own models&amp;quot; tab. The models here
+depend on your model directories, see
+&lt;code>modelsetandsettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_mapping_tool_-_own_models.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>If you need to &lt;strong>reload your models&lt;/strong> you can use the [FORCE
+RELOAD]{.title-ref} context menu.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/forcereload.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>You can add to your model set via the context menu.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_mapping_tool_-_add_to_model_set.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>If you want to clear/re-create your model set: go to the model set
+where can delete your models by &lt;code>CTRL+A&lt;/code> then &lt;code>DEL&lt;/code> (as one of many
+possibilities).&lt;/li>
+&lt;li>If possible, only use models with DB mapping (see DB icon)&lt;/li>
+&lt;li>You can filter the models, and then add all filtered models&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_mapping_tool_-_filter_models.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Excluded models are normally not used with a model set, see
+&lt;code>excludedmodels&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . As you can see
+here, the excluded model is ignore when adding to the model set:&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Add_excluded_models.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Add_excluded_models_result.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Advanced topics:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>&lt;code>modelsetduplicates&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>rankmodelset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Do not forget to save your model set&lt;/p>
+&lt;p>: - You can have as many sets as you like
+- Each set needs to be saved
+- Each simulator has its own set&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="model-set-rules">Model set rules&lt;/h1>
+&lt;ul>
+&lt;li>Do not add models to a set which do not work or really exist&lt;/li>
+&lt;li>If you install new models you need to update your model set and add
+the new models you want to use&lt;/li>
+&lt;li>If you uninstall a model you need to remove it from the set, see
+&lt;code>modelsetvalidation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>If you move your models around (i.e. change the model folder) you
+need to recreate the set to provide the new location.&lt;/li>
+&lt;/ul>
+&lt;h1 id="check-the-model-set-in-the-client">Check the model set in the client&lt;/h1>
+&lt;p>You can load the model set in the client to see if you have model set.
+If this view is empty AFTER you have pressed &amp;quot;LOAD MODEL SET&amp;quot; then
+something is wrong. Especially if you are using the distributed &lt;em>swift&lt;/em>
+version (i.e. core and distributed GUI) this is a good check.&lt;/p>
+&lt;p>You can also validate from there: &lt;code>modelsetvalidation&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/modelsswiftgui.png" alt="image">&lt;/p>
+&lt;h1 id="examples-and-tutorials">Examples and tutorials&lt;/h1>
+&lt;ul>
+&lt;li>See also &lt;code>smttutorials&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>examplemsbbxcsl&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;h1 id="sorting-and-cleaning-a-model-set">Sorting and cleaning a model set&lt;/h1>
+&lt;ul>
+&lt;li>&lt;code>rankmodelset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and&lt;/li>
+&lt;li>&lt;code>modelsetduplicates&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>modelsetvalidation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;h1 id="keep-you-data-up-to-data">Keep you data up to data&lt;/h1>
+&lt;p>See &lt;code>consolidation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>Multiple model sets&lt;/p>
+&lt;p>See &lt;code>maintainmultiplemodelsets&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Model set example BlueBell and XCSL (XPlane, reduce model set)</title><link>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/examplemsbbxcsl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/examplemsbbxcsl/</guid><description>
+&lt;ul>
+&lt;li>&lt;code>downloadbluebell&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Loading the models for XPlane, for this example assuming we have
+BlueBell and XCSL models installed&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Example_XP_model_set_force_reload.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>loading starts, this may take a while&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Example_XP_model_set_load_XP_models.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>loading messages, can be ignored as long as there are only warnings&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Example_XP_model_set_(6).png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>filter by BlueBell {F27390}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Example_XP_model_set_filter_BB.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>add to model set&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Example_XP_model_set_add_to_model_set.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>filter by XCSL&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Example_XP_model_set_filter_XCSL.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>add to model set, you have now all [BB]{.title-ref} and
+[XCSL]{.title-ref} models in the set (not yet saved)&lt;/li>
+&lt;li>go to set tab, reduce dialog&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Example_XP_model_set_reduce_models_menu.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>reduce, making [BB]{.title-ref} my preferred package&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Example_XP_model_reduce_BB.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>reduce completed, confirm by [OK]{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Example_XP_model_set_apply_reduce.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>do not forget to [SAVE]{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Example_XP_model_set_save.png" alt="image">&lt;/p></description></item><item><title>Docs: Models, model set and settings - how does it fit together?</title><link>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/modelsetandsettings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/modelsetandsettings/</guid><description>
+&lt;p>If you want to use a model for model matching (&lt;code>mm&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;} ) you need to add it to the model set. Only models in the
+model set will be used for model matching. If you install/uninstall
+models on your disk you might need to update your model set
+(&lt;code>whentoupdatems&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} ).&lt;/p>
+&lt;ol>
+&lt;li>How does &lt;em>swift&lt;/em> know where my models are installed?
+=======================================================&lt;/li>
+&lt;/ol>
+&lt;p>If you do NOT know where to place (install) your models, see
+&lt;code>xpmodeldirectories&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . You can change the
+simulator directories as described here:
+&lt;code>modeldirectories&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . Please understand
+that changing these settings values does not automatically change your
+model set!&lt;/p>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>XPlane CSL models have to be inside the XPlane folder structure
+:::&lt;/p>
+&lt;ol start="2">
+&lt;li>What are the model directories are used for? The model list!
+===============================================================&lt;/li>
+&lt;/ol>
+&lt;p>Depending on the model directories you can create &lt;strong>a list of all your
+models installed&lt;/strong>, this can be done&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>in the wizard here&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>the model list here you can display via display&lt;/li>
+&lt;li>the models here &lt;strong>are NOT the model&lt;/strong> set, the model set is a
+subset of those models you want to use for matching&lt;/li>
+&lt;li>the list here is the SAME list as in the mapping tool&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>or the mapping tool, see &lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>The model set
+================&lt;/li>
+&lt;/ol>
+&lt;p>The model set is a list of those models you want to use for matching:
+&lt;code>matching&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>you can create your model set in the wizard by selecting the
+distributors list&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>this picks those models from your model list (see above) and
+adds it to the model set&lt;/li>
+&lt;li>in this step we do not care about the simulator settings, only
+the list generated is considered&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>the model set can also be generated in the mapping tool&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>you can do much more things in the mapping tool, e.g.
+arbitrarily mixing models from distributors, see
+&lt;code>examplemsbbxcsl&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Here is shown how to update or re-create your model set, see
+&lt;code>addtoms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
+&lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Hint:: If you use models of multiple providers in your set, we
+recommend to remove duplicates, see
+&lt;code>modelsetduplicates&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
+&lt;code>examplemsbbxcsl&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>Why do we need all this?&lt;/li>
+&lt;/ol>
+&lt;p>&lt;code>modelset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Removing duplicates from a model set (reduce set)</title><link>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/modelsetduplicates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/modelsetduplicates/</guid><description>
+&lt;h1 id="duplicates">Duplicates&lt;/h1>
+&lt;p>Normally it does not make sense to keep more than one aircraft/livery
+combination in your set. You can find out more about your model coverage
+from the statistics, see &lt;code>tuningset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;h1 id="remove-duplicates">Remove duplicates&lt;/h1>
+&lt;p>You can remove duplicates from the model set context menu.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/removeduplicates.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Select your preferred distributor.&lt;/li>
+&lt;li>&amp;quot;Run&amp;quot; -&amp;gt; now you see a list of possible remove candidate in the
+list view. You could remove entries from that list if you like.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/candidates.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>If you now press &amp;quot;Ok&amp;quot;, the models from that list will be removed
+your set, however the changes are not saved yet.&lt;/li>
+&lt;li>To finalize you need to &amp;quot;Save&amp;quot;,&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/savebutton.png" alt="image">&lt;/p>
+&lt;p>If you are unhappy with the changes, you can just &amp;quot;refresh&amp;quot; with the
+currently save data. This will discard the changes.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/refresh.png" alt="image">&lt;/p></description></item><item><title>Docs: Should I use models without DB data in my model set?</title><link>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/nodbdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/nodbdata/</guid><description>
+&lt;ul>
+&lt;li>In general all models in the model set should have a DB entry, only
+those have correct data assigned&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/database.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>The default matching settings even ignore the models without DB
+entries&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/nodbentry.png" alt="image">&lt;/p>
+&lt;p>However, there can be reasons where it make sense to include non DB
+models. If you write your own matching script, then you might want to
+use raw models (see &lt;code>ms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} ) .&lt;/p>
+&lt;p>To use models without DB data, see &lt;code>matchingsettings&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;} .&lt;/p></description></item><item><title>Docs: Testing a model set - model matcher</title><link>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/testmodelset/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/testmodelset/</guid><description>
+&lt;p>You can test a model set in the mapping tool. By entering input data on
+top you can check what the result would be. You can change your settings
+(&lt;code>matchingsettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} ) and see the impact.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Model_matcher.png" alt="image">&lt;/p></description></item><item><title>Docs: Tuning / tweaking a model set (model matrix)</title><link>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/tuningset/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/tuningset/</guid><description>
+&lt;p>In order to better understand the model coverage you can call the
+statistics. There you get a general overview, or you can display the
+model matrix to see the model vs. airlines.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/stats.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/stats2.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/stats3.png" alt="image">&lt;/p>
+&lt;p>=== Removing duplicates ===&lt;/p>
+&lt;p>If you want to removed redundant models from the set, see
+&lt;code>modelsetduplicates&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: What is this bloody model set and why is it needed?</title><link>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/modelset/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/modelset/</guid><description>
+&lt;h1 id="what-is-the-model-set">What is the model set?&lt;/h1>
+&lt;p>The model set is a subset of all aircraft models you have installed /
+stored. It represents the models you can use to display other users
+(i.e. other aircraft, the other pilots). The model set is &lt;strong>needed for
+model matching&lt;/strong>.&lt;/p>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>No model set, no model matching, no working &lt;em>swift&lt;/em> !
+:::&lt;/p>
+&lt;p>See also &lt;code>mm&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;h1 id="why-is-swift-using-a-model-set-why-is-it-needed">Why is &lt;em>swift&lt;/em> using a model set, why is it needed?&lt;/h1>
+&lt;p>From user perspective:&lt;/p>
+&lt;ul>
+&lt;li>the model set allows to define any combination of models for
+matching as you like it&lt;/li>
+&lt;li>you can mix models from various distributors&lt;/li>
+&lt;li>you can have multiple model sets suitable for special purposes
+(without installing/uninstalling models)&lt;/li>
+&lt;li>easy testing: you can easily add or remove models to your set for
+testing purposes, without having to install/uninstall the physical
+models.&lt;/li>
+&lt;/ul>
+&lt;p>Technical reasons:&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>swift&lt;/em> is a multi simulator pilot client. By using a abstract model
+set (i.e. abstract from the physical models) we can use one matching
+concept for all simulators&lt;/li>
+&lt;li>&lt;em>swift&lt;/em> can be used in distributed mode,
+&lt;code>distributedswift&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . The model set can
+be use on a remote computer without direct access (shared drive
+etc.) to your models folder.&lt;/li>
+&lt;/ul>
+&lt;h1 id="more-information">More information&lt;/h1>
+&lt;p>Find more about model set here: &lt;code>smt&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: When do I have to update my model set?</title><link>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/whentoupdatems/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/whentoupdatems/</guid><description>
+&lt;p>** Do I have to update my model set if I update my models (like
+downloaded a new FLAI, BB, or X-IVAP version)? ** Short answer, most
+likely &amp;quot;yes&amp;quot;&lt;/p>
+&lt;p>Details:&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>swift&lt;/em> uses the models you have specified in the model set,
+&lt;code>modelset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>If an update contains new models and you want to use those, you need
+to add them to your model set&lt;/li>
+&lt;li>If models have been deleted, you need to delete those from your set&lt;/li>
+&lt;li>It can happen new models are available but those data are not in the
+&lt;em>swift&lt;/em> DB yet. You can help to provide those data or wait until
+those are available.&lt;/li>
+&lt;li>It is a good idea to use model validation to detect inconsistencies
+/ errors in your model set, &lt;code>modelsetvalidation&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;p>Other reasons when you have to update your model set&lt;/p>
+&lt;ul>
+&lt;li>you have moved or deleted a model directory&lt;/li>
+&lt;li>you have manually deleted models from your model directory&lt;/li>
+&lt;/ul>
+&lt;p>See:&lt;/p>
+&lt;p>&lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} &lt;code>addtoms&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Where should I place my XPlane model directories?</title><link>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/xpmodeldirectories/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/xpmodeldirectories/</guid><description>
+&lt;p>::: {.todo}
+Add missing images.
+:::&lt;/p>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>Your models for XPlane (and &lt;em>swift&lt;/em>) should be below (inside) the XPlane
+folder. Otherwise XPlane is unable to show these models.
+:::&lt;/p>
+&lt;p>As example an installation could look like this with [XCSL]{.title-ref}
+and [BB]{.title-ref} models&lt;/p>
+&lt;p>| {F37522} | {F37524} | {F37530} |&lt;/p>
+&lt;p>By default swift will search all models inside the XPlane folder, the
+XPlane folder is normally found automatically (left screenshot). You
+could also explicitly set the directories (by that you would eliminate
+the risk that some models are found which you actually do &lt;strong>NOT&lt;/strong> want
+to use)&lt;/p>
+&lt;p>| {F37532} | {F37534} |&lt;/p>
+&lt;p>You could also create an explicit folder for your swift models and copy
+them into that folder. By that you make sure that changes by other
+installers/clients does NOT affect your models&lt;/p>
+&lt;p>| {F37536} | {F37540} |&lt;/p>
+&lt;p>Make sure:&lt;/p>
+&lt;ul>
+&lt;li>that all folders are inside the XPlane folder&lt;/li>
+&lt;li>you do not add models twice (if you have the [BB]{.title-ref} models
+in two different folders, only select one)&lt;/li>
+&lt;li>if you move or change your installed models you need to update your
+model set. AGAIN: Just changing the setting does NOT change the
+model set, you need to update it for the new path.&lt;/li>
+&lt;/ul>
+&lt;h1 id="example">Example&lt;/h1>
+&lt;p>| {F37542} | {F37544} | If I select [BB]{.title-ref} only I see around
+1800 models |
+| {F37550} | {F37554} | [XCSL]{.title-ref} only around 4387 models |
+| {F37552} | {F37546} | Both together more than 6200 models |&lt;/p>
+&lt;ul>
+&lt;li>Do NOT confuse the model set and the model list discussed in this
+step, see &lt;code>modelsetandsettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/li>
+&lt;li>Hint:: If you use models of multiple providers in your set, we
+recommend to remove duplicates, see
+&lt;code>modelsetduplicates&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
+&lt;code>examplemsbbxcsl&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/li>
+&lt;/ul></description></item></channel></rss>

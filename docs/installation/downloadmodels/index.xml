@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Download aircraft models (FLAI, BB, WOAI)</title><link>https://swift-project.github.io/docs/installation/downloadmodels/</link><description>Recent content in Download aircraft models (FLAI, BB, WOAI) on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/installation/downloadmodels/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: X-CSL: Download and Installation</title><link>https://swift-project.github.io/docs/installation/downloadmodels/installation-xcsl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/downloadmodels/installation-xcsl/</guid><description>
+&lt;p>To get the X-CSL model sets you need to use the &lt;strong>X-CSL Updater
+program&lt;/strong> that you will download from the &lt;a href="https:*csl.x-air.ru/">X-CSL
+homepage&lt;/a>. It is also suggested to create a
+subfolder for X-CSL inside X-Plane's &amp;quot;Custom Data&amp;quot;-folder to help you
+organize your model sets.&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>&lt;strong>download&lt;/strong> X-CSL Updater from &lt;a href="https://csl.x-air.ru/">https://csl.x-air.ru/&lt;/a>&lt;/li>
+&lt;li>&lt;strong>extract&lt;/strong> the &lt;em>X-CSL Updater&lt;/em> ZIP-file to a directory of your
+choice&lt;/li>
+&lt;li>&lt;strong>create a new folder&lt;/strong> inside &lt;em>Custom Data&lt;/em> where you will store
+all X-CSL models, for example &lt;em>..X-Plane 11Custom DataCSLXCSL&lt;/em>&lt;/li>
+&lt;li>&lt;strong>start the X-CSL Updater&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;ul>
+&lt;li>open File-menu =&amp;gt; &lt;strong>Set X-Plane location&lt;/strong> =&amp;gt; browse to your
+X-Plane directory, select X-Plane.exe&lt;/li>
+&lt;li>open File-menu =&amp;gt; &lt;strong>Set custom path&lt;/strong> =&amp;gt; confirm warning with
+OK =&amp;gt; browse to your newly created X-CSL folder within X-Plane,
+for example &lt;em>..X-Plane11CustomDataCSLXCSL&lt;/em>&lt;/li>
+&lt;li>in the X-CSL Updater program click on &lt;strong>Index&lt;/strong> on the bottom
+right&lt;/li>
+&lt;li>select the model sets from the list that need installation or
+updating and then click on &lt;strong>Update&lt;/strong>. It may take a while to
+finish, depending on the number of models&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/blockquote>
+&lt;p>When you are done you can close X-CSL Updater and start &lt;em>swift's&lt;/em>
+&lt;strong>Mapping Tool&lt;/strong> (&lt;em>swiftData&lt;/em>), because now you'll need to update your
+&amp;quot;Active Model Set&amp;quot;. For this please refer to our respective Tutorials
+and help pages.&lt;/p></description></item></channel></rss>

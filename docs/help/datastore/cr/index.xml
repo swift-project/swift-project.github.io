@@ -1,0 +1,65 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Change requests for ICAO codes and liveries</title><link>https://swift-project.github.io/docs/help/datastore/cr/</link><description>Recent content in Change requests for ICAO codes and liveries on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/help/datastore/cr/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: ICAO code hints</title><link>https://swift-project.github.io/docs/help/datastore/cr/icaohints/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/datastore/cr/icaohints/</guid><description>
+&lt;ul>
+&lt;li>
+&lt;p>We have (or we target to have) all official ICAO codes
+&lt;a href="http://www.icao.int/publications/DOC8643/Pages/Search.aspx">www.icao.int&lt;/a>
+of in the database. The ICAO database is one of our main references.&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Sometime it is hard to understand &amp;quot;why&amp;quot; or &amp;quot;why not&amp;quot; ICAO
+creates a new entry for a certain aircraft type.&lt;/li>
+&lt;li>Some entries of the ICAO database are duplicates of others
+entries. This seems to have technical reasons and we will try
+to eliminate those duplicates (if they are reported).&lt;/li>
+&lt;li>Rule of thumb: &amp;quot;All entries of
+&lt;a href="http://www.icao.int/publications/DOC8643/Pages/Search.aspx">www.icao.int&lt;/a>
+minus duplicates&amp;quot; are supposed to be in the &lt;em>swift&lt;/em> DB&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>IATA codes: There are cases where IATA distinguishes two aircraft
+types, while ICAO does not. This means IATA uses are more detailed
+scheme and we (normally) create those extra entries.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Code descriptions:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>We have 3 description fields which can be used to describe the
+aircraft. As those fields are searchable such descriptions
+will help to find the most appropriate entry.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Normally we will use those fields to provide the company
+aircraft types.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In cases where there are more detailed company codes (more
+detailed than the ICAO and IATA entries) we need to decide on
+a &amp;quot;case by case&amp;quot; basis if it makes sense to create multiple
+entries, or rather use one of the existing entries. This
+decision depends on many factors:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Is there a visual difference among those company types?&lt;/li>
+&lt;li>Is that aircraft frequently used in flight simulation?&lt;/li>
+&lt;li>Are many distributions supporting this aircraft?&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Remark: As it is easier to later merge entries (than to split them),
+sometimes it makes sense to create a new entry if not 100% sure.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>::: {.note}
+::: {.title}
+Note
+:::&lt;/p>
+&lt;p>The above explains why we use a review process to create new ICAO codes
+:::&lt;/p></description></item></channel></rss>

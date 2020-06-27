@@ -1,0 +1,16 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – News About Docsy</title><link>https://swift-project.github.io/blog/news/</link><description>Recent content in News About Docsy on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/blog/news/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Organizational changes</title><link>https://swift-project.github.io/blog/2020/06/11/organizational-changes/</link><pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2020/06/11/organizational-changes/</guid><description>
+&lt;ol>
+&lt;li>swift is about to move to Github. Further information will be posted when the transfer has been completed.
+&lt;ol>
+&lt;li>The site &lt;a href="https://dev.swift-project.org/">https://dev.swift-project.org/&lt;/a> will disappear and equivalent services will be provided by Github instead.
+&lt;ul>
+&lt;li>This includes the source code, user manual, and issue tracker which will all be hosted by Github.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>The swift database will be moved to another server.&lt;/li>
+&lt;li>Discord will remain as is.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>As a result you might face temporary downtimes of those services. This will NOT stop you from using swift for online flying. We will try to keep those downtimes to a minimum.&lt;/li>
+&lt;li>Klaus Basan will be retiring from his position with swift (&lt;strong>private&lt;/strong> reasons) and no longer be available for support questions regarding swift.&lt;/li>
+&lt;/ol></description></item></channel></rss>

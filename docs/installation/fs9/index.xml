@@ -1,0 +1,9 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – FS9</title><link>https://swift-project.github.io/docs/installation/fs9/</link><description>Recent content in FS9 on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/installation/fs9/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: FS9 elevation (FS9 aircraft too high/low)</title><link>https://swift-project.github.io/docs/installation/fs9/fs9elevation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/fs9/fs9elevation/</guid><description>
+&lt;ul>
+&lt;li>FS9 has no ground elevation probe&lt;/li>
+&lt;li>and no gnd. flag for MP airplanes&lt;/li>
+&lt;/ul>
+&lt;p>The solution is to use the own aircraft's elevation as field elevation.
+In order to use that you need to enable this option.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/fs9elevation.png" alt="image">&lt;/p>
+&lt;p>In that case you would use your ground elevation within 250meters.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,73 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Aviation</title><link>https://swift-project.github.io/docs/knowhow/aviation/</link><description>Recent content in Aviation on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/knowhow/aviation/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Aviation altitude (vertical distance)</title><link>https://swift-project.github.io/docs/knowhow/aviation/verticaldistance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/aviation/verticaldistance/</guid><description>
+&lt;p>::: {.note}
+::: {.title}
+Note
+:::&lt;/p>
+&lt;p>see also geodetic height
+:::&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="http://web.archive.org/web/20130626035126/http://www.gmat.unsw.edu.au/snap/gps/clynch_pdfs/coordcvt.pdf">http://web.archive.org/web/20130626035126/http://www.gmat.unsw.edu.au/snap/gps/clynch_pdfs/coordcvt.pdf&lt;/a>
+page 5&lt;/li>
+&lt;li>&lt;a href="http://www.esri.com/news/arcuser/0703/geoid1of3.html">http://www.esri.com/news/arcuser/0703/geoid1of3.html&lt;/a> &amp;ldquo;what is MSL&amp;rdquo;&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;p>True This is the actual, physical distance between the aircraft and the
+Altitude mean sea level. It is what you would see if you could actually
+measure the distance with a very big ruler. In the real world,
+pilots usually do not use this, as it can usually only be measured
+approximately by GPS. In the virtual world (which is what swift is
+modelling), &lt;strong>it is what we generally use when talking to FSD and
+the simulators.&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>Absolute This is the actual, physical distance between the aircraft and the
+Height AGL ground directly beneath it. This could be as measured by a radar
+altimeter.&lt;/p>
+&lt;p>Altitude This is the altitude above mean sea level as measured by a pressure
+QNH altimeter on the aircraft. In order to relate this to any other
+type of altitude, two data must be known: the actual atmospheric
+QNH (e.g. obtained by METAR), and the QNH setting which the pilot
+has dialled into their altimeter; these two data might be
+different, so both must be known.&lt;/p>
+&lt;p>Flight Besides the fact that the unit of measurement is always hundreds of
+Level feet, the only difference between Flight Level and Altitude QNH is
+that the QNH setting is always fixed at 1013.2hPa or 29.92inHg.
+Therefore one datum must be known: the actual atmospheric QNH (e.g.
+from METAR).&lt;/p>
+&lt;h2 id="reference-elevation">Height QFE This is the height above a reference elevation at e.g. an airport.
+Height QFE differs from Altitude QNH only in that the reference
+point is an elevation above or below mean sea level, rather than
+mean sea level itself (MSL+0). Therefore three data must be known:
+the actual atmospheric QNH, the pilot&amp;rsquo;s QNH setting, and the QFE
+reference elevation.&lt;/h2>
+&lt;p>In addition, an altitude can be either an indicated altitude of an
+actual aircraft or other object in real time, or a nominal altitude such
+as entered in a flight plan. These two groups, multiplied by the five
+above, gives a total of ten.&lt;/p>
+&lt;p>This matrix shows the data which would be needed to convert between
+different types of altitude:&lt;/p>
+&lt;hr>
+&lt;pre>&lt;code> **True **Absolute **Altitude **Flight **Height QFE**
+Altitude** Height AGL** QNH** Level**
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;p>&lt;strong>True Ground Actual QNH and Actual QNH Actual QNH,
+Altitude&lt;/strong> elevation set QNH set QNH, and
+QFE elevation&lt;/p>
+&lt;p>&lt;strong>Absolute Ground Ground Ground Ground Ground
+Height AGL&lt;/strong> elevation elevation x2 elevation, elevation elevation,
+actual QNH, and actual actual QNH,
+and set QNH QNH set QNH, and
+QFE elevation&lt;/p>
+&lt;p>&lt;strong>Altitude Actual QNH Ground Actual QNH x2 Actual QNH Actual QNH x2,
+QNH&lt;/strong> and set QNH elevation, and set QNH x2 x2 and set set QNH x2,
+actual QNH, QNH and QFE
+and set QNH elevation&lt;/p>
+&lt;p>&lt;strong>Flight Actual QNH Ground Actual QNH x2 Actual QNH Actual QNH x2,
+Level&lt;/strong> elevation and and set QNH x2 set QNH, and
+actual QNH QFE elevation&lt;/p>
+&lt;h2 id="qfe-elevation--qfe-elevation--elevation">&lt;strong>Height Actual QNH, Ground Ground Actual QNH Actual QNH x2,
+QFE&lt;/strong> set QNH, and elevation, elevation, x2, set set QNH, and
+QFE actual QNH, actual QNH, QNH, and QFE elevation
+elevation set QNH, and set QNH, and QFE &lt;br>
+QFE elevation QFE elevation elevation&lt;/h2></description></item><item><title>Docs: ICAO DB - official ICAO codes</title><link>https://swift-project.github.io/docs/knowhow/aviation/icaodb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/aviation/icaodb/</guid><description>
+&lt;p>&lt;a href="https://www.icao.int/publications/doc8643/pages/search.aspx">https://www.icao.int/publications/doc8643/pages/search.aspx&lt;/a>&lt;/p></description></item></channel></rss>

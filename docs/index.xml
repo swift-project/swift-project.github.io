@@ -1,0 +1,2249 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Documentation</title><link>https://swift-project.github.io/docs/</link><description>Recent content in Documentation on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Checklist: Check before your 1st flight</title><link>https://swift-project.github.io/docs/help/useswiftchecklist/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/useswiftchecklist/</guid><description>
+&lt;h2 id="general-all-simulators">General (all simulators)&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Have you installed the models for multiplayer aircraft? &lt;a href="https://swift-project.github.io/docs/installation/downloadmodels/">See here&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> If not done during the launcher wizard, &lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/createms/">create a model set&lt;/a> for your simulator in use.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> It not done during the launcher wizard, &lt;a href="https://swift-project.github.io/docs/help/spc/definehotkey/">define a PTT key&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/crashreports/">Enable crashdump reports&lt;/a> so developers can analyze the cause of crashes better.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Close other pilot clients, so the voice port is not blocked.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Do not touch the gnd.flag and fast position settings unless you know what you are doing!&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Do not run &lt;em>swift&lt;/em> core and &lt;strong>standalone&lt;/strong> GUI on the same machine, you can run core+remote UI. But normally core is only needed for &lt;a href="https://swift-project.github.io/docs/installation/distributedswift/">distributed swift&lt;/a>.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Do you see &lt;strong>validation errors&lt;/strong>? If you see multiple validation, something in your setup is wrong: &lt;a href="https://swift-project.github.io/docs/help/spc/modelsetvalidation/whyvalidationerrors/">see here&lt;/a>.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Make sure malware protection allows swift to run, recently users reported issues with TrueImage Active protection.&lt;/li>
+&lt;/ul>
+&lt;h2 id="os-specific">OS specific&lt;/h2>
+&lt;h3 id="macos">macOS:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Enable the microphone for &lt;em>swift&lt;/em>, see &lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/macosnosound/">here&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="windows">Windows&lt;/h3>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> make sure swift can access your microphone, &lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/nomiconwindows/">see here&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="linux">Linux&lt;/h3>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Hotkeys: We read keyboard and joystick stuff from &lt;code>/dev/input/event*&lt;/code> and &lt;code>js*&lt;/code>. Those files have to be readable by your user. Typically they are owned by group input or such so if you add your user to that group then it will work.&lt;/li>
+&lt;/ul>
+&lt;h2 id="xplane">XPlane&lt;/h2>
+&lt;p>&lt;em>swift&lt;/em> has not yet been adapted to use Vulkan. If you have enabled
+Vulkan then you won't see any aircraft.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> use the 64bit version&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> make sure &lt;code>XSwiftBus&lt;/code> is installed, and it is the correct version &lt;code>XSwiftBus&lt;/code> and swift client require to &lt;strong>have the same version&lt;/strong>)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> Make sure other pilot clients are uninstalled (as those most likely interfere with &lt;em>swift&lt;/em>). Disabling the plugins might me NOT enough, remove them from the plugins folder.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> CSL files need to be inside the &lt;code>XPlane&lt;/code> folder, it is advisable to avoid spaces and special characters in the file paths&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> disable other simulator plugins using multiplayer planes (such as other pilot clients, or traffic tools) may conflict with &lt;em>swift&lt;/em>. Or entirely move them out of the plugin folder if you have problems such as not working animations (gear down), see &lt;a href="https://swift-project.github.io/docs/installation/troubleshooting/">here&lt;/a> under XPlane.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> for &lt;code>BlueBell&lt;/code> models apply the vertical offset fix (make
+sure to do this correctly and NOT ending up with cascaded directories)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>see &lt;a href="https://swift-project.github.io/docs/installation/downloadbluebell/">Bluebell CSL and Vertical Offset Fix&lt;/a>,&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/troubleshooting/">troubleshooting&lt;/a> and&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/xplane/xplanecg/">XPlane Aircraft too high or too low&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="p3dfsx">P3D/FSX&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> use the 32bit version for FSX, the 64bit version for P3D.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> P3D: to use external model directories (not in &lt;code>SimObjects&lt;/code>)
+add this directory&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> FSX: make sure the terrain probe is installed, see &lt;a href="https://swift-project.github.io/docs/installation/fsx/fsxprobe/">Installation of the FSX/P3D terrain probe&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> Enable &lt;a href="https://swift-project.github.io/docs/help/spc/settings/sbareasettings/">SimConnect SB4 offsets settings&lt;/a> in the driver
+settings if you want to use XPDR updates from PMDG and other aircraft&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> If you cannot connect swift/P3D (FSX): If you run P3D/FSX as &amp;quot;Admin&amp;quot;, run &lt;em>swift&lt;/em> as &amp;quot;Admin&amp;quot;&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="fs9">FS9&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> make sure FSUIPC is installed, &lt;em>swift&lt;/em> needs FSUIPC to work properly&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> If you run FS9/FSUIPC as &amp;quot;Admin&amp;quot;, run &lt;em>swift&lt;/em> as &amp;quot;Admin&amp;quot;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> Since Windows Update 1909 the auto connect to the simulator does NOT
+work anymore, see &lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/fs9mp/">Connecting FS9 manually through multiplayer&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> Consider the gnd. elevation recording: &lt;a href="https://swift-project.github.io/docs/installation/fs9/fs9elevation/">FS9 elevation&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="check-the-connection-of-swift-with-your-simulator">Check the connection of &lt;em>swift&lt;/em> with your simulator&lt;/h2>
+&lt;p>If &lt;em>swift&lt;/em> is connected with your simulator, you shall see the simulator
+LED as on&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_LED_bar.png" alt="image">&lt;/p>
+&lt;p>If NOT, make sure your simulator driver is enabled, see &lt;a href="https://swift-project.github.io/docs/help/spc/settings/configuresim/">Configure / select the used simulator, P3D version FSX version&lt;/a>&lt;/p>
+&lt;p>If the simulator does NOT connect, sometime it helps to un-check and
+check again the simulator (simulator settings)&lt;/p>
+&lt;p>Simulator disconnects: Do not run core and standalone GUI at the same
+time.&lt;/p>
+&lt;p>For XPlane:&lt;/p>
+&lt;ul>
+&lt;li>If no connection, check that the &lt;em>XSwiftBus&lt;/em> on simulator side and &lt;em>swift&lt;/em> side do match: &lt;a href="https://swift-project.github.io/docs/help/spc/settings/xswiftbussettings/">XSwiftBus settings&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>For FSX/P3D&lt;/p>
+&lt;ul>
+&lt;li>For P3D x64 check the correct P3D version: &lt;a href="https://swift-project.github.io/docs/help/spc/settings/p3dversion/">Setting the correct P3D version (x64 only)&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Installation on Windows</title><link>https://swift-project.github.io/docs/installation/windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/windows/</guid><description>
+&lt;h2 id="download">Download&lt;/h2>
+&lt;p>Download the latest installer from &lt;a href="https://github.com/swift-project/pilotclient/releases">here&lt;/a>.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Important&lt;/h4>
+You &lt;strong>need to use the 32-bit installer for FSX, FS9 and Prepar 3D (v1-v3)&lt;/strong> even if you have an 64-bit operating system because SimConnect for FSX is 32-bit only. For &lt;strong>X-Plane and P3Dv4 or later&lt;/strong> use the 64bit installer.
+&lt;/div>
+&lt;h2 id="run-the-installer">Run the installer&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Important&lt;/h4>
+Close all running swift applications before starting the installation
+&lt;/div>
+&lt;p>Run the installer and follow the steps as shown.&lt;/p>
+&lt;p>You might see a warning when you start the installer:&lt;/p>
+&lt;img src=http://img.swift-project.org/Windows_protected_your_PC.png alt="Windows security warning" width="500px"/>
+&lt;p>You need to ignore this as we have no official MS certification.&lt;/p>
+&lt;p>If you encounter any problems then see &lt;a href="https://swift-project.github.io/docs/installation/troubleshooting/">troubleshooting&lt;/a>.&lt;/p>
+&lt;h2 id="initial-configuration">Initial configuration&lt;/h2>
+&lt;p>You&amp;rsquo;ve successfully installed swift. Congrats!&lt;/p>
+&lt;p>You can now move forward to start the configuration. &lt;a href="https://swift-project.github.io/docs/installation/simselect/">Click here&lt;/a>&lt;/p></description></item><item><title>Docs: Installation on MacOS</title><link>https://swift-project.github.io/docs/installation/macos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/macos/</guid><description>
+&lt;h2 id="download">Download&lt;/h2>
+&lt;p>Download the latest 32-bit installer from &lt;a href="https://github.com/swift-project/pilotclient/releases">here&lt;/a>.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Important&lt;/h4>
+You &lt;strong>need to use the 32-bit installer&lt;/strong> even if you have an 64-bit operating system because SimConnect for FSX is 32-bit only.
+&lt;/div>
+&lt;h2 id="run-the-installer">Run the installer&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Important&lt;/h4>
+Close all running swift applications before starting the installation
+&lt;/div>
+&lt;p>Run the installer and follow the steps as shown.&lt;/p>
+&lt;p>You might see a warning when you start the installer:&lt;/p>
+&lt;img src=http://img.swift-project.org/Windows_protected_your_PC.png alt="Windows security warning" width="500px"/>
+&lt;p>You need to ignore this as we have no official MS certification.&lt;/p>
+&lt;h2 id="initial-configuration">Initial configuration&lt;/h2>
+&lt;p>You&amp;rsquo;ve successfully installed swift. Congrats!&lt;/p>
+&lt;p>You can now move forward to start the configuration. &lt;a href="https://swift-project.github.io/docs/installation/simselect/">Click here&lt;/a>&lt;/p></description></item><item><title>Docs: Public download server</title><link>https://swift-project.github.io/docs/help/publicdownload/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/publicdownload/</guid><description>
+&lt;p>Go to the download server: &lt;a href="https://datastore.swift-project.org/page/publicartifacts.php">Public
+Download&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>IMPORTANT&lt;/strong>: Use a random URL please.&lt;/p></description></item><item><title>Docs: Installation on Linux</title><link>https://swift-project.github.io/docs/installation/linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/linux/</guid><description>
+&lt;h2 id="download">Download&lt;/h2>
+&lt;p>Download the latest installer from &lt;a href="https://github.com/swift-project/pilotclient/releases">here&lt;/a>.&lt;/p>
+&lt;h2 id="run-the-installer">Run the installer&lt;/h2>
+&lt;p>After downloading, modify the installer to be executable &lt;code>chmod +x swiftinstaller-linux-64-&amp;lt;version&amp;gt;.run&lt;/code> and double-click on it in your favorite file browser or run it from console &lt;code>./swiftinstaller-linux-64-&amp;lt;version&amp;gt;.run&lt;/code>&lt;/p>
+&lt;p>If you encounter any problems then see &lt;a href="https://swift-project.github.io/docs/installation/troubleshooting/">troubleshooting&lt;/a>.&lt;/p>
+&lt;h2 id="initial-configuration">Initial configuration&lt;/h2>
+&lt;p>You&amp;rsquo;ve successfully installed swift. Congrats!&lt;/p>
+&lt;p>You can now move forward to start the configuration. &lt;a href="https://swift-project.github.io/docs/installation/simselect/">Click here&lt;/a>&lt;/p>
+&lt;h2 id="self-compilation">Self-compilation&lt;/h2>
+&lt;p>As usual for Linux programs you could theoretically self-compile swift as it is open-source. Unfortunately a secret key is needed to allow swift connect to official VATSIM servers. This key is build into the official installers.&lt;/p>
+&lt;p>So if you plan to use swift on VATSIM you need to use the installer. Otherwise you can use your self-compiled version. See here for more information.&lt;/p></description></item><item><title>Docs: Initial configuration</title><link>https://swift-project.github.io/docs/installation/simselect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/simselect/</guid><description>
+&lt;p>Select your simulator:&lt;/p>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/fsx/">FSX&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/p3dv3/">P3D (v1-v4)&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/p3d/">P3D (v4 or later)&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/fs9/">FS9&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/xplane/">X-Plane&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/fg/">Flightgear&lt;/a>&lt;/p></description></item><item><title>Docs: swift features</title><link>https://swift-project.github.io/docs/help/features/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/features/</guid><description>
+&lt;h1 id="supported-network-protocols-and-features">Supported network protocols and features&lt;/h1>
+&lt;ul>
+&lt;li>VATSIM FSD and voice&lt;/li>
+&lt;li>Legacy FSD&lt;/li>
+&lt;li>VATSIM aircraft parts&lt;/li>
+&lt;li>Legacy FSD gnd flag&lt;/li>
+&lt;li>FsInn model string&lt;/li>
+&lt;li>fast position updates&lt;/li>
+&lt;/ul>
+&lt;h1 id="supported-simulators">Supported simulators&lt;/h1>
+&lt;ul>
+&lt;li>XPlane&lt;/li>
+&lt;li>FSX&lt;/li>
+&lt;li>P3D, P3Dv4 genuine x64 SimConnect support&lt;/li>
+&lt;li>FS9&lt;/li>
+&lt;li>FlightGear experimental&lt;/li>
+&lt;/ul>
+&lt;h1 id="supported-os">Supported OS&lt;/h1>
+&lt;ul>
+&lt;li>Win32, Win64&lt;/li>
+&lt;li>MacOS&lt;/li>
+&lt;li>Linux&lt;/li>
+&lt;/ul>
+&lt;h1 id="modes">Modes&lt;/h1>
+&lt;ul>
+&lt;li>Standalone UI, single application&lt;/li>
+&lt;li>Distributed system, running on 2 computers&lt;/li>
+&lt;/ul>
+&lt;h1 id="ui">UI&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>Single window pilot client UI&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Multiple windows pilot client UI (dockable)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Mapping tool for aircraft model administration&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Key features&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>flight plan&lt;/li>
+&lt;li>text messages&lt;/li>
+&lt;li>simple weather client (you can use it or any other weather
+tool)&lt;/li>
+&lt;li>configurable model matching, multiple setups&lt;/li>
+&lt;li>radar screen&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="database">Database&lt;/h1>
+&lt;ul>
+&lt;li>aircraft model database&lt;/li>
+&lt;li>ICAO code database&lt;/li>
+&lt;li>users can contribute models and airlines&lt;/li>
+&lt;/ul>
+&lt;h1 id="matching">Matching&lt;/h1>
+&lt;ul>
+&lt;li>configurable model matching&lt;/li>
+&lt;li>matching script for own matching logic&lt;/li>
+&lt;/ul></description></item><item><title>Docs: swift launcher</title><link>https://swift-project.github.io/docs/help/launcher/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/launcher/</guid><description>
+&lt;p>&lt;img src="http://img.swift-project.org/Launcher_core_mode.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>The launcher is started when swift is installed&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You can use it to configure&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>how swift is started (standalone, distributed)&lt;/li>
+&lt;li>how the UI looks&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>to download updates&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>and model data from &lt;code>swift datastore &amp;lt;datastore&amp;gt;&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="start-a-standalone--distributed-swift">start a standalone / distributed swift&lt;/h1>
+&lt;ol>
+&lt;li>
+&lt;p>To start standalone just select this mode and press the blue GUI
+button.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To start a distributed swift, select the mode:&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>If you want to run both (core/UI) on the same machine try to
+start the core on session bus, then the UI also on session
+bus.&lt;/li>
+&lt;li>If this does not work, try P2P on localhost and the client on
+localhost.&lt;/li>
+&lt;li>If you run on 2 machines, start P2P core on machine on machine
+A, and P2P UI on machine B (of course the IP-address needs to
+be correct).&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Hint: You can also start a distributed version via command line
+arguments: &lt;code>swiftcmdargs&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h1 id="checking-for-updates--new-data">checking for updates / new data&lt;/h1>
+&lt;p>&lt;img src="http://img.swift-project.org/Launcher_updates.png" alt="image">&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>swift comes in different versions&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>select the appropriate channel&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>For alpha you need to be a registered user. Read here about
+the &lt;code>alpha program &amp;lt;alpha&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>stable is the channel for &amp;quot;normal&amp;quot; users.&lt;/li>
+&lt;li>you can switch the channel at anytime, also you can
+&lt;code>install multiple swift versions &amp;lt;installation&amp;gt;&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>see here which
+&lt;code>version to download &amp;lt;publicdownload&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h1 id="configuration-wizard">configuration wizard&lt;/h1>
+&lt;p>You can start the configuration wizard from the launcher. Normally the
+configuration wizard will be launched when the installer finishes. The
+configuration wizard allows you to set default values for the most
+important setting values and download the DB data.&lt;/p>
+&lt;p>See &lt;code>launcher_wizard&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: swift map (moving map)</title><link>https://swift-project.github.io/docs/help/swiftmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftmap/</guid><description>
+&lt;ul>
+&lt;li>Start swift map: &lt;a href="https://map.swift-project.org/Display.htm">https://map.swift-project.org/Display.htm&lt;/a>&lt;/li>
+&lt;li>The project has been migrated from VATGM:
+&lt;a href="http://vatgm.codeplex.com/documentation">http://vatgm.codeplex.com/documentation&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: swift public beta</title><link>https://swift-project.github.io/docs/help/beta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/beta/</guid><description>
+&lt;h1 id="welcome-to-swift-public-beta">Welcome to swift public beta&lt;/h1>
+&lt;ul>
+&lt;li>&lt;strong>No registration needed&lt;/strong> for public beta, that is why it is called
+&amp;quot;public&amp;quot;&lt;/li>
+&lt;li>&lt;strong>Download *swift*:&lt;/strong> &lt;a href="https://datastore.swift-project.org/page/publicartifacts.php">Public beta
+download&lt;/a>.
+Use a random URL please.&lt;/li>
+&lt;/ul>
+&lt;h1 id="help-and-tutorials">Help and tutorials&lt;/h1>
+&lt;ul>
+&lt;li>&lt;code>installation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>help&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>pctutorials&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;a href="http://swift-project.org">swift homepage&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="further-information">Further information&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>Public beta starts with swift 0.9.0.x or newer&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>whatsnew&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} - new features etc. of a
+swift version&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Do I need any account (other than VATSIM) to use &lt;em>swift&lt;/em>?&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Only if you want to report a bug, get an account here with
+your real name. See registration information.&lt;/li>
+&lt;li>if you want to create a mapping you need to login at
+&lt;a href="https://datastore.swift-project.org">datastore&lt;/a> with SSO once
+before you can do.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs:</title><link>https://swift-project.github.io/docs/installation/common_configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/common_configuration/</guid><description>
+&lt;h2 id="initial-configuration">Initial Configuration&lt;/h2>
+&lt;p>After the installation completed, &lt;em>swiftlauncher&lt;/em> will launch together
+with the initial configuration wizard. If you un-selected to launch
+swift from the installer, it is possible to run the same init mode any
+time later by using the command line arguments&lt;/p>
+&lt;p>&lt;code>swiftlauncher -i --bootstrapurl https://datastore.swift-project.org/shared/&lt;/code>&lt;/p>
+&lt;p>The rest of the section will guide you through the different wizards.&lt;/p>
+&lt;h2 id="legal-wizard">Legal Wizard&lt;/h2>
+&lt;p>The first wizard page deals with the necessary legal bits. It will
+explain in detail all the licenses involved in the swift project
+including 3rd party software. It also provides links to data protection
+policies. It is necessary to accept license and data protection policy
+to proceed. This page also asks for your agreement to submit crash
+reports to our crash report collection server. In case any &lt;em>swift&lt;/em>
+application crashed, a crash report will be generated with information
+which line of code caused it to abort. With your agreement, the report
+will be uploaded to our server and helps the developers to diagnose and
+fix the cause. This agreement can be changed anytime later in the
+advanced settings (link tbd). Read more about crash reports (link tbd)
+and how they look like.&lt;/p>
+&lt;h2 id="data-loading-wizard">Data Loading Wizard&lt;/h2>
+&lt;p>The next wizard will download all data, required by &lt;em>swift&lt;/em> to be fully
+functional. This includes aircraft and airline ICAO data, model strings
+(&lt;strong>no models itself&lt;/strong>), etc. &lt;strong>It is not necessary to click any of the
+load buttons&lt;/strong>. The download will start automatically from randomly one
+of the shared mirror servers in the background. The button can be used
+to reload in case there was an update meanwhile. You can either wait for
+the download to finish (several seconds depending on your internet
+bandwidth) or continue, since it will continue in the background. The
+wizard indicates that all data finished loading by&lt;/p>
+&lt;ul>
+&lt;li>The two DB LEDs flashing yellow&lt;/li>
+&lt;li>All other LEDs off (idle mode).&lt;/li>
+&lt;li>The number of entries and the timestamp of the local cache are equal
+to the shared cache.&lt;/li>
+&lt;/ul>
+&lt;h2 id="copy-models-wizard">Copy Models Wizard&lt;/h2>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Note&lt;/h4>
+If you installed &lt;em>siwft&lt;/em> the very first time on this machine, then you can skip this part.
+&lt;/div>
+&lt;p>If you had a previous version of swift installed already, then this
+wizard will help you to migrate your existing model cache and model set.&lt;/p>
+&lt;ul>
+&lt;li>Select the older version you want to migrate from the list.&lt;/li>
+&lt;li>Select whether you want to migrate the model set and/or model cache
+and for which simulators.&lt;/li>
+&lt;li>Click Start.&lt;/li>
+&lt;/ul>
+&lt;p>Read more about the meaning of model set (link tbd) and model cache
+(link tbd).&lt;/p>
+&lt;h2 id="copy-settings-wizard">Copy Settings Wizard&lt;/h2>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Note&lt;/h4>
+If you installed &lt;em>swift&lt;/em> the very first time on this machine, then you
+can skip this part.
+&lt;/div>
+&lt;p>If you had a previous version of swift installed already, then this
+wizard will help you to migrate your settings.&lt;/p>
+&lt;ul>
+&lt;li>Select the older version you want to migrate from the list.&lt;/li>
+&lt;li>Select which settings needs migrating
+&lt;ul>
+&lt;li>Grey X means that no user setting is available and the default is in use.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Click copy&lt;/li>
+&lt;/ul>
+&lt;p>Read more about settings (link tbd).&lt;/p>
+&lt;h2 id="simulator-wizard">Simulator Wizard&lt;/h2>
+&lt;p>This page allows you to configure which simulators you want &lt;em>swift&lt;/em> to
+work with. If you have multiple simulators installed and use them
+regularly, select all of those in the first group box. &lt;em>swift&lt;/em> will
+detect if any of those configured simulators is running and connect to
+it. It will ignore the ones that have not been selected.&lt;/p>
+&lt;p>In the group box below, you are able to configure the simulator path and
+any additional model directories. &lt;em>swift&lt;/em> will try to detect as much as
+possible automatically and use it as default. The default is listed in
+light grey. In order to configure the directories, first select the
+respective simulator from the radio boxes at the bottom&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/radiobox_sim.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Use the &lt;code>...&lt;/code> button to select/add more directories&lt;/li>
+&lt;li>Use the &lt;code>adjust&lt;/code> button to remove redundant directories, fix file
+path etc.&lt;/li>
+&lt;li>Click [Save]{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/setup_simulator.png" alt="image">&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Important&lt;/h4>
+If you are using P3D and you are using models outside the &lt;code>SimObjects&lt;/code> folder you can add multiple other directories here.
+&lt;/div>
+&lt;h2 id="first-model-set-wizard">First Model Set Wizard&lt;/h2>
+&lt;p>This wizard will help you to create a first model set for each of your
+simulators in use. A model set is a subset of the AI models installed on
+your machine, which are considered for model mapping and model matching.
+Without any model set, &lt;em>swift&lt;/em> will not run properly.&lt;/p>
+&lt;ul>
+&lt;li>Select your simulator (repeat the steps below if you are using multiple simulators).&lt;/li>
+&lt;li>Check the model directory and change it if necessary.&lt;/li>
+&lt;li>Reload the installed AI models if necessary. This is necessary in case the number of models does not look correct to you or if you made any changes to model directories in this or the previous wizard.&lt;/li>
+&lt;li>Optionally display and inspect the model list&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/firstmodelset.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Click on &lt;code>Create&lt;/code> to create a model set.&lt;/li>
+&lt;li>&lt;strong>Save&lt;/strong> the model set.&lt;/li>
+&lt;li>Close the dialog&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/ownmodelsetdialog.png" alt="image">&lt;/p>
+&lt;h2 id="configure-hotkeys-wizard">Configure Hotkeys Wizard&lt;/h2>
+&lt;p>The last wizard allows you to configure hotkeys. Use this to configure
+your PTT key.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/hotkey_setup.png" alt="image">&lt;/p>
+&lt;h2 id="run-swift">Run &lt;em>swift&lt;/em>&lt;/h2>
+&lt;p>Your &lt;em>swift&lt;/em> suite is now configured and ready to go. Use the launcher
+to launch the different swift applications in different flavors and
+modes. For first time users, it is recommended to start swift in
+standalone mode. * In the core tab, select Core Mode &lt;code>Standalone&lt;/code> *
+Click on the blue swift icon named &lt;code>GUI&lt;/code> to start swift in standalone
+mode.&lt;/p>
+&lt;h2 id="congratulations">Congratulations&lt;/h2>
+&lt;p>&lt;em>swift&lt;/em> is now running on your machine and you are
+ready to setup everything else for your first connection to the network.&lt;/p>
+&lt;p>Something didnt work?&lt;/p>
+&lt;ul>
+&lt;li>Use the &lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Check our &lt;code>troubleshooting&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} page or
+ask for help in the usual channels.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: A remote hotkey example (remote PTT)</title><link>https://swift-project.github.io/docs/help/spc/settings/remoteptt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/spc/settings/remoteptt/</guid><description>
+&lt;p>Example:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>PCFlightSim MSI 192.x.x.137&lt;/code> with joystick, and &lt;em>swift&lt;/em> core&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>&lt;em>swift&lt;/em> core&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/soundcore.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>here I define the PTT key, on the [PCFlightSim
+MSI]{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/soundcoresettings.png" alt="image">&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>[LAPTOP]{.title-ref} with remote &lt;em>swift&lt;/em> GUI&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>on my laptop I see that PTT key, note the hotkey comes from
+[PCFlightSim MSI]{.title-ref} but the screenshot is from
+[LAPTOP]{.title-ref}. Make sure you &lt;strong>really run a GUI
+connected to the core&lt;/strong> -&amp;gt; DBus&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/remotesound1.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>now when I press the joystick button on [PCFlightSim
+MSI]{.title-ref} (not on the laptop) I see the PTT LED &amp;quot;on&amp;quot;,
+&lt;strong>on both machines&lt;/strong> in the core and the GUI&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/remotesound2.png" alt="image">&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Accounts explained and how to troubleshoot</title><link>https://swift-project.github.io/docs/help/alpha/accounts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/alpha/accounts/</guid><description>
+&lt;p>::: {.todo}
+This page needs major rework.&lt;/p>
+&lt;p>order to participate in swift testing a few accounts are needed and
+hopefully this here will help to understand what they are and whom to
+ask.
+:::&lt;/p>
+&lt;p>Before we can help, we need to understand what the problem is. We
+received requests like &amp;quot;I cannot login&amp;quot;, &amp;quot;I have not been approved&amp;quot;,
+etc. Please tell us what you are talking about. What is not working&lt;/p>
+&lt;p>Downloading the software? The login to slack? The login to this site
+here? Below you find some information about the different accounts,
+please let us know where you face the problem.&lt;/p>
+&lt;p>::: {.warning}
+::: {.title}
+Warning
+:::&lt;/p>
+&lt;p>Make sure you can receive email from us and the invitations for slack,
+this site here etc. do NOT go to your SPAM folder.
+:::&lt;/p>
+&lt;p>Downloading the software Downloading the software for alpha test:
+&lt;a href="https://datastore.swift-project.org/">https://datastore.swift-project.org/&lt;/a> Most users login with VATSIM SSO.
+If this is the first time, a user credential will be created. This
+credential will be approved by one of the swift admins Typical problems:
+Some users just login with VATSIM SSO, never contact us, and just
+disappear. Those accounts will never be approved. Become a alpha tester,
+or alpha tester for VATSIM You need to contact us, nothing will happen
+before we have your full real name, VATSIM id (if applicable), and a
+valid email address When you are becoming a member of the testing team,
+you will receive 2 invitations (emails): One for this site here:
+&lt;a href="https://dev.swift-project.org/">https://dev.swift-project.org/&lt;/a> This is required for &amp;quot;bug reports&amp;quot;,
+... One for slack:: this is the most agile form in getting in touch
+with us to interactively resolve problems. Did you get the emails. Did
+you verify your account here? Also we need to forward your credentials
+to VATSIM who will allow you testing with a development client in the
+network. Legal information: In doing this you deal with 3 parties: Us,
+legal info is here. VATSIM, you have to check their legal information,
+and if you install slack, also the corresponding information there. You
+are absolutely free to register here or with slack. It is your personal
+decision. We only use slack at this time because it is convenient, we
+are not related in any kind of business association. No login with
+VATSIM If you see this, VATSIM has not yet approved your id. If this
+does not disappear within 3 days, please contact us. We then crosscheck.&lt;/p></description></item><item><title>Docs: ACF aircraft (XPlane) excluded in mapping tool</title><link>https://swift-project.github.io/docs/help/smt/acfexcluded/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/smt/acfexcluded/</guid><description>
+&lt;p>See &lt;code>xplanemapping&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
+&lt;code>excludedmodels&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Adding icons (airlines, VAs, other organizations etc.)</title><link>https://swift-project.github.io/docs/help/alpha/newicons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/alpha/newicons/</guid><description>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>Add new icons as task, see below
+:::&lt;/p>
+&lt;ul>
+&lt;li>Read &lt;code>airlineicons&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} for format, naming
+etc.&lt;/li>
+&lt;li>If you have multiple icons please use a container like
+[zip]{.title-ref}, [rar]{.title-ref} or similar&lt;/li>
+&lt;li>Sign the (all online)&lt;/li>
+&lt;li>Yes, a feature for an easy upload was nice. If you could do that,
+see &lt;code>opentasks&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
+&lt;code>gi&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . Currently you have to do it as
+described in the next step!&lt;/li>
+&lt;li>You can just click here to create a new task. Just drag and drop the
+icons into the task or use the file button.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Advanced - solving problems</title><link>https://swift-project.github.io/docs/help/swiftgeneral/swiftadvanced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/swiftadvanced/</guid><description>
+&lt;ul>
+&lt;li>&lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/faq/">Questions and answers (aka FAQs)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/swiftcmdargs/">swift command line arguments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://swift-project.github.io/docs/installation/troubleshooting/">Troubleshooting installation and 1st start&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/tracinginterpolation/">Tracing interpolation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/matching/tracingmatching/">Tracing model matching&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/tracingnetwork/">Tracing network packets (FSD log) and network statistics&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Advanced login popup (since 0.9.2)</title><link>https://swift-project.github.io/docs/help/spc/advloginscreen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/spc/advloginscreen/</guid><description>
+&lt;p>Since &lt;em>swift 0.9.2&lt;/em> an advanced login screen is available. It can be
+reached by pressing &lt;code>SHIFT&lt;/code> and Connect button.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/advlogin.png" alt="image">&lt;/p>
+&lt;p>Here you can&lt;/p>
+&lt;ul>
+&lt;li>add a partner callsign for flying in a shared cockpit:
+&lt;code>sharedcockpit&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>override livery and model string data to appear as a different
+aircraft&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Aircraft classification (model matching)</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/aircraftclassification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/aircraftclassification/</guid><description>
+&lt;p>The standard matching for VATSIM of &amp;quot;normal passenger&amp;quot; plane / airline
+combinations is straight forward. However, some categories are poorly
+matched as there is no/little information in the current FSD concept,
+like smaller utility aircraft, military aircraft, helicopters etc.&lt;/p>
+&lt;p>To allow model matching with more details for some aircraft categories
+we will add some classification details.&lt;/p>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>Our classifications are focusing on finding the right model
+representations
+:::&lt;/p>
+&lt;h1 id="aircraft-type">Aircraft type&lt;/h1>
+&lt;ol>
+&lt;li>
+&lt;p>Unclassified, all aircraft where we &lt;strong>do not need&lt;/strong> further details.
+All the normal passenger aircraft (B737s of airlines, A320s of
+airlines etc.) will be unclassified.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Civil aviation aircraft (this can be used &lt;strong>to make clear&lt;/strong> it is a
+freight aircraft). For some types it is clear by the ICAO code, for
+some it is not. This can be used to explicitly set it where needed.&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Passenger&lt;/li>
+&lt;li>Freighter&lt;/li>
+&lt;li>Mixed&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Ultralight&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Trike&lt;/li>
+&lt;li>Powered hang gliders&lt;/li>
+&lt;li>Powered parachutes&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Military combat airplanes&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Fighter aircraft&lt;/li>
+&lt;li>Bomber&lt;/li>
+&lt;li>Multi role combat aircraft&lt;/li>
+&lt;li>Gunship&lt;/li>
+&lt;li>Glider (military glider only)&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Military helicopters&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Attack helicopters&lt;/li>
+&lt;li>Transport&lt;/li>
+&lt;li>Maritime&lt;/li>
+&lt;li>Observation&lt;/li>
+&lt;li>Gunship&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Glider (civil glider only)&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>
+&lt;p>Touring motor gliders (something which [[
+&lt;a href="https://en.wikipedia.org/wiki/File:Grob.g109b.glider.arp.jpg">https://en.wikipedia.org/wiki/File:Grob.g109b.glider.arp.jpg&lt;/a>
+| looks like a small aircraft ]])&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Retractable propeller/turbo glider (like
+&lt;a href="https://en.wikipedia.org/wiki/File:Schleicher_ASH_26E_sailplane_1.jpg">https://en.wikipedia.org/wiki/File:Schleicher_ASH_26E_sailplane_1.jpg&lt;/a>)
+with their Glider competition classes:&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Open Class, places no restrictions except a limit of 850
+kg to the maximum all-up mass, may be one- or two-seater
+e.g. JS-1C, Lange Antares 23E, Quintus, ASH 30, ASH 31
+and LAK-20.&lt;/li>
+&lt;li>Standard Class, restricted to a maximum wing-span of 15
+metres and fixed wing sections (flaps or other
+lift-enhancing devices not allowed), maximum all-up mass
+525 kg, e.g. ASW 28, LS8, Discus-2, LAK-19.&lt;/li>
+&lt;li>15 metre Class, as Standard Class with lift-enhancing
+devices allowed, maximum all-up mass 525 kg, e.g. ASW
+27, LS6, Ventus-2, Diana 2.&lt;/li>
+&lt;li>18 metre Class, as the 15 metre Class with wing-spans up
+to 18 metres, maximum all-up mass 600 kg, e.g. ASG 29,
+LS10, DG-808, Ventus-2c.&lt;/li>
+&lt;li>20 metre Two-Seater Class, restricted to a maximum
+wing-span of 20 metres, maximum all-up mass 750 kg, e.g.
+Duo Discus, DG-1000, Arcus&lt;/li>
+&lt;li>Club Class, allows a wide range of older small gliders
+within a specified range of performances, e.g. Libelle,
+Standard Cirrus, LS1, Pilatus PC-11, with the scores
+being adjusted by handicapping. Disposable (i.e. water)
+ballast may be installed but must not be used in this
+class.&lt;/li>
+&lt;li>13.5 metre, with maximum span of 13,500mm. Disposable
+ballast allowed but maximum wing loading permitted is 35
+kg/m²&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Glider (no engine) with their Glider competition classes (see
+above (6.B.))&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Open Class, places no restrictions except a limit of 850
+kg to the maximum all-up mass, may be one- or two-seater
+e.g. JS-1C, Lange Antares 23E, Quintus, ASH 30, ASH 31
+and LAK-20.&lt;/li>
+&lt;li>... same as above .&amp;hellip;&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Ground vehicles (for future reference)&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Follow me&lt;/li>
+&lt;li>Bus&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ol>
+&lt;h1 id="aircraft-details">Aircraft details&lt;/h1>
+&lt;p>Like the combined we could use a simple string representation to
+classify further details&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Number of wings, biplane &lt;code>2W&lt;/code>, triplane &lt;code>3W&lt;/code>:&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Number of rotors, like &lt;code>1R&lt;/code>, &lt;code>2R&lt;/code>, &lt;code>2RC&lt;/code> (coaxial), &lt;code>2RT&lt;/code> (Tandem),
+see &lt;a href="https://en.wikipedia.org/wiki/Helicopter_rotor">https://en.wikipedia.org/wiki/Helicopter_rotor&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Undercarriage, mostly required to distinguish smaller &lt;code>L1P&lt;/code> planes&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Taildragger, Tri-cycle Float Monowheel, skids (like for
+helicopters) &lt;a href="https://en.wikipedia.org/wiki/Landing_gear">https://en.wikipedia.org/wiki/Landing_gear&lt;/a>&lt;/li>
+&lt;li>not planned something like this:
+&lt;a href="https://en.wikipedia.org/wiki/Undercarriage_arrangements">https://en.wikipedia.org/wiki/Undercarriage_arrangements&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>Aircraft period&lt;/p>
+&lt;p>Some hints in which period this aircraft belongs. Not to detailed, but
+maybe something like this:&lt;/p>
+&lt;ul>
+&lt;li>WWI&lt;/li>
+&lt;li>WWII&lt;/li>
+&lt;li>and so on&lt;/li>
+&lt;/ul>
+&lt;h1 id="qa">Q&amp;amp;A&lt;/h1>
+&lt;p>FS: &amp;quot;Doesn't the classification for mil. helicopters make sense for
+all military aircraft?&amp;quot;, see
+&lt;a href="https://dev.swift-project.org/T472#12476">here&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>We have a military flag which allows to classify any model or ICAO
+code as &amp;quot;military&amp;quot;? (we keep this one)&lt;/li>
+&lt;li>This works well for a military B737/A320 where I can tell it is a
+B737/A320 used by an airforce etc. If the airforce itself has an
+official ICAO code, I can even tell which airforce it is.&lt;/li>
+&lt;li>On the other hand, in most cases there is no such information, if
+someone uses as a F15 and someone has no F15 in its model set, what
+would be a reasonable representation? At least I would like to
+display another fighter jet (if available), So displaying a Phantom
+F4 would be IMHO be better than a B737. From the ICAO information I
+can hardly distinguish those, both &lt;code>L2J&lt;/code>.&lt;/li>
+&lt;li>I found that splitting helicopters and fixed-wing planes allow us a
+better granularity, and there are classifications which are mutual
+exclusive, but maybe we can also just merge both categories and
+distinguish fixed wing/rotorcraft by the ICAO info or the newly
+established &amp;quot;details&amp;quot;&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Aircraft parts and gnd. flag / ground flag</title><link>https://swift-project.github.io/docs/help/swiftgeneral/partsandgndflag/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/partsandgndflag/</guid><description>
+&lt;h1 id="aircraft-parts">Aircraft parts&lt;/h1>
+&lt;p>Aircraft parts are used to transfer aircraft information about &amp;quot;gear&amp;quot;,
+&amp;quot;spoilers&amp;quot;, &amp;quot;flaps&amp;quot;, &amp;quot;lights&amp;quot;. They also transfer a &lt;strong>GND flag&lt;/strong>
+to tell if the aircraft is located on ground. VATSIM uses the parts
+ground flag.&lt;/p>
+&lt;h1 id="ground-flag--gnd-flag">Ground. flag / gnd. flag&lt;/h1>
+&lt;p>In the FSD protocol and the related extensions there are 2 ways to
+transfer a ground flag. &lt;em>swift&lt;/em> supports both:&lt;/p>
+&lt;ul>
+&lt;li>along with the aircraft parts (VATSIM)&lt;/li>
+&lt;li>and as flag in the aircraft position&lt;/li>
+&lt;/ul>
+&lt;h1 id="how-should-it-be-set">How should it be set?&lt;/h1>
+&lt;ul>
+&lt;li>on VATSIM you will see the parts flag for clients supporting parts,
+e.g. vPilot and &lt;em>swift&lt;/em>.&lt;/li>
+&lt;li>on VATSIM the GND flag for PARTS is supported, the &amp;quot;other GND
+flag&amp;quot; not.&lt;/li>
+&lt;li>For other servers it depends on the server settings if
+[GND]{.title-ref} and [PARTS]{.title-ref} are enabled&lt;/li>
+&lt;li>You could even enable the GND flag for an individual aircraft.
+&lt;strong>Never do this unless you know what you are doing!&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/gndflag.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Leave the ground flag and fast position settings alone unless you
+know what you are doing.&lt;/li>
+&lt;/ul>
+&lt;h1 id="model-view">Model view&lt;/h1>
+&lt;p>You can check the [GND]{.title-ref} and [PARTS]{.title-ref} in the model
+view.&lt;/p></description></item><item><title>Docs: Aircraft position data (from simulator and network)</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/altitude/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/altitude/</guid><description>
+&lt;p>See also &lt;code>simalts&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;h1 id="p3dhttpwwwprepar3dcomsdkv3learningcenterutilitiesvariablessimulation_variableshtml-and-fsxhttpsmsdnmicrosoftcomen-uslibrarycc526981aspx">&lt;a href="http://www.prepar3d.com/SDKv3/LearningCenter/utilities/variables/simulation_variables.html">P3D&lt;/a> and &lt;a href="https://msdn.microsoft.com/en-us/library/cc526981.aspx">FSX&lt;/a>&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>Altitude values own aircraft: &lt;code>PLANE ALTITUDE&lt;/code>,
+&lt;code>PLANE ALT ABOVE GROUND&lt;/code>, &lt;code>STATIC CG TO GROUND&lt;/code>, &lt;code>GROUND ALTITUDE&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Example: aircraft in EDRY 312ft ELV&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;pre>&lt;code> C172 B737
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;p>altitude 315.72497011731951 321.66457557565963&lt;/p>
+&lt;p>altitudeAboveGround 3.7254348326937929 9.6653964302668669&lt;/p>
+&lt;p>cgToGround 3.7650001049041748 9.6700000762939453&lt;/p>
+&lt;h2 id="elevation-------------31199953528462572---31199917914539276">elevation 311.99953528462572 311.99917914539276&lt;/h2>
+&lt;ul>
+&lt;li>Altitude values queried for remote aircraft: &lt;code>PLANE ALTITUDE&lt;/code>,
+&lt;code>STATIC CG TO GROUND&lt;/code>, &lt;code>GROUND ALTITUDE&lt;/code>&lt;/li>
+&lt;li>Position values for remote aircraft
+&lt;a href="https://msdn.microsoft.com/en-us/library/cc526983.aspx#SIMCONNECT_DATA_INITPOSITION">SIMCONNECT_DATA_INITPOSITION&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h1 id="x-planehttpwwwxsquawkboxnetxpsdkdocsdatarefshtml">&lt;a href="http://www.xsquawkbox.net/xpsdk/docs/DataRefs.html">X-Plane&lt;/a>&lt;/h1>
+&lt;ul>
+&lt;li>Own aircraft example: aircraft at KSEA rwy 16L (432.5ft / 131.826m
+ELV)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;pre>&lt;code> C172 B744
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;p>sim/flightmodel/position/elevation 133.3706 136.9491&lt;/p>
+&lt;p>sim/flightmodel/position/y_agl 0.0694 0.2349&lt;/p>
+&lt;h2 id="simaircraftgearacf_h_eqlbm------29933-----47176">sim/aircraft/gear/acf_h_eqlbm 2.9933 4.7176&lt;/h2>
+&lt;h1 id="see-also">See also&lt;/h1>
+&lt;ul>
+&lt;li>&lt;code>ongroundscenarios&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Aircraft range and max. aircraft number (aka visibility range)</title><link>https://swift-project.github.io/docs/help/spc/settings/aircraftrange/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/spc/settings/aircraftrange/</guid><description>
+&lt;p>You can restrict the number of aircraft and the maximum range of
+rendered aircraft. We do not recommend to do so, unless you have
+particular reasons for that, as it can lead to surprising results
+(especially restricting number of aircraft) .&lt;/p>
+&lt;p>&lt;code>CLEAR&lt;/code> removes the restrictions.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/aircraftrange1.png" alt="image">&lt;/p>
+&lt;h1 id="disable-all-aircraft">Disable all aircraft&lt;/h1>
+&lt;p>If in some situations you need to disable all rendered aircraft you can
+do this from the context menu.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/disableallaircraft.png" alt="image">&lt;/p></description></item><item><title>Docs: Alpha Q and A (questions and answers)</title><link>https://swift-project.github.io/docs/help/alpha/qa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/alpha/qa/</guid><description>
+&lt;h1 id="i-am-confused-about-all-the-sites">I am confused about all the sites&lt;/h1>
+&lt;p>Can be explained: * This site (&lt;a href="https://dev.swift-project.org">https://dev.swift-project.org&lt;/a>) is
+about swift development and bug reports * The datastore
+(&lt;a href="https://datastore.swift-project.org">https://datastore.swift-project.org&lt;/a>) contains the mappings and alpha
+users can download the swift development versions. * The alpha
+downloads can be downloaded from
+&lt;a href="https://datastore.swift-project.org/page/alpha.html">https://datastore.swift-project.org/page/alpha.html&lt;/a>&lt;/p>
+&lt;h1 id="what-is-sso">What is SSO?&lt;/h1>
+&lt;p>SSO means single sign on, you do not need an extra username/password but
+you can use your VATSIM credentials.&lt;/p>
+&lt;h1 id="i-cannot-login-with-with-vatsim-sso">I cannot login with with VATSIM SSO&lt;/h1>
+&lt;p>Do a simple test, try to login to &lt;a href="https://forums.vatsim.net">https://forums.vatsim.net&lt;/a> If SSO
+does not work with you? * If not, there is a problem with your VATSIM
+credentials - you need to clarify with VATSIM. * If this works and not
+with datastore, let us know * &lt;strong>Other hint:&lt;/strong> if you have a 6 digit
+VATSIM id, try to add a leading 0: 123456 -&amp;gt; 0123456 * If this still
+does not work, contact us via&lt;/p>
+&lt;h1 id="installation">Installation&lt;/h1>
+&lt;ul>
+&lt;li>Please read &lt;code>installation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} chapter
+directory concept.&lt;/li>
+&lt;/ul>
+&lt;h1 id="general">General&lt;/h1>
+&lt;ul>
+&lt;li>My account is not approved yet. We approve users step by step (in
+waves). We want to handle user requests/issue before we accept new
+users testing&lt;/li>
+&lt;li>Where can I file bug reports?
+&lt;code>Here &amp;lt;reportingbugs&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}, check the
+&lt;code>status page &amp;lt;status&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} first.&lt;/li>
+&lt;li>Why is there no voice in the YouTube tutorials? Simple, matter of
+time. They are subtitled because subtitles can be easily added and
+adjusted - so resources is the reason&lt;/li>
+&lt;li>Why is A and B not happening, happening faster etc.? Resources,
+easiest way of speeding up things, join and do it. Are capacity
+limit is reached.&lt;/li>
+&lt;li>I did not get a response to my query? Be patient, or ask again.
+Hobby project, limited resources (maybe we should set up a telephone
+hotline holding queue as in professional projects]]&lt;/li>
+&lt;li>In the alpha chat room, how to disable all the email notifications?
+Go to the top of the page, settings, you can change it there&lt;/li>
+&lt;/ul>
+&lt;h1 id="updates">Updates&lt;/h1>
+&lt;ul>
+&lt;li>Check the &lt;code>status page &amp;lt;status&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} to
+see if something is ready&lt;/li>
+&lt;li>Currently you have to manually download, improved feature in
+development&lt;/li>
+&lt;li>You can override a swift installation, or just delete the folder.&lt;/li>
+&lt;li>Close swift before updating.&lt;/li>
+&lt;/ul>
+&lt;p>General swift Q&amp;amp;A&lt;/p>
+&lt;p>&lt;code>faq&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: ATC failed to connect error 10061</title><link>https://swift-project.github.io/docs/help/swiftgeneral/faq/atcfailedtoconnect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/faq/atcfailedtoconnect/</guid><description>
+&lt;p>If a connection to a single ATC station fails check if the station
+really supports voice control. Some people set up a voice room but do
+NOT provide voice ATC.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/failedtoconnect.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/failedtoconnect2.png" alt="image">&lt;/p></description></item><item><title>Docs: Aviation altitude (vertical distance)</title><link>https://swift-project.github.io/docs/knowhow/aviation/verticaldistance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/aviation/verticaldistance/</guid><description>
+&lt;p>::: {.note}
+::: {.title}
+Note
+:::&lt;/p>
+&lt;p>see also geodetic height
+:::&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="http://web.archive.org/web/20130626035126/http://www.gmat.unsw.edu.au/snap/gps/clynch_pdfs/coordcvt.pdf">http://web.archive.org/web/20130626035126/http://www.gmat.unsw.edu.au/snap/gps/clynch_pdfs/coordcvt.pdf&lt;/a>
+page 5&lt;/li>
+&lt;li>&lt;a href="http://www.esri.com/news/arcuser/0703/geoid1of3.html">http://www.esri.com/news/arcuser/0703/geoid1of3.html&lt;/a> &amp;ldquo;what is MSL&amp;rdquo;&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;p>True This is the actual, physical distance between the aircraft and the
+Altitude mean sea level. It is what you would see if you could actually
+measure the distance with a very big ruler. In the real world,
+pilots usually do not use this, as it can usually only be measured
+approximately by GPS. In the virtual world (which is what swift is
+modelling), &lt;strong>it is what we generally use when talking to FSD and
+the simulators.&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>Absolute This is the actual, physical distance between the aircraft and the
+Height AGL ground directly beneath it. This could be as measured by a radar
+altimeter.&lt;/p>
+&lt;p>Altitude This is the altitude above mean sea level as measured by a pressure
+QNH altimeter on the aircraft. In order to relate this to any other
+type of altitude, two data must be known: the actual atmospheric
+QNH (e.g. obtained by METAR), and the QNH setting which the pilot
+has dialled into their altimeter; these two data might be
+different, so both must be known.&lt;/p>
+&lt;p>Flight Besides the fact that the unit of measurement is always hundreds of
+Level feet, the only difference between Flight Level and Altitude QNH is
+that the QNH setting is always fixed at 1013.2hPa or 29.92inHg.
+Therefore one datum must be known: the actual atmospheric QNH (e.g.
+from METAR).&lt;/p>
+&lt;h2 id="reference-elevation">Height QFE This is the height above a reference elevation at e.g. an airport.
+Height QFE differs from Altitude QNH only in that the reference
+point is an elevation above or below mean sea level, rather than
+mean sea level itself (MSL+0). Therefore three data must be known:
+the actual atmospheric QNH, the pilot&amp;rsquo;s QNH setting, and the QFE
+reference elevation.&lt;/h2>
+&lt;p>In addition, an altitude can be either an indicated altitude of an
+actual aircraft or other object in real time, or a nominal altitude such
+as entered in a flight plan. These two groups, multiplied by the five
+above, gives a total of ten.&lt;/p>
+&lt;p>This matrix shows the data which would be needed to convert between
+different types of altitude:&lt;/p>
+&lt;hr>
+&lt;pre>&lt;code> **True **Absolute **Altitude **Flight **Height QFE**
+Altitude** Height AGL** QNH** Level**
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;p>&lt;strong>True Ground Actual QNH and Actual QNH Actual QNH,
+Altitude&lt;/strong> elevation set QNH set QNH, and
+QFE elevation&lt;/p>
+&lt;p>&lt;strong>Absolute Ground Ground Ground Ground Ground
+Height AGL&lt;/strong> elevation elevation x2 elevation, elevation elevation,
+actual QNH, and actual actual QNH,
+and set QNH QNH set QNH, and
+QFE elevation&lt;/p>
+&lt;p>&lt;strong>Altitude Actual QNH Ground Actual QNH x2 Actual QNH Actual QNH x2,
+QNH&lt;/strong> and set QNH elevation, and set QNH x2 x2 and set set QNH x2,
+actual QNH, QNH and QFE
+and set QNH elevation&lt;/p>
+&lt;p>&lt;strong>Flight Actual QNH Ground Actual QNH x2 Actual QNH Actual QNH x2,
+Level&lt;/strong> elevation and and set QNH x2 set QNH, and
+actual QNH QFE elevation&lt;/p>
+&lt;h2 id="qfe-elevation--qfe-elevation--elevation">&lt;strong>Height Actual QNH, Ground Ground Actual QNH Actual QNH x2,
+QFE&lt;/strong> set QNH, and elevation, elevation, x2, set set QNH, and
+QFE actual QNH, actual QNH, QNH, and QFE elevation
+elevation set QNH, and set QNH, and QFE &lt;br>
+QFE elevation QFE elevation elevation&lt;/h2></description></item><item><title>Docs: Background updater</title><link>https://swift-project.github.io/docs/help/smt/backupdate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/smt/backupdate/</guid><description>
+&lt;p>The background updater allows to automatically reload and consolidate
+data in the mapping tool. This helps when other users also create new
+mappings and you want to keep your data synchronized with the latest
+changes.&lt;/p>
+&lt;p>Enable the updater in the settings by entering an update period. You
+should see a green LED then.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Background_updater.png" alt="image">&lt;/p>
+&lt;p>The updater will automatically reload and consolidate, so it is
+automatically performing the 2 steps shown below:&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Reload.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Consolidate.png" alt="image">&lt;/p></description></item><item><title>Docs: BB multi livery example</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/bbmultilivery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/bbmultilivery/</guid><description>
+&lt;p>BB_Mil/xsb_aircraft.txt&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">OBJ8_AIRCRAFT F16D_US4_926
+OBJ8 SOLID YES __Bluebell_Mil/F16D/F16D_US4_926.obj
+AIRLINE F16 RCH
+ICAO F16
+OBJ8_AIRCRAFT F16D_US4_TB8
+OBJ8 SOLID YES __Bluebell_Mil/F16D/F16D_US4_TB8.obj
+LIVERY F16 RCH TB8
+OBJ8_AIRCRAFT F18C_US1_183153
+OBJ8 SOLID YES __Bluebell_Mil/F18C/F18C_US1_183153.obj
+AIRLINE F18 RCH
+ICAO F18
+OBJ8_AIRCRAFT F18D_US1_BA7
+OBJ8 SOLID YES __Bluebell_Mil/F18D/F18D_US1_BA7.obj
+&lt;/code>&lt;/pre>&lt;p>&lt;code>LIVERY F18 RCH BA7&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>Means the F16 and F18 for airline RCH have two liveries each:&lt;/li>
+&lt;li>Acft F16 Airline RCH Livery (empty) (Standard US Air Force)&lt;/li>
+&lt;li>Acft F16 Airline RCH Livery TB8 (Thunderbird acrobatic)&lt;/li>
+&lt;li>Acft F18 Airline RCH Livery (empty) (Standard US Navy)&lt;/li>
+&lt;li>Acft F18 Airline RCH Livery BA7 (Blue Angels acrobatic)&lt;/li>
+&lt;/ul>
+&lt;p>Also the B744 has multiple CARGO liveries, and some regional jets have
+multiple liveries per airline.&lt;/p></description></item><item><title>Docs: Bluebell CSL and Vertical Offset Fix: Download and Installation</title><link>https://swift-project.github.io/docs/installation/downloadbluebell/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/downloadbluebell/</guid><description>
+&lt;p>::: {.todo}
+Add download link
+:::&lt;/p>
+&lt;ul>
+&lt;li>XPlane: You can download the Bluebell models and vertical offset
+from here.&lt;/li>
+&lt;li>&lt;code>installbb&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>make sure the vertical offset correctly, see
+&lt;code>xplanecg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>other models for FSX, P3D: &lt;code>downloadmodels&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Build and copy XSwiftBus (from build directory)</title><link>https://swift-project.github.io/docs/knowhow/programming/swiftbuild/buildxswiftbus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/swiftbuild/buildxswiftbus/</guid><description>
+&lt;ul>
+&lt;li>Run make install once.&lt;/li>
+&lt;li>This installs xswiftbus with all its dependencies to
+&lt;code>dist/xswiftbus&lt;/code>, which can be copied into X-Plane.&lt;/li>
+&lt;li>From then onwards, copying of &lt;code>win.xpl&lt;/code> is enough&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/xswiftbusbuild1.png" alt="image">&lt;/p>
+&lt;p>Result: (when built for 64bit Windows)&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/xswiftbusbuild2.png" alt="image">&lt;/p></description></item><item><title>Docs: Build and run swift in QtC (Qt Creator)</title><link>https://swift-project.github.io/docs/knowhow/programming/swiftbuild/buildinqtc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/swiftbuild/buildinqtc/</guid><description>
+&lt;h1 id="running-swift">Running swift&lt;/h1>
+&lt;p>It makes sense to disable QML as we do not use it, and otherwise the
+debugger always pops up).&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/qtc.png" alt="image">&lt;/p>
+&lt;h1 id="kits---example-of-a-working-kit">Kits - example of a working kit&lt;/h1>
+&lt;p>&lt;img src="http://img.swift-project.org/qtc1.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/qtc2.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/qtc3.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/qtc4.png" alt="image">&lt;/p></description></item><item><title>Docs: Build configuration</title><link>https://swift-project.github.io/docs/dev/build-config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/dev/build-config/</guid><description>
+&lt;p>&lt;em>swift&lt;/em> uses &lt;a href="http://doc.qt.io/qt-5/qmake-manual.html">qmake&lt;/a> as its
+build system. The build can be configured with JSON files, and the qmake
+files can interrogate the configuration with custom qmake functions. C++
+code can interrogate its configuration using
+&lt;code>BlackConfig::CBuildConfig&lt;/code>.&lt;/p>
+&lt;p>&lt;strong>Vanilla build&lt;/strong>&lt;/p>
+&lt;p>By default, the build will parse a JSON file named &lt;code>default.json&lt;/code> in the
+root of the source tree. This file can be edited, but for changing your
+local build configuration we recommend creating a new JSON file and
+adding its filename to the &lt;code>SWIFT_CONFIG_JSON&lt;/code> variable on your qmake
+command line. This avoids git conflicts in &lt;code>default.json&lt;/code>, as you can
+add your own JSON file to your &lt;code>.gitignore&lt;/code>.&lt;/p>
+&lt;p>&lt;strong>Command line variables&lt;/strong>&lt;/p>
+&lt;p>The following variables can be set on the command line when invoking
+&lt;code>qmake&lt;/code> and have meaning when building swift:&lt;/p>
+&lt;hr>
+&lt;p>&lt;code>&amp;quot;SWIFT_CONFIG_JSON+=filename.json&amp;quot;&lt;/code> Loads an additional JSON file into the configuration. The file must be in the root directory of the source tree. The path is relative to the source tree root, and the filename may not contain any special characters. Files are loaded in the order in which they are added to the variable, and &lt;code>default.json&lt;/code> is loaded first. If a JSON file contains a key that was already set in a previously loaded JSON file, the value is overwritten with the last one to be loaded.
+&lt;code>&amp;quot;CONFIG+=swiftNoDefaultJson&amp;quot;&lt;/code> By default, &lt;code>default.json&lt;/code> is loaded before any JSON files specified in the &lt;code>SWIFT_CONFIG_JSON&lt;/code> variable. Adding this option prevents this behaviour. This should not really be needed, as each loaded JSON file can overwrite values from a previously loaded one, but the option is provided for completeness.
+&lt;code>&amp;quot;CONFIG+=swiftNoCacheConfig&amp;quot;&lt;/code> By default, JSON files are parsed only when processing the root &lt;code>SUBDIRS&lt;/code> project, and saved in the cache, and the sub-projects use the cached values. This option disables this behaviour, so JSON files are reparsed for each sub-project.
+&lt;code>&amp;quot;SWIFT_CONFIG.key=value&amp;quot;&lt;/code> Specifies a configuration value as if it had been loaded from a JSON file after all other JSON files have been loaded. For example, &lt;code>&amp;quot;SWIFT_CONFIG.sims.xplane=false&amp;quot;&lt;/code> to disable X-Plane support regardless what is set in any JSON file.&lt;/p>
+&lt;hr>
+&lt;h2 id="accessing-the-configuration-when-writing-qmake-files">Accessing the configuration when writing &lt;code>qmake&lt;/code> files&lt;/h2>
+&lt;p>There is a custom function &lt;code>swiftConfig&lt;/code> for inspecting the values
+loaded from JSON within our qmake project files. It is provided both as
+a test function and a replace function.&lt;/p>
+&lt;h3 id="swiftconfig-test-function">&lt;code>swiftConfig&lt;/code> test function&lt;/h3>
+&lt;p>Create a scope with the &lt;code>swiftConfig&lt;/code> function to conditionally evaluate
+some qmake directives if and only if a specified key is set to true in
+the JSON configuration. The function returns false if the key has any
+other value, of if the key is not present.&lt;/p>
+&lt;p>&lt;strong>example&lt;/strong>:&lt;/p>
+&lt;pre>&lt;code>swiftConfig(sims.p3d) {
+# directives to evaluate only if P3D is enabled
+}
+&lt;/code>&lt;/pre>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Note&lt;/h4>
+For technical reasons, the JSON string value &lt;code>&amp;quot;true&amp;quot;&lt;/code> is treated the
+same as the boolean value &lt;code>true&lt;/code>. This is because in qmake,
+everything is a string.
+&lt;/div>
+&lt;h3 id="swiftconfig-replace-function">&lt;code>swiftConfig&lt;/code> replace function&lt;/h3>
+&lt;p>Use the &lt;code>swiftConfig&lt;/code> replace function with the &lt;code>$$&lt;/code> sigil to retrieve
+the value of a specified key from the JSON.&lt;/p>
+&lt;p>&lt;strong>example&lt;/strong>:&lt;/p>
+&lt;pre>&lt;code>DEFINES += &amp;quot;BLACK_EOL=$$swiftConfig(endOfLife)&amp;quot;
+&lt;/code>&lt;/pre>
+&lt;h2 id="modifying-the-configuration-when-writing-qmake-files">Modifying the configuration when writing &lt;code>qmake&lt;/code> files&lt;/h2>
+&lt;p>Sometimes in a qmake file you want to override the setting of the JSON
+file for some reason. Some test functions are provided for this purpose.&lt;/p>
+&lt;h3 id="setswiftconfig-test-function">&lt;code>setSwiftConfig&lt;/code> test function&lt;/h3>
+&lt;p>Use this to set the value of a specified key.&lt;/p>
+&lt;p>&lt;strong>example&lt;/strong>:&lt;/p>
+&lt;pre>&lt;code>setSwiftConfig(endOfLife, 19970829)
+&lt;/code>&lt;/pre>
+&lt;h3 id="enableswiftconfig-test-function">&lt;code>enableSwiftConfig&lt;/code> test function&lt;/h3>
+&lt;p>This is a convenience to set the value of some key(s) to &lt;code>true&lt;/code>.&lt;/p>
+&lt;p>&lt;strong>example&lt;/strong>:&lt;/p>
+&lt;pre>&lt;code># enable all Microsoft-based simulators
+enableSwiftConfig(sims.fs9, sims.fsx, sims.p3d)
+&lt;/code>&lt;/pre>
+&lt;h3 id="disableswiftconfig-test-function">&lt;code>disableSwiftConfig&lt;/code> test function&lt;/h3>
+&lt;p>The reverse of &lt;code>enableSwiftConfig&lt;/code>, this sets the value of some key(s)
+to &lt;code>false&lt;/code>.&lt;/p></description></item><item><title>Docs: Build DBus for Mac OS</title><link>https://swift-project.github.io/docs/knowhow/programming/swiftbuild/dbusmacos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/swiftbuild/dbusmacos/</guid><description>
+&lt;p>On Mac OS, the default Qt installation includes QtDBus, but not the DBus
+library that it depends on. Pre-built binaries are available in the
+externals repository. This howto documents the steps if you want to
+build a new version of DBus binaries.&lt;/p>
+&lt;h2 id="building-from-source">Building from source&lt;/h2>
+&lt;ul>
+&lt;li>Download and extract the
+&lt;a href="https://www.freedesktop.org/wiki/Software/dbus/#index5h1">libdbus&lt;/a>
+source code.&lt;/li>
+&lt;li>Set the deployment target to the lowest supported Mac OS version. At
+the time of writing, this was Mac OS 10.10&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">&lt;span style="color:#204a87">export&lt;/span> &lt;span style="color:#000">MACOSX_DEPLOYMENT_TARGET&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>10.10
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Configure, run and install the build&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">./configure --localstatedir&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/usr/local/var --sysconfdir&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/usr/local/etc --disable-xml-docs --disable-doxygen-docs --enable-launchd --with-launchd-agent-dir&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>~/Library/LaunchAgents --without-x --disable-tests
+make
+make install
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>make install&lt;/code> will automatically copy
+&lt;code>org.freedesktop.dbus-session.plist&lt;/code> into the users LaunchAgents
+directory. So from the next boot up, it will be automatically
+loaded. To load it without rebooting after installation, run:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">load -w ~/Library/LaunchAgents/org.freedesktop.dbus-session.plist
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="commit-to-externals">Commit to externals&lt;/h2>
+&lt;p>Before committing the new binaries to externals, we need to make some
+small adjustments to the library lookup path written in those binaries.&lt;/p>
+&lt;ul>
+&lt;li>Setup &lt;code>swiftRoot&lt;/code> environmental variable&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">&lt;span style="color:#204a87">export&lt;/span> &lt;span style="color:#000">swiftRoot&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=[&lt;/span>path to your swift root&lt;span style="color:#ce5c00;font-weight:bold">]&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>First copy them to externals to not change the local installation&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">cp /usr/local/bin/dbus-daemon &lt;span style="color:#000">$swiftRoot&lt;/span>/externals/macx-clang/bin64/
+cp /usr/local/bin/dbus-uuidgen &lt;span style="color:#000">$swiftRoot&lt;/span>/externals/macx-clang/bin64/
+cp /usr/local/lib/libdbus-1.3.dylib &lt;span style="color:#000">$swiftRoot&lt;/span>/externals/macx-clang/lib64/
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Change the path where dbus executables should look for
+&lt;code>libdbus-1.3.dylib&lt;/code>:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">&lt;span style="color:#204a87">cd&lt;/span> &lt;span style="color:#000">$swiftRoot&lt;/span>/externals/macx-clang/bin64
+install_name_tool -change /usr/local/lib/libdbus-1.3.dylib @executable_path/../lib/libdbus-1.3.dylib dbus-daemon
+install_name_tool -change /usr/local/lib/libdbus-1.3.dylib @executable_path/../lib/libdbus-1.3.dylib dbus-uuidgen
+&lt;span style="color:#204a87">cd&lt;/span> &lt;span style="color:#000">$swiftRoot&lt;/span>/externals/macx-clang/lib64
+install_name_tool -id @rpath/libdbus-1.3.dylib libdbus-1.3.dylib
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Commit the new binaries&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Build DBus for Windows</title><link>https://swift-project.github.io/docs/knowhow/programming/swiftbuild/dbus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/swiftbuild/dbus/</guid><description>
+&lt;p>On Windows, the default Qt installation includes QtDBus, but not the
+DBus library that it depends on. Here are Windows binaries for DBus,
+they should be extracted directly into the Qt installation tree:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Verbose-mode builds&lt;/strong> (insecure, for &lt;em>swift&lt;/em> developers)&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>F12375 DBus 1.10.24 for MSVC2017 32-bit&lt;/li>
+&lt;li>F12376 DBus 1.10.24 for MSVC2017 64-bit&lt;/li>
+&lt;li>F12377 DBus 1.10.24 for MinGW 5.3.0 32-bit&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Secure-mode builds&lt;/strong> (for deployment to &lt;em>swift&lt;/em> users)&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>F12378 DBus 1.10.24 for MSVC2017 32-bit&lt;/li>
+&lt;li>F12379 DBus 1.10.24 for MSVC2017 64-bit&lt;/li>
+&lt;li>F12380 DBus 1.10.24 for MinGW 5.3.0 32-bit&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="building-from-source">Building from source&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>Download and install &lt;a href="https://cmake.org/">CMake&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Download and extract the &lt;a href="http://expat.sourceforge.net/">libexpat&lt;/a>
+and
+&lt;a href="https://www.freedesktop.org/wiki/Software/dbus/#index5h1">libdbus&lt;/a>
+source code.&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>At the time of writing, both the latest stable release and the
+[master]{.title-ref} branch of libexpat fail to build on
+Windows, so we fall back to the previous stable version
+(2.1.1).&lt;/li>
+&lt;li>MinGW binaries of libexpat are already part of the default
+MinGW itself.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>Visual Studio Command Prompt: .. code-block:&lt;/p>
+&lt;pre>&lt;code>cmake -G &amp;quot;Visual Studio 15 2017&amp;quot; -DCMAKE_INSTALL_PREFIX=C:\expat-msvc32 C:\expat-sources
+msbuild install.vcxproj /p:Configuration=Release
+cmake -G &amp;quot;Visual Studio 15 2017 Win64&amp;quot; -DCMAKE_INSTALL_PREFIX=C:\expat-msvc64 C:\expat-sources
+msbuild install.vcxproj /p:Configuration=Release
+cmake -G &amp;quot;Visual Studio 15 2017&amp;quot; -DCMAKE_INSTALL_PREFIX=C:\dbus-msvc32
+-DEXPAT_INCLUDE_DIR=C:\expat-msvc32\include
+-DEXPAT_LIBRARY=C:\expat-msvc32\lib\expat.lib C:\dbus-sources\cmake
+msbuild install.vcxproj /p:Configuration=Release
+cmake -G &amp;quot;Visual Studio 15 2017 Win64&amp;quot; -DCMAKE_INSTALL_PREFIX=C:\dbus-msvc64
+-DEXPAT_INCLUDE_DIR=C:\expat-msvc64\include
+-DEXPAT_LIBRARY=C:\expat-msvc64\lib\expat.lib C:\dbus-sources\cmake
+msbuild install.vcxproj /p:Configuration=Release
+&lt;/code>&lt;/pre>
+&lt;p>MinGW Command Prompt:&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">cmake -G &amp;quot;MinGW Makefiles&amp;quot; -DCMAKE_INSTALL_PREFIX=C:\dbus-mingw32 C:\dbus-sources\cmake
+mingw32-make install
+&lt;/code>&lt;/pre>&lt;h1 id="verbose-vs-secure-builds">Verbose vs. secure builds&lt;/h1>
+&lt;p>::: {.warning}
+::: {.title}
+Warning
+:::&lt;/p>
+&lt;p>The default DBus CMake build includes unit tests, asserts, and verbose
+mode, which help with debugging but render the library insecure. To
+build secure binaries appropriate for deployment to end-users, use these
+[cmake]{.title-ref} arguments:
+:::&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">-DDBUS_BUILD_TESTS=OFF -DDBUS_DISABLE_ASSERT=ON -DDBUS_ENABLE_VERBOSE_MODE=OFF
+&lt;/code>&lt;/pre>&lt;h1 id="error-messages">Error messages&lt;/h1>
+&lt;p>Some error messages you see when the &lt;code>libdbus&lt;/code> libs are missing (also
+posted here so you can search by the terms)&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">Cannot find libdbus-1 in your system to resolve symbol 'dbus_get_local_machine_id'.
+Debug Error!
+Program: P:\Qt\5.9.2\msvc2015\bin\Qt5Cored.dll
+Module: 5.9.2
+File: qdbus_symbols.cpp
+Line: 142
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Build on Windows</title><link>https://swift-project.github.io/docs/knowhow/programming/swiftbuild/windows/windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/swiftbuild/windows/windows/</guid><description>
+&lt;p>&lt;strong>Download prerequisites&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>`Git &amp;lt;http://git-scm.com/download/win&amp;gt;`_&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>`Visual Studio Community 2019
+&amp;lt;https://www.visualstudio.com/&amp;gt;`_&lt;/strong> (be sure to select C++
+during installation)&lt;/li>
+&lt;li>&lt;strong>`Qt 5 &amp;lt;https://www.qt.io/download-qt-installer&amp;gt;`_&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Clone the git repo&lt;/strong>&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">git clone ssh://git@dev.swift-project.org/source/pilotclient.git
+git submodule update --init
+&lt;/code>&lt;/pre>&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>As a developer you would normally wish to clone the latest
+[develop]{.title-ref} branch
+:::&lt;/p>
+&lt;p>&lt;strong>Compile&lt;/strong>&lt;/p>
+&lt;p>importantIt might be a good idea to exclude the build directory from
+your virus scanner, as otherwise new executable will not work properly&lt;/p>
+&lt;p>&lt;strong>With Qt Creator&lt;/strong>&lt;/p>
+&lt;p>Actually you should be able to directly open the cloned repo as project
+in QtC. Setup your Qt kit and then it should compile.&lt;/p>
+&lt;ul>
+&lt;li>After that you should be able to start your &lt;em>swift&lt;/em> applications.
+Maybe you have to start QtC after the very first compilation to see
+that context menu.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/qtc5.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>If you change the branch or you pull a new swift version consider
+running &lt;code>qmake&lt;/code> from the QtC again, sometimes new files are not
+recognized otherwise.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>With &lt;code>qmake&lt;/code> and Visual C++ IDE&lt;/strong>&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">call &amp;quot;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat&amp;quot; x86
+qmake -tp vc -Wlogic -spec win32-msvc -r C:\path\to\swift\swift.pro
+&lt;/code>&lt;/pre>&lt;p>::: {.note}
+::: {.title}
+Note
+:::&lt;/p>
+&lt;p>{icon file-text-o} P4 Use this script to automate the procedure of
+running qmake. It will prompt you to choose which of your installed
+versions of Qt and VS to use, and whether to build for 32 or 64 bits.
+:::&lt;/p>
+&lt;p>&lt;strong>With &lt;code>qmake&lt;/code> and MinGW&lt;/strong>&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">qmake -Wlogic -spec win32-g++ -r C:\path\to\swift\swift.pro
+mingw32-make
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>With Clang&lt;/strong>&lt;/p>
+&lt;p>See &lt;code>clang&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;p>::: {.toctree caption=&amp;quot;Content in this chapter&amp;rdquo;}
+clang
+:::&lt;/p></description></item><item><title>Docs: Build on Windows with Clang</title><link>https://swift-project.github.io/docs/knowhow/programming/swiftbuild/windows/clang/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/swiftbuild/windows/clang/</guid><description>
+&lt;p>::: {.warning}
+::: {.title}
+Warning
+:::&lt;/p>
+&lt;p>This should be considered experimental and could be broken by future
+updates of Qt, MSVC, Clang, or seemingly unrelated changes in our own
+code.
+:::&lt;/p>
+&lt;p>&lt;strong>Preparation&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Download Clang binaries for Windows&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Advice: do not install in the default directory (Program
+Files)&lt;/li>
+&lt;li>Ensure the bin subdirectory is added to PATH (recommend doing
+this manually)&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Considerations&lt;/strong>&lt;/p>
+&lt;p>Things to be aware of:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>On Linux, Clang tries to mimic GCC, supporting GNU extensions and
+GNU ABI. On Windows, Clang tries to mimic MSVC, supporting Microsoft
+extensions and Microsoft ABI.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You need to have installed Microsoft Visual C++, as Clang uses
+Microsoft's implementation of the C++ standard library.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The mkspec uses
+[clang-cl](&lt;a href="http://clang.llvm.org/docs/UsersManual.html#clang-cl">http://clang.llvm.org/docs/UsersManual.html#clang-cl&lt;/a>),
+which is a wrapper around clang.exe that understands MSVC
+commandline arguments like /LD, /W3, etc.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The following qmake scope test conditions are true when building
+with Clang on Windows:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>win32&lt;/li>
+&lt;li>win32-clang-msvc&lt;/li>
+&lt;li>msvc&lt;/li>
+&lt;li>clang_cl&lt;/li>
+&lt;li>llvm&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>The following C++ macros are defined when building with Clang on Windows:&lt;/p>
+&lt;p>: - Q_OS_WIN
+- Q_CC_MSVC
+- Q_CC_CLANG&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Build with qmake and jom&lt;/strong>&lt;/p>
+&lt;p>Using the appropriate Visual Studio command prompt:&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">qmake -Wlogic -r -spec win32-clang-msvc path\to\swift.pro
+jom
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Build with Qt Creator&lt;/strong>&lt;/p>
+&lt;p>::: {.warning}
+::: {.title}
+Warning
+:::&lt;/p>
+&lt;p>This does not seem to be working at the moment. (2018-12-01, Qt Creator
+4.7.2)
+:::&lt;/p>
+&lt;p>Qt Creator should detect your installation of LLVM. If it does not, you
+can manually add it under the &amp;quot;Compilers&amp;quot; tab. Then create a new kit
+by cloning one of the existing &amp;quot;Qt Desktop MSVC2017&amp;quot; kits. Adjust the
+kit by selecting the appropriate Clang compiler from the drop-down list,
+and entering the Qt mkspec win32-clang-msvc. Finally, add the kit to
+your swift project in the Projects page, make it the active kit, and
+start a build.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/qtc6.png" alt="image">&lt;/p>
+&lt;p>&lt;strong>Clang and MinGW&lt;/strong>&lt;/p>
+&lt;p>::: {.warning}
+::: {.title}
+Warning
+:::&lt;/p>
+&lt;p>This is even more experimental than anything above!
+:::&lt;/p>
+&lt;p>It is also possible to build using Clang on MinGW by using the mkspec
+win32-clang-g++.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>The following qmake scope test conditions will be true:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>win32&lt;/li>
+&lt;li>win32-clang-g++&lt;/li>
+&lt;li>gcc&lt;/li>
+&lt;li>mingw&lt;/li>
+&lt;li>llvm&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>The following C++ macros will be defined:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Q_OS_WIN&lt;/li>
+&lt;li>Q_CC_GCC&lt;/li>
+&lt;li>Q_CC_CLANG&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: C++ trivial objects</title><link>https://swift-project.github.io/docs/knowhow/programming/trivialobjects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/trivialobjects/</guid><description>
+&lt;p>From discussion on Discord&lt;/p>
+&lt;p>&amp;quot;Primitive&amp;quot; doesn't exist in C++. &amp;quot;Arithmetic types&amp;quot; are like
+[bool, double, int]{.title-ref}. &amp;quot;Fundamental types&amp;quot; include
+[arithmetics, void]{.title-ref} and [nullptr_t]{.title-ref}.
+&amp;quot;Scalars&amp;quot; include arithmetics, [nullptr_t]{.title-ref} and pointers.&lt;/p>
+&lt;p>All scalars are trivial, but some non-scalars are also trivial. There is
+no &amp;quot;quick&amp;quot; way to see if a class is trivial. You need to look at its
+member variables, and its copy ctor, operator=, and dtor. If the member
+vars are all trivial, and the copy ctor, operator= and dtor are all
+=default then the class is trivial. You can also check:&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">static_assert(std::is_trivial&amp;lt;MyClass&amp;gt;{}, &amp;quot;blah&amp;quot;);
+&lt;/code>&lt;/pre>&lt;p>For me, trivial is an &amp;quot;easy&amp;quot; way to say whether a class doesn't need
+to be passed by reference. Other trivial classes include
+[QStringView]{.title-ref} and [QLatin1String]{.title-ref}.&lt;/p>
+&lt;p>The performance cost of pass-by-reference is that the compiler has fewer
+optimization opportunities, because it has to assume that the value
+could be changed by external code.&lt;/p>
+&lt;pre>&lt;code class="language-{.cpp}" data-lang="{.cpp}">void throwBall(double value, const CLengthUnit &amp;amp;unit)
+{
+hand.hold(ball);
+arm.prepareThrow(value, unit); // here the value of unit is accessed from memory
+//...
+logMessage();
+// if logMessage is defined in another cpp file, the compiler
+// must assume that it could modify the value of unit
+arm.start(value, unit); // here the value of unit must be accessed from memory again,
+// the compiler can't reuse the value from the previous access
+}
+&lt;/code>&lt;/pre>&lt;p>Because it's possible that [throwBall]{.title-ref} could be called like
+this sneaky code:&lt;/p>
+&lt;pre>&lt;code class="language-{.cpp}" data-lang="{.cpp}">CLengthUnit unit = /*...*/;
+void logMessage() { unit = otherUnit; }
+throwBall(10, unit);
+&lt;/code>&lt;/pre>&lt;p>When it's passed by value, the parameter is a local variable, so the
+compiler can see that it's not modified, and only needs to access the
+memory once:&lt;/p>
+&lt;pre>&lt;code class="language-{.cpp}" data-lang="{.cpp}">void throwBall(double value, CLengthUnit unit)
+{
+hand.hold(ball);
+arm.prepareThrow(value, unit); // here the value of unit is accessed from memory
+//...
+logMessage();
+arm.start(value, unit); // here the compiler can just reuse the value from the previous access
+}
+&lt;/code>&lt;/pre>&lt;p>Return values are a bit different, but I would need to have a &amp;quot;good
+reason&amp;quot; to use references anywhere. [CMeasurementUnit]{.title-ref}
+contains just a single non-owning pointer to const data, so it easily
+fits in a CPU register like any arithmetic type. operator== hasn't been
+changed in ages. You might be thinking of [convertFrom]{.title-ref}
+which we discussed here: &lt;a href="https://dev.swift-project.org/T207">https://dev.swift-project.org/T207&lt;/a>&lt;/p>
+&lt;p>Either way, comparing [m_data == other.m_data]{.title-ref} pointers is
+just as good as comparing [this == &amp;amp;other]{.title-ref} pointers.&lt;/p>
+&lt;p>Are our normal PQs trivial?&lt;/p>
+&lt;p>Mat SutcliffeYesterday at 23:47 Yes, actually. Whether they are
+&amp;quot;small&amp;quot; is another question. CPhysicalQuantity contains just a double
+and a CMeasurementUnit (which contains a pointer). So it's 128 bits (8
+bytes). Could fit in an SSE2 register, so probably &amp;quot;small&amp;quot;. But it's
+debatable. And some of our derived PQs add more members, like
+magnetic/true for headings, datum for altitudes. Mat SutcliffeYesterday
+at 23:56&lt;/p>
+&lt;p>Actually IMHO the most important thing in all of this is that the
+[CMeasurementUnit::Data]{.title-ref} instances be
+[constexpr]{.title-ref} as it means they are initialized at
+compile-time, so no static order fiasco.&lt;/p>
+&lt;p>And only &amp;quot;literal types&amp;quot; are candidates for [constexpr]{.title-ref},
+which is yet another category of type&lt;/p></description></item><item><title>Docs: Caches</title><link>https://swift-project.github.io/docs/dev/cache/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/dev/cache/</guid><description>
+&lt;p>A value cache is a map of &lt;code>QString&lt;/code> keys to &lt;code>CVariant&lt;/code> values, stored
+within an entity class which provides distributed access to modify
+values and to be notified by a signal when a value is modified. Access
+is provided to &lt;code>QObject&lt;/code>-derived classes through a member of type
+&lt;code>CCached&amp;lt;T&amp;gt;&lt;/code>, where &lt;code>T&lt;/code> is the expected value type of the specific value
+of interest. &lt;code>CCached&amp;lt;T&amp;gt;&lt;/code> automatically converts the &lt;code>CVariant&lt;/code> to and
+from the target type &lt;code>T&lt;/code>. The &lt;code>CValueCache&lt;/code> itself, being just a map of
+key strings and values, has no contextual awareness of the semantic
+meaning of any of the values it contains. That awareness is located at
+the level of the &lt;code>CCached&amp;lt;T&amp;gt;&lt;/code>. Through the constructor of &lt;code>CCached&amp;lt;T&amp;gt;&lt;/code>,
+an owning class can provide validation routines, default values, and a
+slot to be called when the value changes. Validation occurs when an
+object changes a value via a member &lt;code>CCached&amp;lt;T&amp;gt;&lt;/code>, and a second,
+redundant validation occurs when any other object accesses the changed
+value via its own &lt;code>CCached&amp;lt;T&amp;gt;&lt;/code>.&lt;/p>
+&lt;h1 id="theory-of-operation">Theory of operation&lt;/h1>
+&lt;h2 id="distributed-values">Distributed values&lt;/h2>
+&lt;p>There are two layers of distribution in the value cache system. Both
+layers of distribution are structurally very similar. In the first
+layer, values can be distributed among objects in the same process but
+potentially in different threads. This mode of distribution relies on
+the regular Qt signal/slot system. In the second layer, values can be
+distributed among objects in different processes. This mode of
+distribution relies on the Qt signal/slot system and an
+interprocess-communication (IPC) mechanism, such as DBus. The particular
+IPC mechanism used is decoupled from the value cache system.&lt;/p>
+&lt;h2 id="same-process-distribution">Same-process distribution&lt;/h2>
+&lt;p>Internally, the &lt;code>CCached&amp;lt;T&amp;gt;&lt;/code> will create a &lt;code>CCachePage&lt;/code> as a child
+object of its owner. If an object owns multiple &lt;code>CCached&amp;lt;T&amp;gt;&lt;/code> objects,
+then they will all share the same &lt;code>CCachePage&lt;/code>, which acts as the
+unified point of access for that owning object. The multitude of
+&lt;code>CCachePage&lt;/code> instances in the process communicate with the &lt;code>CValueCache&lt;/code>
+through signals and slots. The signal &lt;code>CValueCache::valuesChanged&lt;/code> is
+connected to the slot &lt;code>CCachePage::changeValuesFromCache&lt;/code>, and the
+signal &lt;code>CCachePage::valuesWantToCache&lt;/code> is connected to the slot
+&lt;code>CValueCache::changeValues&lt;/code>. The connection mode is
+&lt;code>Qt::AutoConnection&lt;/code>, so the signals will be queued in the event loops
+of the appropriate threads. Signals are always queued in the same order
+in every thread, so all the &lt;code>CCachePage&lt;/code> instances will observe value
+changes occurring in the same order, and this will guarantee that they
+maintain consistency with each other.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/cacheseq.png" alt="image">&lt;/p>
+&lt;h2 id="inter-process-distribution">Inter-process distribution&lt;/h2>
+&lt;p>The structure of connections between &lt;code>CValueCache&lt;/code> instances distributed
+in different processes is essentially the same as the structure of
+connections between &lt;code>CValuePage&lt;/code> instances in different threads within
+the same process, but at a larger scale. One process acts as central
+router, and again, the fact that signals are always received in the same
+order they were emitted ensures that all processes see a consistent
+state. This reusable design pattern is explored in more detail at
+&lt;code>relayevent&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} :.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/cache.png" alt="image">&lt;/p>
+&lt;h1 id="specific-caches">Specific caches&lt;/h1>
+&lt;h2 id="settings">Settings&lt;/h2>
+&lt;p>Settings are implemented on top of the value cache system. The &lt;code>CSettingsCache&lt;/code> singleton inherits from &lt;code>CValueCache&lt;/code>. The &lt;code>CSetting&amp;lt;Trait&amp;gt;&lt;/code> template extends &lt;code>CCached&amp;lt;T&amp;gt;&lt;/code> with support for validators and default values encapsulated in a trait class alongside the key string.&lt;/p>
+&lt;p>Each trait represents a specific value in the settings. As a minimum, the trait class must have a member typedef &lt;code>type&lt;/code> which is the value type of the cached value, and a static method &lt;code>key()&lt;/code> which returns the key string of the cached value. The &lt;code>CSettingTrait&lt;/code> base class simplifies the task of writing new traits.&lt;/p>
+&lt;h1 id="batched-changes">Batched changes&lt;/h1>
+&lt;p>If a class changes multiple settings at the same time, it is desirable
+that only one signal be emitted which covers all the changes, instead of
+emitting a separate signal for each individual setting. This is achieved
+using &amp;quot;batched&amp;quot; changes:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">auto&lt;/span> &lt;span style="color:#000">batch&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">CSettingsCache&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">::&lt;/span>&lt;span style="color:#000">instance&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#000">batchChanges&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">this&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span> &lt;span style="color:#8f5902;font-style:italic">// RAII object
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#000">m_fooSetting&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">set&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">1234&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;span style="color:#000">m_barSetting&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">set&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">5678&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">// RAII object destroyed here, its destructor causes the changes to m_fooSetting and m_barSetting to be committed.
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="reacting-to-validation-failures">Reacting to validation failures&lt;/h2>
+&lt;p>In the above example, if &lt;code>5678&lt;/code> was invalid for &lt;code>m_barSetting&lt;/code>, the
+change to &lt;code>m_fooSetting&lt;/code> would nevertheless be committed anyway. In
+order for the validation failure to discard the whole batch, we use
+exceptions:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="color:#204a87;font-weight:bold">try&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">auto&lt;/span> &lt;span style="color:#000">batch&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">CSettingsCache&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">::&lt;/span>&lt;span style="color:#000">instance&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#000">batchChanges&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">this&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span> &lt;span style="color:#8f5902;font-style:italic">// RAII object
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#000">m_fooSetting&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">set&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">1234&lt;/span>&lt;span style="color:#000;font-weight:bold">).&lt;/span>&lt;span style="color:#000">maybeThrow&lt;/span>&lt;span style="color:#000;font-weight:bold">();&lt;/span> &lt;span style="color:#8f5902;font-style:italic">// set() returns CStatusMessage...
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#000">m_barSetting&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">set&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">5678&lt;/span>&lt;span style="color:#000;font-weight:bold">).&lt;/span>&lt;span style="color:#000">maybeThrow&lt;/span>&lt;span style="color:#000;font-weight:bold">();&lt;/span> &lt;span style="color:#8f5902;font-style:italic">// ...maybeThrow() throws an exception if the message is not empty.
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">catch&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">const&lt;/span> &lt;span style="color:#000">CStatusException&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">ex&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">// RAII object destroyed here and batch is abandoned.
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#8f5902;font-style:italic">// Display dialog box with ex.status().message()
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">// RAII object destroyed here and batch is committed if exception was not thrown.
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Cannot connect to simulator / no simulator plugin</title><link>https://swift-project.github.io/docs/help/swiftgeneral/cannotconnectsim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/cannotconnectsim/</guid><description>
+&lt;ul>
+&lt;li>If NOT selected to the simulator the simulator LED is OFF.&lt;/li>
+&lt;li>Make sure the used simulator is selected (checked)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_pilot_client_-_configure_simulator.png" alt="image">{height=&amp;quot;300px&amp;rdquo;}&lt;/p>
+&lt;ul>
+&lt;li>If you &lt;strong>do NOT see any simulator on that page&lt;/strong>, you did not
+install the corresponding plugin (aka driver)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Plugins.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>XPlane specific&lt;/strong>: Verify the settings
+&lt;code>xswiftbussettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Changing / fixing a mapping</title><link>https://swift-project.github.io/docs/help/smt/changemapping/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/smt/changemapping/</guid><description>
+&lt;p>Let's say you want to fix/change a particular mapping.&lt;/p>
+&lt;ul>
+&lt;li>locate this mapping in the mapping DB data&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/changemapping1.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>here I find it by its id, but this is is just an example&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/changemapping2.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>you could also find it by other filter criteria&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/changemapping3.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>then you mark this model and stash it, &lt;code>ALT + s&lt;/code> also works&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/changemapping4.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>changing a model requires to login&lt;/li>
+&lt;li>now it can be changed in the mapping editor under stashed models&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/changemapping5.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/changemapping6.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>and the published&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/changemapping7.png" alt="image">&lt;/p>
+&lt;p>Aircraft ICAO codes can be requested here:
+&lt;a href="https://datastore.swift-project.org/">https://datastore.swift-project.org/&lt;/a>&lt;/p></description></item><item><title>Docs: Choosing a callsign</title><link>https://swift-project.github.io/docs/help/swiftgeneral/faq/choosecs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/faq/choosecs/</guid><description>
+&lt;p>For VATSIM see also
+&lt;a href="https://www.vatsim.net/pilot-resource-centre/general-lessons/choosing-callsign">https://www.vatsim.net/pilot-resource-centre/general-lessons/choosing-callsign&lt;/a>.&lt;/p></description></item><item><title>Docs: CLANG \"implicit copy constructor\"</title><link>https://swift-project.github.io/docs/knowhow/programming/clangimplicitcopyctor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/clangimplicitcopyctor/</guid><description>
+&lt;p>&lt;code>CLANG warning: definition of implicit copy assignment operator for 'CMeasurementUnit' is deprecated because it has a user-declared destructor&lt;/code>&lt;/p>
+&lt;p>Solution:&lt;/p>
+&lt;pre>&lt;code class="language-{.diff}" data-lang="{.diff}">//! Destructor
+~CMeasurementUnit() = default;
++
++ //! Copy constructor
++ CMeasurementUnit(const CMeasurementUnit &amp;amp;) = default;
++
++ //! Copy assignment operator
++ CMeasurementUnit &amp;amp;operator =(const CMeasurementUnit &amp;amp;) = default;
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Compilers' C++ feature support</title><link>https://swift-project.github.io/docs/knowhow/programming/cppfeatures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/cppfeatures/</guid><description>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>C++14 feature&lt;/th>
+&lt;th>VS 2019 16.6; cl.exe 19.26.28806&lt;/th>
+&lt;th>Ubuntu 16.04 GCC 5.4&lt;/th>
+&lt;th>Ubuntu 18.04 GCC 7.4&lt;/th>
+&lt;th>Ubuntu 20.04 GCC 9.3&lt;/th>
+&lt;th>Xcode 11.5; Apple clang 11.0.3 (LLVM 9.0.0)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Return type deduction&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generic lambdas&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generalized lambda capture&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Variable templates&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Member initializers for aggregates&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generalized &lt;code>constexpr&lt;/code>&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>constexpr&lt;/code> for std lib types&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>std::integer_sequence&lt;/code>&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Minor std lib improvements&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>More std lib improvements&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Shorthand alias traits&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Binary literals&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Single quote as digit separator&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>C++17 feature&lt;/th>
+&lt;th>VS 2019 16.6; cl.exe 19.26.28806&lt;/th>
+&lt;th>Ubuntu 16.04 GCC 5.4&lt;/th>
+&lt;th>Ubuntu 18.04 GCC 7.4&lt;/th>
+&lt;th>Ubuntu 20.04 GCC 9.3&lt;/th>
+&lt;th>Xcode 11.5; Apple clang 11.0.3 (LLVM 9.0.0)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Nested namespace definition&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fold expressions&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Lambda capture &lt;code>*this&lt;/code>&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>constexpr&lt;/code> lambdas&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>½&lt;/td>
+&lt;td>½&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Range &lt;code>for&lt;/code> heterogeneous iterators&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>[[fallthrough]]&lt;/code> attribute&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>if constexpr&lt;/code>&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>if&lt;/code>-init and &lt;code>switch&lt;/code>-init&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Structured bindings&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Inline variables&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>auto&lt;/code> non-type template parameters&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>See also &lt;a href="http://en.cppreference.com/w/cpp/compiler_support">http://en.cppreference.com/w/cpp/compiler_support&lt;/a>&lt;/p></description></item><item><title>Docs: Configure / select the used simulator, P3D version FSX version</title><link>https://swift-project.github.io/docs/help/spc/settings/configuresim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/spc/settings/configuresim/</guid><description>
+&lt;p>&lt;img src="http://img.swift-project.org/Emulated_driver.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_pilot_client_-_configure_simulator.png" alt="image">&lt;/p>
+&lt;h1 id="supported-driver">Supported driver&lt;/h1>
+&lt;ul>
+&lt;li>FS9 (experimental)&lt;/li>
+&lt;li>XPlane&lt;/li>
+&lt;li>FSX + P3D v1-3 legacy simConnect&lt;/li>
+&lt;li>P3D v4 64bit (new P3D simConnect linkage)&lt;/li>
+&lt;li>Emulated driver (for testing and observer tasks)&lt;/li>
+&lt;/ul>
+&lt;h1 id="simulator-version">Simulator version&lt;/h1>
+&lt;p>You might need to select your simulator version like here&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/simversion.png" alt="image">&lt;/p>
+&lt;p>Use Settings-&amp;gt;Simulator-&amp;gt;[...] to get there.&lt;/p>
+&lt;h1 id="emulated-driver">Emulated driver&lt;/h1>
+&lt;p>The emulated driver is for testing and special purposes only. It allows
+to use swift without simulator in special cases.&lt;/p>
+&lt;h1 id="settings-of-max-aircraft--max-distance">Settings of max. aircraft / max. distance&lt;/h1>
+&lt;p>The simulator settings allow you to set&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>aircraftrange&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>number of max. remote aircraft to be shown&lt;/li>
+&lt;li>max distance of remote aircraft to be shown&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Connect to an online flight simulator network (VATSIM, FSD login page)</title><link>https://swift-project.github.io/docs/help/spc/connectnw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/spc/connectnw/</guid><description>
+&lt;p>Before a connection to an online flight simulation network is made,
+several configuration parameters need to be set. Most of them will
+already be pre-filled and do not need to be touched. Only very few
+parameters need a one off configuration. The following two sections
+explain how to connect to VATSIM or any other private FSD network.&lt;/p>
+&lt;p>Generally all changes you make are automatically saved and restored next
+time you launch the application.&lt;/p>
+&lt;ol>
+&lt;li>Network Configuration
+========================&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="http://img.swift-project.org/network1.png" alt="image">&lt;/p>
+&lt;p>&lt;strong>Server Selection:&lt;/strong> In order to connect to a VATSIM server, make sure
+to select the &lt;code>VATSIM&lt;/code> tab. The combobox shows a list of active VATSIM
+servers. This list is updated automatically on a regular basis. Select
+the server of your choice. The selection is saved while connecting.&lt;/p>
+&lt;p>In order to connect to another custom FSD server, change to
+&lt;code>Other servers&lt;/code> tab and select the server from the combobox. By default,
+swift does not offer any preconfigured custom FSD server. Go to
+&lt;code>Settings-&amp;gt;Servers&lt;/code> or use the shortcut button &lt;code>goto settings&lt;/code> to add
+and edit custom servers. One typical scenario for a custom FSD
+connection would be to connect to Euroscope to setup a Tower View. See
+&lt;code>towerview&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} for more details.&lt;/p>
+&lt;p>&lt;strong>Mode Selection&lt;/strong> As a regular pilot, you want to use &lt;code>Normal&lt;/code>
+connection mode. The second mode is offered for shared cockpit users,
+further details &lt;code>sharedcockpit&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;p>&lt;strong>FSD Details&lt;/strong> The default values are fine for regular usage. See
+advanced section for more information.&lt;/p>
+&lt;p>&lt;strong>Voice&lt;/strong> The default values are fine for regular usage. See advanced
+section for more information.&lt;/p>
+&lt;p>&lt;strong>Matching log&lt;/strong> The default values are fine for regular usage. See
+advanced section and &lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} for more
+information.&lt;/p>
+&lt;ol start="2">
+&lt;li>Pilots Info
+==============&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="http://img.swift-project.org/network2.png" alt="image">&lt;/p>
+&lt;p>This section requires you to enter your CID, password, real name and
+home base. Use the binoculars to get a helper dialog to select the
+airport ICAO code or just type it into the field - a completer will help
+you.&lt;/p>
+&lt;p>=== 3. Own aircraft ===&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/network3.png" alt="image">&lt;/p>
+&lt;p>This section configures the details of your used aircraft. If a
+simulator is connected already and the used aircraft model was known to
+swift (the Model name has a green border), then all parameters are
+expected to be filled correctly. Use the blue circle to refresh it, if
+the model name does not seem to be correct. Also correct any wrong
+items.&lt;/p>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>Having a mapping of the &amp;quot;own&amp;quot; (i.e. the flown) aircraft in the
+database is a CONVENIENCE feature. You can always manually set the ICAO
+code for aircraft/airline in the login screen.
+:::&lt;/p>
+&lt;ul>
+&lt;li>Red: Aircraft information missing, simulator not connected If your
+simulator is connected, but the model not picked up, use the reload
+button next to the &amp;quot;red box&amp;quot;.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/redbox.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Yellow: This aircraft can be used, but it is not know in the DB yet.
+You need to fill in the aircraft data manually&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/yellowbox.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Green: Model known in DB, all filled in automatically&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/greenbox.png" alt="image">&lt;/p>
+&lt;p>&lt;strong>Finally enter your selected callsign.&lt;/strong>. If you need help here, see
+&lt;code>choosecs&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;ol start="4">
+&lt;li>Advanced Settings, FSD Details
+=================================&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="http://img.swift-project.org/FSDSetup2.png" alt="image">&lt;/p>
+&lt;p>Different flight simulator networks offer different features. Those can
+be enabled and disabled for this specific network.&lt;/p>
+&lt;p>&lt;strong>Parts&lt;/strong>&lt;/p>
+&lt;p>Aircraft parts are a VATSIM specific extension of the FSD protocol to
+synchronize aircraft parts (gear, flaps, engines, lights, etc.). Using
+the extension on other private FSD networks other than VATSIM might
+work. Consult the network responsible in case of doubts.&lt;/p>
+&lt;p>&lt;strong>Gnd.Flag&lt;/strong>&lt;/p>
+&lt;p>This flag configures whether the ground flag is sent as part of a pilot
+position update. On VATSIM, this is not the case. IVAO and other FSD
+networks make use of it.&lt;/p>
+&lt;p>&lt;strong>Fast pos.&lt;/strong>&lt;/p>
+&lt;p>A flag that controls whether fast position updates are in use in this
+FSD network. This generally works only between swift clients.&lt;/p>
+&lt;p>&lt;strong>Text codec&lt;/strong>&lt;/p>
+&lt;p>FSD protocol is pure ASCII. Most FSD networks do not define which
+minimum string encoding is supported by the server and clients. If
+another string encoding is required, it can be changed here.&lt;/p>
+&lt;p>&lt;strong>Voice&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/udpport.png" alt="image">&lt;/p>
+&lt;p>VATSIM only: This setting allows to change the default VATSIM Voice UDP
+port, in case the default port is already in use or the user would like
+to change it.&lt;/p>
+&lt;p>&lt;strong>Matching log&lt;/strong>&lt;/p>
+&lt;p>The two check boxes enable or disable the creation of matching logs.
+Those are helpful to understand why a particular remote aircraft is
+displayed (as for example [A320 DLH]{.title-ref}). The matching log is a
+very verbose trace of what information was available which decisions
+have been taken to select the visible aircraft model. See
+&lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;ol start="5">
+&lt;li>Advanced login popup
+=======================&lt;/li>
+&lt;/ol>
+&lt;p>In order to set a partner callsign and/or modify the send network data
+you can use the advanced login popup, see
+&lt;code>advloginscreen&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p></description></item><item><title>Docs: Connecting FS9 manually through multiplayer</title><link>https://swift-project.github.io/docs/help/swiftgeneral/fs9mp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/fs9mp/</guid><description>
+&lt;p>Should auto-connect between FS9 and swift not work, you will notice that
+the status-light on the right side of &lt;strong>sim&lt;/strong> is off and swift is not
+able to detect the &lt;strong>aircraft model&lt;/strong> that you are currently using in
+FS9&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_FS9_connection_01.jpg" alt="image">&lt;/p>
+&lt;p>In order to solve this problem you need to change to FS9 and open the
+menu &lt;strong>Multiplayer&lt;/strong> and choose &lt;strong>Connect&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_FS9_connection_02.jpg" alt="image">&lt;/p>
+&lt;p>In the connect-dialogue, swift's multiplayer-session should appear
+within a few seconds. Select it and then click on &lt;strong>Join&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_FS9_connection_03.jpg" alt="image">&lt;/p>
+&lt;p>After joining swift's multiplayer-session, change back to swift GUI and
+check that the status-light next to &lt;strong>sim&lt;/strong> is lit and that swift is
+able to detect your aircraft model&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_FS9_connection_04.jpg" alt="image">&lt;/p></description></item><item><title>Docs: Crash reports / enable crash dumps</title><link>https://swift-project.github.io/docs/help/swiftgeneral/crashreports/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/crashreports/</guid><description>
+&lt;p>swift can send crash reports to our server, so we can check what is
+going wrong. However, this is also a privacy issue, as we need to send
+detailed information.&lt;/p>
+&lt;p>A crash report includes&lt;/p>
+&lt;ul>
+&lt;li>detailed information about your swift installation and runtime
+environment&lt;/li>
+&lt;li>your IP address&lt;/li>
+&lt;li>information about your computer hardware&lt;/li>
+&lt;/ul>
+&lt;p>We will store the information until we have resolved the issue and then
+delete it. You can help us a lot if you enable crash reports, but if you
+have privacy concerns just disable it.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Settings_Advanced.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Settings_crashreports.png" alt="image">&lt;/p>
+&lt;p>Enable from the wizard's legal page is also possible:&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/crashrpt.png" alt="image">&lt;/p>
+&lt;p>swift dump files are located here: &lt;code>findlogfiles&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Crashpad</title><link>https://swift-project.github.io/docs/knowhow/programming/crashpad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/crashpad/</guid><description>
+&lt;p>= Introduction =&lt;/p>
+&lt;p>Crashpad is a library for capturing, storing and transmitting postmortem
+crash reports from a client to an upstream collection server. Crashpad
+aims to make it possible for clients to capture process state at the
+time of crash with the best possible fidelity and coverage, with the
+minimum of fuss.&lt;/p>
+&lt;p>Crashpad also provides a facility for clients to capture dumps of
+process state on-demand for diagnostic purposes.&lt;/p>
+&lt;p>Crashpad additionally provides minimal facilities for clients to adorn
+their crashes with application-specific metadata in the form of
+per-process key/value pairs. More sophisticated clients are able to
+adorn crash reports further through extensibility points that allow the
+embedder to augment the crash report with application-specific metadata.&lt;/p>
+&lt;p>More information can be found under
+[[&lt;a href="https://chromium.googlesource.com/crashpad/crashpad/+/master/doc/overview_design.md">https://chromium.googlesource.com/crashpad/crashpad/+/master/doc/overview_design.md&lt;/a>
+| Crashpad Overview Design]]&lt;/p>
+&lt;p>= Supported Platforms =&lt;/p>
+&lt;p>Currently Crashpad supports Windows and Mac OS only. On Windows, the
+supported compiler is MS Visual Studio. MinGW is not supported.&lt;/p>
+&lt;p>= &lt;em>swift&lt;/em> Infrastructure =&lt;/p>
+&lt;p>== Crash Handler ==&lt;/p>
+&lt;p>Crashpad is automatically linked and activated with a release build of
+&lt;em>swift&lt;/em>. A standalone executable called
+[swift_crashpad_handler]{.title-ref} is monitoring each &lt;em>swift&lt;/em>
+executable. [swift_crashpad_handler]{.title-ref} will collect process
+information including a full stack trace, in case of a abnormal abort.
+The collected information is automatically written into a minidump file
+and uploaded to &lt;a href="https://swift-project.sp.backtrace.io">https://swift-project.sp.backtrace.io&lt;/a>&lt;/p>
+&lt;p>== &lt;em>swift&lt;/em> Breakpad Server ==&lt;/p>
+&lt;p>&lt;em>swift&lt;/em> Breakpad Server is our fork of &amp;quot;Simple Breakpad Server&amp;quot;. This
+fork is currently hosted at
+&lt;a href="https://github.com/emiro85/simple-breakpad-server">https://github.com/emiro85/simple-breakpad-server&lt;/a> The implementation
+is based on nodejs. It accepts minidump crashreports and symbols files
+needed to create a readable stack trace. Symbol files are automatically
+uploaded from a Jenkins Release build.&lt;/p>
+&lt;p>== Produce Stacktrace Manually ==&lt;/p>
+&lt;p>In case a crash dump was uploaded without its corresponding symbol files
+(e.g. from a non-release Jenkins job), the stack trace can also created
+locally. This requires the following:&lt;/p>
+&lt;blockquote>
+&lt;p># &lt;strong>Symbol files:&lt;/strong> Either download them from the Jenkins job (be
+careful since only the latest artifacts are kept. As soon as the job
+runs again, the artifacts are lost). Extract it. # Download
+executable [minidump_stackwalk]{.title-ref} ## Windows: Link TBD
+## Mac OS: Link TBD # Download the dump file from Breakpad Server
+if you don't have it locally already&lt;/p>
+&lt;/blockquote>
+&lt;p>Run the command in a terminal: [minidump_stackwalk &amp;lt;path to dump
+file&amp;gt; &amp;lt;path to symbol files&amp;gt; &amp;gt; stacktrace.txt]{.title-ref}&lt;/p></description></item><item><title>Docs: Creating a Windows crash dump (swift hanging)</title><link>https://swift-project.github.io/docs/help/swiftgeneral/createcrashdump/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/createcrashdump/</guid><description>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>External links to 3rd party articles!
+:::&lt;/p>
+&lt;p>If you encounter swift hanging and NOT responding anymore you could
+create a crashdump and make this available for the swift team.&lt;/p>
+&lt;h1 id="crash-dump-files">Crash dump files&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>Here it is described how to do that, easy and simple: &amp;quot;look for
+task manager&amp;quot;&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>see &lt;a href="https://kb.sitecore.net/articles/758511">https://kb.sitecore.net/articles/758511&lt;/a>&lt;/li>
+&lt;li>or
+&lt;a href="https://blogs.msdn.microsoft.com/debugger/2009/12/30/what-is-a-dump-and-how-do-i-create-one/">https://blogs.msdn.microsoft.com/debugger/2009/12/30/what-is-a-dump-and-how-do-i-create-one/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>as the dmp file is quite big please zip it (rar it, whatever) and
+upload it to your shared drive (like Google drive, ...) and send us
+the link&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Let us know you have that files: &lt;a href="https://discord.gg/R7Atd9A">https://discord.gg/R7Atd9A&lt;/a>
+(DISCORD, 3rd party)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="hints">Hints&lt;/h1>
+&lt;p>Hanging can have multiple reasons&lt;/p>
+&lt;ul>
+&lt;li>swift has opened a model window but you do not see this window
+because it has opened up on a different screen.&lt;/li>
+&lt;li>see
+&lt;a href="https://www.technipages.com/bring-off-screen-window-back-onto-screen">https://www.technipages.com/bring-off-screen-window-back-onto-screen&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Data provisioning (where do the mappings come from?)</title><link>https://swift-project.github.io/docs/help/datastore/dataprovisioning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/datastore/dataprovisioning/</guid><description>
+&lt;p>The &lt;em>swift&lt;/em> model data are stored in the &lt;a href="https://datastore.swift-project.org/page/index.php">datastore
+database&lt;/a>. This
+database contains all mappings, ICAO codes etc. used with swift.&lt;/p>
+&lt;p>There are &lt;strong>two ways&lt;/strong> to obtain these data. &lt;em>swift&lt;/em> will always
+download the data and store them locally in cache files.&lt;/p>
+&lt;ul>
+&lt;li>the mapping tool will download the data via web services directly
+from the database&lt;/li>
+&lt;li>the client (pilot client) will download the data as files, we call
+them &lt;em>shared data file&lt;/em> . The files are generated from the database
+and distributed to different servers. The content of the //shared
+files// is basically the same as in the web services, but it is a
+snapshot of the time when they are generated.&lt;/li>
+&lt;/ul>
+&lt;p>Some explanations:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>for mapping (direct access to swift database)&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>the mapping tool writes directly to the database as all users
+editing the data always need the latest data. Also they have
+to work on the same data.&lt;/li>
+&lt;li>if the database is down, users can still use the cached data,
+but not write data. This is not really a problem as the users
+can save the stash and continue at a later time&lt;/li>
+&lt;li>there are only a few users concurrently creating mappings.
+Creating mappings is a specialized task only for power users.&lt;/li>
+&lt;li>Since only few members work directly with the database it is
+not a performance problem.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>for the pilot client (shared files)&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>there are much more users using the pilot client&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>during a flight the model data must not be updated, as this
+would consume too much time and affect interpolation&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>there are too many users so that not everybody can download
+directly from the database.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>the pilot client downloads the shared files. as these files
+are available on multiple servers:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>the download is redundant, if one server is down the
+shared files can be downloaded from another server&lt;/li>
+&lt;li>the traffic is distributed, the swift team can open new
+download servers and hence share the network traffic&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: DBus (swift and DBus)</title><link>https://swift-project.github.io/docs/knowhow/programming/dbus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/dbus/</guid><description>
+&lt;p>=== Windows libraries for DBus ===&lt;/p>
+&lt;p>[[ knowhow/programming/swiftbuild/dbus/ ]]&lt;/p>
+&lt;p>=== QDBusViewer ===&lt;/p>
+&lt;p>In order to use [QDBusViewer]{.title-ref} the [dbus-1.3.dll]{.title-ref}
+needs to be copied to the same folder as [QDBusViewer]{.title-ref}&lt;/p></description></item><item><title>Docs: DEC 2018 C++ review</title><link>https://swift-project.github.io/docs/knowhow/programming/dec2018review/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/dec2018review/</guid><description>
+&lt;p>== QString ==&lt;/p>
+&lt;ul>
+&lt;li>Old: [QStringLiteral(&amp;quot;{ &amp;quot;) % foo % QStringLiteral(&amp;quot;
+}&amp;quot;)]{.title-ref}&lt;/li>
+&lt;li>New: [u&amp;quot;{ &amp;quot; % foo % u&amp;quot; }&amp;quot;]{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>When a string is only a single character you can use a UTF-16 character
+literal:&lt;/p>
+&lt;ul>
+&lt;li>Old: [QStringLiteral(&amp;quot;[&amp;quot;) % foo %
+QStringLiteral(&amp;quot;]&amp;quot;)]{.title-ref}&lt;/li>
+&lt;li>New: [u'[' % foo % u']']{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>See full detailed info here: [[ knowhow/programming/qt-strings/ ]]&lt;/p>
+&lt;p>== Loops ==&lt;/p>
+&lt;p>One more performance point: to loop over the values of a
+[QHash]{.title-ref} or [QMap]{.title-ref} or [CDictionary]{.title-ref}
+there is no need to call [.values()]{.title-ref}, just loop over the
+container itself:&lt;/p>
+&lt;pre>&lt;code class="language-{.cpp}" data-lang="{.cpp}">for (const auto &amp;amp;value : map.values()) { ... } // old
+for (const auto &amp;amp;value : map) { ... } // new
+&lt;/code>&lt;/pre>&lt;p>Calling [.values()]{.title-ref} is just copying them into a
+[QList]{.title-ref} for no reason. Furthermore, to loop over the keys,
+we have [makeKeysRange]{.title-ref} in `blackmisc/range.h`:&lt;/p>
+&lt;pre>&lt;code class="language-{.cpp}" data-lang="{.cpp}">for (const auto &amp;amp;key : map.keys()) { ... } // old
+for (const auto &amp;amp;key : makeKeysRange(map)) { ... } // new
+&lt;/code>&lt;/pre>&lt;p>This avoids copying the keys into a [QList]{.title-ref}, as it just
+adapts the begin and end iterators. And to loop over keys //and//
+values, we have `makePairsRange`:&lt;/p>
+&lt;pre>&lt;code class="language-{.cpp}" data-lang="{.cpp}">for (const auto &amp;amp;key : map.keys()) /*********** old */
+{
+doSomethingWithKey(key);
+doSomethingWithValue(map[key]);
+}
+for (const auto pair : makePairsRange(map)) /* new */
+{
+doSomethingWithKey(pair.first);
+doSomethingWithValue(pair.second);
+}
+&lt;/code>&lt;/pre>&lt;p>This avoids copying the keys into a [QList]{.title-ref} //and//
+performing a lookup for each one. In C++17 we will be able to unpack the
+pair like this:&lt;/p>
+&lt;pre>&lt;code class="language-{.cpp}" data-lang="{.cpp}">for (const auto [key, value] : makePairsRange(map))
+{
+doSomethingWithKey(key);
+doSomethingWithValue(value);
+}
+&lt;/code>&lt;/pre>&lt;p>I think I have fixed it to use these everywhere possible in our
+codebase. Caveat: [makeKeysRange]{.title-ref} and
+[makePairsRange]{.title-ref} only work with lvalues. You will get a
+compile error if you try to use them with rvalues, because it would be
+unsafe.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,42 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – P3D (v4 or later)</title><link>https://swift-project.github.io/docs/installation/p3d/</link><description>Recent content in P3D (v4 or later) on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/installation/p3d/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: swift installation with P3Dv4 and P3Dv5 versions in parallel</title><link>https://swift-project.github.io/docs/installation/p3d/p3dv5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/p3d/p3dv5/</guid><description>
+&lt;p>If you want to keep two versions of Prepar3D for online flying, a second
+&lt;em>swift&lt;/em> can be installed so both P3D versions can co-exists and have
+independent model sets. This has been tested with
+&lt;code>swiftinstaller-window-64-0.9.4.276&lt;/code> with &lt;code>P3Dv4.5&lt;/code> and
+&lt;code>swiftinstaller-window-64-0.9.4.366&lt;/code> for &lt;code>P3Dv5 with Hotfix1&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Install a second &lt;em>swift&lt;/em> by using different installation locations
+(directories). For example &lt;code>swift-0.9.4-64bit_P4&lt;/code> and
+&lt;code>swift-0.9.4-64bit_P5&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If you want to use the FLAi models for model matching:&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Copy the folder FLAi with the &lt;code>add-on.xml&lt;/code> from
+&lt;code>Documents-Prepar3Dv4 Add-ons&lt;/code> to
+&lt;code>Documents-Prepar3Dv5 Add-ons&lt;/code>.&lt;/li>
+&lt;li>Note: This is using the existing FLAi package on your
+computer, no new download necessary.&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>For the new second &lt;em>swift&lt;/em> installation for P3Dv5:&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Start &lt;em>swift&lt;/em> Launcher - Mapping Tool and create a new model
+set and press &lt;code>save P3D&lt;/code>&lt;/li>
+&lt;li>Ensure the correct path to the P3D version, this is set in:
+Settings-&amp;gt; Simulator basics. If necessary set it manually to
+&lt;code>P3Ddv4&lt;/code> for the first and &lt;code>P3Dv5&lt;/code> for the second one.&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>To distinguish between the two &lt;em>swift&lt;/em> versions, create
+&lt;code>swiftguist.exe&lt;/code> links on the desktop, such as
+&lt;code>swiftguist.exe Pv4.5&lt;/code> and the other one &lt;code>swiftguist.exe Pv5&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>

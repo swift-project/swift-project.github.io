@@ -1,0 +1,202 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – swift Blog</title><link>https://swift-project.github.io/blog/</link><description>Recent content in swift Blog on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Organizational changes</title><link>https://swift-project.github.io/blog/2020/06/11/organizational-changes/</link><pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2020/06/11/organizational-changes/</guid><description>
+&lt;ol>
+&lt;li>swift is about to move to Github. Further information will be posted when the transfer has been completed.
+&lt;ol>
+&lt;li>The site &lt;a href="https://dev.swift-project.org/">https://dev.swift-project.org/&lt;/a> will disappear and equivalent services will be provided by Github instead.
+&lt;ul>
+&lt;li>This includes the source code, user manual, and issue tracker which will all be hosted by Github.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>The swift database will be moved to another server.&lt;/li>
+&lt;li>Discord will remain as is.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>As a result you might face temporary downtimes of those services. This will NOT stop you from using swift for online flying. We will try to keep those downtimes to a minimum.&lt;/li>
+&lt;li>Klaus Basan will be retiring from his position with swift (&lt;strong>private&lt;/strong> reasons) and no longer be available for support questions regarding swift.&lt;/li>
+&lt;/ol></description></item><item><title>Blog: Release of 0.9.4</title><link>https://swift-project.github.io/blog/2020/01/03/release-of-0.9.4/</link><pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2020/01/03/release-of-0.9.4/</guid><description>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>We recommend to keep the latest 093 until 094 works for you. See
+&lt;code>copyswiftdata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;h2 id="version-numbering">Version numbering&lt;/h2>
+&lt;p>The 4th component of the version number is now based on the number of
+code changes, instead of the build date, so the full version numbers
+should be easier to read:&lt;/p>
+&lt;ul>
+&lt;li>Example old version number: 0.9.3.912280030&lt;/li>
+&lt;li>Example new version number: 0.9.4.24&lt;/li>
+&lt;/ul>
+&lt;h2 id="qt-514">Qt 5.14&lt;/h2>
+&lt;p>Version 0.9.4 of swift now uses Qt 5.14.x (or later). This means&lt;/p>
+&lt;ul>
+&lt;li>swift layout on 4k display might look different&lt;/li>
+&lt;li>IMPORTANT: if you use external style sheets these may need to be
+adjusted. We have made some smaller adjustments to the qss (swift
+stylesheet) and the external style sheets needs to be updated to
+reflect those changes. See ALSO BELOW!&lt;/li>
+&lt;li>some audio issues are hopefully fixed like the MIC 100% issue on
+Windows&lt;/li>
+&lt;/ul>
+&lt;h2 id="wasapi-driver">WASAPI driver&lt;/h2>
+&lt;p>The WASAPI driver caused problems/crashes for some people. We have
+disabled the driver per default. To use it just copy it back, see
+Troubleshoot voice (&lt;code>troubleshootvoice&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} )
+WASAPI&lt;/p>
+&lt;h2 id="x-plane">X-Plane&lt;/h2>
+&lt;ul>
+&lt;li>The xSwiftBus version compatibility check has been made smarter,
+which should result in fewer false positive warnings being
+generated.&lt;/li>
+&lt;li>The sim frame rate can be seen in swift's simulator info screen.
+This is important when flying online, due to X-Plane's time warping
+at frame rates under 20 FPS.&lt;/li>
+&lt;li>Log messages when the terrain probe fails to find the ground
+elevation. This may be useful to diagnose planes going underground.
+Also TCAS can be disabled.&lt;/li>
+&lt;li>Ability to disable terrain probe. This may be useful to diagnose
+performance problems.&lt;/li>
+&lt;li>fixes for T778, underground XPlane aircraft&lt;/li>
+&lt;/ul>
+&lt;h2 id="flightgear">Flightgear&lt;/h2>
+&lt;ul>
+&lt;li>Traffic will be displayed within Flightgears maps (Nasal map,
+Nav-Displays etc.)&lt;/li>
+&lt;li>Introducing a more strict compatibility check, which checks the
+swift&amp;lt;-&amp;gt;Flightgear API version on connection via dbus.&lt;/li>
+&lt;li>Other aircraft on the ground are now really set to Flightgear's
+ground altitude and not hovering anymore.&lt;/li>
+&lt;/ul>
+&lt;h2 id="fixed-issues-login-required">Fixed issues (login required)&lt;/h2>
+&lt;ul>
+&lt;li>List of fixed bugs:
+&lt;a href="https://dev.swift-project.org/maniphest/query/jl6HKojM8qtF/">https://dev.swift-project.org/maniphest/query/jl6HKojM8qtF/&lt;/a>&lt;/li>
+&lt;li>And of course all 093 fixes are included
+&lt;a href="https://dev.swift-project.org/maniphest/query/KJbxELvKISgX/">https://dev.swift-project.org/maniphest/query/KJbxELvKISgX/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Also fixed:&lt;/p>
+&lt;ul>
+&lt;li>TEMP WORKAROUND: Disabled crashpad for Linux as it is buggy (will be
+re-enabled as soon as it is fixed)&lt;/li>
+&lt;li>SSL libs no longer depend on VisualStudio 2010 redistributable DLLs&lt;/li>
+&lt;li>Issues with closed floating windows&lt;/li>
+&lt;li>tabs with no name must not cause an ASSERT&lt;/li>
+&lt;li>FSD messages we do not need ignored&lt;/li>
+&lt;li>NaN assert fix&lt;/li>
+&lt;li>audio settings on remote UI&lt;/li>
+&lt;li>no need to stop/start audio on remote UI anymore&lt;/li>
+&lt;li>Q_UNREACHABLE in other networks if pilot rating is unknown&lt;/li>
+&lt;li>Misc. interpolation/ground elevation issues have been fixed:&lt;/li>
+&lt;li>Ground elevation improvements: T773&lt;/li>
+&lt;li>Using &lt;em>-1&lt;/em> instead of NOT for inverse FS pitch/bank (same as vPilot
+and xPilot)&lt;/li>
+&lt;/ul>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;ul>
+&lt;li>Flight plan templates: T733&lt;/li>
+&lt;li>Timestamps for XPlane logs, hopefully helping when investigating
+issues&lt;/li>
+&lt;li>Splitter for ATIS T783&lt;/li>
+&lt;/ul>
+&lt;h2 id="style-sheet-changes">Style sheet changes&lt;/h2>
+&lt;p>Those are the latest style sheet changes, so you can adjust custom style
+sheets&lt;/p></description></item><item><title>Blog: Release of 0.9.3</title><link>https://swift-project.github.io/blog/2019/10/26/release-of-0.9.3/</link><pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2019/10/26/release-of-0.9.3/</guid><description>
+&lt;h2 id="swift-093-is-the-1st-afv-version">swift 093 is the 1st AFV version&lt;/h2>
+&lt;p>swift 093 is the first version of swift with AFV integrated. This is released as alpha version, as we still expect some issues. Your feedback is welcome.&lt;/p>
+&lt;ul>
+&lt;li>Again, currently we are in a TESTING stage, &amp;quot;alpha&amp;quot; software, see &lt;a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha">https://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha&lt;/a>&lt;/li>
+&lt;li>Discord support: &lt;a href="https://discord.gg/ndqBvHQ">https://discord.gg/ndqBvHQ&lt;/a>&lt;/li>
+&lt;li>Download: &lt;a href="https://datastore.swift-project.org/page/publicartifacts.php">https://datastore.swift-project.org/page/publicartifacts.php&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Warning&lt;/h4>
+The 0.9.3 versions do NOT work with the old VATSIM voice servers, only with AFV.
+&lt;/div>
+&lt;h2 id="fixed-issues-in-093">Fixed issues in 093&lt;/h2>
+&lt;ul>
+&lt;li>See &lt;a href="https://dev.swift-project.org/maniphest/query/KJbxELvKISgX/">https://dev.swift-project.org/maniphest/query/KJbxELvKISgX/&lt;/a> (login required)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-is-afv">What is AFV?&lt;/h2>
+&lt;p>Audio for VATSIM (AFV) is the new voice codec for VATSIM, more
+information can be found here and here.&lt;/p>
+&lt;p>VATSIM will be offline for scheduled maintenance for 24 hours, from
+2019-10-13 2000z until 2019-10-14 2000z. During that time, the network
+will migrate over to the new codec, and the old codec will stop working.
+If you want to continue using swift 0.9.2 beta after that time, you will
+need to install an extra piece of software: the AFV standalone client,
+which works on Windows only.&lt;/p>
+&lt;h2 id="wasapi-audio-plugin-windows">WASAPI audio plugin (Windows)&lt;/h2>
+&lt;p>PLEASE READ: &lt;a href="https://swift-project.github.io/docs/installation/troubleshootvoice/">Troubleshoot voice&lt;/a>&lt;/p>
+&lt;h2 id="voice-room-connect-error-swift-092">Voice room connect error (swift 0.9.2)&lt;/h2>
+&lt;ul>
+&lt;li>If you use 0.9.2 or earlier, you might see that error. It happens
+because VATSIM now uses some invalid voice room URLs.&lt;/li>
+&lt;li>Solution: use 0.9.3. if you dare, but read the above.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/wrongvoiceroom.png" alt="image">&lt;/p></description></item><item><title>Blog: Release of 0.9.2</title><link>https://swift-project.github.io/blog/2019/05/21/release-of-0.9.2/</link><pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2019/05/21/release-of-0.9.2/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Reset your matching settings, then save them (Reset ALL and SAVE settings). Then set it according to your needs and save again, see Matching settings, using models without mapping entry / no DB entry. Most likely you also need to save your audio settings again, as those have changed and need to be updated.&lt;/p>
+&lt;/div>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>XPlane users, if you install a test version (developer/aka alpha version) you have to manually install XSwiftBus! You can download it from the alpha download page, see Download developer and alpha versions from datastore .&lt;/p>
+&lt;/div>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>We recommend you install 0.9.2 parallel to 0.9.1, then test it and if
+your are happy with it, uninstall 0.9.1. There is no need to re-create
+your model set, you can copy settings and data from other swift
+installations at any time in the wizard.&lt;/p>
+&lt;p>See &lt;code>copyswiftdata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;h2 id="fixesfeatures">Fixes/Features&lt;/h2>
+&lt;ul>
+&lt;li>List of bug fixes&lt;/li>
+&lt;li>A first version of matching script, see &lt;code>ms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Airline groups now can be configured for their matching behaviour&lt;/li>
+&lt;li>Logged interpolation now exports values as kml which can be verified in Google Earth. See how to log. interpolation here: Tracing interpolation. You will find the log files here: Find swift log files, crashdump files, interpolation log. files, the kml files are in the same directory.&lt;/li>
+&lt;li>Linear interpolation was broken, hopefully now fixed&lt;/li>
+&lt;li>DB values can be used for CG/vertical offset&lt;/li>
+&lt;li>Forcible closed connection, see T698. In order to investigate we have added a network packets statistics which will hopefully help us to find the issue, still under investigation . But when you face the issue, sending the statistics file from the log directory will help us - Find swift log files, crashdump files, interpolation log. files. See Tracing network packets (FSD log) and network statistics how to enable.&lt;/li>
+&lt;li>The COM1/2 features are available as experimental feature: T609 T675 See Integrate COM unit, sync with cockpit COM unit&lt;/li>
+&lt;li>Auto publish, swift can automatically &amp;quot;learn&amp;quot; values for DB updates.&lt;/li>
+&lt;li>Own aircraft values can be used for ground elevation, see &amp;quot;record gnd. position&amp;quot;&lt;/li>
+&lt;li>Spline interpolation bugs fixed&lt;/li>
+&lt;li>You can set the focus for the overlay messages&lt;/li>
+&lt;li>X-Plane fixes
+&lt;ul>
+&lt;li>Some TCAS displays were not workin&lt;/li>
+&lt;li>Aircraft labels were too small on very high resolution displays&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Voice ATIS is now disabled whenever XSwiftBus is enabled&lt;/li>
+&lt;li>Fixed weather as NOAA has changed its format&lt;/li>
+&lt;li>Fixed support for international characters in text chat (see how to choose a text codec)&lt;/li>
+&lt;li>Incognito mode for streaming: Incognito mode (hide names for streaming)&lt;/li>
+&lt;li>Avoid FG crash with no model set&lt;/li>
+&lt;li>Support for SVFR et.al.&lt;/li>
+&lt;li>Flight plans can be downloaded from SimBrief&lt;/li>
+&lt;li>more detailed XPlane settings&lt;/li>
+&lt;li>advanced login screen to modify/set livery, model string and partner callsign (pilot/co-pilot), see Advanced login popup (since 0.9.2)&lt;/li>
+&lt;li>the sort order of text messages can be changed.&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Release of 0.9.0</title><link>https://swift-project.github.io/blog/2019/04/27/release-of-0.9.0/</link><pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2019/04/27/release-of-0.9.0/</guid><description>
+&lt;p>Issues: &lt;a href="https://dev.swift-project.org/maniphest/query/7nqUaT07BtX8/">https://dev.swift-project.org/maniphest/query/7nqUaT07BtX8/&lt;/a>&lt;/p></description></item><item><title>Blog: Release of 0.9.1</title><link>https://swift-project.github.io/blog/2019/04/27/release-of-0.9.1/</link><pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2019/04/27/release-of-0.9.1/</guid><description>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Warning&lt;/h4>
+Testers/alpha users need to manually install XSwiftBus (download and copy)
+&lt;/div>
+&lt;ul>
+&lt;li>Version 0.9.1 fixes some bugs
+&lt;ul>
+&lt;li>the critical FSD packet bug, see &lt;a href="https://dev.swift-project.org/phame/post/view/14/crash/">https://dev.swift-project.org/phame/post/view/14/crash/&lt;/a>&lt;/li>
+&lt;li>some XPlane aircraft issues, causing aircraft not correctly&lt;/li>
+&lt;li>removed from XP&lt;/li>
+&lt;li>fixed an UI based crash which could crash swift mapping tool&lt;/li>
+&lt;li>when floating windows&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>now hot plug and play for joystick hotkeys&lt;/li>
+&lt;li>swift does now proceed with connection to xswiftbus even if versions do not match&lt;/li>
+&lt;li>XPlane CSL no longer stops parsing &lt;code>xsb\_aircraft.txt&lt;/code> if an error occurred.&lt;/li>
+&lt;li>for various other fixes see full list of issues fixed: &lt;a href="https://dev.swift-project.org/maniphest/query/E91DVCMxGNWl/">https://dev.swift-project.org/maniphest/query/E91DVCMxGNWl/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>We recommend you install 0.9.1 parallel to 0.9.0, then test it and if
+your are happy with it, uninstall 0.9.0. There is no need to re-create
+your model set, you can copy settings and data from other swift
+installations at any time in the wizard.&lt;/p>
+&lt;p>See: https://swift-project.github.io/docs/help/swiftinstallation/copyswiftdata/&lt;/p></description></item></channel></rss>

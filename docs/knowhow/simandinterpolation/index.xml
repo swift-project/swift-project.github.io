@@ -1,0 +1,581 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Simulator, interpolation, and matching</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/</link><description>Recent content in Simulator, interpolation, and matching on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/knowhow/simandinterpolation/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Aircraft classification (model matching)</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/aircraftclassification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/aircraftclassification/</guid><description>
+&lt;p>The standard matching for VATSIM of &amp;quot;normal passenger&amp;quot; plane / airline
+combinations is straight forward. However, some categories are poorly
+matched as there is no/little information in the current FSD concept,
+like smaller utility aircraft, military aircraft, helicopters etc.&lt;/p>
+&lt;p>To allow model matching with more details for some aircraft categories
+we will add some classification details.&lt;/p>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>Our classifications are focusing on finding the right model
+representations
+:::&lt;/p>
+&lt;h1 id="aircraft-type">Aircraft type&lt;/h1>
+&lt;ol>
+&lt;li>
+&lt;p>Unclassified, all aircraft where we &lt;strong>do not need&lt;/strong> further details.
+All the normal passenger aircraft (B737s of airlines, A320s of
+airlines etc.) will be unclassified.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Civil aviation aircraft (this can be used &lt;strong>to make clear&lt;/strong> it is a
+freight aircraft). For some types it is clear by the ICAO code, for
+some it is not. This can be used to explicitly set it where needed.&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Passenger&lt;/li>
+&lt;li>Freighter&lt;/li>
+&lt;li>Mixed&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Ultralight&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Trike&lt;/li>
+&lt;li>Powered hang gliders&lt;/li>
+&lt;li>Powered parachutes&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Military combat airplanes&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Fighter aircraft&lt;/li>
+&lt;li>Bomber&lt;/li>
+&lt;li>Multi role combat aircraft&lt;/li>
+&lt;li>Gunship&lt;/li>
+&lt;li>Glider (military glider only)&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Military helicopters&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Attack helicopters&lt;/li>
+&lt;li>Transport&lt;/li>
+&lt;li>Maritime&lt;/li>
+&lt;li>Observation&lt;/li>
+&lt;li>Gunship&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Glider (civil glider only)&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>
+&lt;p>Touring motor gliders (something which [[
+&lt;a href="https://en.wikipedia.org/wiki/File:Grob.g109b.glider.arp.jpg">https://en.wikipedia.org/wiki/File:Grob.g109b.glider.arp.jpg&lt;/a>
+| looks like a small aircraft ]])&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Retractable propeller/turbo glider (like
+&lt;a href="https://en.wikipedia.org/wiki/File:Schleicher_ASH_26E_sailplane_1.jpg">https://en.wikipedia.org/wiki/File:Schleicher_ASH_26E_sailplane_1.jpg&lt;/a>)
+with their Glider competition classes:&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Open Class, places no restrictions except a limit of 850
+kg to the maximum all-up mass, may be one- or two-seater
+e.g. JS-1C, Lange Antares 23E, Quintus, ASH 30, ASH 31
+and LAK-20.&lt;/li>
+&lt;li>Standard Class, restricted to a maximum wing-span of 15
+metres and fixed wing sections (flaps or other
+lift-enhancing devices not allowed), maximum all-up mass
+525 kg, e.g. ASW 28, LS8, Discus-2, LAK-19.&lt;/li>
+&lt;li>15 metre Class, as Standard Class with lift-enhancing
+devices allowed, maximum all-up mass 525 kg, e.g. ASW
+27, LS6, Ventus-2, Diana 2.&lt;/li>
+&lt;li>18 metre Class, as the 15 metre Class with wing-spans up
+to 18 metres, maximum all-up mass 600 kg, e.g. ASG 29,
+LS10, DG-808, Ventus-2c.&lt;/li>
+&lt;li>20 metre Two-Seater Class, restricted to a maximum
+wing-span of 20 metres, maximum all-up mass 750 kg, e.g.
+Duo Discus, DG-1000, Arcus&lt;/li>
+&lt;li>Club Class, allows a wide range of older small gliders
+within a specified range of performances, e.g. Libelle,
+Standard Cirrus, LS1, Pilatus PC-11, with the scores
+being adjusted by handicapping. Disposable (i.e. water)
+ballast may be installed but must not be used in this
+class.&lt;/li>
+&lt;li>13.5 metre, with maximum span of 13,500mm. Disposable
+ballast allowed but maximum wing loading permitted is 35
+kg/m²&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Glider (no engine) with their Glider competition classes (see
+above (6.B.))&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Open Class, places no restrictions except a limit of 850
+kg to the maximum all-up mass, may be one- or two-seater
+e.g. JS-1C, Lange Antares 23E, Quintus, ASH 30, ASH 31
+and LAK-20.&lt;/li>
+&lt;li>... same as above .&amp;hellip;&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Ground vehicles (for future reference)&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Follow me&lt;/li>
+&lt;li>Bus&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ol>
+&lt;h1 id="aircraft-details">Aircraft details&lt;/h1>
+&lt;p>Like the combined we could use a simple string representation to
+classify further details&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Number of wings, biplane &lt;code>2W&lt;/code>, triplane &lt;code>3W&lt;/code>:&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Number of rotors, like &lt;code>1R&lt;/code>, &lt;code>2R&lt;/code>, &lt;code>2RC&lt;/code> (coaxial), &lt;code>2RT&lt;/code> (Tandem),
+see &lt;a href="https://en.wikipedia.org/wiki/Helicopter_rotor">https://en.wikipedia.org/wiki/Helicopter_rotor&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Undercarriage, mostly required to distinguish smaller &lt;code>L1P&lt;/code> planes&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Taildragger, Tri-cycle Float Monowheel, skids (like for
+helicopters) &lt;a href="https://en.wikipedia.org/wiki/Landing_gear">https://en.wikipedia.org/wiki/Landing_gear&lt;/a>&lt;/li>
+&lt;li>not planned something like this:
+&lt;a href="https://en.wikipedia.org/wiki/Undercarriage_arrangements">https://en.wikipedia.org/wiki/Undercarriage_arrangements&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>Aircraft period&lt;/p>
+&lt;p>Some hints in which period this aircraft belongs. Not to detailed, but
+maybe something like this:&lt;/p>
+&lt;ul>
+&lt;li>WWI&lt;/li>
+&lt;li>WWII&lt;/li>
+&lt;li>and so on&lt;/li>
+&lt;/ul>
+&lt;h1 id="qa">Q&amp;amp;A&lt;/h1>
+&lt;p>FS: &amp;quot;Doesn't the classification for mil. helicopters make sense for
+all military aircraft?&amp;quot;, see
+&lt;a href="https://dev.swift-project.org/T472#12476">here&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>We have a military flag which allows to classify any model or ICAO
+code as &amp;quot;military&amp;quot;? (we keep this one)&lt;/li>
+&lt;li>This works well for a military B737/A320 where I can tell it is a
+B737/A320 used by an airforce etc. If the airforce itself has an
+official ICAO code, I can even tell which airforce it is.&lt;/li>
+&lt;li>On the other hand, in most cases there is no such information, if
+someone uses as a F15 and someone has no F15 in its model set, what
+would be a reasonable representation? At least I would like to
+display another fighter jet (if available), So displaying a Phantom
+F4 would be IMHO be better than a B737. From the ICAO information I
+can hardly distinguish those, both &lt;code>L2J&lt;/code>.&lt;/li>
+&lt;li>I found that splitting helicopters and fixed-wing planes allow us a
+better granularity, and there are classifications which are mutual
+exclusive, but maybe we can also just merge both categories and
+distinguish fixed wing/rotorcraft by the ICAO info or the newly
+established &amp;quot;details&amp;quot;&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Aircraft position data (from simulator and network)</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/altitude/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/altitude/</guid><description>
+&lt;p>See also &lt;code>simalts&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;h1 id="p3dhttpwwwprepar3dcomsdkv3learningcenterutilitiesvariablessimulation_variableshtml-and-fsxhttpsmsdnmicrosoftcomen-uslibrarycc526981aspx">&lt;a href="http://www.prepar3d.com/SDKv3/LearningCenter/utilities/variables/simulation_variables.html">P3D&lt;/a> and &lt;a href="https://msdn.microsoft.com/en-us/library/cc526981.aspx">FSX&lt;/a>&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>Altitude values own aircraft: &lt;code>PLANE ALTITUDE&lt;/code>,
+&lt;code>PLANE ALT ABOVE GROUND&lt;/code>, &lt;code>STATIC CG TO GROUND&lt;/code>, &lt;code>GROUND ALTITUDE&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Example: aircraft in EDRY 312ft ELV&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;pre>&lt;code> C172 B737
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;p>altitude 315.72497011731951 321.66457557565963&lt;/p>
+&lt;p>altitudeAboveGround 3.7254348326937929 9.6653964302668669&lt;/p>
+&lt;p>cgToGround 3.7650001049041748 9.6700000762939453&lt;/p>
+&lt;h2 id="elevation-------------31199953528462572---31199917914539276">elevation 311.99953528462572 311.99917914539276&lt;/h2>
+&lt;ul>
+&lt;li>Altitude values queried for remote aircraft: &lt;code>PLANE ALTITUDE&lt;/code>,
+&lt;code>STATIC CG TO GROUND&lt;/code>, &lt;code>GROUND ALTITUDE&lt;/code>&lt;/li>
+&lt;li>Position values for remote aircraft
+&lt;a href="https://msdn.microsoft.com/en-us/library/cc526983.aspx#SIMCONNECT_DATA_INITPOSITION">SIMCONNECT_DATA_INITPOSITION&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h1 id="x-planehttpwwwxsquawkboxnetxpsdkdocsdatarefshtml">&lt;a href="http://www.xsquawkbox.net/xpsdk/docs/DataRefs.html">X-Plane&lt;/a>&lt;/h1>
+&lt;ul>
+&lt;li>Own aircraft example: aircraft at KSEA rwy 16L (432.5ft / 131.826m
+ELV)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;pre>&lt;code> C172 B744
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;p>sim/flightmodel/position/elevation 133.3706 136.9491&lt;/p>
+&lt;p>sim/flightmodel/position/y_agl 0.0694 0.2349&lt;/p>
+&lt;h2 id="simaircraftgearacf_h_eqlbm------29933-----47176">sim/aircraft/gear/acf_h_eqlbm 2.9933 4.7176&lt;/h2>
+&lt;h1 id="see-also">See also&lt;/h1>
+&lt;ul>
+&lt;li>&lt;code>ongroundscenarios&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul></description></item><item><title>Docs: BB multi livery example</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/bbmultilivery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/bbmultilivery/</guid><description>
+&lt;p>BB_Mil/xsb_aircraft.txt&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">OBJ8_AIRCRAFT F16D_US4_926
+OBJ8 SOLID YES __Bluebell_Mil/F16D/F16D_US4_926.obj
+AIRLINE F16 RCH
+ICAO F16
+OBJ8_AIRCRAFT F16D_US4_TB8
+OBJ8 SOLID YES __Bluebell_Mil/F16D/F16D_US4_TB8.obj
+LIVERY F16 RCH TB8
+OBJ8_AIRCRAFT F18C_US1_183153
+OBJ8 SOLID YES __Bluebell_Mil/F18C/F18C_US1_183153.obj
+AIRLINE F18 RCH
+ICAO F18
+OBJ8_AIRCRAFT F18D_US1_BA7
+OBJ8 SOLID YES __Bluebell_Mil/F18D/F18D_US1_BA7.obj
+&lt;/code>&lt;/pre>&lt;p>&lt;code>LIVERY F18 RCH BA7&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>Means the F16 and F18 for airline RCH have two liveries each:&lt;/li>
+&lt;li>Acft F16 Airline RCH Livery (empty) (Standard US Air Force)&lt;/li>
+&lt;li>Acft F16 Airline RCH Livery TB8 (Thunderbird acrobatic)&lt;/li>
+&lt;li>Acft F18 Airline RCH Livery (empty) (Standard US Navy)&lt;/li>
+&lt;li>Acft F18 Airline RCH Livery BA7 (Blue Angels acrobatic)&lt;/li>
+&lt;/ul>
+&lt;p>Also the B744 has multiple CARGO liveries, and some regional jets have
+multiple liveries per airline.&lt;/p></description></item><item><title>Docs: FG (FlightGear) integration</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/fgintegration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/fgintegration/</guid><description>
+&lt;p>For swift modelmatching tool (for AI models) add
+[$FGDATA/AI/Aircraft]{.title-ref} and for flyable aircraft (not for
+displaying in SIM) select the hangar folder.&lt;/p>
+&lt;h1 id="fg-wiki-page">FG Wiki page&lt;/h1>
+&lt;p>currently here: &lt;a href="http://wiki.flightgear.org/Swift">http://wiki.flightgear.org/Swift&lt;/a>&lt;/p>
+&lt;h1 id="about">About&lt;/h1>
+&lt;p>This module allows FlightGear to connect to an externally running
+&lt;em>swift&lt;/em> client.&lt;/p>
+&lt;p>&lt;em>swift&lt;/em> is an open-source pilot client for multiple flight simulators
+(FSX, P3D, FS9, XPlane, FG) and operating systems (Windows, MacOS,
+Linux). It allows connections to FSD servers like VATSIM. Further
+information about &lt;em>swift&lt;/em> can be
+&lt;a href="https://datastore.swift-project.org/page/about.php">here&lt;/a>.&lt;/p>
+&lt;h1 id="swift-status">&lt;em>swift&lt;/em> status&lt;/h1>
+&lt;p>Beta status&lt;/p></description></item><item><title>Docs: FSD protocol documentation</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/fsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/fsd/</guid><description>
+&lt;p>See &lt;a href="https://studentweb.uvic.ca/~norrisng/fsd-doc/">https://studentweb.uvic.ca/~norrisng/fsd-doc/&lt;/a>&lt;/p></description></item><item><title>Docs: IVAO parts</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/ivaoparts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/ivaoparts/</guid><description>
+&lt;p>see
+&lt;a href="https://discordapp.com/channels/539048679160676382/695961646992195644/707915838845485187">https://discordapp.com/channels/539048679160676382/695961646992195644/707915838845485187&lt;/a>&lt;/p>
+&lt;p>Es dürfte jetzt nur ein Protokolltyp übrig sein, der von X-IVAP kommt
+und mit dem SWIFT nix anfangen kann. Dieser stamm aus der
+Protokollrevision &amp;quot;B&amp;quot; (IVAO)&lt;/p>
+&lt;p>Beispiel: &lt;code>MDMDN0104:262396:262396:262396&lt;/code>, dieser beinhaltet binär
+codiert 3 mal die gleichen (hier 262396) in der nachfolgenden Struktur
+angegeben Parameter.&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">unsigned long pp;
+pp =(unsigned int)strtoul(array[2],(char **)NULL,10); // array[2] steht für den zweiten Parameter
+thisclient-&amp;gt;params.gear =(pp&amp;amp;(unsigned)1);
+thisclient-&amp;gt;params.landLight =(pp&amp;amp;(unsigned)2)&amp;gt;&amp;gt;1;
+thisclient-&amp;gt;params.navLight =(pp&amp;amp;(unsigned)4)&amp;gt;&amp;gt;2;
+thisclient-&amp;gt;params.strobeLight =(pp&amp;amp;(unsigned)8)&amp;gt;&amp;gt;3;
+thisclient-&amp;gt;params.beaconLight =(pp&amp;amp;(unsigned)16)&amp;gt;&amp;gt;4;
+thisclient-&amp;gt;params.taxiLight =(pp&amp;amp;(unsigned)32)&amp;gt;&amp;gt;5;
+thisclient-&amp;gt;params.engine1Running =(pp&amp;amp;(unsigned)64)&amp;gt;&amp;gt;6;
+thisclient-&amp;gt;params.engine2Running =(pp&amp;amp;(unsigned)128)&amp;gt;&amp;gt;7;
+thisclient-&amp;gt;params.engine3Running =(pp&amp;amp;(unsigned)256)&amp;gt;&amp;gt;8;
+thisclient-&amp;gt;params.engine4Running =(pp&amp;amp;(unsigned)512)&amp;gt;&amp;gt;9;
+&lt;/code>&lt;/pre>&lt;p>Da der per broadcast verteilt wird, trifft er auch Clients mit SWIFT.
+Aus diesen Informationen erzeuge ich aber auch die json-Struktur für
+SWIFT und sende diese ebenfalls an alle. Ihr könntet also &amp;quot;-MD&amp;quot;
+ignorieren oder wie oben beschrieben auswerten. Negative Auswirkungen
+auf SWIFT haben die &amp;quot;-MD&amp;quot;-Protokolle nicht.&lt;/p></description></item><item><title>Docs: On ground? Using different sceneries overview</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/ongroundscenarios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/ongroundscenarios/</guid><description>
+&lt;p>&amp;lt;table&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;Scenario&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;with altitude sent
+only&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;with ground flag&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;with elevation from own
+sim&amp;lt;/th&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;same elevation {F4093, width=50%}&amp;lt;/th&amp;gt;
+&amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;own sim's elevation lower {F4092,
+width=50%}&amp;lt;/th&amp;gt; &amp;lt;td&amp;gt;looks like aircraft is hovering while
+taxiing&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;fixes hovering, but as soon [ground -&amp;gt;
+false]{.title-ref} the aircraft is lifting&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;allows to place
+on elevation + CG (offset)&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;own sim's
+elevation higher {F4089, width=50%}&amp;lt;/th&amp;gt; &amp;lt;td&amp;gt;looks like aircraft is
+below surface, bumpy taxiing&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;underflow fixed, but when
+[ground -&amp;gt; false]{.title-ref} it can happen the aircraft sinks into
+ground before taking off&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;underflow fixed, as used altitude
+will never below scenery elevation&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;same
+elevation {F4091, width=50%}&amp;lt;/th&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;own sim's
+elevation lower {F4094, width=50%}&amp;lt;/th&amp;gt; &amp;lt;td&amp;gt;aircraft never touching
+ground, hovering&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;fixes hovering, but as soon [ground -&amp;gt;
+true]{.title-ref} the aircraft is suddenly dragged to ground&amp;lt;/td&amp;gt;
+&amp;lt;td&amp;gt;allows to place on elevation + CG (offset)&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt;
+&amp;lt;th&amp;gt;own sim's elevation higher {F4090, width=50%}&amp;lt;/th&amp;gt; &amp;lt;td&amp;gt;looks
+like aircraft is crashing into ground&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;underflow fixed, but
+depending on when [ground -&amp;gt; true]{.title-ref} the aircraft crashes
+into ground, then is lifted back to ground level&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;underflow
+fixed, as used altitude will never below scenery elevation&amp;lt;/td&amp;gt;
+&amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt;&lt;/p></description></item><item><title>Docs: P3D scratchpad</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/p3d/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/p3d/</guid><description>
+&lt;p>Currently collecting info about P3D&lt;/p>
+&lt;ul>
+&lt;li>P3D SDK v3/2 does not come with a [simconnect.dll]{.title-ref} only
+[simconnect.lib]{.title-ref}&lt;/li>
+&lt;li>P3D still seems to distribute the FSX &lt;code>simConnect&lt;/code> version, see
+&lt;a href="http://hifisupport.kayako.com/Knowledgebase/Article/View/6/8/instructions-for-networked-configuration-with-simconnect">here&lt;/a>&lt;/li>
+&lt;li>For P3D, the simconnect.msi is located in the P3D &lt;code>REDIST&lt;/code> folder
+instead of &lt;code>SDK&lt;/code> (use the XPACK/SP2 version).&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/SimConnectRedist.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>For &lt;code>simConnect&lt;/code> &lt;a href="http://hifisupport.kayako.com/Knowledgebase/Article/View/6/8/instructions-for-networked-configuration-with-simconnect">network
+configuration&lt;/a>&lt;/li>
+&lt;li>The P3D lib seems to be a VS2013 lib, and some people are creating
+their own &lt;code>simconnect.dll&lt;/code> out of it, see
+&lt;a href="http://www.prepar3d.com/forum/viewtopic.php?t=117791">here&lt;/a>,&lt;/li>
+&lt;li>The lib was made in VS2013, so you need VS2013 if you're trying to
+link against it. My personal approach is to create my own P3D
+SimConnect DLL from their SimConnect.h/lib (using VS2013's command
+line tools and a couple scripts to generate the DEF and then to
+invoke the linker) and then link to the resulting DLL (when
+appropriate) using LoadLibrary/GetProcAddress so that I can build a
+unified module (in VS2008, actually) that loads in everything from
+FSX:SP2 through P3D v3.2.&lt;/li>
+&lt;li>Creating &amp;quot;an own &lt;code>simconnect.dll&lt;/code> &amp;quot; is also used by FSUIPC, see
+&lt;a href="http://board.vacc-sag.org/192/52348/page35/">here&lt;/a>.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Simulator altitudes</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/simalts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/simalts/</guid><description>
+&lt;p>swift uses 4 altitude related values&lt;/p>
+&lt;ul>
+&lt;li>Elevation (scenery elevation)&lt;/li>
+&lt;li>Scenery altitude, aka true altitude&lt;/li>
+&lt;li>Scenery AGL, altitude above ground&lt;/li>
+&lt;li>Pressure altitude&lt;/li>
+&lt;li>see also &lt;code>altitude&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;h1 id="fsxp3d">FSX/P3D&lt;/h1>
+&lt;p>SimConnect variables
+&lt;a href="http://msdn.microsoft.com/en-us/library/cc526981.aspx">http://msdn.microsoft.com/en-us/library/cc526981.aspx&lt;/a> SimConnect
+events &lt;a href="http://msdn.microsoft.com/en-us/library/cc526980.aspx">http://msdn.microsoft.com/en-us/library/cc526980.aspx&lt;/a> P3D vars
+&lt;a href="http://www.prepar3d.com/SDKv3/LearningCenter/utilities/variables/simulation_variables.html">http://www.prepar3d.com/SDKv3/LearningCenter/utilities/variables/simulation_variables.html&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>SimConnect_AddToDataDefinition(hSimConnect, CSimConnectDefinitions::DataOwnAircraft, &amp;quot;PLANE ALTITUDE&amp;quot;, &amp;quot;Feet&amp;quot;)&lt;/code>&lt;/li>
+&lt;li>&lt;code>SimConnect_AddToDataDefinition(hSimConnect, CSimConnectDefinitions::DataOwnAircraft, &amp;quot;PLANE ALT ABOVE GROUND&amp;quot;, &amp;quot;Feet&amp;quot;)&lt;/code>&lt;/li>
+&lt;li>&lt;code>SimConnect_AddToDataDefinition(hSimConnect, CSimConnectDefinitions::DataOwnAircraft, &amp;quot;PRESSURE ALTITUDE&amp;quot;, &amp;quot;Meters&amp;quot;)&lt;/code>&lt;/li>
+&lt;li>&lt;code>SimConnect_AddToDataDefinition(hSimConnect, CSimConnectDefinitions::DataOwnAircraft, &amp;quot;GROUND VELOCITY&amp;quot;, &amp;quot;Knots&amp;quot;)&lt;/code>&lt;/li>
+&lt;li>&lt;code>SimConnect_AddToDataDefinition(hSimConnect, CSimConnectDefinitions::DataOwnAircraft, &amp;quot;GROUND ALTITUDE&amp;quot;, &amp;quot;Feet&amp;quot;)&lt;/code>&lt;/li>
+&lt;li>&lt;code>SimConnect_AddToDataDefinition(hSimConnect, CSimConnectDefinitions::DataOwnAircraft, &amp;quot;SIM ON GROUND&amp;quot;, &amp;quot;Bool&amp;quot;)&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>Although documentation says the indicated altitude is send as pressure
+altitude, changing the QNH (altimeter know) does &lt;strong>not&lt;/strong> have any
+effect. Also failures have no effect.&lt;/p>
+&lt;p>QNG: Hg 29,92 (1013,20mbar)&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Pressure_alt_QNH_changed_1.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Pressure_alt_QNH_changed_2.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/p3dfailures.png" alt="image">&lt;/p>
+&lt;p>Changing weather to thunderstorms, Hg 29,21 (989,2mbar) Pressure
+altitude changes from 320 to 1026ft&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/altitude.png" alt="image">&lt;/p>
+&lt;h1 id="fsuipc">FSUIPC&lt;/h1>
+&lt;ul>
+&lt;li>Ground altitude:
+&lt;code>FSUIPC_Read(0x0020, 4, &amp;amp;groundAltitudeRaw, &amp;amp;dwResult)&lt;/code>&lt;/li>
+&lt;li>Altitude: &lt;code>FSUIPC_Read(0x0570, 8, &amp;amp;altitudeRaw, &amp;amp;dwResult)&lt;/code>&lt;/li>
+&lt;li>Pressure altitude:
+&lt;code>FSUIPC_Read(0x34B0, 8, &amp;amp;pressureAltitudeRaw, &amp;amp;dwResult)&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>Flightgear - True altitude from FG property &lt;code>/position/altitude-ft&lt;/code> -
+Pressure altitude from FG property
+&lt;code>/instrumentation/altimeter/pressure-alt-ft&lt;/code>. When
+&lt;code>/instrumentation/altimeter/servicable == false&lt;/code>, as fallback the true
+altitude &lt;code>/position/altitude-ft&lt;/code> is send.&lt;/p></description></item><item><title>Docs: Simulator elevation</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/simelevation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/simelevation/</guid><description>
+&lt;h1 id="why-do-we-need-the-elevation">Why do we need the elevation?&lt;/h1>
+&lt;p>Having the real elevation in the used simulator with the used scenery we
+can&lt;/p>
+&lt;ul>
+&lt;li>calculate the AGL (&amp;quot;above ground&amp;quot;)&lt;/li>
+&lt;li>avoid model underflows, see also
+&lt;code>ongroundscenarios&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>xivapclamp&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;h1 id="there-are-2-general-concepts">There are 2 general concepts&lt;/h1>
+&lt;p>From 0.8.4 onward we use &amp;quot;probing&amp;quot; for all incoming network positions
+(likely to be &amp;quot;near gnd. relevant&amp;quot;)&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Probing the elevation at a given position (like we do it for XPlane,
+since 0.8.4. also possible with P3D/FSX)&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Pro: Accurate elevation at a given position&lt;/li>
+&lt;li>Con: &amp;quot;Slow&amp;quot; (means slow in the context of interpolation)&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Using the elevation at the current AI (remote) aircraft position (as
+in P3D, FSX)&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Pro: Fast, as it can be retrieved in the SimConnect loop&lt;/li>
+&lt;li>Con: Only at the current (interpolated) position, not at the
+next or previous situation&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>see also &lt;code>openresearch&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Simulator weather, where does the swift weather come from?</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/simulatorweather/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/simulatorweather/</guid><description>
+&lt;h1 id="simulator-weather">Simulator Weather&lt;/h1>
+&lt;h2 id="scope">Scope&lt;/h2>
+&lt;p>This page collects different information regarding weather creation and
+injection into an arbitrary simulator. The first version is a collection
+of information which was gathered over the last couple of weeks/months.
+It contains weather and METAR sources, API information and techniques
+required to implement a sophisticated weather engine. For the time being
+this page is a central place to store and share knowledge.&lt;/p>
+&lt;h2 id="roadmap">Roadmap&lt;/h2>
+&lt;p>Currently a very basic and simple version of a weather engine is
+implemented in &lt;em>swift&lt;/em>. We do not plan to implement a sophisticated
+weather engine, but a simple one for those who have no other engine.&lt;/p>
+&lt;p>You can enable/disable &lt;em>swift&lt;/em> weather from &lt;code>settings&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;h2 id="weather-sources">Weather Sources&lt;/h2>
+&lt;p>The following real weather sources exist and can be used to retrieve
+real time data. They are listed in the order of priority how they should
+be used.&lt;/p>
+&lt;h3 id="global-forecast-system-gfs-model">Global Forecast System (GFS) Model&lt;/h3>
+&lt;p>The Global Forecast System (GFS) is a global numerical weather
+prediction system containing a global computer model and variational
+analysis run by the US National Weather Service (NWS).&lt;/p>
+&lt;p>The mathematical model is run four times a day, and produces forecasts
+for up to 16 days in advance, but with decreased spatial resolution
+after 10 days. The forecast skill generally decreases with time (as with
+any numerical weather prediction model) and for longer term forecasts,
+only the larger scales retain significant accuracy. It is one of the
+predominant synoptic scale medium-range models in general use.&lt;/p>
+&lt;p>GFS products are available for any position on earth and can be
+retrieved via &lt;a href="http://www.nco.ncep.noaa.gov/pmb/products/gfs/">http://www.nco.ncep.noaa.gov/pmb/products/gfs/&lt;/a>. This
+turns it into a perfect weather source candidate for areas with no ICOA
+stations available (areas above the oceans, etc.)&lt;/p>
+&lt;h3 id="vatsim-metar">VATSIM METAR&lt;/h3>
+&lt;p>It is generally possible to query the METAR string for a given ICAO
+airport. METAR is only valid for a small area around the airport and has
+a lot less information compared to the layers described above.&lt;/p>
+&lt;p>### VATSIM Weather&lt;/p>
+&lt;p>VATSIM server provide the ability to request detailed weather
+information for ICAO stations around the globe. On request it will
+provide the following information.&lt;/p>
+&lt;p>&lt;strong>Wind Data&lt;/strong> (4 layers):&lt;/p>
+&lt;hr>
+&lt;p>.Ceiling .Floor .Direction .Speed .Gusting .Turbulence&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Cloud Data&lt;/strong> (2 layers):&lt;/p>
+&lt;hr>
+&lt;p>.Ceiling .Floor .Coverage .Icing .Turbulence&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Cloud Data&lt;/strong> (4 layers):&lt;/p>
+&lt;hr>
+&lt;p>.Ceiling .Temperature&lt;/p>
+&lt;hr>
+&lt;p>!!This data is produced from a simple extrapolation from the airport
+METAR. It is therefore very inaccurate and usage is not recommended.!!&lt;/p>
+&lt;h1 id="simulator-interfaces">Simulator Interfaces&lt;/h1>
+&lt;h2 id="microsoft-flight-simulator-family">Microsoft Flight Simulator Family&lt;/h2>
+&lt;p>The Microsoft Flight Simulator family offers several ways to inject used
+defined weather into the simulator.&lt;/p>
+&lt;p>&lt;strong>FSUIPC - New Weather Interface&lt;/strong> (FSX and FS2004): The NWI allows to
+write weather details &lt;strong>per station&lt;/strong> into the simulator. Usually you
+should set GLOB weather first and then every ICAO station in the range
+of 40 nm.&lt;/p>
+&lt;p>&lt;a href="http://www.schiratti.com/dowson.html">http://www.schiratti.com/dowson.html&lt;/a>&lt;/p>
+&lt;p>&lt;strong>SimConnect&lt;/strong> (FSX): SimConnect allows to set weather &lt;strong>per station&lt;/strong>
+via an extended METAR string.
+&lt;a href="https://msdn.microsoft.com/en-us/library/cc526983.aspx#SimConnect_WeatherSetObservation">https://msdn.microsoft.com/en-us/library/cc526983.aspx\#SimConnect\_WeatherSetObservation&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Weather Theme Files&lt;/strong> (FSX and FS2004): Weather theme files (WTB) are
+binary files which contain a very detailed description of the weather
+around the user aircraft. It is independent from any ICAO station. In
+the first place weather theme files were used to save used defined
+weather, created inside the simulators itself. The user was able to
+setup a scenario on his own and load it. Actually all saved conditions
+(CAVOK, storm, etc.) which you can choose when starting MSFS are stored
+as WTB files. The FS2004 Weather Themes Software Development Kit is a
+Visual Basic application which allows the user to also setup weather
+scenarios outside of MSFS. Luckily both simulators - FSX and FS2004 -
+support these WTB files and even better they can be loaded at runtime
+via FSUIPC (TBC) and SimConnect
+([SimConnect_WeatherSetModeTheme]{.title-ref}). This files can be
+created and loaded by any external application and then loaded into FS.
+The file format is proprietary but is successfuly reversed engineered
+and a library to read and write these files is available
+([libwtb]{.title-ref} - written by me, so we have full control).&lt;/p>
+&lt;p>&lt;strong>X-Plane DataRefs&lt;/strong> (X-Plane): The weather in X-Plane can be configured
+via the datarefs in sim/weather/. Unfortunately it does have only 1D
+vertical layers, which means you can configure only global weather with
+different altitude layers.&lt;/p>
+&lt;ol>
+&lt;li>Reference Implementation&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/joanpc/XplaneNoaaWeather">XplaneNoaaWeather&lt;/a> A
+python based X-Plane weather plugin licensed under GPLv2.&lt;/li>
+&lt;/ul>
+&lt;/blockquote></description></item><item><title>Docs: Tracing and debugging interpolation / matching</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/tracing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/tracing/</guid><description>
+&lt;p>This topic is located here: &lt;code>swiftgeneral&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}
+and &lt;code>tracinginterpolation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: X-IVAP clamp on ground and ground handling flag</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/xivapclamp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/xivapclamp/</guid><description>
+&lt;p>Clamping only avoids &amp;quot;underflow into ground&amp;quot;&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">double getCorrectYValue(double inX, double inY, double inZ, double inModelYOffset, bool inIsClampingOn) {
+if (!inIsClampingOn) {
+return inY;
+}
+XPLMProbeInfo_t info;
+info.structSize = sizeof(XPLMProbeInfo_t);
+XPLMProbeResult res = XPLMProbeTerrainXYZ(terrainProbe, inX, inY, inZ, &amp;amp;info);
+if (res != xplm_ProbeHitTerrain) {
+return inY;
+}
+double minY = info.locationY + inModelYOffset;
+return (inY &amp;lt; minY) ? minY : inY;
+}
+&lt;/code>&lt;/pre></description></item><item><title>Docs: XSwiftBus/SimConnect traffic analyzed</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/xswiftbustraffic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/xswiftbustraffic/</guid><description>
+&lt;p>swift XPlane via P2P 127.0.0.1:45001&lt;/p>
+&lt;ul>
+&lt;li>setting&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/xswiftbussetting.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>traffic not connected to network between XPlane/XSwiftBus&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/xswiftbustraffic1.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>you can see that swift sends and XPlane receives and vice versa&lt;/li>
+&lt;li>that is about 20kByte traffic in idle mode&lt;/li>
+&lt;li>swift/XPlane talk via the loopback adaptor&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/xswiftbustraffic2.png" alt="image">&lt;/p>
+&lt;h1 id="swift-xplane-via-session-bus">swift XPlane via session bus&lt;/h1>
+&lt;ul>
+&lt;li>this starts the DBus daemon&lt;/li>
+&lt;li>As you can see swift now talks to the Daemon and the daemon talks to
+XPlane actually doubling the loopback traffic (no network)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/xswiftbustraffic3.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>with VATSIM connected I can see something around 40kByte/s&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/xswiftbustraffic4.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>again all loopback traffic&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/xswiftbustraffic5.png" alt="image">&lt;/p>
+&lt;h1 id="simconnect-via-tcpip">SimConnect via TCP/IP&lt;/h1>
+&lt;ul>
+&lt;li>swift connecting to P3D via remote TCP/IP &lt;code>simConnect&lt;/code>&lt;/li>
+&lt;li>traffic during connecting phase of 20 aircraft, ending up with
+around 1.1 Mbit/s&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/xswiftbustraffic6.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/xswiftbustraffic7.png" alt="image">&lt;/p></description></item></channel></rss>

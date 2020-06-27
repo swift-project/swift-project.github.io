@@ -1,0 +1,90 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Know how</title><link>https://swift-project.github.io/docs/knowhow/</link><description>Recent content in Know how on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/knowhow/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Aviation</title><link>https://swift-project.github.io/docs/knowhow/aviation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/aviation/</guid><description>
+&lt;p>::: {.toctree caption=&amp;quot;Content in this chapter&amp;rdquo;}
+verticaldistance icaodb
+:::&lt;/p></description></item><item><title>Docs: Open research questions (other forums)</title><link>https://swift-project.github.io/docs/knowhow/openresearch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/openresearch/</guid><description>
+&lt;ul>
+&lt;li>
+&lt;p>Invisible AI objects:
+&lt;a href="https://www.fsdeveloper.com/forum/threads/invisible-or-very-small-ai-object.442575/">https://www.fsdeveloper.com/forum/threads/invisible-or-very-small-ai-object.442575/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>FSUIPC:
+&lt;a href="https://forum.simflight.com/topic/85329-ground-elevation-at-arbitrary-latlng-position/">https://forum.simflight.com/topic/85329-ground-elevation-at-arbitrary-latlng-position/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Teamspeak integration:
+&lt;a href="https://forum.teamspeak.com/threads/135618-First-time-using-SDK-some-questions">https://forum.teamspeak.com/threads/135618-First-time-using-SDK-some-questions&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>P3D forum:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Updating P3D to a new version:
+&lt;a href="https://www.prepar3d.com/forum/viewtopic.php?t=120861">https://www.prepar3d.com/forum/viewtopic.php?t=120861&lt;/a>&lt;/li>
+&lt;li>Switch to views:
+&lt;a href="https://www.prepar3d.com/forum/viewtopic.php?f=6310&amp;amp;t=129879">https://www.prepar3d.com/forum/viewtopic.php?f=6310&amp;amp;t=129879&lt;/a>&lt;/li>
+&lt;li>Ground elevation:
+&lt;a href="https://www.prepar3d.com/forum/viewtopic.php?f=6310&amp;amp;t=129174">https://www.prepar3d.com/forum/viewtopic.php?f=6310&amp;amp;t=129174&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>AVI tab:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>AviTab thread:
+&lt;a href="https://forums.x-plane.org/index.php?/forums/topic/180270-vision-for-the-future-of-avitab/&amp;amp;do=findComment&amp;amp;comment=1673585">https://forums.x-plane.org/index.php?/forums/topic/180270-vision-for-the-future-of-avitab/&amp;amp;do=findComment&amp;amp;comment=1673585&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Programming know how</title><link>https://swift-project.github.io/docs/knowhow/programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/</guid><description>
+&lt;p>Misc. topics reg. programming, building, developer tools&lt;/p>
+&lt;p>Missing topics from original documentation: - Backend technical docu
+(PHP/SQL)&lt;/p></description></item><item><title>Docs: Simulator, interpolation, and matching</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/</guid><description>
+&lt;p>Simulator and interpolation documents&lt;/p>
+&lt;p>::: {.toctree caption=&amp;quot;Content in this chapter&lt;/p>
+&lt;p>aircraftclassification
+altitude
+bbmultilivery
+fgintegration
+fsd
+ivaoparts
+ongroundscenarios
+p3d
+simalts
+simelevation
+simulatorweather
+tracing
+xivapclamp
+xswiftbustraffic&amp;rdquo;}
+:::&lt;/p></description></item><item><title>Docs: Standard text messages (VATSIM, pseudo CPDLC)</title><link>https://swift-project.github.io/docs/knowhow/stdtextmessages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/stdtextmessages/</guid><description>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">Check Standard Pressure is set (1013 hPa)
+Squawk %d%d%d%d%.
+Squawk %d%d%d%d
+Contact #LAS #LMS %d%d%d.%d%d%d
+Report your heading to #LAS #LMS %d%d%d.%d%d%d
+Report your speed to #LAS #LMS %d%d%d.%d%d%d
+Report your heading and speed to #LAS #LMS %d%d%d.%d%d%d
+No Further ATC available. Monitor Unicom 122.800
+You are currently outside my airspace. Monitor Unicom 122.800
+is offline - monitor unicom 122.800
+Fly heading %d%d%d degrees
+Fly heading %d%d degrees
+Turn right heading %d%d%d degrees
+Turn right heading %d%d degrees
+Turn left heading %d%d degrees
+Turn left heading %d%d%d degrees
+Route Direct #FIX
+Resume own navigation direct #FIX
+Climb to altitude #ALTAft
+Climb now to altitude #ALTAft
+Climb FL#FLA
+Climb now FL#FLA
+Descend to altitude #ALTAft QNH #QNHA
+Descend to altitude #ALTAft
+Descend FL#FLA
+Decend now FL#FLA
+When ready, descend FL#FLA
+Speed #SPDA knots
+Mach #MAHA
+&lt;/code>&lt;/pre></description></item></channel></rss>

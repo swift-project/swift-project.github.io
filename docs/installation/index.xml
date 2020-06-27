@@ -1,0 +1,1445 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Installation and Configuration</title><link>https://swift-project.github.io/docs/installation/</link><description>Recent content in Installation and Configuration on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Installation on Windows</title><link>https://swift-project.github.io/docs/installation/windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/windows/</guid><description>
+&lt;h2 id="download">Download&lt;/h2>
+&lt;p>Download the latest installer from &lt;a href="https://github.com/swift-project/pilotclient/releases">here&lt;/a>.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Important&lt;/h4>
+You &lt;strong>need to use the 32-bit installer for FSX, FS9 and Prepar 3D (v1-v3)&lt;/strong> even if you have an 64-bit operating system because SimConnect for FSX is 32-bit only. For &lt;strong>X-Plane and P3Dv4 or later&lt;/strong> use the 64bit installer.
+&lt;/div>
+&lt;h2 id="run-the-installer">Run the installer&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Important&lt;/h4>
+Close all running swift applications before starting the installation
+&lt;/div>
+&lt;p>Run the installer and follow the steps as shown.&lt;/p>
+&lt;p>You might see a warning when you start the installer:&lt;/p>
+&lt;img src=http://img.swift-project.org/Windows_protected_your_PC.png alt="Windows security warning" width="500px"/>
+&lt;p>You need to ignore this as we have no official MS certification.&lt;/p>
+&lt;p>If you encounter any problems then see &lt;a href="https://swift-project.github.io/docs/installation/troubleshooting/">troubleshooting&lt;/a>.&lt;/p>
+&lt;h2 id="initial-configuration">Initial configuration&lt;/h2>
+&lt;p>You&amp;rsquo;ve successfully installed swift. Congrats!&lt;/p>
+&lt;p>You can now move forward to start the configuration. &lt;a href="https://swift-project.github.io/docs/installation/simselect/">Click here&lt;/a>&lt;/p></description></item><item><title>Docs: Installation on MacOS</title><link>https://swift-project.github.io/docs/installation/macos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/macos/</guid><description>
+&lt;h2 id="download">Download&lt;/h2>
+&lt;p>Download the latest 32-bit installer from &lt;a href="https://github.com/swift-project/pilotclient/releases">here&lt;/a>.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Important&lt;/h4>
+You &lt;strong>need to use the 32-bit installer&lt;/strong> even if you have an 64-bit operating system because SimConnect for FSX is 32-bit only.
+&lt;/div>
+&lt;h2 id="run-the-installer">Run the installer&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Important&lt;/h4>
+Close all running swift applications before starting the installation
+&lt;/div>
+&lt;p>Run the installer and follow the steps as shown.&lt;/p>
+&lt;p>You might see a warning when you start the installer:&lt;/p>
+&lt;img src=http://img.swift-project.org/Windows_protected_your_PC.png alt="Windows security warning" width="500px"/>
+&lt;p>You need to ignore this as we have no official MS certification.&lt;/p>
+&lt;h2 id="initial-configuration">Initial configuration&lt;/h2>
+&lt;p>You&amp;rsquo;ve successfully installed swift. Congrats!&lt;/p>
+&lt;p>You can now move forward to start the configuration. &lt;a href="https://swift-project.github.io/docs/installation/simselect/">Click here&lt;/a>&lt;/p></description></item><item><title>Docs: Installation on Linux</title><link>https://swift-project.github.io/docs/installation/linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/linux/</guid><description>
+&lt;h2 id="download">Download&lt;/h2>
+&lt;p>Download the latest installer from &lt;a href="https://github.com/swift-project/pilotclient/releases">here&lt;/a>.&lt;/p>
+&lt;h2 id="run-the-installer">Run the installer&lt;/h2>
+&lt;p>After downloading, modify the installer to be executable &lt;code>chmod +x swiftinstaller-linux-64-&amp;lt;version&amp;gt;.run&lt;/code> and double-click on it in your favorite file browser or run it from console &lt;code>./swiftinstaller-linux-64-&amp;lt;version&amp;gt;.run&lt;/code>&lt;/p>
+&lt;p>If you encounter any problems then see &lt;a href="https://swift-project.github.io/docs/installation/troubleshooting/">troubleshooting&lt;/a>.&lt;/p>
+&lt;h2 id="initial-configuration">Initial configuration&lt;/h2>
+&lt;p>You&amp;rsquo;ve successfully installed swift. Congrats!&lt;/p>
+&lt;p>You can now move forward to start the configuration. &lt;a href="https://swift-project.github.io/docs/installation/simselect/">Click here&lt;/a>&lt;/p>
+&lt;h2 id="self-compilation">Self-compilation&lt;/h2>
+&lt;p>As usual for Linux programs you could theoretically self-compile swift as it is open-source. Unfortunately a secret key is needed to allow swift connect to official VATSIM servers. This key is build into the official installers.&lt;/p>
+&lt;p>So if you plan to use swift on VATSIM you need to use the installer. Otherwise you can use your self-compiled version. See here for more information.&lt;/p></description></item><item><title>Docs: FSX</title><link>https://swift-project.github.io/docs/installation/fsx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/fsx/</guid><description>
+&lt;h2 id="initial-configuration">Initial Configuration&lt;/h2>
+&lt;p>After the installation completed, &lt;em>swiftlauncher&lt;/em> will launch together
+with the initial configuration wizard. If you un-selected to launch
+swift from the installer, it is possible to run the same init mode any
+time later by using the command line arguments&lt;/p>
+&lt;p>&lt;code>swiftlauncher -i --bootstrapurl https://datastore.swift-project.org/shared/&lt;/code>&lt;/p>
+&lt;p>The rest of the section will guide you through the different wizards.&lt;/p>
+&lt;h2 id="legal-wizard">Legal Wizard&lt;/h2>
+&lt;p>The first wizard page deals with the necessary legal bits. It will
+explain in detail all the licenses involved in the swift project
+including 3rd party software. It also provides links to data protection
+policies. It is necessary to accept license and data protection policy
+to proceed. This page also asks for your agreement to submit crash
+reports to our crash report collection server. In case any &lt;em>swift&lt;/em>
+application crashed, a crash report will be generated with information
+which line of code caused it to abort. With your agreement, the report
+will be uploaded to our server and helps the developers to diagnose and
+fix the cause. This agreement can be changed anytime later in the
+advanced settings (link tbd). Read more about crash reports (link tbd)
+and how they look like.&lt;/p>
+&lt;h2 id="data-loading-wizard">Data Loading Wizard&lt;/h2>
+&lt;p>The next wizard will download all data, required by &lt;em>swift&lt;/em> to be fully
+functional. This includes aircraft and airline ICAO data, model strings
+(&lt;strong>no models itself&lt;/strong>), etc. &lt;strong>It is not necessary to click any of the
+load buttons&lt;/strong>. The download will start automatically from randomly one
+of the shared mirror servers in the background. The button can be used
+to reload in case there was an update meanwhile. You can either wait for
+the download to finish (several seconds depending on your internet
+bandwidth) or continue, since it will continue in the background. The
+wizard indicates that all data finished loading by&lt;/p>
+&lt;ul>
+&lt;li>The two DB LEDs flashing yellow&lt;/li>
+&lt;li>All other LEDs off (idle mode).&lt;/li>
+&lt;li>The number of entries and the timestamp of the local cache are equal
+to the shared cache.&lt;/li>
+&lt;/ul>
+&lt;h2 id="copy-models-wizard">Copy Models Wizard&lt;/h2>
+&lt;p>{{% alert title=&amp;quot;Note&amp;rdquo; color=&amp;quot;primary&amp;rdquo; %}}
+If you installed &lt;em>siwft&lt;/em> the very first time on this machine, then you can skip this part.
+{{% /alert %}}&lt;/p>
+&lt;p>If you had a previous version of swift installed already, then this
+wizard will help you to migrate your existing model cache and model set.&lt;/p>
+&lt;ul>
+&lt;li>Select the older version you want to migrate from the list.&lt;/li>
+&lt;li>Select whether you want to migrate the model set and/or model cache
+and for which simulators.&lt;/li>
+&lt;li>Click Start.&lt;/li>
+&lt;/ul>
+&lt;p>Read more about the meaning of model set (link tbd) and model cache
+(link tbd).&lt;/p>
+&lt;h2 id="copy-settings-wizard">Copy Settings Wizard&lt;/h2>
+&lt;p>{{% alert title=&amp;quot;Note&amp;rdquo; color=&amp;quot;primary&amp;rdquo; %}}
+If you installed &lt;em>swift&lt;/em> the very first time on this machine, then you
+can skip this part.
+{{% /alert %}}&lt;/p>
+&lt;p>If you had a previous version of swift installed already, then this
+wizard will help you to migrate your settings.&lt;/p>
+&lt;ul>
+&lt;li>Select the older version you want to migrate from the list.&lt;/li>
+&lt;li>Select which settings needs migrating
+&lt;ul>
+&lt;li>Grey X means that no user setting is available and the default is in use.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Click copy&lt;/li>
+&lt;/ul>
+&lt;p>Read more about settings (link tbd).&lt;/p>
+&lt;h2 id="simulator-wizard">Simulator Wizard&lt;/h2>
+&lt;p>This page allows you to configure which simulators you want &lt;em>swift&lt;/em> to
+work with. If you have multiple simulators installed and use them
+regularly, select all of those in the first group box. &lt;em>swift&lt;/em> will
+detect if any of those configured simulators is running and connect to
+it. It will ignore the ones that have not been selected.&lt;/p>
+&lt;p>In the group box below, you are able to configure the simulator path and
+any additional model directories. &lt;em>swift&lt;/em> will try to detect as much as
+possible automatically and use it as default. The default is listed in
+light grey. In order to configure the directories, first select the
+respective simulator from the radio boxes at the bottom&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/radiobox_sim.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Use the &lt;code>...&lt;/code> button to select/add more directories&lt;/li>
+&lt;li>Use the &lt;code>adjust&lt;/code> button to remove redundant directories, fix file
+path etc.&lt;/li>
+&lt;li>Click [Save]{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/setup_simulator.png" alt="image">&lt;/p>
+&lt;p>{{% alert title=&amp;quot;Important&amp;rdquo; color=&amp;quot;warning&amp;rdquo; %}}
+If you are using P3D and you are using models outside the &lt;code>SimObjects&lt;/code> folder you can add multiple other directories here.
+{{% /alert %}}&lt;/p>
+&lt;h2 id="first-model-set-wizard">First Model Set Wizard&lt;/h2>
+&lt;p>This wizard will help you to create a first model set for each of your
+simulators in use. A model set is a subset of the AI models installed on
+your machine, which are considered for model mapping and model matching.
+Without any model set, &lt;em>swift&lt;/em> will not run properly.&lt;/p>
+&lt;ul>
+&lt;li>Select your simulator (repeat the steps below if you are using multiple simulators).&lt;/li>
+&lt;li>Check the model directory and change it if necessary.&lt;/li>
+&lt;li>Reload the installed AI models if necessary. This is necessary in case the number of models does not look correct to you or if you made any changes to model directories in this or the previous wizard.&lt;/li>
+&lt;li>Optionally display and inspect the model list&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/firstmodelset.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Click on &lt;code>Create&lt;/code> to create a model set.&lt;/li>
+&lt;li>&lt;strong>Save&lt;/strong> the model set.&lt;/li>
+&lt;li>Close the dialog&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/ownmodelsetdialog.png" alt="image">&lt;/p>
+&lt;h2 id="configure-hotkeys-wizard">Configure Hotkeys Wizard&lt;/h2>
+&lt;p>The last wizard allows you to configure hotkeys. Use this to configure
+your PTT key.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/hotkey_setup.png" alt="image">&lt;/p>
+&lt;h2 id="run-swift">Run &lt;em>swift&lt;/em>&lt;/h2>
+&lt;p>Your &lt;em>swift&lt;/em> suite is now configured and ready to go. Use the launcher
+to launch the different swift applications in different flavors and
+modes. For first time users, it is recommended to start swift in
+standalone mode. * In the core tab, select Core Mode &lt;code>Standalone&lt;/code> *
+Click on the blue swift icon named &lt;code>GUI&lt;/code> to start swift in standalone
+mode.&lt;/p>
+&lt;h2 id="congratulations">Congratulations&lt;/h2>
+&lt;p>&lt;em>swift&lt;/em> is now running on your machine and you are
+ready to setup everything else for your first connection to the network.&lt;/p>
+&lt;p>Something didnt work?&lt;/p>
+&lt;ul>
+&lt;li>Use the &lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Check our &lt;code>troubleshooting&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} page or
+ask for help in the usual channels.&lt;/li>
+&lt;/ul>
+&lt;h2 id="install-fsxp3d-terrain-probe">Install FSX/P3D terrain probe&lt;/h2>
+&lt;p>We use a terrain probe object to query simulator data around the AI
+aircraft. We recommend you install that probe when you are using the
+32bit driver versions for FSX/P3D.&lt;/p>
+&lt;p>Further details can be found &lt;a href="https://swift-project.github.io/docs/installation/fsx/fsxprobe/">here&lt;/a>.&lt;/p></description></item><item><title>Docs: Initial configuration</title><link>https://swift-project.github.io/docs/installation/simselect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/simselect/</guid><description>
+&lt;p>Select your simulator:&lt;/p>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/fsx/">FSX&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/p3dv3/">P3D (v1-v4)&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/p3d/">P3D (v4 or later)&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/fs9/">FS9&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/xplane/">X-Plane&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/fg/">Flightgear&lt;/a>&lt;/p></description></item><item><title>Docs: P3D (v4 or later)</title><link>https://swift-project.github.io/docs/installation/p3d/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/p3d/</guid><description>
+&lt;h2 id="initial-configuration">Initial Configuration&lt;/h2>
+&lt;p>After the installation completed, &lt;em>swiftlauncher&lt;/em> will launch together
+with the initial configuration wizard. If you un-selected to launch
+swift from the installer, it is possible to run the same init mode any
+time later by using the command line arguments&lt;/p>
+&lt;p>&lt;code>swiftlauncher -i --bootstrapurl https://datastore.swift-project.org/shared/&lt;/code>&lt;/p>
+&lt;p>The rest of the section will guide you through the different wizards.&lt;/p>
+&lt;h2 id="legal-wizard">Legal Wizard&lt;/h2>
+&lt;p>The first wizard page deals with the necessary legal bits. It will
+explain in detail all the licenses involved in the swift project
+including 3rd party software. It also provides links to data protection
+policies. It is necessary to accept license and data protection policy
+to proceed. This page also asks for your agreement to submit crash
+reports to our crash report collection server. In case any &lt;em>swift&lt;/em>
+application crashed, a crash report will be generated with information
+which line of code caused it to abort. With your agreement, the report
+will be uploaded to our server and helps the developers to diagnose and
+fix the cause. This agreement can be changed anytime later in the
+advanced settings (link tbd). Read more about crash reports (link tbd)
+and how they look like.&lt;/p>
+&lt;h2 id="data-loading-wizard">Data Loading Wizard&lt;/h2>
+&lt;p>The next wizard will download all data, required by &lt;em>swift&lt;/em> to be fully
+functional. This includes aircraft and airline ICAO data, model strings
+(&lt;strong>no models itself&lt;/strong>), etc. &lt;strong>It is not necessary to click any of the
+load buttons&lt;/strong>. The download will start automatically from randomly one
+of the shared mirror servers in the background. The button can be used
+to reload in case there was an update meanwhile. You can either wait for
+the download to finish (several seconds depending on your internet
+bandwidth) or continue, since it will continue in the background. The
+wizard indicates that all data finished loading by&lt;/p>
+&lt;ul>
+&lt;li>The two DB LEDs flashing yellow&lt;/li>
+&lt;li>All other LEDs off (idle mode).&lt;/li>
+&lt;li>The number of entries and the timestamp of the local cache are equal
+to the shared cache.&lt;/li>
+&lt;/ul>
+&lt;h2 id="copy-models-wizard">Copy Models Wizard&lt;/h2>
+&lt;p>{{% alert title=&amp;quot;Note&amp;rdquo; color=&amp;quot;primary&amp;rdquo; %}}
+If you installed &lt;em>siwft&lt;/em> the very first time on this machine, then you can skip this part.
+{{% /alert %}}&lt;/p>
+&lt;p>If you had a previous version of swift installed already, then this
+wizard will help you to migrate your existing model cache and model set.&lt;/p>
+&lt;ul>
+&lt;li>Select the older version you want to migrate from the list.&lt;/li>
+&lt;li>Select whether you want to migrate the model set and/or model cache
+and for which simulators.&lt;/li>
+&lt;li>Click Start.&lt;/li>
+&lt;/ul>
+&lt;p>Read more about the meaning of model set (link tbd) and model cache
+(link tbd).&lt;/p>
+&lt;h2 id="copy-settings-wizard">Copy Settings Wizard&lt;/h2>
+&lt;p>{{% alert title=&amp;quot;Note&amp;rdquo; color=&amp;quot;primary&amp;rdquo; %}}
+If you installed &lt;em>swift&lt;/em> the very first time on this machine, then you
+can skip this part.
+{{% /alert %}}&lt;/p>
+&lt;p>If you had a previous version of swift installed already, then this
+wizard will help you to migrate your settings.&lt;/p>
+&lt;ul>
+&lt;li>Select the older version you want to migrate from the list.&lt;/li>
+&lt;li>Select which settings needs migrating
+&lt;ul>
+&lt;li>Grey X means that no user setting is available and the default is in use.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Click copy&lt;/li>
+&lt;/ul>
+&lt;p>Read more about settings (link tbd).&lt;/p>
+&lt;h2 id="simulator-wizard">Simulator Wizard&lt;/h2>
+&lt;p>This page allows you to configure which simulators you want &lt;em>swift&lt;/em> to
+work with. If you have multiple simulators installed and use them
+regularly, select all of those in the first group box. &lt;em>swift&lt;/em> will
+detect if any of those configured simulators is running and connect to
+it. It will ignore the ones that have not been selected.&lt;/p>
+&lt;p>In the group box below, you are able to configure the simulator path and
+any additional model directories. &lt;em>swift&lt;/em> will try to detect as much as
+possible automatically and use it as default. The default is listed in
+light grey. In order to configure the directories, first select the
+respective simulator from the radio boxes at the bottom&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/radiobox_sim.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Use the &lt;code>...&lt;/code> button to select/add more directories&lt;/li>
+&lt;li>Use the &lt;code>adjust&lt;/code> button to remove redundant directories, fix file
+path etc.&lt;/li>
+&lt;li>Click [Save]{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/setup_simulator.png" alt="image">&lt;/p>
+&lt;p>{{% alert title=&amp;quot;Important&amp;rdquo; color=&amp;quot;warning&amp;rdquo; %}}
+If you are using P3D and you are using models outside the &lt;code>SimObjects&lt;/code> folder you can add multiple other directories here.
+{{% /alert %}}&lt;/p>
+&lt;h2 id="first-model-set-wizard">First Model Set Wizard&lt;/h2>
+&lt;p>This wizard will help you to create a first model set for each of your
+simulators in use. A model set is a subset of the AI models installed on
+your machine, which are considered for model mapping and model matching.
+Without any model set, &lt;em>swift&lt;/em> will not run properly.&lt;/p>
+&lt;ul>
+&lt;li>Select your simulator (repeat the steps below if you are using multiple simulators).&lt;/li>
+&lt;li>Check the model directory and change it if necessary.&lt;/li>
+&lt;li>Reload the installed AI models if necessary. This is necessary in case the number of models does not look correct to you or if you made any changes to model directories in this or the previous wizard.&lt;/li>
+&lt;li>Optionally display and inspect the model list&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/firstmodelset.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Click on &lt;code>Create&lt;/code> to create a model set.&lt;/li>
+&lt;li>&lt;strong>Save&lt;/strong> the model set.&lt;/li>
+&lt;li>Close the dialog&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/ownmodelsetdialog.png" alt="image">&lt;/p>
+&lt;h2 id="configure-hotkeys-wizard">Configure Hotkeys Wizard&lt;/h2>
+&lt;p>The last wizard allows you to configure hotkeys. Use this to configure
+your PTT key.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/hotkey_setup.png" alt="image">&lt;/p>
+&lt;h2 id="run-swift">Run &lt;em>swift&lt;/em>&lt;/h2>
+&lt;p>Your &lt;em>swift&lt;/em> suite is now configured and ready to go. Use the launcher
+to launch the different swift applications in different flavors and
+modes. For first time users, it is recommended to start swift in
+standalone mode. * In the core tab, select Core Mode &lt;code>Standalone&lt;/code> *
+Click on the blue swift icon named &lt;code>GUI&lt;/code> to start swift in standalone
+mode.&lt;/p>
+&lt;h2 id="congratulations">Congratulations&lt;/h2>
+&lt;p>&lt;em>swift&lt;/em> is now running on your machine and you are
+ready to setup everything else for your first connection to the network.&lt;/p>
+&lt;p>Something didnt work?&lt;/p>
+&lt;ul>
+&lt;li>Use the &lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Check our &lt;code>troubleshooting&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} page or
+ask for help in the usual channels.&lt;/li>
+&lt;/ul>
+&lt;h2 id="install-fsxp3d-terrain-probe">Install FSX/P3D terrain probe&lt;/h2>
+&lt;p>We use a terrain probe object to query simulator data around the AI
+aircraft. We recommend you install that probe when you are using the
+32bit driver versions for FSX/P3D.&lt;/p>
+&lt;p>Further details can be found &lt;a href="https://swift-project.github.io/docs/installation/fsx/fsxprobe/">here&lt;/a>.&lt;/p></description></item><item><title>Docs: P3D (v1-v3)</title><link>https://swift-project.github.io/docs/installation/p3dv3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/p3dv3/</guid><description>
+&lt;h2 id="initial-configuration">Initial Configuration&lt;/h2>
+&lt;p>After the installation completed, &lt;em>swiftlauncher&lt;/em> will launch together
+with the initial configuration wizard. If you un-selected to launch
+swift from the installer, it is possible to run the same init mode any
+time later by using the command line arguments&lt;/p>
+&lt;p>&lt;code>swiftlauncher -i --bootstrapurl https://datastore.swift-project.org/shared/&lt;/code>&lt;/p>
+&lt;p>The rest of the section will guide you through the different wizards.&lt;/p>
+&lt;h2 id="legal-wizard">Legal Wizard&lt;/h2>
+&lt;p>The first wizard page deals with the necessary legal bits. It will
+explain in detail all the licenses involved in the swift project
+including 3rd party software. It also provides links to data protection
+policies. It is necessary to accept license and data protection policy
+to proceed. This page also asks for your agreement to submit crash
+reports to our crash report collection server. In case any &lt;em>swift&lt;/em>
+application crashed, a crash report will be generated with information
+which line of code caused it to abort. With your agreement, the report
+will be uploaded to our server and helps the developers to diagnose and
+fix the cause. This agreement can be changed anytime later in the
+advanced settings (link tbd). Read more about crash reports (link tbd)
+and how they look like.&lt;/p>
+&lt;h2 id="data-loading-wizard">Data Loading Wizard&lt;/h2>
+&lt;p>The next wizard will download all data, required by &lt;em>swift&lt;/em> to be fully
+functional. This includes aircraft and airline ICAO data, model strings
+(&lt;strong>no models itself&lt;/strong>), etc. &lt;strong>It is not necessary to click any of the
+load buttons&lt;/strong>. The download will start automatically from randomly one
+of the shared mirror servers in the background. The button can be used
+to reload in case there was an update meanwhile. You can either wait for
+the download to finish (several seconds depending on your internet
+bandwidth) or continue, since it will continue in the background. The
+wizard indicates that all data finished loading by&lt;/p>
+&lt;ul>
+&lt;li>The two DB LEDs flashing yellow&lt;/li>
+&lt;li>All other LEDs off (idle mode).&lt;/li>
+&lt;li>The number of entries and the timestamp of the local cache are equal
+to the shared cache.&lt;/li>
+&lt;/ul>
+&lt;h2 id="copy-models-wizard">Copy Models Wizard&lt;/h2>
+&lt;p>{{% alert title=&amp;quot;Note&amp;rdquo; color=&amp;quot;primary&amp;rdquo; %}}
+If you installed &lt;em>siwft&lt;/em> the very first time on this machine, then you can skip this part.
+{{% /alert %}}&lt;/p>
+&lt;p>If you had a previous version of swift installed already, then this
+wizard will help you to migrate your existing model cache and model set.&lt;/p>
+&lt;ul>
+&lt;li>Select the older version you want to migrate from the list.&lt;/li>
+&lt;li>Select whether you want to migrate the model set and/or model cache
+and for which simulators.&lt;/li>
+&lt;li>Click Start.&lt;/li>
+&lt;/ul>
+&lt;p>Read more about the meaning of model set (link tbd) and model cache
+(link tbd).&lt;/p>
+&lt;h2 id="copy-settings-wizard">Copy Settings Wizard&lt;/h2>
+&lt;p>{{% alert title=&amp;quot;Note&amp;rdquo; color=&amp;quot;primary&amp;rdquo; %}}
+If you installed &lt;em>swift&lt;/em> the very first time on this machine, then you
+can skip this part.
+{{% /alert %}}&lt;/p>
+&lt;p>If you had a previous version of swift installed already, then this
+wizard will help you to migrate your settings.&lt;/p>
+&lt;ul>
+&lt;li>Select the older version you want to migrate from the list.&lt;/li>
+&lt;li>Select which settings needs migrating
+&lt;ul>
+&lt;li>Grey X means that no user setting is available and the default is in use.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Click copy&lt;/li>
+&lt;/ul>
+&lt;p>Read more about settings (link tbd).&lt;/p>
+&lt;h2 id="simulator-wizard">Simulator Wizard&lt;/h2>
+&lt;p>This page allows you to configure which simulators you want &lt;em>swift&lt;/em> to
+work with. If you have multiple simulators installed and use them
+regularly, select all of those in the first group box. &lt;em>swift&lt;/em> will
+detect if any of those configured simulators is running and connect to
+it. It will ignore the ones that have not been selected.&lt;/p>
+&lt;p>In the group box below, you are able to configure the simulator path and
+any additional model directories. &lt;em>swift&lt;/em> will try to detect as much as
+possible automatically and use it as default. The default is listed in
+light grey. In order to configure the directories, first select the
+respective simulator from the radio boxes at the bottom&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/radiobox_sim.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Use the &lt;code>...&lt;/code> button to select/add more directories&lt;/li>
+&lt;li>Use the &lt;code>adjust&lt;/code> button to remove redundant directories, fix file
+path etc.&lt;/li>
+&lt;li>Click [Save]{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/setup_simulator.png" alt="image">&lt;/p>
+&lt;p>{{% alert title=&amp;quot;Important&amp;rdquo; color=&amp;quot;warning&amp;rdquo; %}}
+If you are using P3D and you are using models outside the &lt;code>SimObjects&lt;/code> folder you can add multiple other directories here.
+{{% /alert %}}&lt;/p>
+&lt;h2 id="first-model-set-wizard">First Model Set Wizard&lt;/h2>
+&lt;p>This wizard will help you to create a first model set for each of your
+simulators in use. A model set is a subset of the AI models installed on
+your machine, which are considered for model mapping and model matching.
+Without any model set, &lt;em>swift&lt;/em> will not run properly.&lt;/p>
+&lt;ul>
+&lt;li>Select your simulator (repeat the steps below if you are using multiple simulators).&lt;/li>
+&lt;li>Check the model directory and change it if necessary.&lt;/li>
+&lt;li>Reload the installed AI models if necessary. This is necessary in case the number of models does not look correct to you or if you made any changes to model directories in this or the previous wizard.&lt;/li>
+&lt;li>Optionally display and inspect the model list&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/firstmodelset.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Click on &lt;code>Create&lt;/code> to create a model set.&lt;/li>
+&lt;li>&lt;strong>Save&lt;/strong> the model set.&lt;/li>
+&lt;li>Close the dialog&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/ownmodelsetdialog.png" alt="image">&lt;/p>
+&lt;h2 id="configure-hotkeys-wizard">Configure Hotkeys Wizard&lt;/h2>
+&lt;p>The last wizard allows you to configure hotkeys. Use this to configure
+your PTT key.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/hotkey_setup.png" alt="image">&lt;/p>
+&lt;h2 id="run-swift">Run &lt;em>swift&lt;/em>&lt;/h2>
+&lt;p>Your &lt;em>swift&lt;/em> suite is now configured and ready to go. Use the launcher
+to launch the different swift applications in different flavors and
+modes. For first time users, it is recommended to start swift in
+standalone mode. * In the core tab, select Core Mode &lt;code>Standalone&lt;/code> *
+Click on the blue swift icon named &lt;code>GUI&lt;/code> to start swift in standalone
+mode.&lt;/p>
+&lt;h2 id="congratulations">Congratulations&lt;/h2>
+&lt;p>&lt;em>swift&lt;/em> is now running on your machine and you are
+ready to setup everything else for your first connection to the network.&lt;/p>
+&lt;p>Something didnt work?&lt;/p>
+&lt;ul>
+&lt;li>Use the &lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Check our &lt;code>troubleshooting&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} page or
+ask for help in the usual channels.&lt;/li>
+&lt;/ul>
+&lt;h2 id="install-fsxp3d-terrain-probe">Install FSX/P3D terrain probe&lt;/h2>
+&lt;p>We use a terrain probe object to query simulator data around the AI
+aircraft. We recommend you install that probe when you are using the
+32bit driver versions for FSX/P3D.&lt;/p>
+&lt;p>Further details can be found &lt;a href="https://swift-project.github.io/docs/installation/fsx/fsxprobe/">here&lt;/a>.&lt;/p></description></item><item><title>Docs: FS9</title><link>https://swift-project.github.io/docs/installation/fs9/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/fs9/</guid><description>
+&lt;h2 id="initial-configuration">Initial Configuration&lt;/h2>
+&lt;p>After the installation completed, &lt;em>swiftlauncher&lt;/em> will launch together
+with the initial configuration wizard. If you un-selected to launch
+swift from the installer, it is possible to run the same init mode any
+time later by using the command line arguments&lt;/p>
+&lt;p>&lt;code>swiftlauncher -i --bootstrapurl https://datastore.swift-project.org/shared/&lt;/code>&lt;/p>
+&lt;p>The rest of the section will guide you through the different wizards.&lt;/p>
+&lt;h2 id="legal-wizard">Legal Wizard&lt;/h2>
+&lt;p>The first wizard page deals with the necessary legal bits. It will
+explain in detail all the licenses involved in the swift project
+including 3rd party software. It also provides links to data protection
+policies. It is necessary to accept license and data protection policy
+to proceed. This page also asks for your agreement to submit crash
+reports to our crash report collection server. In case any &lt;em>swift&lt;/em>
+application crashed, a crash report will be generated with information
+which line of code caused it to abort. With your agreement, the report
+will be uploaded to our server and helps the developers to diagnose and
+fix the cause. This agreement can be changed anytime later in the
+advanced settings (link tbd). Read more about crash reports (link tbd)
+and how they look like.&lt;/p>
+&lt;h2 id="data-loading-wizard">Data Loading Wizard&lt;/h2>
+&lt;p>The next wizard will download all data, required by &lt;em>swift&lt;/em> to be fully
+functional. This includes aircraft and airline ICAO data, model strings
+(&lt;strong>no models itself&lt;/strong>), etc. &lt;strong>It is not necessary to click any of the
+load buttons&lt;/strong>. The download will start automatically from randomly one
+of the shared mirror servers in the background. The button can be used
+to reload in case there was an update meanwhile. You can either wait for
+the download to finish (several seconds depending on your internet
+bandwidth) or continue, since it will continue in the background. The
+wizard indicates that all data finished loading by&lt;/p>
+&lt;ul>
+&lt;li>The two DB LEDs flashing yellow&lt;/li>
+&lt;li>All other LEDs off (idle mode).&lt;/li>
+&lt;li>The number of entries and the timestamp of the local cache are equal
+to the shared cache.&lt;/li>
+&lt;/ul>
+&lt;h2 id="copy-models-wizard">Copy Models Wizard&lt;/h2>
+&lt;p>{{% alert title=&amp;quot;Note&amp;rdquo; color=&amp;quot;primary&amp;rdquo; %}}
+If you installed &lt;em>siwft&lt;/em> the very first time on this machine, then you can skip this part.
+{{% /alert %}}&lt;/p>
+&lt;p>If you had a previous version of swift installed already, then this
+wizard will help you to migrate your existing model cache and model set.&lt;/p>
+&lt;ul>
+&lt;li>Select the older version you want to migrate from the list.&lt;/li>
+&lt;li>Select whether you want to migrate the model set and/or model cache
+and for which simulators.&lt;/li>
+&lt;li>Click Start.&lt;/li>
+&lt;/ul>
+&lt;p>Read more about the meaning of model set (link tbd) and model cache
+(link tbd).&lt;/p>
+&lt;h2 id="copy-settings-wizard">Copy Settings Wizard&lt;/h2>
+&lt;p>{{% alert title=&amp;quot;Note&amp;rdquo; color=&amp;quot;primary&amp;rdquo; %}}
+If you installed &lt;em>swift&lt;/em> the very first time on this machine, then you
+can skip this part.
+{{% /alert %}}&lt;/p>
+&lt;p>If you had a previous version of swift installed already, then this
+wizard will help you to migrate your settings.&lt;/p>
+&lt;ul>
+&lt;li>Select the older version you want to migrate from the list.&lt;/li>
+&lt;li>Select which settings needs migrating
+&lt;ul>
+&lt;li>Grey X means that no user setting is available and the default is in use.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Click copy&lt;/li>
+&lt;/ul>
+&lt;p>Read more about settings (link tbd).&lt;/p>
+&lt;h2 id="simulator-wizard">Simulator Wizard&lt;/h2>
+&lt;p>This page allows you to configure which simulators you want &lt;em>swift&lt;/em> to
+work with. If you have multiple simulators installed and use them
+regularly, select all of those in the first group box. &lt;em>swift&lt;/em> will
+detect if any of those configured simulators is running and connect to
+it. It will ignore the ones that have not been selected.&lt;/p>
+&lt;p>In the group box below, you are able to configure the simulator path and
+any additional model directories. &lt;em>swift&lt;/em> will try to detect as much as
+possible automatically and use it as default. The default is listed in
+light grey. In order to configure the directories, first select the
+respective simulator from the radio boxes at the bottom&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/radiobox_sim.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Use the &lt;code>...&lt;/code> button to select/add more directories&lt;/li>
+&lt;li>Use the &lt;code>adjust&lt;/code> button to remove redundant directories, fix file
+path etc.&lt;/li>
+&lt;li>Click [Save]{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/setup_simulator.png" alt="image">&lt;/p>
+&lt;p>{{% alert title=&amp;quot;Important&amp;rdquo; color=&amp;quot;warning&amp;rdquo; %}}
+If you are using P3D and you are using models outside the &lt;code>SimObjects&lt;/code> folder you can add multiple other directories here.
+{{% /alert %}}&lt;/p>
+&lt;h2 id="first-model-set-wizard">First Model Set Wizard&lt;/h2>
+&lt;p>This wizard will help you to create a first model set for each of your
+simulators in use. A model set is a subset of the AI models installed on
+your machine, which are considered for model mapping and model matching.
+Without any model set, &lt;em>swift&lt;/em> will not run properly.&lt;/p>
+&lt;ul>
+&lt;li>Select your simulator (repeat the steps below if you are using multiple simulators).&lt;/li>
+&lt;li>Check the model directory and change it if necessary.&lt;/li>
+&lt;li>Reload the installed AI models if necessary. This is necessary in case the number of models does not look correct to you or if you made any changes to model directories in this or the previous wizard.&lt;/li>
+&lt;li>Optionally display and inspect the model list&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/firstmodelset.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Click on &lt;code>Create&lt;/code> to create a model set.&lt;/li>
+&lt;li>&lt;strong>Save&lt;/strong> the model set.&lt;/li>
+&lt;li>Close the dialog&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/ownmodelsetdialog.png" alt="image">&lt;/p>
+&lt;h2 id="configure-hotkeys-wizard">Configure Hotkeys Wizard&lt;/h2>
+&lt;p>The last wizard allows you to configure hotkeys. Use this to configure
+your PTT key.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/hotkey_setup.png" alt="image">&lt;/p>
+&lt;h2 id="run-swift">Run &lt;em>swift&lt;/em>&lt;/h2>
+&lt;p>Your &lt;em>swift&lt;/em> suite is now configured and ready to go. Use the launcher
+to launch the different swift applications in different flavors and
+modes. For first time users, it is recommended to start swift in
+standalone mode. * In the core tab, select Core Mode &lt;code>Standalone&lt;/code> *
+Click on the blue swift icon named &lt;code>GUI&lt;/code> to start swift in standalone
+mode.&lt;/p>
+&lt;h2 id="congratulations">Congratulations&lt;/h2>
+&lt;p>&lt;em>swift&lt;/em> is now running on your machine and you are
+ready to setup everything else for your first connection to the network.&lt;/p>
+&lt;p>Something didnt work?&lt;/p>
+&lt;ul>
+&lt;li>Use the &lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Check our &lt;code>troubleshooting&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} page or
+ask for help in the usual channels.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Flightgear</title><link>https://swift-project.github.io/docs/installation/fg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/fg/</guid><description>
+&lt;h2 id="initial-configuration">Initial Configuration&lt;/h2>
+&lt;p>After the installation completed, &lt;em>swiftlauncher&lt;/em> will launch together
+with the initial configuration wizard. If you un-selected to launch
+swift from the installer, it is possible to run the same init mode any
+time later by using the command line arguments&lt;/p>
+&lt;p>&lt;code>swiftlauncher -i --bootstrapurl https://datastore.swift-project.org/shared/&lt;/code>&lt;/p>
+&lt;p>The rest of the section will guide you through the different wizards.&lt;/p>
+&lt;h2 id="legal-wizard">Legal Wizard&lt;/h2>
+&lt;p>The first wizard page deals with the necessary legal bits. It will
+explain in detail all the licenses involved in the swift project
+including 3rd party software. It also provides links to data protection
+policies. It is necessary to accept license and data protection policy
+to proceed. This page also asks for your agreement to submit crash
+reports to our crash report collection server. In case any &lt;em>swift&lt;/em>
+application crashed, a crash report will be generated with information
+which line of code caused it to abort. With your agreement, the report
+will be uploaded to our server and helps the developers to diagnose and
+fix the cause. This agreement can be changed anytime later in the
+advanced settings (link tbd). Read more about crash reports (link tbd)
+and how they look like.&lt;/p>
+&lt;h2 id="data-loading-wizard">Data Loading Wizard&lt;/h2>
+&lt;p>The next wizard will download all data, required by &lt;em>swift&lt;/em> to be fully
+functional. This includes aircraft and airline ICAO data, model strings
+(&lt;strong>no models itself&lt;/strong>), etc. &lt;strong>It is not necessary to click any of the
+load buttons&lt;/strong>. The download will start automatically from randomly one
+of the shared mirror servers in the background. The button can be used
+to reload in case there was an update meanwhile. You can either wait for
+the download to finish (several seconds depending on your internet
+bandwidth) or continue, since it will continue in the background. The
+wizard indicates that all data finished loading by&lt;/p>
+&lt;ul>
+&lt;li>The two DB LEDs flashing yellow&lt;/li>
+&lt;li>All other LEDs off (idle mode).&lt;/li>
+&lt;li>The number of entries and the timestamp of the local cache are equal
+to the shared cache.&lt;/li>
+&lt;/ul>
+&lt;h2 id="copy-models-wizard">Copy Models Wizard&lt;/h2>
+&lt;p>{{% alert title=&amp;quot;Note&amp;rdquo; color=&amp;quot;primary&amp;rdquo; %}}
+If you installed &lt;em>siwft&lt;/em> the very first time on this machine, then you can skip this part.
+{{% /alert %}}&lt;/p>
+&lt;p>If you had a previous version of swift installed already, then this
+wizard will help you to migrate your existing model cache and model set.&lt;/p>
+&lt;ul>
+&lt;li>Select the older version you want to migrate from the list.&lt;/li>
+&lt;li>Select whether you want to migrate the model set and/or model cache
+and for which simulators.&lt;/li>
+&lt;li>Click Start.&lt;/li>
+&lt;/ul>
+&lt;p>Read more about the meaning of model set (link tbd) and model cache
+(link tbd).&lt;/p>
+&lt;h2 id="copy-settings-wizard">Copy Settings Wizard&lt;/h2>
+&lt;p>{{% alert title=&amp;quot;Note&amp;rdquo; color=&amp;quot;primary&amp;rdquo; %}}
+If you installed &lt;em>swift&lt;/em> the very first time on this machine, then you
+can skip this part.
+{{% /alert %}}&lt;/p>
+&lt;p>If you had a previous version of swift installed already, then this
+wizard will help you to migrate your settings.&lt;/p>
+&lt;ul>
+&lt;li>Select the older version you want to migrate from the list.&lt;/li>
+&lt;li>Select which settings needs migrating
+&lt;ul>
+&lt;li>Grey X means that no user setting is available and the default is in use.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Click copy&lt;/li>
+&lt;/ul>
+&lt;p>Read more about settings (link tbd).&lt;/p>
+&lt;h2 id="simulator-wizard">Simulator Wizard&lt;/h2>
+&lt;p>This page allows you to configure which simulators you want &lt;em>swift&lt;/em> to
+work with. If you have multiple simulators installed and use them
+regularly, select all of those in the first group box. &lt;em>swift&lt;/em> will
+detect if any of those configured simulators is running and connect to
+it. It will ignore the ones that have not been selected.&lt;/p>
+&lt;p>In the group box below, you are able to configure the simulator path and
+any additional model directories. &lt;em>swift&lt;/em> will try to detect as much as
+possible automatically and use it as default. The default is listed in
+light grey. In order to configure the directories, first select the
+respective simulator from the radio boxes at the bottom&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/radiobox_sim.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Use the &lt;code>...&lt;/code> button to select/add more directories&lt;/li>
+&lt;li>Use the &lt;code>adjust&lt;/code> button to remove redundant directories, fix file
+path etc.&lt;/li>
+&lt;li>Click [Save]{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/setup_simulator.png" alt="image">&lt;/p>
+&lt;p>{{% alert title=&amp;quot;Important&amp;rdquo; color=&amp;quot;warning&amp;rdquo; %}}
+If you are using P3D and you are using models outside the &lt;code>SimObjects&lt;/code> folder you can add multiple other directories here.
+{{% /alert %}}&lt;/p>
+&lt;h2 id="first-model-set-wizard">First Model Set Wizard&lt;/h2>
+&lt;p>This wizard will help you to create a first model set for each of your
+simulators in use. A model set is a subset of the AI models installed on
+your machine, which are considered for model mapping and model matching.
+Without any model set, &lt;em>swift&lt;/em> will not run properly.&lt;/p>
+&lt;ul>
+&lt;li>Select your simulator (repeat the steps below if you are using multiple simulators).&lt;/li>
+&lt;li>Check the model directory and change it if necessary.&lt;/li>
+&lt;li>Reload the installed AI models if necessary. This is necessary in case the number of models does not look correct to you or if you made any changes to model directories in this or the previous wizard.&lt;/li>
+&lt;li>Optionally display and inspect the model list&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/firstmodelset.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Click on &lt;code>Create&lt;/code> to create a model set.&lt;/li>
+&lt;li>&lt;strong>Save&lt;/strong> the model set.&lt;/li>
+&lt;li>Close the dialog&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/ownmodelsetdialog.png" alt="image">&lt;/p>
+&lt;h2 id="configure-hotkeys-wizard">Configure Hotkeys Wizard&lt;/h2>
+&lt;p>The last wizard allows you to configure hotkeys. Use this to configure
+your PTT key.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/hotkey_setup.png" alt="image">&lt;/p>
+&lt;h2 id="run-swift">Run &lt;em>swift&lt;/em>&lt;/h2>
+&lt;p>Your &lt;em>swift&lt;/em> suite is now configured and ready to go. Use the launcher
+to launch the different swift applications in different flavors and
+modes. For first time users, it is recommended to start swift in
+standalone mode. * In the core tab, select Core Mode &lt;code>Standalone&lt;/code> *
+Click on the blue swift icon named &lt;code>GUI&lt;/code> to start swift in standalone
+mode.&lt;/p>
+&lt;h2 id="congratulations">Congratulations&lt;/h2>
+&lt;p>&lt;em>swift&lt;/em> is now running on your machine and you are
+ready to setup everything else for your first connection to the network.&lt;/p>
+&lt;p>Something didnt work?&lt;/p>
+&lt;ul>
+&lt;li>Use the &lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Check our &lt;code>troubleshooting&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} page or
+ask for help in the usual channels.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: X-Plane</title><link>https://swift-project.github.io/docs/installation/xplane/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/xplane/</guid><description>
+&lt;h2 id="initial-configuration">Initial Configuration&lt;/h2>
+&lt;p>After the installation completed, &lt;em>swiftlauncher&lt;/em> will launch together
+with the initial configuration wizard. If you un-selected to launch
+swift from the installer, it is possible to run the same init mode any
+time later by using the command line arguments&lt;/p>
+&lt;p>&lt;code>swiftlauncher -i --bootstrapurl https://datastore.swift-project.org/shared/&lt;/code>&lt;/p>
+&lt;p>The rest of the section will guide you through the different wizards.&lt;/p>
+&lt;h2 id="legal-wizard">Legal Wizard&lt;/h2>
+&lt;p>The first wizard page deals with the necessary legal bits. It will
+explain in detail all the licenses involved in the swift project
+including 3rd party software. It also provides links to data protection
+policies. It is necessary to accept license and data protection policy
+to proceed. This page also asks for your agreement to submit crash
+reports to our crash report collection server. In case any &lt;em>swift&lt;/em>
+application crashed, a crash report will be generated with information
+which line of code caused it to abort. With your agreement, the report
+will be uploaded to our server and helps the developers to diagnose and
+fix the cause. This agreement can be changed anytime later in the
+advanced settings (link tbd). Read more about crash reports (link tbd)
+and how they look like.&lt;/p>
+&lt;h2 id="data-loading-wizard">Data Loading Wizard&lt;/h2>
+&lt;p>The next wizard will download all data, required by &lt;em>swift&lt;/em> to be fully
+functional. This includes aircraft and airline ICAO data, model strings
+(&lt;strong>no models itself&lt;/strong>), etc. &lt;strong>It is not necessary to click any of the
+load buttons&lt;/strong>. The download will start automatically from randomly one
+of the shared mirror servers in the background. The button can be used
+to reload in case there was an update meanwhile. You can either wait for
+the download to finish (several seconds depending on your internet
+bandwidth) or continue, since it will continue in the background. The
+wizard indicates that all data finished loading by&lt;/p>
+&lt;ul>
+&lt;li>The two DB LEDs flashing yellow&lt;/li>
+&lt;li>All other LEDs off (idle mode).&lt;/li>
+&lt;li>The number of entries and the timestamp of the local cache are equal
+to the shared cache.&lt;/li>
+&lt;/ul>
+&lt;h2 id="copy-models-wizard">Copy Models Wizard&lt;/h2>
+&lt;p>{{% alert title=&amp;quot;Note&amp;rdquo; color=&amp;quot;primary&amp;rdquo; %}}
+If you installed &lt;em>siwft&lt;/em> the very first time on this machine, then you can skip this part.
+{{% /alert %}}&lt;/p>
+&lt;p>If you had a previous version of swift installed already, then this
+wizard will help you to migrate your existing model cache and model set.&lt;/p>
+&lt;ul>
+&lt;li>Select the older version you want to migrate from the list.&lt;/li>
+&lt;li>Select whether you want to migrate the model set and/or model cache
+and for which simulators.&lt;/li>
+&lt;li>Click Start.&lt;/li>
+&lt;/ul>
+&lt;p>Read more about the meaning of model set (link tbd) and model cache
+(link tbd).&lt;/p>
+&lt;h2 id="copy-settings-wizard">Copy Settings Wizard&lt;/h2>
+&lt;p>{{% alert title=&amp;quot;Note&amp;rdquo; color=&amp;quot;primary&amp;rdquo; %}}
+If you installed &lt;em>swift&lt;/em> the very first time on this machine, then you
+can skip this part.
+{{% /alert %}}&lt;/p>
+&lt;p>If you had a previous version of swift installed already, then this
+wizard will help you to migrate your settings.&lt;/p>
+&lt;ul>
+&lt;li>Select the older version you want to migrate from the list.&lt;/li>
+&lt;li>Select which settings needs migrating
+&lt;ul>
+&lt;li>Grey X means that no user setting is available and the default is in use.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Click copy&lt;/li>
+&lt;/ul>
+&lt;p>Read more about settings (link tbd).&lt;/p>
+&lt;h2 id="simulator-wizard">Simulator Wizard&lt;/h2>
+&lt;p>This page allows you to configure which simulators you want &lt;em>swift&lt;/em> to
+work with. If you have multiple simulators installed and use them
+regularly, select all of those in the first group box. &lt;em>swift&lt;/em> will
+detect if any of those configured simulators is running and connect to
+it. It will ignore the ones that have not been selected.&lt;/p>
+&lt;p>In the group box below, you are able to configure the simulator path and
+any additional model directories. &lt;em>swift&lt;/em> will try to detect as much as
+possible automatically and use it as default. The default is listed in
+light grey. In order to configure the directories, first select the
+respective simulator from the radio boxes at the bottom&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/radiobox_sim.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Use the &lt;code>...&lt;/code> button to select/add more directories&lt;/li>
+&lt;li>Use the &lt;code>adjust&lt;/code> button to remove redundant directories, fix file
+path etc.&lt;/li>
+&lt;li>Click [Save]{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/setup_simulator.png" alt="image">&lt;/p>
+&lt;p>{{% alert title=&amp;quot;Important&amp;rdquo; color=&amp;quot;warning&amp;rdquo; %}}
+If you are using P3D and you are using models outside the &lt;code>SimObjects&lt;/code> folder you can add multiple other directories here.
+{{% /alert %}}&lt;/p>
+&lt;h2 id="first-model-set-wizard">First Model Set Wizard&lt;/h2>
+&lt;p>This wizard will help you to create a first model set for each of your
+simulators in use. A model set is a subset of the AI models installed on
+your machine, which are considered for model mapping and model matching.
+Without any model set, &lt;em>swift&lt;/em> will not run properly.&lt;/p>
+&lt;ul>
+&lt;li>Select your simulator (repeat the steps below if you are using multiple simulators).&lt;/li>
+&lt;li>Check the model directory and change it if necessary.&lt;/li>
+&lt;li>Reload the installed AI models if necessary. This is necessary in case the number of models does not look correct to you or if you made any changes to model directories in this or the previous wizard.&lt;/li>
+&lt;li>Optionally display and inspect the model list&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/firstmodelset.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Click on &lt;code>Create&lt;/code> to create a model set.&lt;/li>
+&lt;li>&lt;strong>Save&lt;/strong> the model set.&lt;/li>
+&lt;li>Close the dialog&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/ownmodelsetdialog.png" alt="image">&lt;/p>
+&lt;h2 id="configure-hotkeys-wizard">Configure Hotkeys Wizard&lt;/h2>
+&lt;p>The last wizard allows you to configure hotkeys. Use this to configure
+your PTT key.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/hotkey_setup.png" alt="image">&lt;/p>
+&lt;h2 id="run-swift">Run &lt;em>swift&lt;/em>&lt;/h2>
+&lt;p>Your &lt;em>swift&lt;/em> suite is now configured and ready to go. Use the launcher
+to launch the different swift applications in different flavors and
+modes. For first time users, it is recommended to start swift in
+standalone mode. * In the core tab, select Core Mode &lt;code>Standalone&lt;/code> *
+Click on the blue swift icon named &lt;code>GUI&lt;/code> to start swift in standalone
+mode.&lt;/p>
+&lt;h2 id="congratulations">Congratulations&lt;/h2>
+&lt;p>&lt;em>swift&lt;/em> is now running on your machine and you are
+ready to setup everything else for your first connection to the network.&lt;/p>
+&lt;p>Something didnt work?&lt;/p>
+&lt;ul>
+&lt;li>Use the &lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Check our &lt;code>troubleshooting&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} page or
+ask for help in the usual channels.&lt;/li>
+&lt;/ul>
+&lt;h2 id="install-xswiftbus">Install XSwiftBus&lt;/h2>
+&lt;p>&lt;em>swift&lt;/em> - in contrast to other X-Plane clients - is running outside of
+the X-Plane process. In order to communicate with the X-Plane process
+and render AI aircraft, a small plugin called XSwiftBus is necessary. It
+needs to be installed into &lt;code>X-Plane/Resources/plugins&lt;/code>. This wizard will
+download and install it for you.&lt;/p>
+&lt;ul>
+&lt;li>Confirm the install directory is correct or change it as necessary.&lt;/li>
+&lt;li>Check and correct the temporary download folder.&lt;/li>
+&lt;li>Choose a version to install (it is strongly recommended to use the
+same version as swift itself).&lt;/li>
+&lt;li>Click on &lt;code>download&lt;/code>.&lt;/li>
+&lt;li>Answer &lt;code>Ok&lt;/code> in the dialog to extract and install the package
+directly into X-Plane.&lt;/li>
+&lt;li>In case 7z is not available on your machine (Mac OS users!), you
+will receive an error message and will have to extract it yourself.&lt;/li>
+&lt;li>It is recommended to keep the default for the connection settings.&lt;/li>
+&lt;/ul>
+&lt;p>Read more about
+&lt;code>Installing and updating XSwiftBus &amp;lt;xswiftbusinstallation&amp;gt;&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Simulator_specific_wizard_page.png" alt="image">&lt;/p></description></item><item><title>Docs:</title><link>https://swift-project.github.io/docs/installation/common_configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/common_configuration/</guid><description>
+&lt;h2 id="initial-configuration">Initial Configuration&lt;/h2>
+&lt;p>After the installation completed, &lt;em>swiftlauncher&lt;/em> will launch together
+with the initial configuration wizard. If you un-selected to launch
+swift from the installer, it is possible to run the same init mode any
+time later by using the command line arguments&lt;/p>
+&lt;p>&lt;code>swiftlauncher -i --bootstrapurl https://datastore.swift-project.org/shared/&lt;/code>&lt;/p>
+&lt;p>The rest of the section will guide you through the different wizards.&lt;/p>
+&lt;h2 id="legal-wizard">Legal Wizard&lt;/h2>
+&lt;p>The first wizard page deals with the necessary legal bits. It will
+explain in detail all the licenses involved in the swift project
+including 3rd party software. It also provides links to data protection
+policies. It is necessary to accept license and data protection policy
+to proceed. This page also asks for your agreement to submit crash
+reports to our crash report collection server. In case any &lt;em>swift&lt;/em>
+application crashed, a crash report will be generated with information
+which line of code caused it to abort. With your agreement, the report
+will be uploaded to our server and helps the developers to diagnose and
+fix the cause. This agreement can be changed anytime later in the
+advanced settings (link tbd). Read more about crash reports (link tbd)
+and how they look like.&lt;/p>
+&lt;h2 id="data-loading-wizard">Data Loading Wizard&lt;/h2>
+&lt;p>The next wizard will download all data, required by &lt;em>swift&lt;/em> to be fully
+functional. This includes aircraft and airline ICAO data, model strings
+(&lt;strong>no models itself&lt;/strong>), etc. &lt;strong>It is not necessary to click any of the
+load buttons&lt;/strong>. The download will start automatically from randomly one
+of the shared mirror servers in the background. The button can be used
+to reload in case there was an update meanwhile. You can either wait for
+the download to finish (several seconds depending on your internet
+bandwidth) or continue, since it will continue in the background. The
+wizard indicates that all data finished loading by&lt;/p>
+&lt;ul>
+&lt;li>The two DB LEDs flashing yellow&lt;/li>
+&lt;li>All other LEDs off (idle mode).&lt;/li>
+&lt;li>The number of entries and the timestamp of the local cache are equal
+to the shared cache.&lt;/li>
+&lt;/ul>
+&lt;h2 id="copy-models-wizard">Copy Models Wizard&lt;/h2>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Note&lt;/h4>
+If you installed &lt;em>siwft&lt;/em> the very first time on this machine, then you can skip this part.
+&lt;/div>
+&lt;p>If you had a previous version of swift installed already, then this
+wizard will help you to migrate your existing model cache and model set.&lt;/p>
+&lt;ul>
+&lt;li>Select the older version you want to migrate from the list.&lt;/li>
+&lt;li>Select whether you want to migrate the model set and/or model cache
+and for which simulators.&lt;/li>
+&lt;li>Click Start.&lt;/li>
+&lt;/ul>
+&lt;p>Read more about the meaning of model set (link tbd) and model cache
+(link tbd).&lt;/p>
+&lt;h2 id="copy-settings-wizard">Copy Settings Wizard&lt;/h2>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Note&lt;/h4>
+If you installed &lt;em>swift&lt;/em> the very first time on this machine, then you
+can skip this part.
+&lt;/div>
+&lt;p>If you had a previous version of swift installed already, then this
+wizard will help you to migrate your settings.&lt;/p>
+&lt;ul>
+&lt;li>Select the older version you want to migrate from the list.&lt;/li>
+&lt;li>Select which settings needs migrating
+&lt;ul>
+&lt;li>Grey X means that no user setting is available and the default is in use.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Click copy&lt;/li>
+&lt;/ul>
+&lt;p>Read more about settings (link tbd).&lt;/p>
+&lt;h2 id="simulator-wizard">Simulator Wizard&lt;/h2>
+&lt;p>This page allows you to configure which simulators you want &lt;em>swift&lt;/em> to
+work with. If you have multiple simulators installed and use them
+regularly, select all of those in the first group box. &lt;em>swift&lt;/em> will
+detect if any of those configured simulators is running and connect to
+it. It will ignore the ones that have not been selected.&lt;/p>
+&lt;p>In the group box below, you are able to configure the simulator path and
+any additional model directories. &lt;em>swift&lt;/em> will try to detect as much as
+possible automatically and use it as default. The default is listed in
+light grey. In order to configure the directories, first select the
+respective simulator from the radio boxes at the bottom&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/radiobox_sim.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Use the &lt;code>...&lt;/code> button to select/add more directories&lt;/li>
+&lt;li>Use the &lt;code>adjust&lt;/code> button to remove redundant directories, fix file
+path etc.&lt;/li>
+&lt;li>Click [Save]{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/setup_simulator.png" alt="image">&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Important&lt;/h4>
+If you are using P3D and you are using models outside the &lt;code>SimObjects&lt;/code> folder you can add multiple other directories here.
+&lt;/div>
+&lt;h2 id="first-model-set-wizard">First Model Set Wizard&lt;/h2>
+&lt;p>This wizard will help you to create a first model set for each of your
+simulators in use. A model set is a subset of the AI models installed on
+your machine, which are considered for model mapping and model matching.
+Without any model set, &lt;em>swift&lt;/em> will not run properly.&lt;/p>
+&lt;ul>
+&lt;li>Select your simulator (repeat the steps below if you are using multiple simulators).&lt;/li>
+&lt;li>Check the model directory and change it if necessary.&lt;/li>
+&lt;li>Reload the installed AI models if necessary. This is necessary in case the number of models does not look correct to you or if you made any changes to model directories in this or the previous wizard.&lt;/li>
+&lt;li>Optionally display and inspect the model list&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/firstmodelset.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Click on &lt;code>Create&lt;/code> to create a model set.&lt;/li>
+&lt;li>&lt;strong>Save&lt;/strong> the model set.&lt;/li>
+&lt;li>Close the dialog&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/ownmodelsetdialog.png" alt="image">&lt;/p>
+&lt;h2 id="configure-hotkeys-wizard">Configure Hotkeys Wizard&lt;/h2>
+&lt;p>The last wizard allows you to configure hotkeys. Use this to configure
+your PTT key.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/hotkey_setup.png" alt="image">&lt;/p>
+&lt;h2 id="run-swift">Run &lt;em>swift&lt;/em>&lt;/h2>
+&lt;p>Your &lt;em>swift&lt;/em> suite is now configured and ready to go. Use the launcher
+to launch the different swift applications in different flavors and
+modes. For first time users, it is recommended to start swift in
+standalone mode. * In the core tab, select Core Mode &lt;code>Standalone&lt;/code> *
+Click on the blue swift icon named &lt;code>GUI&lt;/code> to start swift in standalone
+mode.&lt;/p>
+&lt;h2 id="congratulations">Congratulations&lt;/h2>
+&lt;p>&lt;em>swift&lt;/em> is now running on your machine and you are
+ready to setup everything else for your first connection to the network.&lt;/p>
+&lt;p>Something didnt work?&lt;/p>
+&lt;ul>
+&lt;li>Use the &lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Check our &lt;code>troubleshooting&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} page or
+ask for help in the usual channels.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Bluebell CSL and Vertical Offset Fix: Download and Installation</title><link>https://swift-project.github.io/docs/installation/downloadbluebell/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/downloadbluebell/</guid><description>
+&lt;p>::: {.todo}
+Add download link
+:::&lt;/p>
+&lt;ul>
+&lt;li>XPlane: You can download the Bluebell models and vertical offset
+from here.&lt;/li>
+&lt;li>&lt;code>installbb&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>make sure the vertical offset correctly, see
+&lt;code>xplanecg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>other models for FSX, P3D: &lt;code>downloadmodels&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Download aircraft models (FLAI, BB, WOAI)</title><link>https://swift-project.github.io/docs/installation/downloadmodels/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/downloadmodels/</guid><description>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Note&lt;/h4>
+Those model bundles/libraries are external links! You need to respect
+the copyright of the owners. The projects are unrelated to &lt;em>swift&lt;/em>
+&lt;/div>
+&lt;h3 id="xplane">XPlane:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://swift-project.github.io/docs/installation/downloadbluebell/">Bluebell CSL and Vertical Offset Fix: Download and Installation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://swift-project.github.io/docs/installation/downloadmodels/installation-xcsl/">X-CSL: Download and Installation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://swift-project.github.io/docs/installation/downloadgliders/">Glider models (retractable, tourings)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="fsxp3d">FSX/P3D&lt;/h3>
+&lt;ul>
+&lt;li>VATSIM FLAI: &lt;a href="http://flai.bvartcc.com/">http://flai.bvartcc.com/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://swift-project.github.io/docs/installation/downloadgliders/">Glider models (retractable, tourings)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="fs9fsx">FS9/FSX&lt;/h3>
+&lt;ul>
+&lt;li>WoAI: &lt;a href="https://www.world-of-ai.com/">https://www.world-of-ai.com/&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Glider models (retractable, tourings)</title><link>https://swift-project.github.io/docs/installation/downloadgliders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/downloadgliders/</guid><description>
+&lt;h1 id="fsxp3dfs9">FSX/P3D/FS9&lt;/h1>
+&lt;ul>
+&lt;li>FS9 &amp;ndash; P3D 64 bit &lt;a href="http://www.fsglider.de">http://www.fsglider.de&lt;/a>&lt;/li>
+&lt;li>FSX - P3D 64 bit
+&lt;a href="https://www.aerosoft.com/de/flugsimulation/flight-simulator-x/flugzeuge/401/discus-k-glider-x?number=AS11231">https://www.aerosoft.com/de/flugsimulation/flight-simulator-x/flugzeuge/401/discus-k-glider-x?number=AS11231&lt;/a>&lt;/li>
+&lt;li>FSX
+&lt;a href="https://www.aerosoft.com/de/flugsimulation/flight-simulator-x/flugzeuge/144/discus-glider-x?number=AS11133">https://www.aerosoft.com/de/flugsimulation/flight-simulator-x/flugzeuge/144/discus-glider-x?number=AS11133&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="xplane">XPlane&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="https://forums.x-plane.org/index.php?/files/category/180-gliders-and-motor-gliders/">https://forums.x-plane.org/index.php?/files/category/180-gliders-and-motor-gliders/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://store.x-plane.org/Antares-20E_p_346.html">https://store.x-plane.org/Antares-20E_p_346.html&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://store.x-plane.org/VSKYLABS-Scheibe-SF-25C-Falke-Project_p_743.html">https://store.x-plane.org/VSKYLABS-Scheibe-SF-25C-Falke-Project_p_743.html&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Running a distributed swift (remote core)</title><link>https://swift-project.github.io/docs/installation/distributedswift/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/distributedswift/</guid><description>
+&lt;p>::: {.note}
+::: {.title}
+Note
+:::&lt;/p>
+&lt;p>There is also a YT video about this, see &lt;code>pctutorials&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;}
+:::&lt;/p>
+&lt;h1 id="overview">Overview&lt;/h1>
+&lt;p>&lt;em>swift&lt;/em> can be run distributed. That means the core (see
+&lt;code>core&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} ]) and the GUI (&lt;em>swift&lt;/em> front end)
+are split up. A normal scenario would be to run the core on the same
+machine where the flight simulator (e.g. XPlane) is started, and the UI
+runs on a second (remote) computer. However, you can also run core and
+(distributed) UI on the same machine.&lt;/p>
+&lt;p>As you can see in the launcher you have 3 options:&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Launcher_core_modes.png" alt="image">&lt;/p>
+&lt;p>&lt;code>Standalone&lt;/code>: This means swiftguistd is running standalone and includes
+swift core. No other application needs to be started. &lt;strong>Don't start
+swiftcore as extra process in that case&lt;/strong>.&lt;/p>
+&lt;p>&lt;code>GUI and Core - Audio on GUI side&lt;/code>: Use this configuration, if you want
+to run gui and core in separate applications (possibly also on two
+different machines in the network). All Audio (inkluding VATSIM voice)
+will stay within the &lt;strong>GUI&lt;/strong> process.&lt;/p>
+&lt;p>&lt;code>GUI and Core - Audio on Core side&lt;/code>: Use this configuration, if you want
+to run gui and core in separate applications (possibly also on two
+different machines in the network). All Audio (inkluding VATSIM voice)
+will stay within the &lt;strong>core&lt;/strong> process.&lt;/p>
+&lt;h1 id="how-to-run-swift-on-two-different-machines-in-the-network">How to run swift on two different machines in the network&lt;/h1>
+&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;ul>
+&lt;li>core and UI must be of the same version, do not mix different
+versions&lt;/li>
+&lt;li>Both machines need a stable network connection and DBus connections
+between the two machines need to be possible (check firewall
+settings etc.)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Allow_access.png" alt="image">&lt;/p>
+&lt;h2 id="instructions">Instructions&lt;/h2>
+&lt;ol>
+&lt;li>Launch swift launcher on core machine first. &lt;strong>Select Core mode
+&amp;quot;GUI and core&amp;quot;&lt;/strong> depending on which machine you want audio.&lt;/li>
+&lt;li>Select &lt;strong>DBus peer to peer server&lt;/strong> and select the &lt;strong>LAN IP&lt;/strong>
+interface from the combobox that is reachable from the GUI machine.
+For example 127.0.0.1 would not be reachable. 192.168.0.100 would be
+in some case. This is the IP core will be listening on. &lt;strong>It is very
+important to not use session server&lt;/strong> in that case since session
+server is limited to local machine connections only.&lt;/li>
+&lt;li>Launch swift launcher on GUI machine. Select t*&lt;em>he same core
+mode&lt;/em>* as you selected on the core machine.&lt;/li>
+&lt;li>Select again** DBus peer to peer server** and type in the &lt;strong>LAN
+IP address&lt;/strong> you selected in step 2. GUI will try to connect now to
+core.&lt;/li>
+&lt;/ol>
+&lt;p>As an alternative, one can use &lt;code>swiftcmdargs&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;} to setup shortcuts to launch GUI and core more quickly.
+&lt;em>swift&lt;/em> launcher does the same (calling GUI and core process with
+specific arguments).&lt;/p>
+&lt;h2 id="what-happens-where">What happens where?&lt;/h2>
+&lt;ol>
+&lt;li>model matching &amp;quot;runs&amp;quot; in the core, there your model set needs to
+reside&lt;/li>
+&lt;li>GUI needs no model set, it will use the one from the core&lt;/li>
+&lt;li>Core talks to the flight simulation network, so the connection from
+that machine to VATSIM (FSD server) needs to be enabled&lt;/li>
+&lt;li>Core is connected to the simulator (e.g. by SimConnect, or
+XSwiftBus)&lt;/li>
+&lt;li>Core and GUI talk to each other on the port set in the DBus settings
+(do NOT confuse this connection with the XSwiftBus connection)&lt;/li>
+&lt;li>Audio can run on either side, and requires the AFV port enabled to
+the Internet&lt;/li>
+&lt;/ol>
+&lt;h1 id="simulator-on-a-different-machine">Simulator on a different machine&lt;/h1>
+&lt;p>As an alternative to running core on the simulator machine, one can also
+setup a connection to a simulator in local network.&lt;/p>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>In order to create the model set in those scenarios you need remote
+access (shared drive etc.) to the model directory.
+:::&lt;/p>
+&lt;h2 id="fsxp3d">FSX/P3D&lt;/h2>
+&lt;p>&lt;em>swift&lt;/em> using a remote SimConnect configuration:
+&lt;code>p3dremote&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . This allows to connect a
+remote FSX/P3D from a standalone &lt;em>swift&lt;/em> GUI.&lt;/p>
+&lt;p>So there are two ways to setup a distributed scenario&lt;/p>
+&lt;ul>
+&lt;li>Distributed &lt;em>swift&lt;/em> UI on computer 1, &lt;em>swift&lt;/em> core on computer 2
+(where the simulator runs) and core using a local
+[SimConnect]{.title-ref} connection.&lt;/li>
+&lt;li>Standalone &lt;em>swift&lt;/em> UI on computer 1, connected via a remote
+[SimConnect]{.title-ref} to computer 2. &lt;strong>No core&lt;/strong>!&lt;/li>
+&lt;/ul>
+&lt;h2 id="fs9">FS9&lt;/h2>
+&lt;p>You can also use &lt;code>WideFS&lt;/code> for remote connection, and run &lt;em>swift&lt;/em> as
+standalone GUI. Same as with [SimConnect]{.title-ref}. Also the
+&lt;code>DirectPlay&lt;/code> connection needs to be setup for remote access.&lt;/p></description></item><item><title>Docs: swift does not connect with XPlane on MacOS (session bus, P2P)</title><link>https://swift-project.github.io/docs/installation/noconnectonmac/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/noconnectonmac/</guid><description>
+&lt;p>For some people swift only works with session bus on MacOS.&lt;/p>
+&lt;p>Reason: UNKNOWN, if you figure it out - let us know!&lt;/p>
+&lt;p>Reported for: Mac OS 10.15.4&lt;/p>
+&lt;p>Here it is shown how to switch to session bus:&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/sessionbus.png" alt="image">&lt;/p>
+&lt;p>In the launcher:&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/sessionbus_launcher.png" alt="image">&lt;/p></description></item><item><title>Docs: System Requirements</title><link>https://swift-project.github.io/docs/installation/system-requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/system-requirements/</guid><description>
+&lt;h1 id="operating-system-requirements">Operating System Requirements&lt;/h1>
+&lt;p>&lt;em>swift&lt;/em> applications are running on all relevant operation systems. Find
+below the specific support and requirements for each platform.&lt;/p>
+&lt;h1 id="windows">Windows&lt;/h1>
+&lt;ul>
+&lt;li>Microsoft Windows 7, 8, 8.1, or 10 in 32 or 64 bit.&lt;/li>
+&lt;li>200 MB free disk space&lt;/li>
+&lt;/ul>
+&lt;h1 id="mac-os">Mac OS&lt;/h1>
+&lt;ul>
+&lt;li>MacOS 10.12 or higher&lt;/li>
+&lt;li>Only 64 bit&lt;/li>
+&lt;li>200 MB free disk space&lt;/li>
+&lt;/ul>
+&lt;h1 id="linux">Linux&lt;/h1>
+&lt;ul>
+&lt;li>Only 64 bit&lt;/li>
+&lt;li>200 MB free disk space&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>swift&lt;/em> is built on Ubuntu 16.04 LTS. Therefore it should run on any
+modern Linux distributions that has the following minimum package
+versions installed&lt;/p>
+&lt;ul>
+&lt;li>glibc 2.23 or higher&lt;/li>
+&lt;li>glibcxx 2.3.22 or higher&lt;/li>
+&lt;li>libportaudio2&lt;/li>
+&lt;li>libspeexdsp&lt;/li>
+&lt;li>OpenSSL 1.0. &lt;strong>OpenSSL 1.1 is currently not supported&lt;/strong>, so make
+sure that the dynamic linker will find and resolve version 1.0 at
+runtime.&lt;/li>
+&lt;/ul>
+&lt;h1 id="simulator-requirements">Simulator Requirements&lt;/h1>
+&lt;p>&lt;em>swift&lt;/em> supports the following simulators:&lt;/p>
+&lt;ul>
+&lt;li>Microsoft Flight Simulator 2004 (experimental)&lt;/li>
+&lt;li>Microsoft Flight Simulator X with Acceleration or Service Pack 2&lt;/li>
+&lt;li>Microsoft Flight Simulator Steam Edition&lt;/li>
+&lt;li>Lockheed Martin Prepar3D v1 - v4 (including minor versions)&lt;/li>
+&lt;li>X-Plane 10&lt;/li>
+&lt;li>X-Plane 11&lt;/li>
+&lt;li>FlightGear&lt;/li>
+&lt;/ul>
+&lt;p>see &lt;code>32bitor64bitinstaller&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;h1 id="next-steps">Next Steps&lt;/h1>
+&lt;p>Continue by: Download installer
+&lt;code>32bitor64bitinstaller&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Troubleshoot voice (no ATC, no MIC, no sound, sample rates, WASAPI)</title><link>https://swift-project.github.io/docs/installation/troubleshootvoice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/troubleshootvoice/</guid><description>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;em>swift&lt;/em> has &lt;strong>no hot plug and play for all types yet,&lt;/strong> some sound
+hardware needs to be plugged in/on before starting &lt;em>swift&lt;/em>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>is the device correctly selected in the settings?
+&lt;code>audio&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>make sure the &lt;em>swift&lt;/em> volume ist [100]{.title-ref} and voice not
+muted in &lt;em>swift&lt;/em>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>check your PTT button&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Is the PTT button defined, see &lt;code>hotkeys&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Does it work, If you press it, do you see the LED flashing?&lt;/li>
+&lt;li>If it is defined but does NOT work, remove it and add it
+again!&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>on &lt;strong>MacOSX&lt;/strong> make sure mic privilege is granted
+&lt;code>macosnosound&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Linux&lt;/strong>: We read keyboard and joystick stuff from
+&lt;code>/dev/input/event*&lt;/code> and &lt;code>js*&lt;/code>. Those files have to be readable by
+your user. Typically they are owned by group input or such so if you
+add your user to that group then it will work.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Windows&lt;/strong>: &lt;code>nomiconwindows&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Is loopback working&lt;/strong>? If not, this would mean some issue of
+&lt;em>swift&lt;/em> and your hardware. You would need to have RX2 enabled to
+hear loopback&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/loopback.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Make sure TX/RX (transmit/receive are enabled). If you sync. swift
+with your aircraft cockpit and your cockpit COM units are disabled,
+this can be your COM unit is &amp;quot;disabled&amp;quot;. See
+&lt;code>integratecomunit&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/li>
+&lt;li>&lt;strong>Check yourself on the AFV map&lt;/strong>: &lt;a href="https://afv-map.vatsim.net/">https://afv-map.vatsim.net/&lt;/a> Is
+your callsign shown, and your frequencies correct?&lt;/li>
+&lt;/ul>
+&lt;h1 id="sample-rate">Sample rate&lt;/h1>
+&lt;p>&lt;em>swift&lt;/em> uses the following values for output and tries to find the
+closest audio setup on your machine. It might help to adjust your sample
+rates (Google for &amp;quot;Windows Audio sample rate&amp;quot;).&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">outputFormat.setSampleRate(48000);
+outputFormat.setChannelCount(1);
+outputFormat.setSampleSize(32);
+outputFormat.setSampleType(QAudioFormat::Float);
+outputFormat.setByteOrder(QAudioFormat::LittleEndian);
+outputFormat.setCodec(&amp;quot;audio/pcm&amp;quot;);
+&lt;/code>&lt;/pre>&lt;pre>&lt;code class="language-{.}" data-lang="{.}">inputFormat.setSampleRate(m_sampleRate); // normally 48000
+inputFormat.setChannelCount(1);
+inputFormat.setSampleSize(16);
+inputFormat.setSampleType(QAudioFormat::SignedInt);
+inputFormat.setByteOrder(QAudioFormat::LittleEndian);
+inputFormat.setCodec(&amp;quot;audio/pcm&amp;quot;);
+&lt;/code>&lt;/pre>&lt;h1 id="changing-the-driver-windows-only-wasapi">Changing the driver (Windows only, WASAPI)&lt;/h1>
+&lt;p>&lt;em>swift&lt;/em> for Windows comes with two audio plugins, WASAPI and a Windows
+plugin. You can remove one of those and try which works better for you.
+&lt;strong>Just move them to another directory&lt;/strong> (outside swift), so you can copy
+them back if needed.&lt;/p>
+&lt;p>{F43386}&lt;/p>
+&lt;ul>
+&lt;li>Go into your swift installation bin path (e.g.
+&lt;code>C:\Program Files\swift-0.9.3-64bit\bin&lt;/code>).&lt;/li>
+&lt;li>Change to subfolder &lt;code>audio&lt;/code>&lt;/li>
+&lt;li>Since &lt;em>swift&lt;/em> 0.9.4.206 we have disabled the WASAPI driver, you can
+find them here (just copy them in the directory, use the 32 or 64bit
+version as required by your installation).&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/wasapidriver.png" alt="image">&lt;/p>
+&lt;p>To remove:&lt;/p>
+&lt;ul>
+&lt;li>Find dlls containing &amp;quot;wasapi&amp;quot; or &amp;quot;windows&amp;quot;&lt;/li>
+&lt;li>Move them to a backup directory outside swift&lt;/li>
+&lt;li>So as a result, you SHALL have only the &amp;quot;wasapi&amp;quot; &lt;strong>OR&lt;/strong> the
+&amp;quot;windows&amp;quot; ones in the [audio]{.title-ref} subdir&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Troubleshooting installation and 1st start</title><link>https://swift-project.github.io/docs/installation/troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/troubleshooting/</guid><description>
+&lt;p>&lt;strong>1) All simulators, OS&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Checklist&lt;/strong>&lt;/p>
+&lt;p>Read this &lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;strong>Setup / bootstrap file trouble&lt;/strong>&lt;/p>
+&lt;p>See &lt;code>bootstrapfile&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;p>&lt;strong>&lt;em>swift&lt;/em> does not start / connect&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Could be a Virus scanner/Security suite issue, maybe check if swift
+needs some permission there&lt;/li>
+&lt;li>Firewall, ports open .&amp;hellip;&lt;/li>
+&lt;li>if you see something like
+&lt;code>&amp;quot;ASSERT failure in QList &amp;lt;T&amp;gt;::operator &amp;quot;index out of range&amp;quot;, file C:\QT\5.12.0\msvc2017_64\include\ Qtcore/qlist.h,line 552&amp;quot;&lt;/code>
+your settings could be corrupt, solution
+&lt;code>resetscreen&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>sometimes it can help to uncheck and check again the simulator again
+(simulator settings)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>swift hangs after start&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>could be that the screen geometry values are incorrect, see
+&lt;code>resetscreen&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>or even &lt;code>registrydelete&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>also we had people having issues with&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>malware protection&lt;/li>
+&lt;li>recently some reports with TrueImage Active protection came up
+(that blocking swift)&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Validation errors&lt;/strong>&lt;/p>
+&lt;p>See &lt;code>whyvalidationerrors&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;strong>No Mic / cannot talk to controller&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>troubleshootvoice&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>MacOS user? See &lt;code>macosnosound&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Windows: &lt;code>nomiconwindows&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>The Qt WIFI problem&lt;/strong>&lt;/p>
+&lt;p>If you see messages like &lt;code>No network access point&lt;/code> or &lt;code>No network&lt;/code> and
+&lt;strong>you are using WIFI&lt;/strong> then you likely suffer from a Qt bug. In some
+versions the Qt framework (the library &lt;em>swift&lt;/em> uses) is broken. Qt has
+promised to fix that. However, you can try the following workaround. In
+your &lt;em>swift&lt;/em> installation directory you will see a directory &lt;code>bearer&lt;/code>,
+just remove this directory and try again.&lt;/p>
+&lt;p>&lt;strong>2) Simulator specific&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>P3D/FSX specific&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>I only see &amp;quot;Constellations&amp;quot;. Most likely you have no model set, an
+improper model set, see &lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>If the simulator does NOT connect, see
+&lt;code>configuresim&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>make sure you have the correct &lt;em>swift&lt;/em> version,
+&lt;code>32bitor64bitinstaller&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>If you cannot connect the simulator and &lt;em>swift&lt;/em>: If you run P3D &amp;quot;as
+admin&amp;quot;, run swift &amp;quot;as admin&amp;quot;&lt;/li>
+&lt;li>make sure you use the correct P3D driver version. If this version
+does not (yet) exists, selected the version which comes closest.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/driver.png" alt="image">&lt;/p>
+&lt;h1 id="x-plane-specific">X-Plane specific&lt;/h1>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code>Warn of XSquawkBox/xPilot conflict
+: - *XSwiftBus* doesn\'t work properly if xsquawkbox or x-ivap
+is also installed since only one can have control of X-Plane
+multiplayer aircraft. *swift* will raise a warning in case
+another plugin is controlling the multiplayer aircraft.
+- Remove or disable the conflicting plugin and restart
+X-Plane. Plugins are still loaded even if they are disabled.
+Disabled just means that any callbacks registered by the
+plugin will not be called. Some people have to remove the
+plugins from the folder, some do not.
+- Maybe you consider a 3rd party tool like
+`xorganizer`{.interpreted-text role=&amp;quot;ref&amp;quot;}
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Bluebell CSL models sunken in ground&lt;/strong> (vertical offset fix) , see
+&lt;code>xplanecg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>XPlane models in model set, &lt;strong>but not rendered&lt;/strong>. &lt;strong>Solution&lt;/strong>: CSL
+files need to be inside the &lt;code>XPlane&lt;/code> folder. Moving the XPlane
+models might require to reload your swift model cache, then
+recreating the model set.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>swift&lt;/em> cannot connect to XPlane simulator side plugin:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Check if the settings of the &lt;em>swift&lt;/em> side and XPlane side do
+match, &lt;code>xswiftbussettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/li>
+&lt;li>If the simulator LED is &amp;quot;on&amp;quot; the simulator can be connected:&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_LED_bar.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>XPlane not connecting with &lt;em>swift&lt;/em> on MacOS, see
+&lt;code>noconnectonmac&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>HINT:&lt;/strong> Some users did have problems with spaces in their model
+directory paths&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Aircraft animation&lt;/strong> as gear down &lt;strong>not working&lt;/strong>:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>There are some known conflicts with other XPlane add-ons as
+those keep common multiplayer animation [datarefs]{.title-ref}
+(being shared between all pilot clients) locked and the
+&lt;em>swift&lt;/em> dataref registration fails.&lt;/li>
+&lt;li>In order to resolve the problem move the conflicting plugin
+out of your plugin folder and restart. The conflict is known
+to cause trouble with gear animations and such.&lt;/li>
+&lt;li>Problems with the following plugins have been reported: all
+other client plugins like XSB, x-ivap, fscloud, fs2play&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>FS9 specific&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>FS9 needs two connections: &lt;code>DirectPlay&lt;/code> Multiplayer and &lt;code>FSUIPC&lt;/code>
+since DP MP doesn't have all required details&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>&lt;code>DirectPlay&lt;/code> is auto connected if swift runs on the same
+machine and has been properly installed (adding itself as
+&amp;quot;lobby-able&amp;quot; application on windows registry)&lt;/li>
+&lt;li>See &lt;code>fs9mp&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>When you run FS9 as admin, then &lt;code>FSUIPC&lt;/code> isn't connecting, because
+&lt;em>swift&lt;/em> running as non admin blocks the connection. Run both as
+admin.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Some people have have reported issues with models not from the
+&lt;code>aircraft&lt;/code> folder of FS9&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>some users have problems with the auto-connect to FS9 since Win10
+1909 update, see &lt;code>fs9mp&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>fs9elevation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>3) OS specific&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Some issues with Mac OS&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>XPlane not connecting with &lt;em>swift&lt;/em> on MacOS, see
+&lt;code>noconnectonmac&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}.&lt;/li>
+&lt;li>Not validated: Installation in &lt;code>Application&lt;/code> failt, but in XPlane
+directory it works.&lt;/li>
+&lt;/ul>
+&lt;p>::: {.toctree glob=&amp;rdquo;&amp;rdquo; caption=&amp;quot;Content in this chapter&amp;rdquo;}
+./*
+:::&lt;/p></description></item></channel></rss>

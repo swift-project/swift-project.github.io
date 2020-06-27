@@ -1,0 +1,234 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Testing swift</title><link>https://swift-project.github.io/docs/help/testing/</link><description>Recent content in Testing swift on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/help/testing/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: First flights (swift history)</title><link>https://swift-project.github.io/docs/help/testing/first_flights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/testing/first_flights/</guid><description>
+&lt;p>First VATSIM flights ever:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>FSX: &lt;a href="https://vatstats.net/flights/7943601">https://vatstats.net/flights/7943601&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>XPlane:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>VATSTAT for 1st flight &lt;a href="https://vatstats.net/flights/7944517">https://vatstats.net/flights/7944517&lt;/a>&lt;/li>
+&lt;li>VATSTAT for 2nd flight &lt;a href="https://vatstats.net/flights/7944841">https://vatstats.net/flights/7944841&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>FlightGear: &lt;a href="https://vatstats.net/flights/15416378">https://vatstats.net/flights/15416378&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: FSC testing page</title><link>https://swift-project.github.io/docs/help/testing/fscalpha/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/testing/fscalpha/</guid><description>
+&lt;h1 id="versions-which-can-be-used-for-testing">Versions which can be used for testing&lt;/h1>
+&lt;p>Downloads (latest on top):&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="https://build.swift-project.org/job/swift/job/develop%252F0.8.5/">https://build.swift-project.org/job/swift/job/develop%252F0.8.5/&lt;/a>
+The latest 0.8.5 versions&lt;/li>
+&lt;/ol>
+&lt;p>Hints:&lt;/p>
+&lt;ul>
+&lt;li>Latest on top&lt;/li>
+&lt;li>It can happen that older versions are deleted! Then just use the
+latest/newest version&lt;/li>
+&lt;li>Jenkins Download&lt;/li>
+&lt;/ul>
+&lt;h1 id="reporting-bugs">Reporting bugs&lt;/h1>
+&lt;ul>
+&lt;li>Goto &lt;code>reportingbugs&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} to open a bug
+report&lt;/li>
+&lt;li>FSC overview tasks and bugs Shows all FSC related bugs/issues.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Test stages</title><link>https://swift-project.github.io/docs/help/testing/teststages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/testing/teststages/</guid><description>
+&lt;p>We will test the software in several stages. Please do not use parts not
+yet released for testing.&lt;/p>
+&lt;hr>
+&lt;p>stage date purpose req. skills and prerequisites&lt;/p>
+&lt;hr>
+&lt;p>M5 autumn VATSIM integration test VATSIM test team
+2018&lt;/p>
+&lt;p>M4 summer XPlane without Qt classes swift team, small test team outside VATSIM
+2018 and interpolation &lt;br>
+improvements&lt;/p>
+&lt;p>M3 spring Test on smaller flight small test team outside VATSIM
+2018 networks, gnd. flag and&lt;br>
+XPlane improvements&lt;/p>
+&lt;p>M2 mid test distributed DBus mostly a developer team test
+August environment for pilot &lt;br>
+17 client&lt;/p>
+&lt;h2 id="future-users">M1 end test understand &lt;code>mm&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;},
+April 17 &lt;code>smt&lt;/code>{.interpreted-text understand aircraft ICAOs, no programming
+role=&amp;quot;ref&amp;rdquo;} and skills needed, English is team language. Please
+installation, create &lt;code>watch the tutorials &amp;lt;smt&amp;gt;&lt;/code>{.interpreted-text
+mappings for tests and role=&amp;quot;ref&amp;rdquo;} before you start
+future users&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Testplan M3&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Improve interpolation&lt;/li>
+&lt;li>Improve gnd. flag handling with various clients, also non
+VATSIM clients&lt;/li>
+&lt;li>XPlane improvements driver/QT library&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Testplan M2&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Connect to network with DBus client&lt;/li>
+&lt;li>monitor simulation with DBus client&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Testplan M1:&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>
+&lt;p>Misc:&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>&lt;strong>Do not fly on VATSIM yet, pilot client needs still
+improvements&lt;/strong>&lt;/li>
+&lt;li>Set you a goal: Try to do at least 100, or better 2500
+mappings. This sounds a lot when you have done the first
+10, but the author has done couple of 1000s. You find
+your way to simplify the task. So you can select all
+aircraft of an airline and a distribution, then assign
+those values in 2 simple steps.&lt;/li>
+&lt;li>Do not give up when you find a bug. Report it and carry
+on unless it is a showstopper.&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Watch the mapping tool YouTube videos as introduction&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Download and install swift from the alpha channel&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Start the mapping tool&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Load your own models into the mapping tool&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Understand filtering&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Now pick a model not yet in the database and try to create a
+mapping&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Publish this model. Try to publish at least 10 models.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once we see you got the idea, we might upgrade your role, you
+can then directly update into the DB, not only create change
+requests&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Carry on, pick you favorite AI package, and do as many
+mappings as you can&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Testing status</title><link>https://swift-project.github.io/docs/help/testing/teststatus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/testing/teststatus/</guid><description>
+&lt;ul>
+&lt;li>swift problems with WIFI, see here
+&lt;code>troubleshooting&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul></description></item><item><title>Docs: VATSIM integration tests (guidelines)</title><link>https://swift-project.github.io/docs/help/testing/vatsimtest/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/testing/vatsimtest/</guid><description>
+&lt;p>&lt;img src="http://img.swift-project.org/VATSIM_login.png" alt="image">{height=&amp;quot;200px&amp;rdquo;}&lt;/p>
+&lt;p>Contact / Info: * slack channel : :
+&lt;a href="https://swift-project.slack.com/messages/CC6THKCAZ/">https://swift-project.slack.com/messages/CC6THKCAZ/&lt;/a> * VATGER Info in
+German: &lt;a href="https://board.vacc-sag.org/192/52348/page41/#post839654">https://board.vacc-sag.org/192/52348/page41/#post839654&lt;/a>&lt;/p>
+&lt;p>Prerequisites / disclaimer:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>You have to be a member of &amp;quot;alpha users&amp;quot; and you have to be a
+member of &amp;quot;VATSIM test users&amp;quot; .&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Make sure your profile name has the correct form: &amp;lt;1st name&amp;gt;
+&amp;lt;last name&amp;gt; &amp;lt;(VATSIMID)&amp;gt;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Testing means work and can be frustrating&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You might have to test one issue multiple times&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The software (might crash/fail at any time)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>We need testers who stick with the team for a while, at least until
+a feature has been completely tested&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You need to understand swift model sets and be able to create new
+sets:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>&lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>mm&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>You need to to understand how to report bugs:&lt;/p>
+&lt;blockquote>
+&lt;p>-- &lt;code>reportingbugs&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and --
+&lt;code>resolvingbugs&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>Please do not work as a tester:&lt;/p>
+&lt;ul>
+&lt;li>if you do not have time for testing, we rely on your feedback and
+testers who do not really &amp;quot;test&amp;quot; are just not helpful&lt;/li>
+&lt;li>if you give up easily, there will be problems for sure. Frustration
+is a natural part of software testing.&lt;/li>
+&lt;/ul>
+&lt;p>Best practicse&lt;/p>
+&lt;ul>
+&lt;li>do not stop testing unless something is a show stopper. Many people
+tend to stop testing once they find a bug and wait until this bug is
+fixed. Do not do this: Try to find a work around and continue
+whenever possible.&lt;/li>
+&lt;li>screenshots can be helpful to describe where &amp;quot;you are in swift&amp;quot;
+and what you are talking about&lt;/li>
+&lt;li>HELP EACH OTHER, currently we are only 2 swift developers. If you
+manager to answer questions among yourself this will greatly help us&lt;/li>
+&lt;li>fix the documentation here in this wiki if something is not clear
+and you can do it better&lt;/li>
+&lt;/ul></description></item><item><title>Docs: VATSIM test info</title><link>https://swift-project.github.io/docs/help/testing/vatsimtestinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/testing/vatsimtestinfo/</guid><description>
+&lt;p>We are going to start integration tests for VATSIM with a small team. If
+you are interested in helping with the tests, please let us know. If you
+are already registered here &lt;a href="https://dev.swift-project.org">https://dev.swift-project.org&lt;/a> please check
+out &lt;code>vatsimtest&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;p>You can contact us like described in &lt;code>contact&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;p>The most important requirement for us is that you have some time for the
+testing and you are not easily giving up. There will be some frustration
+for sure (as some things will go wrong), but we need you to stick with
+the team and continue. Resolving problems is an iterative task.&lt;/p>
+&lt;p>We are going to start with a small team. As we are looking for some
+variety please let us now your simulator, OS - furthermore we need your
+VATSIM id as only specified users can use the client on VATSIM (that is
+how it is done on VATSIM). The registration with VATSIM will need some
+time, so please allow some days for that procedure.&lt;/p>
+&lt;p>After that you can create your first model set and start (you can also
+create new DB entries for models you want to use). Then just try to fly
+and let us know the problems. But please provide detailed information
+for us to resolve problems. Also monitor the reports of the fellow
+testers, so you understand which issues are still in resolution.&lt;/p>
+&lt;p>Also:&lt;/p>
+&lt;ul>
+&lt;li>make sure your email is valid&lt;/li>
+&lt;li>make sure your VATSIM id is part of your user' fullname, like &amp;quot;Joe
+Doe (123456)&amp;quot;, see Registration and naming conventions&lt;/li>
+&lt;li>Info at VATGER:
+&lt;a href="https://board.vacc-sag.org/192/52348/page41/#post839654">https://board.vacc-sag.org/192/52348/page41/#post839654&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
