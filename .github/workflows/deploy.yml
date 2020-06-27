@@ -3,10 +3,10 @@ name: Deploy
 on: 
   push:
     branches: 
-      - master
+      - homepage
 
 env:
-  baseURL: https://swift-project.github.io/homepage
+  baseURL: https://swift-project.github.io
 
 jobs:
   deploy:
@@ -23,10 +23,10 @@ jobs:
         with:
          hugo-version: 'latest'
          extended: true
-      - name: Checkout gh-pages worktree
+      - name: Checkout master worktree
         run: |
           rm -rf public 
-          git worktree add -B gh-pages public origin/gh-pages
+          git worktree add -B master public origin/master
           rm -rf public/*
       - name: Build
         run: hugo --minify --baseURL ${{ env.baseURL }}
@@ -38,4 +38,4 @@ jobs:
           git add --all
           git commit -m "Automatic deployment commit" | true
           cd ..
-          git push origin gh-pages | true
+          git push origin master | true
