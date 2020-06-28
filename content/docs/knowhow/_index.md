@@ -1,5 +1,6 @@
 ---
 title: Know how
+weight: 98
 ---
 
 -   *swift* know-how page, mostly technical docu, see TOC.

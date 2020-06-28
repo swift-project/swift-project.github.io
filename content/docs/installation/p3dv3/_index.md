@@ -1,6 +1,6 @@
 ---
 title: P3D (v1-v3)
-weight: 6
+weight: 7
 ---
 
 {{% readfile file="/docs/installation/common_configuration.md" %}}

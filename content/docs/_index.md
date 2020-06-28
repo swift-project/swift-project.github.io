@@ -15,7 +15,7 @@ open source software for flight simulation.
 
 **Download swift:**
 
--   [System Requirements]({{< ref "system-requirements" >}})
+-   [System Requirements]({{< ref "installation/#system-requirements" >}})
 -   [swift pilot
     client](https://datastore.swift-project.org/page/publicartifacts.php)
     (public versions)

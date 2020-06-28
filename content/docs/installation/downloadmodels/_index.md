@@ -1,5 +1,6 @@
 ---
 title: 'Download aircraft models (FLAI, BB, WOAI)'
+weight: 100
 ---
 
 {{% alert title="Note" color="primary" %}}
