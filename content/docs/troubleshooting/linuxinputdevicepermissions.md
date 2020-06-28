@@ -16,8 +16,7 @@ The approach we will take is to create an co\`input\` group, add
 yourself to it, and then create a udev rule that provides the necessary
 settings.
 
-Creating an Input Group
-=======================
+# Creating an Input Group
 
 This is simple stuff. Create a group and add yourself to it:
 
@@ -30,8 +29,7 @@ Now log out of your shell, and log back in, so that you are part of the
 input group. You can verify that the change took place by running the
 `groups` command.
 
-Creating a udev Rule
-====================
+# Creating a udev Rule
 
 Unfortunately this may vary by distro, however the concepts will likely
 be exactly the same or highly similar - this method is known to be true

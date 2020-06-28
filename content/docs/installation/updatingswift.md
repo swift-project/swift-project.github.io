@@ -39,14 +39,10 @@ Parallel installation and copy settings/models (e.g 0.9.1 =\> 0.9.2)
     installation
 -   then you would copy your models/settings from another *swift*
     version via the launcher
--   this is covered in `copyswiftdata`{.interpreted-text role="ref"}
+-   this is covered in [Copy swift data]({{< ref "copyswiftdata" >}})
 
-::: {.important}
-::: {.title}
-Important
-:::
-
+{{% alert title="Important" color="warning" %}}
 Many people mistakenly start a wrong version with multiple
 installations, so if you no longer need another version consider
 uninstalling it
-:::
+{{% /alert %}}

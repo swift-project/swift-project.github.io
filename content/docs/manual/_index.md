@@ -1,5 +1,5 @@
 ---
-title: Help system (user manual)
+title: User manual
 weight: 2
 ---
 

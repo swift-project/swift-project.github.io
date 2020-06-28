@@ -1,6 +1,6 @@
 ---
 title: FSX
-weight: 4
+weight: 5
 ---
 
 {{% readfile file="/docs/installation/common_configuration.md" %}}

@@ -1,5 +1,6 @@
 ---
 title: Getting involved
+weight: 99
 ---
 
 We would like to share our workload. So if you are interested in joining

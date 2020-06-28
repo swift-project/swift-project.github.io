@@ -1,6 +1,6 @@
 ---
 title: Flightgear
-weight: 8
+weight: 9
 ---
 
 {{% readfile file="/docs/installation/common_configuration.md" %}}

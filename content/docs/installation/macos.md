@@ -1,6 +1,6 @@
 ---
 title: Installation on MacOS
-weight: 2
+weight: 3
 ---
 
 ## Download

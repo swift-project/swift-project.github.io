@@ -1,6 +1,6 @@
 ---
 title: Installation on Windows
-weight: 1
+weight: 2
 ---
 
 ## Download

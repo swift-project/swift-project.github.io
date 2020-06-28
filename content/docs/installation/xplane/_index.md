@@ -1,6 +1,6 @@
 ---
 title: X-Plane
-weight: 9
+weight: 10
 ---
 
 {{% readfile file="/docs/installation/common_configuration.md" %}}
