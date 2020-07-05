@@ -1,0 +1,751 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Legal</title><link>https://swift-project.github.io/docs/legal/</link><description>Recent content in Legal on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/legal/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Credits</title><link>https://swift-project.github.io/docs/legal/credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/legal/credits/</guid><description>
+&lt;p>Credits
+Main contributors
+Roland W.
+Mathew S.
+Klaus B.
+Contributors
+Lars T. (FG)
+Peter B. (traffic simulator)
+Michal G.
+Used software libraries
+See the 3rd party licenses
+Used icons, graphics etc.
+FAMFAMFAM icons used, both in client and on websites, see here
+DIAGONA icons: © 2013 Yusuke Kamiyamane (site). All rights reserved. These icons are licensed under a Creative Commons Attribution 3.0 License.
+icondrawer icons: Using icons of &lt;a href="http://www.icondrawer.com/">http://www.icondrawer.com/&lt;/a> on web site and with client
+Screenshots and aviation photos courtesy of: Lukas E., Timm R., Christoph J., Rainer J., Wolfgang S., Wiki Commons (Creative Commons) images
+Misc
+Ben S. for X-Plane support
+Ross C. for joint development of aircraft parts concept and vPilot rules permission
+Kieran H., Kai K., Christoph N., Dominik S. for support
+Sascha S. for kicking off the project
+BitRock for sponsoring a free license for Open Source projects
+FSC e.V. for testing and ideas&lt;/p></description></item><item><title>Docs: Data copyright</title><link>https://swift-project.github.io/docs/legal/copyright/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/legal/copyright/</guid><description>
+&lt;p>swift CLA
+Read on Wikipedia what a CLA is and why it is needed.
+You need to register with our development site
+Then you need to sign the CLA here
+Data copyright
+All data stored in the database are legal property of swift.
+No unauthorized usage or copying allowed.
+Usage is only allowed within swift software components.
+When you (&amp;ldquo;the user&amp;rdquo;) enter/upload data to this DB, swift can use them now and forever.&lt;/p></description></item><item><title>Docs: Datenschutz</title><link>https://swift-project.github.io/docs/legal/datareceiver/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/legal/datareceiver/</guid><description>
+&lt;p>Datenaustausch
+swift tauscht Daten zwischen seinen einzelnen Web-Anwendungen aus, z.B. dev.swift-project.org und datastore.swift-project.org .
+swift stellt Daten (&amp;ldquo;mappings, &amp;ldquo;aircraft data&amp;rdquo;) weltweit zum Download zur Verfügung.
+swift stellt seine Software weltweit zum Download zur Verfügung.
+swift empfängt Benutzerdaten von VATSIM zur Anmeldung (&amp;ldquo;Single Sign On&amp;rdquo;). Diese Anmeldedaten werden aus der VATSIM Infrastruktur übermittelt. VATSIM ist ein weltweites Netzwerk, d.h. EU/außerhalb EU.
+Data exchange
+swift shares data among its own ecosystem, i.e. the various applications like dev.swift-project.org and datastore.swift-project.org .
+swift data for flight simulation (&amp;ldquo;mappings, &amp;ldquo;aircraft data&amp;rdquo;) are provided worldwide.
+swift software can be downloaded worldwide.
+swift receives and uses user data/credentials for authentication (&amp;ldquo;Single Sign On&amp;rdquo;). Those data are transferred from the VATSIM network, which operates worldwide (i.e. EU/non EU).&lt;/p></description></item><item><title>Docs: Datenschutzerklärung</title><link>https://swift-project.github.io/docs/legal/dsgvo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/legal/dsgvo/</guid><description>
+&lt;p>Datenschutzerklärung
+Verantwortliche Stelle im Sinne der Datenschutzgesetze ist:&lt;/p>
+&lt;p>swift gem.Impressum, siehe hier&lt;/p>
+&lt;p>Erfassung allgemeiner Informationen
+Wenn Sie auf unsere Webseite zugreifen, werden automatisch Informationen allgemeiner Natur erfasst. Diese Informationen (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das verwendete Betriebssystem, den Domainnamen Ihres Internet Service Providers und Ähnliches. Hierbei handelt es sich ausschließlich um Informationen, welche keine Rückschlüsse auf Ihre Person zulassen. Diese Informationen sind technisch notwendig, um von Ihnen angeforderte Inhalte von Webseiten korrekt auszuliefern und fallen bei Nutzung des Internets zwingend an. Anonyme Informationen dieser Art werden von uns statistisch ausgewertet, um unseren Internetauftritt und die dahinterstehende Technik zu optimieren.&lt;/p>
+&lt;p>Cookies
+Wie viele andere Webseiten verwenden wir auch so genannte „Cookies“. Cookies sind kleine Textdateien, die von einem Webseitenserver auf Ihre Festplatte übertragen werden. Hierdurch erhalten wir automatisch bestimmte Daten wie z. B. IP-Adresse, verwendeter Browser, Betriebssystem über Ihren Computer und Ihre Verbindung zum Internet.&lt;/p>
+&lt;p>Cookies können nicht verwendet werden, um Programme zu starten oder Viren auf einen Computer zu übertragen. Anhand der in Cookies enthaltenen Informationen können wir Ihnen die Navigation erleichtern und die korrekte Anzeige unserer Webseiten ermöglichen.&lt;/p>
+&lt;p>In keinem Fall werden die von uns erfassten Daten an Dritte weitergegeben oder ohne Ihre Einwilligung eine Verknüpfung mit personenbezogenen Daten hergestellt.&lt;/p>
+&lt;p>Natürlich können Sie unsere Website grundsätzlich auch ohne Cookies betrachten. Internet-Browser sind regelmäßig so eingestellt, dass sie Cookies akzeptieren. Sie können die Verwendung von Cookies jederzeit über die Einstellungen Ihres Browsers deaktivieren. Bitte verwenden Sie die Hilfefunktionen Ihres Internetbrowsers, um zu erfahren, wie Sie diese Einstellungen ändern können. Bitte beachten Sie, dass einzelne Funktionen unserer Website möglicherweise nicht funktionieren, wenn Sie die Verwendung von Cookies deaktiviert haben.&lt;/p>
+&lt;p>Registrierung auf unserer Webseite
+Bei der Registrierung für die Nutzung unserer personalisierten Leistungen werden einige personenbezogene Daten erhoben, wie Name, Anschrift, Kontakt- und Kommunikationsdaten wie Telefonnummer und E-Mail-Adresse. Sind Sie bei uns registriert, können Sie auf Inhalte und Leistungen zugreifen, die wir nur registrierten Nutzern anbieten. Angemeldete Nutzer haben zudem die Möglichkeit, bei Bedarf die bei Registrierung angegebenen Daten jederzeit zu ändern oder zu löschen. Selbstverständlich erteilen wir Ihnen darüber hinaus jederzeit Auskunft über die von uns über Sie gespeicherten personenbezogenen Daten. Gerne berichtigen bzw. löschen wir diese auch auf Ihren Wunsch, soweit keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Zur Kontaktaufnahme in diesem Zusammenhang nutzen Sie bitte die am Ende dieser Datenschutzerklärung angegebenen Kontaktdaten.&lt;/p>
+&lt;p>SSL-Verschlüsselung
+Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden wir dem aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (z. B. SSL) über HTTPS.&lt;/p>
+&lt;p>Kommentarfunktion
+Wenn Nutzer Kommentare im Blog hinterlassen, werden neben diesen Angaben auch der Zeitpunkt ihrer Erstellung und der zuvor durch den Websitebesucher gewählte Nutzername gespeichert. Dies dient unserer Sicherheit, da wir für widerrechtliche Inhalte auf unserer Webseite belangt werden können, auch wenn diese durch Benutzer erstellt wurden.&lt;/p>
+&lt;p>Newsletter
+Bei der Anmeldung zum Bezug unseres Newsletters werden die von Ihnen angegebenen Daten ausschließlich für diesen Zweck verwendet. Abonnenten können auch über Umstände per E-Mail informiert werden, die für den Dienst oder die Registrierung relevant sind (Beispielsweise Änderungen des Newsletterangebots oder technische Gegebenheiten).&lt;/p>
+&lt;p>Für eine wirksame Registrierung benötigen wir eine valide E-Mail-Adresse. Um zu überprüfen, dass eine Anmeldung tatsächlich durch den Inhaber einer E-Mail-Adresse erfolgt, setzen wir das „Double-opt-in“-Verfahren ein. Hierzu protokollieren wir die Bestellung des Newsletters, den Versand einer Bestätigungsmail und den Eingang der hiermit angeforderten Antwort. Weitere Daten werden nicht erhoben. Die Daten werden ausschließlich für den Newsletterversand verwendet und nicht an Dritte weitergegeben.&lt;/p>
+&lt;p>Die Einwilligung zur Speicherung Ihrer persönlichen Daten und ihrer Nutzung für den Newsletterversand können Sie jederzeit widerrufen. In jedem Newsletter findet sich dazu ein entsprechender Link. Außerdem können Sie sich jederzeit auch direkt auf dieser Webseite abmelden oder uns Ihren entsprechenden Wunsch über die am Ende dieser Datenschutzhinweise angegebene Kontaktmöglichkeit mitteilen.&lt;/p>
+&lt;p>Kontaktformular
+Treten Sie per E-Mail oder Kontaktformular mit uns in Kontakt, werden die von Ihnen gemachten Angaben zum Zwecke der Bearbeitung der Anfrage sowie für mögliche Anschlussfragen gespeichert.&lt;/p>
+&lt;p>Löschung bzw. Sperrung der Daten
+Wir halten uns an die Grundsätze der Datenvermeidung und Datensparsamkeit. Wir speichern Ihre personenbezogenen Daten daher nur so lange, wie dies zur Erreichung der hier genannten Zwecke erforderlich ist oder wie es die vom Gesetzgeber vorgesehenen vielfältigen Speicherfristen vorsehen. Nach Fortfall des jeweiligen Zweckes bzw. Ablauf dieser Fristen werden die entsprechenden Daten routinemäßig und entsprechend den gesetzlichen Vorschriften gesperrt oder gelöscht.&lt;/p>
+&lt;p>Verwendung von Google Analytics
+Diese Webseite benutzt Google Analytics, einen Webanalysedienst der Google Inc. (folgend: Google). Google Analytics verwendet sog. „Cookies“, also Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Webseite durch Sie ermöglichen. Die durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Webseite werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Aufgrund der Aktivierung der IP-Anonymisierung auf diesen Webseiten, wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Webseite wird Google diese Informationen benutzen, um Ihre Nutzung der Webseite auszuwerten, um Reports über die Webseitenaktivitäten zusammenzustellen und um weitere mit der Webseitennutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Webseitenbetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.&lt;/p>
+&lt;p>Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Webseite vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Webseite bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: Browser-Add-on zur Deaktivierung von Google Analytics.&lt;/p>
+&lt;p>Zusätzlich oder als Alternative zum Browser-Add-On können Sie das Tracking durch Google Analytics auf unseren Seiten unterbinden, indem Sie diesen Link anklicken . Dabei wird ein Opt-Out-Cookie auf Ihrem Gerät installiert. Damit wird die Erfassung durch Google Analytics für diese Website und für diesen Browser zukünftig verhindert, so lange der Cookie in Ihrem Browser installiert bleibt.&lt;/p>
+&lt;p>Verwendung von Google Maps
+Diese Webseite verwendet Google Maps API, um geographische Informationen visuell darzustellen. Bei der Nutzung von Google Maps werden von Google auch Daten über die Nutzung der Kartenfunktionen durch Besucher erhoben, verarbeitet und genutzt. Nähere Informationen über die Datenverarbeitung durch Google können Sie den Google-Datenschutzhinweisen entnehmen. Dort können Sie im Datenschutzcenter auch Ihre persönlichen Datenschutz-Einstellungen verändern.&lt;/p>
+&lt;p>Ausführliche Anleitungen zur Verwaltung der eigenen Daten im Zusammenhang mit Google-Produkten finden Sie hier.&lt;/p>
+&lt;p>Eingebettete YouTube-Videos
+Auf einigen unserer Webseiten betten wir Youtube-Videos ein. Betreiber der entsprechenden Plugins ist die YouTube, LLC, 901 Cherry Ave., San Bruno, CA 94066, USA. Wenn Sie eine Seite mit dem YouTube-Plugin besuchen, wird eine Verbindung zu Servern von Youtube hergestellt. Dabei wird Youtube mitgeteilt, welche Seiten Sie besuchen. Wenn Sie in Ihrem Youtube-Account eingeloggt sind, kann Youtube Ihr Surfverhalten Ihnen persönlich zuzuordnen. Dies verhindern Sie, indem Sie sich vorher aus Ihrem Youtube-Account ausloggen.&lt;/p>
+&lt;p>Wird ein Youtube-Video gestartet, setzt der Anbieter Cookies ein, die Hinweise über das Nutzerverhalten sammeln.&lt;/p>
+&lt;p>Wer das Speichern von Cookies für das Google-Ad-Programm deaktiviert hat, wird auch beim Anschauen von Youtube-Videos mit keinen solchen Cookies rechnen müssen. Youtube legt aber auch in anderen Cookies nicht-personenbezogene Nutzungsinformationen ab. Möchten Sie dies verhindern, so müssen Sie das Speichern von Cookies im Browser blockieren.&lt;/p>
+&lt;p>Weitere Informationen zum Datenschutz bei „Youtube“ finden Sie in der Datenschutzerklärung des Anbieters unter: &lt;a href="https://www.google.de/intl/de/policies/privacy/">https://www.google.de/intl/de/policies/privacy/&lt;/a>&lt;/p>
+&lt;p>Ihre Rechte auf Auskunft, Berichtigung, Sperre, Löschung und Widerspruch
+Sie haben das Recht, jederzeit Auskunft über Ihre bei uns gespeicherten personenbezogenen Daten zu erhalten. Ebenso haben Sie das Recht auf Berichtigung, Sperrung oder, abgesehen von der vorgeschriebenen Datenspeicherung zur Geschäftsabwicklung, Löschung Ihrer personenbezogenen Daten. Bitte wenden Sie sich dazu an unseren Datenschutzbeauftragten. Die Kontaktdaten finden Sie ganz unten.&lt;/p>
+&lt;p>Damit eine Sperre von Daten jederzeit berücksichtigt werden kann, müssen diese Daten zu Kontrollzwecken in einer Sperrdatei vorgehalten werden. Sie können auch die Löschung der Daten verlangen, soweit keine gesetzliche Archivierungsverpflichtung besteht. Soweit eine solche Verpflichtung besteht, sperren wir Ihre Daten auf Wunsch.&lt;/p>
+&lt;p>Sie können Änderungen oder den Widerruf einer Einwilligung durch entsprechende Mitteilung an uns mit Wirkung für die Zukunft vornehmen.&lt;/p>
+&lt;p>Änderung unserer Datenschutzbestimmungen
+Wir behalten uns vor, diese Datenschutzerklärung gelegentlich anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen, z. B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.&lt;/p>
+&lt;p>Fragen an den Datenschutzbeauftragten
+Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an unseren Datenschutzbeauftragten:&lt;/p>
+&lt;p>Kontaktdaten siehe Impressum&lt;/p>
+&lt;p>Die Datenschutzerklärung wurde mit dem Datenschutzerklärungs-Generator der activeMind AG erstellt .&lt;/p></description></item><item><title>Docs: Impressum</title><link>https://swift-project.github.io/docs/legal/impressum/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/legal/impressum/</guid><description>
+&lt;p>Impressum
+Angaben gemäß §5 TMG&lt;/p>
+&lt;p>swift project (privat, nicht kommerziell), vertreten durch:
+c/o tbd , tbd&lt;/p>
+&lt;p>Kontakt:
+E-Mail: tbd
+Datenschutz: tbd&lt;/p>
+&lt;p>Haftungsausschluss:&lt;/p>
+&lt;p>Haftung für Inhalte&lt;/p>
+&lt;p>Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.&lt;/p>
+&lt;p>Haftung für Links&lt;/p>
+&lt;p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.&lt;/p>
+&lt;p>Urheberrecht&lt;/p>
+&lt;p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.&lt;/p>
+&lt;p>Datenschutz
+Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Details finden sich hier.&lt;/p>
+&lt;p>Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.&lt;/p>
+&lt;p>Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.&lt;/p>
+&lt;p>Datenschutz (Kommentarfunktion): Im Rahmen der Kommentarfunktion unseres Blogs erheben wir personenbezogene Daten (z. B. Name, E-Mail) im Rahmen Ihrer Kommentierung zu einem Beitrag nur in dem Umfang wie Sie ihn uns mitgeteilt haben. Bei der Veröffentlichung eines Kommentars wird die von Ihnen angegebene Email-Adresse gespeichert, aber nicht veröffentlicht. Ihr angegebener Name wird veröffentlich. Sie können auch ein Pseudonym benutzen.&lt;/p>
+&lt;p>Google Analytics&lt;/p>
+&lt;p>Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (&amp;lsquo;&amp;lsquo;Google&amp;rsquo;'). Google Analytics verwendet sog. &amp;lsquo;&amp;lsquo;Cookies&amp;rsquo;&amp;rsquo;, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglicht. Die durch den Cookie erzeugten Informationen über Ihre Benutzung diese Website (einschließlich Ihrer IP-Adresse) wird an einen Server von Google in den USA übertragen und dort gespeichert. Google wird diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten für die Websitebetreiber zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschrieben oder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Google wird in keinem Fall Ihre IP-Adresse mit anderen Daten der Google in Verbindung bringen. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website voll umfänglich nutzen können. Durch die Nutzung dieser Website erklären Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden.&lt;/p>
+&lt;p>Es besteht die Möglichkeit Google Analytics (opt out) durch ein Browser add-on zu verhindern.&lt;/p>
+&lt;p>Google Maps&lt;/p>
+&lt;p>Diese Webseite verwendet das Produkt Google Maps von Google Inc. Durch Nutzung dieser Website erklären Sie sich mit der Erfassung, Bearbeitung sowie Nutzung der automatisiert erhobenen Daten durch Google Inc., deren Vertreter sowie Dritter einverstanden.&lt;/p>
+&lt;p>Die Nutzungsbedingungen von Google Maps finden sie unter &amp;ldquo;Nutzungsbedingungen von Google Maps&amp;rdquo;.&lt;/p>
+&lt;p>Kommentare und Beiträge&lt;/p>
+&lt;p>Wenn Nutzer Kommentare im Blog oder sonstige Beiträge hinterlassen, werden ihre IP-Adressen gespeichert. Das erfolgt zur Sicherheit des Anbieters, falls jemand in Kommentaren und Beiträgen widerrechtliche Inhalte schreibt (Beleidigungen, verbotene politische Propaganda, etc.). In diesem Fall kann der Anbieter selbst für den Kommentar oder Beitrag belangt werden und ist daher an der Identität des Verfassers interessiert.&lt;/p>
+&lt;p>Zugriffsdaten/ Server-Logfiles&lt;/p>
+&lt;p>Der Anbieter (beziehungsweise sein Webspace-Provider) erhebt Daten über jeden Zugriff auf das Angebot (so genannte Serverlogfiles). Zu den Zugriffsdaten gehören: Name der abgerufenen Webseite, Datei, Datum und Uhrzeit des Abrufs, übertragene Datenmenge, Meldung über erfolgreichen Abruf, Browsertyp nebst Version, das Betriebssystem des Nutzers, Referrer URL (die zuvor besuchte Seite), IP-Adresse und der anfragende Provider. Der Anbieter verwendet die Protokolldaten nur für statistische Auswertungen zum Zweck des Betriebs, der Sicherheit und der Optimierung des Angebotes. Der Anbieterbehält sich jedoch vor, die Protokolldaten nachträglich zu überprüfen, wenn aufgrund konkreter Anhaltspunkte der berechtigte Verdacht einer rechtswidrigen Nutzung besteht.&lt;/p>
+&lt;p>Kommentarabonnements&lt;/p>
+&lt;p>Die Nachfolgekommentare können durch Nutzer abonniert werden. Die Nutzer erhalten eine Bestätigungsemail, um zu überprüfen, ob sie der Inhaber der eingegebenen Emailadresse sind. Nutzer können laufende Kommentarabonnements jederzeit abbestellen. Die Bestätigungsemail wird Hinweise dazu enthalten&lt;/p></description></item><item><title>Docs: Privacy and Cookies</title><link>https://swift-project.github.io/docs/legal/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/legal/privacy/</guid><description>
+&lt;p>Privacy and Cookies
+Cookies
+Cookies are small text files that are stored on your computer when you visit some websites. We use cookies created by ourselves and by third parties on swift websites and in swift applications to help identify your computer so we can tailor your user experience and remember your preferences. You may disable cookies in you browser settings, but some functions may not work correctly.&lt;/p>
+&lt;p>Privacy Statement
+For the purposes of enabling online flight simulation, virtual aviation, and related services, and improving these services, we may collect information about your use of swift. Except where expressly noted, we will not share any personally identifying information with third parties. See the data exchange page for details.&lt;/p>
+&lt;p>Google Analytics
+We use Google Analytics to track usage statistics for our websites. For this to work, we must share with Google some cookies that we store on your computer. These cookies will not give Google any personally identifying information or information that could be correlated with any other data held by Google. The information will be subject to Google’s privacy policy.&lt;/p>
+&lt;p>Google Maps
+We use Google Maps to display online flights. For this to work, we must share with Google some cookies that we store on your computer. These cookies will not give Google any personally identifying information or information that could be correlated with any other data held by Google. The information will be subject to Google’s privacy policy.&lt;/p>
+&lt;p>VATSIM
+For online flights on VATSIM (external) please see VATSIM&amp;rsquo;s privacy policy&lt;/p></description></item><item><title>Docs: Software License</title><link>https://swift-project.github.io/docs/legal/software_license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/legal/software_license/</guid><description>
+&lt;h2 id="clarification">Clarification&lt;/h2>
+&lt;ul>
+&lt;li>all swift code written by the swift team is licensed as GPLv3&lt;/li>
+&lt;li>The vatlib for the VATSIM network is closed source. It requires a NDA with VATSIM if you want to see that code&lt;/li>
+&lt;li>In order to connect to VATSIM servers you need your own VATSIM client key. You have the following options:
+&lt;ul>
+&lt;li>you can build and run swift with your own FSD servers,&lt;/li>
+&lt;li>or you can ask VATSIM for your own key,&lt;/li>
+&lt;li>or you can join the swift team and participate - by that you will use our key.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Furthermore swift uses it own database for model matching (i.e. datastore model metadata, no model objects). We allow VATSIM users and smaller FSD server operators to use the Web Services for those cases. If you want to use swift on your network please ask us for permission to download from these web services, or run your own server. All data in the swift database are property of the swift team.&lt;/li>
+&lt;/ul>
+&lt;p>All swift software programs are licensed under the GPL v3 license. You can find the details here&lt;/p>
+&lt;p>The following terms apply to all swift programs:&lt;/p>
+&lt;pre>&lt;code>swift pilot client suite
+Copyright (C) 2016, 2017, 2018 swift Team
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see http://www.gnu.org/licenses/.
+&lt;/code>&lt;/pre>&lt;p>and&lt;/p>
+&lt;pre>&lt;code>swift pilot client suite
+Copyright (C) 2016, 2017, 2018 swift Team
+This program comes with ABSOLUTELY NO WARRANTY; for details see
+see here https://datastore.swift-project.org/page/legal.php.
+This is free software, and you are welcome to redistribute it
+under certain conditions; for details
+see here https://datastore.swift-project.org/page/legal.php.
+For the copyright of our data (ie. the data in the database and caches) see the terms here.
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Third-Party licenses used in the swift project</title><link>https://swift-project.github.io/docs/legal/third_party_licenses/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/legal/third_party_licenses/</guid><description>
+&lt;p>Third-Party Licenses Used in swift project&lt;/p>
+&lt;ul>
+&lt;li>Boost&lt;/li>
+&lt;li>Crashpad&lt;/li>
+&lt;li>libxplanemp&lt;/li>
+&lt;li>Opus&lt;/li>
+&lt;li>Portaudio&lt;/li>
+&lt;li>Qt5&lt;/li>
+&lt;li>SpeexDSP&lt;/li>
+&lt;li>vatlib&lt;/li>
+&lt;li>Qwt&lt;/li>
+&lt;li>QtWebApp&lt;/li>
+&lt;/ul>
+&lt;h2 id="boost">Boost&lt;/h2>
+&lt;ul>
+&lt;li>Project website http://www.boost.org/&lt;/li>
+&lt;li>Source code http://www.boost.org/users/history/&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code>Boost Software License - Version 1.0 - August 17th, 2003
+Permission is hereby granted, free of charge, to any person or organization
+obtaining a copy of the software and accompanying documentation covered by
+this license (the &amp;quot;Software&amp;quot;) to use, reproduce, display, distribute,
+execute, and transmit the Software, and to prepare derivative works of the
+Software, and to permit third-parties to whom the Software is furnished to
+do so, all subject to the following:
+The copyright notices in the Software and this entire statement, including
+the above license grant, this restriction and the following disclaimer,
+must be included in all copies of the Software, in whole or in part, and
+all derivative works of the Software, unless such copies or derivative
+works are solely in the form of machine-executable object code generated by
+a source language processor.
+THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
+SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
+FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+&lt;/code>&lt;/pre>&lt;p>Crashpad
+Project website https://crashpad.chromium.org/index.html
+Source code https://chromium.googlesource.com/crashpad/crashpad
+Apache License
+Version 2.0, January 2004
+&lt;a href="http://www.apache.org/licenses/">http://www.apache.org/licenses/&lt;/a>&lt;/p>
+&lt;p>TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Definitions.&lt;/p>
+&lt;p>&amp;ldquo;License&amp;rdquo; shall mean the terms and conditions for use, reproduction,
+and distribution as defined by Sections 1 through 9 of this document.&lt;/p>
+&lt;p>&amp;ldquo;Licensor&amp;rdquo; shall mean the copyright owner or entity authorized by
+the copyright owner that is granting the License.&lt;/p>
+&lt;p>&amp;ldquo;Legal Entity&amp;rdquo; shall mean the union of the acting entity and all
+other entities that control, are controlled by, or are under common
+control with that entity. For the purposes of this definition,
+&amp;ldquo;control&amp;rdquo; means (i) the power, direct or indirect, to cause the
+direction or management of such entity, whether by contract or
+otherwise, or (ii) ownership of fifty percent (50%) or more of the
+outstanding shares, or (iii) beneficial ownership of such entity.&lt;/p>
+&lt;p>&amp;ldquo;You&amp;rdquo; (or &amp;ldquo;Your&amp;rdquo;) shall mean an individual or Legal Entity
+exercising permissions granted by this License.&lt;/p>
+&lt;p>&amp;ldquo;Source&amp;rdquo; form shall mean the preferred form for making modifications,
+including but not limited to software source code, documentation
+source, and configuration files.&lt;/p>
+&lt;p>&amp;ldquo;Object&amp;rdquo; form shall mean any form resulting from mechanical
+transformation or translation of a Source form, including but
+not limited to compiled object code, generated documentation,
+and conversions to other media types.&lt;/p>
+&lt;p>&amp;ldquo;Work&amp;rdquo; shall mean the work of authorship, whether in Source or
+Object form, made available under the License, as indicated by a
+copyright notice that is included in or attached to the work
+(an example is provided in the Appendix below).&lt;/p>
+&lt;p>&amp;ldquo;Derivative Works&amp;rdquo; shall mean any work, whether in Source or Object
+form, that is based on (or derived from) the Work and for which the
+editorial revisions, annotations, elaborations, or other modifications
+represent, as a whole, an original work of authorship. For the purposes
+of this License, Derivative Works shall not include works that remain
+separable from, or merely link (or bind by name) to the interfaces of,
+the Work and Derivative Works thereof.&lt;/p>
+&lt;p>&amp;ldquo;Contribution&amp;rdquo; shall mean any work of authorship, including
+the original version of the Work and any modifications or additions
+to that Work or Derivative Works thereof, that is intentionally
+submitted to Licensor for inclusion in the Work by the copyright owner
+or by an individual or Legal Entity authorized to submit on behalf of
+the copyright owner. For the purposes of this definition, &amp;ldquo;submitted&amp;rdquo;
+means any form of electronic, verbal, or written communication sent
+to the Licensor or its representatives, including but not limited to
+communication on electronic mailing lists, source code control systems,
+and issue tracking systems that are managed by, or on behalf of, the
+Licensor for the purpose of discussing and improving the Work, but
+excluding communication that is conspicuously marked or otherwise
+designated in writing by the copyright owner as &amp;ldquo;Not a Contribution.&amp;rdquo;&lt;/p>
+&lt;p>&amp;ldquo;Contributor&amp;rdquo; shall mean Licensor and any individual or Legal Entity
+on behalf of whom a Contribution has been received by Licensor and
+subsequently incorporated within the Work.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Grant of Copyright License. Subject to the terms and conditions of
+this License, each Contributor hereby grants to You a perpetual,
+worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+copyright license to reproduce, prepare Derivative Works of,
+publicly display, publicly perform, sublicense, and distribute the
+Work and such Derivative Works in Source or Object form.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Grant of Patent License. Subject to the terms and conditions of
+this License, each Contributor hereby grants to You a perpetual,
+worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+(except as stated in this section) patent license to make, have made,
+use, offer to sell, sell, import, and otherwise transfer the Work,
+where such license applies only to those patent claims licensable
+by such Contributor that are necessarily infringed by their
+Contribution(s) alone or by combination of their Contribution(s)
+with the Work to which such Contribution(s) was submitted. If You
+institute patent litigation against any entity (including a
+cross-claim or counterclaim in a lawsuit) alleging that the Work
+or a Contribution incorporated within the Work constitutes direct
+or contributory patent infringement, then any patent licenses
+granted to You under this License for that Work shall terminate
+as of the date such litigation is filed.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Redistribution. You may reproduce and distribute copies of the
+Work or Derivative Works thereof in any medium, with or without
+modifications, and in Source or Object form, provided that You
+meet the following conditions:&lt;/p>
+&lt;p>(a) You must give any other recipients of the Work or
+Derivative Works a copy of this License; and&lt;/p>
+&lt;p>(b) You must cause any modified files to carry prominent notices
+stating that You changed the files; and&lt;/p>
+&lt;p>(c) You must retain, in the Source form of any Derivative Works
+that You distribute, all copyright, patent, trademark, and
+attribution notices from the Source form of the Work,
+excluding those notices that do not pertain to any part of
+the Derivative Works; and&lt;/p>
+&lt;p>(d) If the Work includes a &amp;ldquo;NOTICE&amp;rdquo; text file as part of its
+distribution, then any Derivative Works that You distribute must
+include a readable copy of the attribution notices contained
+within such NOTICE file, excluding those notices that do not
+pertain to any part of the Derivative Works, in at least one
+of the following places: within a NOTICE text file distributed
+as part of the Derivative Works; within the Source form or
+documentation, if provided along with the Derivative Works; or,
+within a display generated by the Derivative Works, if and
+wherever such third-party notices normally appear. The contents
+of the NOTICE file are for informational purposes only and
+do not modify the License. You may add Your own attribution
+notices within Derivative Works that You distribute, alongside
+or as an addendum to the NOTICE text from the Work, provided
+that such additional attribution notices cannot be construed
+as modifying the License.&lt;/p>
+&lt;p>You may add Your own copyright statement to Your modifications and
+may provide additional or different license terms and conditions
+for use, reproduction, or distribution of Your modifications, or
+for any such Derivative Works as a whole, provided Your use,
+reproduction, and distribution of the Work otherwise complies with
+the conditions stated in this License.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Submission of Contributions. Unless You explicitly state otherwise,
+any Contribution intentionally submitted for inclusion in the Work
+by You to the Licensor shall be under the terms and conditions of
+this License, without any additional terms or conditions.
+Notwithstanding the above, nothing herein shall supersede or modify
+the terms of any separate license agreement you may have executed
+with Licensor regarding such Contributions.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Trademarks. This License does not grant permission to use the trade
+names, trademarks, service marks, or product names of the Licensor,
+except as required for reasonable and customary use in describing the
+origin of the Work and reproducing the content of the NOTICE file.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Disclaimer of Warranty. Unless required by applicable law or
+agreed to in writing, Licensor provides the Work (and each
+Contributor provides its Contributions) on an &amp;ldquo;AS IS&amp;rdquo; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+implied, including, without limitation, any warranties or conditions
+of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+PARTICULAR PURPOSE. You are solely responsible for determining the
+appropriateness of using or redistributing the Work and assume any
+risks associated with Your exercise of permissions under this License.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Limitation of Liability. In no event and under no legal theory,
+whether in tort (including negligence), contract, or otherwise,
+unless required by applicable law (such as deliberate and grossly
+negligent acts) or agreed to in writing, shall any Contributor be
+liable to You for damages, including any direct, indirect, special,
+incidental, or consequential damages of any character arising as a
+result of this License or out of the use or inability to use the
+Work (including but not limited to damages for loss of goodwill,
+work stoppage, computer failure or malfunction, or any and all
+other commercial damages or losses), even if such Contributor
+has been advised of the possibility of such damages.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Accepting Warranty or Additional Liability. While redistributing
+the Work or Derivative Works thereof, You may choose to offer,
+and charge a fee for, acceptance of support, warranty, indemnity,
+or other liability obligations and/or rights consistent with this
+License. However, in accepting such obligations, You may act only
+on Your own behalf and on Your sole responsibility, not on behalf
+of any other Contributor, and only if You agree to indemnify,
+defend, and hold each Contributor harmless for any liability
+incurred by, or claims asserted against, such Contributor by reason
+of your accepting any such warranty or additional liability.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>END OF TERMS AND CONDITIONS&lt;/p>
+&lt;p>APPENDIX: How to apply the Apache License to your work.&lt;/p>
+&lt;p>To apply the Apache License to your work, attach the following
+boilerplate notice, with the fields enclosed by brackets &amp;ldquo;[]&amp;rdquo;
+replaced with your own identifying information. (Don&amp;rsquo;t include
+the brackets!) The text should be enclosed in the appropriate
+comment syntax for the file format. We also recommend that a
+file or class name and description of purpose be included on the
+same &amp;ldquo;printed page&amp;rdquo; as the copyright notice for easier
+identification within third-party archives.&lt;/p>
+&lt;p>Copyright [yyyy] [name of copyright owner]&lt;/p>
+&lt;p>Licensed under the Apache License, Version 2.0 (the &amp;ldquo;License&amp;rdquo;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at&lt;/p>
+&lt;pre>&lt;code>http://www.apache.org/licenses/LICENSE-2.0
+&lt;/code>&lt;/pre>
+&lt;p>Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &amp;ldquo;AS IS&amp;rdquo; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+libxplanemp
+Source code (swift git hub repo) https://github.com/swift-project/libxplanemp
+Copyright (c) 2006, Ben Supnik and Chris Serio.&lt;/p>
+&lt;p>Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:&lt;/p>
+&lt;p>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.&lt;/p>
+&lt;p>THE SOFTWARE IS PROVIDED &amp;ldquo;AS IS&amp;rdquo;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+Opus
+Project website http://opus-codec.org/
+Source code http://opus-codec.org/downloads/
+Copyright 2001-2011 Xiph.Org, Skype Limited, Octasic,
+Jean-Marc Valin, Timothy B. Terriberry,
+CSIRO, Gregory Maxwell, Mark Borgerding,
+Erik de Castro Lopo&lt;/p>
+&lt;p>Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Neither the name of Internet Society, IETF or IETF Trust, nor the
+names of specific contributors, may be used to endorse or promote
+products derived from this software without specific prior written
+permission.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+``AS IS&amp;rsquo;&amp;rsquo; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
+OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&lt;/p>
+&lt;p>Opus is subject to the royalty-free patent licenses which are
+specified at:&lt;/p>
+&lt;p>Xiph.Org Foundation:
+&lt;a href="https://datatracker.ietf.org/ipr/1524/">https://datatracker.ietf.org/ipr/1524/&lt;/a>&lt;/p>
+&lt;p>Microsoft Corporation:
+&lt;a href="https://datatracker.ietf.org/ipr/1914/">https://datatracker.ietf.org/ipr/1914/&lt;/a>&lt;/p>
+&lt;p>Broadcom Corporation:
+&lt;a href="https://datatracker.ietf.org/ipr/1526/">https://datatracker.ietf.org/ipr/1526/&lt;/a>
+Portaudio
+Project website http://www.portaudio.com/
+Source code http://www.portaudio.com/download.html
+/*&lt;/p>
+&lt;ul>
+&lt;li>PortAudio Portable Real-Time Audio Library&lt;/li>
+&lt;li>PortAudio API Header File&lt;/li>
+&lt;li>Latest version available at: &lt;a href="http://www.portaudio.com">http://www.portaudio.com&lt;/a>&lt;/li>
+&lt;li>&lt;/li>
+&lt;li>Copyright (c) 1999-2006 Ross Bencina and Phil Burk&lt;/li>
+&lt;li>&lt;/li>
+&lt;li>Permission is hereby granted, free of charge, to any person obtaining&lt;/li>
+&lt;li>a copy of this software and associated documentation files&lt;/li>
+&lt;li>(the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction,&lt;/li>
+&lt;li>including without limitation the rights to use, copy, modify, merge,&lt;/li>
+&lt;li>publish, distribute, sublicense, and/or sell copies of the Software,&lt;/li>
+&lt;li>and to permit persons to whom the Software is furnished to do so,&lt;/li>
+&lt;li>subject to the following conditions:&lt;/li>
+&lt;li>&lt;/li>
+&lt;li>The above copyright notice and this permission notice shall be&lt;/li>
+&lt;li>included in all copies or substantial portions of the Software.&lt;/li>
+&lt;li>&lt;/li>
+&lt;li>THE SOFTWARE IS PROVIDED &amp;ldquo;AS IS&amp;rdquo;, WITHOUT WARRANTY OF ANY KIND,&lt;/li>
+&lt;li>EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF&lt;/li>
+&lt;li>MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.&lt;/li>
+&lt;li>IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR&lt;/li>
+&lt;li>ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF&lt;/li>
+&lt;li>CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION&lt;/li>
+&lt;li>WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/&lt;/li>
+&lt;/ul>
+&lt;p>/*&lt;/p>
+&lt;ul>
+&lt;li>The text above constitutes the entire PortAudio license; however,&lt;/li>
+&lt;li>the PortAudio community also makes the following non-binding requests:&lt;/li>
+&lt;li>&lt;/li>
+&lt;li>Any person wishing to distribute modifications to the Software is&lt;/li>
+&lt;li>requested to send the modifications to the original developer so that&lt;/li>
+&lt;li>they can be incorporated into the canonical version. It is also&lt;/li>
+&lt;li>requested that these non-binding requests be included along with the&lt;/li>
+&lt;li>license above.
+*/s
+Qt5
+Project website https://www.qt.io/
+Source code https://code.qt.io
+GNU LESSER GENERAL PUBLIC LICENSE&lt;/li>
+&lt;/ul>
+&lt;p>The Qt Toolkit is Copyright (C) 2016 The Qt Company Ltd.
+Contact: &lt;a href="http://www.qt.io/licensing/">http://www.qt.io/licensing/&lt;/a>&lt;/p>
+&lt;p>You may use, distribute and copy the Qt Toolkit under the terms of
+GNU Lesser General Public License version 3, which is displayed below.
+This license makes reference to the version 3 of the GNU General
+Public License, which you can find in the LICENSE.GPLv3 file.&lt;/p>
+&lt;hr>
+&lt;pre>&lt;code> GNU LESSER GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+&lt;/code>&lt;/pre>
+&lt;p>Copyright © 2007 Free Software Foundation, Inc. http: //fsf.org/
+Everyone is permitted to copy and distribute verbatim copies of this
+licensedocument, but changing it is not allowed.&lt;/p>
+&lt;p>This version of the GNU Lesser General Public License incorporates
+the terms and conditions of version 3 of the GNU General Public
+License, supplemented by the additional permissions listed below.&lt;/p>
+&lt;ol start="0">
+&lt;li>Additional Definitions.&lt;/li>
+&lt;/ol>
+&lt;p>As used herein, “this License” refers to version 3 of the GNU Lesser
+General Public License, and the “GNU GPL” refers to version 3 of the
+GNU General Public License.&lt;/p>
+&lt;p>“The Library” refers to a covered work governed by this License,
+other than an Application or a Combined Work as defined below.&lt;/p>
+&lt;p>An “Application” is any work that makes use of an interface provided
+by the Library, but which is not otherwise based on the Library.
+Defining a subclass of a class defined by the Library is deemed a mode
+of using an interface provided by the Library.&lt;/p>
+&lt;p>A “Combined Work” is a work produced by combining or linking an
+Application with the Library. The particular version of the Library
+with which the Combined Work was made is also called the “Linked
+Version”.&lt;/p>
+&lt;p>The “Minimal Corresponding Source” for a Combined Work means the
+Corresponding Source for the Combined Work, excluding any source code
+for portions of the Combined Work that, considered in isolation, are
+based on the Application, and not on the Linked Version.&lt;/p>
+&lt;p>The “Corresponding Application Code” for a Combined Work means the
+object code and/or source code for the Application, including any data
+and utility programs needed for reproducing the Combined Work from the
+Application, but excluding the System Libraries of the Combined Work.&lt;/p>
+&lt;ol>
+&lt;li>Exception to Section 3 of the GNU GPL.&lt;/li>
+&lt;/ol>
+&lt;p>You may convey a covered work under sections 3 and 4 of this License
+without being bound by section 3 of the GNU GPL.&lt;/p>
+&lt;ol start="2">
+&lt;li>Conveying Modified Versions.&lt;/li>
+&lt;/ol>
+&lt;p>If you modify a copy of the Library, and, in your modifications, a
+facility refers to a function or data to be supplied by an Application
+that uses the facility (other than as an argument passed when the
+facility is invoked), then you may convey a copy of the modified
+version:&lt;/p>
+&lt;pre>&lt;code>a) under this License, provided that you make a good faith effort
+to ensure that, in the event an Application does not supply the
+function or data, the facility still operates, and performs
+whatever part of its purpose remains meaningful, or
+b) under the GNU GPL, with none of the additional permissions of
+this License applicable to that copy.
+&lt;/code>&lt;/pre>
+&lt;ol start="3">
+&lt;li>Object Code Incorporating Material from Library Header Files.&lt;/li>
+&lt;/ol>
+&lt;p>The object code form of an Application may incorporate material from
+a header file that is part of the Library. You may convey such object
+code under terms of your choice, provided that, if the incorporated
+material is not limited to numerical parameters, data structure
+layouts and accessors, or small macros, inline functions and templates
+(ten or fewer lines in length), you do both of the following:&lt;/p>
+&lt;pre>&lt;code>a) Give prominent notice with each copy of the object code that
+the Library is used in it and that the Library and its use are
+covered by this License.
+b) Accompany the object code with a copy of the GNU GPL and this
+license document.
+&lt;/code>&lt;/pre>
+&lt;ol start="4">
+&lt;li>Combined Works.&lt;/li>
+&lt;/ol>
+&lt;p>You may convey a Combined Work under terms of your choice that, taken
+together, effectively do not restrict modification of the portions of
+the Library contained in the Combined Work and reverse engineering for
+debugging such modifications, if you also do each of the following:&lt;/p>
+&lt;pre>&lt;code>a) Give prominent notice with each copy of the Combined Work that
+the Library is used in it and that the Library and its use are
+covered by this License.
+b) Accompany the Combined Work with a copy of the GNU GPL and this
+license document.
+c) For a Combined Work that displays copyright notices during
+execution, include the copyright notice for the Library among
+these notices, as well as a reference directing the user to the
+copies of the GNU GPL and this license document.
+d) Do one of the following:
+0) Convey the Minimal Corresponding Source under the terms of
+this License, and the Corresponding Application Code in a form
+suitable for, and under terms that permit, the user to
+recombine or relink the Application with a modified version of
+the Linked Version to produce a modified Combined Work, in the
+manner specified by section 6 of the GNU GPL for conveying
+Corresponding Source.
+1) Use a suitable shared library mechanism for linking with
+the Library. A suitable mechanism is one that (a) uses at run
+time a copy of the Library already present on the user's
+computer system, and (b) will operate properly with a modified
+version of the Library that is interface-compatible with the
+Linked Version.
+e) Provide Installation Information, but only if you would
+otherwise be required to provide such information under section 6
+of the GNU GPL, and only to the extent that such information is
+necessary to install and execute a modified version of the
+Combined Work produced by recombining or relinking the Application
+with a modified version of the Linked Version. (If you use option
+4d0, the Installation Information must accompany the Minimal
+Corresponding Source and Corresponding Application Code. If you
+use option 4d1, you must provide the Installation Information in
+the manner specified by section 6 of the GNU GPL for conveying
+Corresponding Source.)
+&lt;/code>&lt;/pre>
+&lt;ol start="5">
+&lt;li>Combined Libraries.&lt;/li>
+&lt;/ol>
+&lt;p>You may place library facilities that are a work based on the Library
+side by side in a single library together with other library
+facilities that are not Applications and are not covered by this
+License, and convey such a combined library under terms of your
+choice, if you do both of the following:&lt;/p>
+&lt;pre>&lt;code>a) Accompany the combined library with a copy of the same work
+based on the Library, uncombined with any other library
+facilities, conveyed under the terms of this License.
+b) Give prominent notice with the combined library that part of
+it is a work based on the Library, and explaining where to find
+the accompanying uncombined form of the same work.
+&lt;/code>&lt;/pre>
+&lt;ol start="6">
+&lt;li>Revised Versions of the GNU Lesser General Public License.&lt;/li>
+&lt;/ol>
+&lt;p>The Free Software Foundation may publish revised and/or new versions
+of the GNU Lesser General Public License from time to time. Such new
+versions will be similar in spirit to the present version, but may
+differ in detail to address new problems or concerns.&lt;/p>
+&lt;p>Each version is given a distinguishing version number. If the Library
+as you received it specifies that a certain numbered version of the
+GNU Lesser General Public License “or any later version” applies to
+it, you have the option of following the terms and conditions either
+of that published version or of any later version published by the
+Free Software Foundation. If the Library as you received it does not
+specify a version number of the GNU Lesser General Public License,
+you may choose any version of the GNU Lesser General Public License
+ever published by the Free Software Foundation.&lt;/p>
+&lt;p>If the Library as you received it specifies that a proxy can decide
+whether future versions of the GNU Lesser General Public License shall
+apply, that proxy&amp;rsquo;s public statement of acceptance of any version is
+permanent authorization for you to choose that version for the Library.
+SpeexDSP
+Project website http://www.speex.org/
+Source code http://www.speex.org/downloads/
+Copyright 2002-2008 Xiph.org Foundation
+Copyright 2002-2008 Jean-Marc Valin
+Copyright 2005-2007 Analog Devices Inc.
+Copyright 2005-2008 Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+Copyright 1993, 2002, 2006 David Rowe
+Copyright 2003 EpicGames
+Copyright 1992-1994 Jutta Degener, Carsten Bormann&lt;/p>
+&lt;p>Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Neither the name of the Xiph.org Foundation nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+``AS IS&amp;rsquo;&amp;rsquo; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FOUNDATION OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+vatlib
+Project website https://dev.vatsim.net
+Source code https://dev.vatsim.net
+Creative Commons License
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.&lt;/p>
+&lt;p>Qwt
+Project website https://qwt.sourceforge.io/
+Source code https://qwt.sourceforge.io/
+Qwt License
+Version 1.0, January 1, 2003
+The Qwt library and included programs are provided under the terms
+of the GNU LESSER GENERAL PUBLIC LICENSE (LGPL) with the following
+exceptions:
+1. Widgets that are subclassed from Qwt widgets do not
+constitute a derivative work.
+2. Static linking of applications and widgets to the
+Qwt library does not constitute a derivative work
+and does not require the author to provide source
+code for the application or widget, use the shared
+Qwt libraries, or link their applications or
+widgets against a user-supplied version of Qwt.
+If you link the application or widget to a modified
+version of Qwt, then the changes to Qwt must be
+provided under the terms of the LGPL in sections
+1, 2, and 4.
+3. You do not have to provide a copy of the Qwt license
+with programs that are linked to the Qwt library, nor
+do you have to identify the Qwt license in your
+program or documentation as required by section 6
+of the LGPL.
+However, programs must still identify their use of Qwt.
+The following example statement can be included in user
+documentation to satisfy this requirement:
+[program/widget] is based in part on the work of
+the Qwt project (&lt;a href="http://qwt.sf.net">http://qwt.sf.net&lt;/a>).&lt;/p>
+&lt;p>QtWebApp
+Project website QtWebApp HTTP Webserver in C++
+Source code See web site
+LGPL 3 as of 2/2019, see website above.&lt;/p></description></item><item><title>Docs: User rights</title><link>https://swift-project.github.io/docs/legal/userrights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/legal/userrights/</guid><description>
+&lt;p>Benutzerrechte
+Löschung der Daten
+In den meisten swift Anwendungen können Sie Ihr Benuzerprodil selbst editieren. Dort können Sie Ihre Daten ggf. auch selbst löschen. Falls dies nicht möglich ist, kontakieren sie uns bezüglich der Löschung Ihrer Daten. Bezüglich der Daten in den Flugnetzwerken wenden Sie sich direkt an diese Netzwerke.&lt;/p>
+&lt;p>Export der Daten
+In den Profilen der Anwendungen können Sie Ihre Daten auch exportieren.&lt;/p>
+&lt;p>User rights
+Data deletion
+Most swift applications allow to edit the user profiles. This allows to edit and delete the user data. In case this is not possible please contact us in order to have your data deleted. For any aspects regarding the data of the flight networks please contact them directly.&lt;/p>
+&lt;p>Data export
+Use your profiles to export your data if required.&lt;/p></description></item></channel></rss>
