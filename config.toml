@@ -172,4 +172,4 @@ enable = false
 [[menu.main]]
     name = "Datastore"
     weight = 50
-    url = "https://datastore.swift-project.org/page/about.php"
+    url = "https://datastore.swift-project.org/page/index.php"
