@@ -43,9 +43,10 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-Crashpad
-Project website	https://crashpad.chromium.org/index.html
-Source code	https://chromium.googlesource.com/crashpad/crashpad
+## Crashpad
+- Project website	https://crashpad.chromium.org/index.html
+- Source code	https://chromium.googlesource.com/crashpad/crashpad
+```
                               Apache License
                         Version 2.0, January 2004
                      http://www.apache.org/licenses/
@@ -247,10 +248,13 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-libxplanemp
-Source code (swift git hub repo)	https://github.com/swift-project/libxplanemp
-Copyright (c) 2006, Ben Supnik and Chris Serio.
+```
 
+## libxplanemp
+- Source code (swift git hub repo)	https://github.com/swift-project/libxplanemp
+- Copyright (c) 2006, Ben Supnik and Chris Serio.
+
+```
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in 
 the Software without restriction, including without limitation the rights to 
@@ -268,14 +272,17 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
 SOFTWARE.
-Opus
-Project website	http://opus-codec.org/
-Source code	http://opus-codec.org/downloads/
-Copyright 2001-2011 Xiph.Org, Skype Limited, Octasic,
+```
+
+## Opus
+- Project website	http://opus-codec.org/
+- Source code	http://opus-codec.org/downloads/
+- Copyright 2001-2011 Xiph.Org, Skype Limited, Octasic,
                     Jean-Marc Valin, Timothy B. Terriberry,
                     CSIRO, Gregory Maxwell, Mark Borgerding,
                     Erik de Castro Lopo
 
+```
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
 are met:
@@ -315,51 +322,55 @@ https://datatracker.ietf.org/ipr/1914/
 
 Broadcom Corporation:
 https://datatracker.ietf.org/ipr/1526/
-Portaudio
-Project website	http://www.portaudio.com/
-Source code	http://www.portaudio.com/download.html
-/*
- * PortAudio Portable Real-Time Audio Library
- * PortAudio API Header File
- * Latest version available at: http://www.portaudio.com
- *
- * Copyright (c) 1999-2006 Ross Bencina and Phil Burk
- *
- * Permission is hereby granted, free of charge, to any person obtaining
- * a copy of this software and associated documentation files
- * (the "Software"), to deal in the Software without restriction,
- * including without limitation the rights to use, copy, modify, merge,
- * publish, distribute, sublicense, and/or sell copies of the Software,
- * and to permit persons to whom the Software is furnished to do so,
- * subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be
- * included in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
- * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
- * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
- * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
- * ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
- * CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
- * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
- */
+```
 
-/*
- * The text above constitutes the entire PortAudio license; however, 
- * the PortAudio community also makes the following non-binding requests:
- *
- * Any person wishing to distribute modifications to the Software is
- * requested to send the modifications to the original developer so that
- * they can be incorporated into the canonical version. It is also 
- * requested that these non-binding requests be included along with the 
- * license above.
- */s
-Qt5
-Project website	https://www.qt.io/
-Source code	https://code.qt.io
+## Portaudio
+- Project website	http://www.portaudio.com/
+- Source code	http://www.portaudio.com/download.html
+
+```
+PortAudio Portable Real-Time Audio Library
+PortAudio API Header File
+Latest version available at: http://www.portaudio.com
+
+Copyright (c) 1999-2006 Ross Bencina and Phil Burk
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files
+(the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of the Software,
+and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
+ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+The text above constitutes the entire PortAudio license; however, 
+the PortAudio community also makes the following non-binding requests:
+
+Any person wishing to distribute modifications to the Software is
+requested to send the modifications to the original developer so that
+they can be incorporated into the canonical version. It is also 
+requested that these non-binding requests be included along with the 
+license above.
+```
+
+## Qt5
+- Project website	https://www.qt.io/
+- Source code	https://code.qt.io
             GNU LESSER GENERAL PUBLIC LICENSE
-
+```
  The Qt Toolkit is Copyright (C) 2016 The Qt Company Ltd.
  Contact: http://www.qt.io/licensing/
 
@@ -532,17 +543,20 @@ If the Library as you received it specifies that a proxy can decide
 whether future versions of the GNU Lesser General Public License shall
 apply, that proxy's public statement of acceptance of any version is
 permanent authorization for you to choose that version for the Library.
-SpeexDSP
-Project website	http://www.speex.org/
-Source code	http://www.speex.org/downloads/
-Copyright 2002-2008    Xiph.org Foundation
-Copyright 2002-2008    Jean-Marc Valin
-Copyright 2005-2007    Analog Devices Inc.
-Copyright 2005-2008    Commonwealth Scientific and Industrial Research Organisation (CSIRO)
-Copyright 1993, 2002, 2006 David Rowe
-Copyright 2003         EpicGames
-Copyright 1992-1994    Jutta Degener, Carsten Bormann
+```
 
+## SpeexDSP
+- Project website	http://www.speex.org/
+- Source code	http://www.speex.org/downloads/
+- Copyright 2002-2008    Xiph.org Foundation
+- Copyright 2002-2008    Jean-Marc Valin
+- Copyright 2005-2007    Analog Devices Inc.
+- Copyright 2005-2008    Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+- Copyright 1993, 2002, 2006 David Rowe
+- Copyright 2003         EpicGames
+- Copyright 1992-1994    Jutta Degener, Carsten Bormann
+
+```
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
 are met:
@@ -569,15 +583,20 @@ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
 LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
 NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-vatlib
-Project website	https://dev.vatsim.net
-Source code	https://dev.vatsim.net
-		Creative Commons License
+```
+
+## vatlib
+- Project website	https://dev.vatsim.net
+- Source code	https://dev.vatsim.net
+```
+Creative Commons License
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-	
-Qwt
-Project website	https://qwt.sourceforge.io/
-Source code	https://qwt.sourceforge.io/
+```
+
+## Qwt
+- Project website	https://qwt.sourceforge.io/
+- Source code	https://qwt.sourceforge.io/
+```
                              Qwt License
                       Version 1.0, January 1, 2003
 The Qwt library and included programs are provided under the terms
@@ -605,9 +624,9 @@ exceptions:
        documentation to satisfy this requirement:
            [program/widget] is based in part on the work of
            the Qwt project (http://qwt.sf.net).
-	
-QtWebApp
-Project website	QtWebApp HTTP Webserver in C++
-Source code	See web site
-		LGPL 3 as of 2/2019, see website above.
-	
+```
+
+## QtWebApp
+- Project website	http://stefanfrings.de/qtwebapp/index-en.html
+- Source code	See web site
+- License: LGPL 3 as of 2/2019, see website above.	
