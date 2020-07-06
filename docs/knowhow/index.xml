@@ -1,7 +1,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Know how</title><link>https://swift-project.github.io/docs/knowhow/</link><description>Recent content in Know how on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/knowhow/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Aviation</title><link>https://swift-project.github.io/docs/knowhow/aviation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/aviation/</guid><description>
 &lt;p>::: {.toctree caption=&amp;quot;Content in this chapter&amp;rdquo;}
 verticaldistance icaodb
-:::&lt;/p></description></item><item><title>Docs: Open research questions (other forums)</title><link>https://swift-project.github.io/docs/knowhow/openresearch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/openresearch/</guid><description>
+:::&lt;/p></description></item><item><title>Docs: External Resources / links</title><link>https://swift-project.github.io/docs/knowhow/externalresources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/externalresources/</guid><description>
+&lt;h1 id="open-source-parts-of-pcsb-and-vvl">Open source parts of PCSB and VVL&lt;/h1>
+&lt;p>&lt;a href="http://www.xsquawkbox.net/xsb/developers/">http://www.xsquawkbox.net/xsb/developers/&lt;/a>&lt;/p>
+&lt;p>Parts of the pcsb and vvl are open source.&lt;/p>
+&lt;h1 id="external-data-providers">External data providers&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>Airports:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>&lt;a href="http://openflights.org/data.html#airport">http://openflights.org/data.html#airport&lt;/a> Roughly 10k
+entries, getting data from&lt;/li>
+&lt;li>&lt;a href="http://ourairports.com/data/">http://ourairports.com/data/&lt;/a> approx. 47k entries&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Open research questions (other forums)</title><link>https://swift-project.github.io/docs/knowhow/openresearch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/openresearch/</guid><description>
 &lt;ul>
 &lt;li>
 &lt;p>Invisible AI objects:

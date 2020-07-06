@@ -1,0 +1,225 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Model mapping</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/mapping/</link><description>Recent content in Model mapping on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/manual/swiftgeneral/mapping/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Mapping DB roles</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/mapping/dbroles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/mapping/dbroles/</guid><description>
+&lt;p>swift database roles&lt;/p>
+&lt;p>+&amp;mdash;&amp;mdash;&amp;ndash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+
+| role | meaning |
++========+=============================================================+
+| - | normal user without role. Such user only see self |
+| | adminstration in the web UI |
++&amp;mdash;&amp;mdash;&amp;ndash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+
+| alpha | can access alpha program downloads |
++&amp;mdash;&amp;mdash;&amp;ndash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+
+| bulk | can directly add model mappings, but not change. In order |
+| add | to directly edit &lt;code>bulk&lt;/code> role is required |
++&amp;mdash;&amp;mdash;&amp;ndash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+
+| bulk | can perform direct uploads from swift mapping tool |
++&amp;mdash;&amp;mdash;&amp;ndash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+
+| m | can create new liveries, aircraft ICAOs, airline ICAOs |
+| apping | |
+| admin | |
++&amp;mdash;&amp;mdash;&amp;ndash;+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+&lt;/p>
+&lt;p>When you login in the mapping tool, you will see your roles here:&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Login_roles.png" alt="image">&lt;/p></description></item><item><title>Docs: Mapping FS9 FSX and P3D standard models</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/mapping/mapfsstandardmodels/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/mapping/mapfsstandardmodels/</guid><description>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>&amp;quot;Standard models&amp;quot; means the aircraft delivered with a standard FS9,
+FSX or P3D installation
+:::&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Distributor: Some models come with multiple installations, set the
+distributor of the earliest installation&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>For models coming with FS9 and something else, use FS9&lt;/li>
+&lt;li>For models coming with FSX and P3D, set FSX&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Set the model flags according to the supported simulators&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Set_FS_model_flags.png" alt="image">&lt;/p></description></item><item><title>Docs: Mapping hints and FAQs</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/mapping/maphints/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/mapping/maphints/</guid><description>
+&lt;h1 id="hints">Hints:&lt;/h1>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>Always save your stashing data (then you recover it in case of a crash)
+:::&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Always check if the aircraft already has a mapping (DB icon)&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>If you see an existing mapping, which is wrong, we appreciate
+very much if you fix it.&lt;/li>
+&lt;li>Otherwise, create mappings for non existing aircraft entries.&lt;/li>
+&lt;li>see here, entries with and without icon&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/WithAndWithoutMapping.png" alt="image">&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>New ICAO codes: &lt;code>cr&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>effmappings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="which-mappings-do-we-need">Which mappings do we need?&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>We cannot tell you exactly what mappings to create, as we do not
+know which models you have installed&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>However, it is always good to create mappings for payware aircraft
+(as we definitely can not buy all those).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>All Libraries we would like to have in the DB&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>VATSIM FLAI&lt;/li>
+&lt;li>World of AI: &lt;a href="http://www.world-of-ai.com/">http://www.world-of-ai.com/&lt;/a>&lt;/li>
+&lt;li>FAIB: &lt;a href="http://fsxaibureau.com/">http://fsxaibureau.com/&lt;/a>&lt;/li>
+&lt;li>Juergen Baumbusch: &lt;a href="http://www.juergenbaumbusch.de">http://www.juergenbaumbusch.de&lt;/a>&lt;/li>
+&lt;li>Flying carpet: &lt;a href="http://www.flyingcarpet75.com">http://www.flyingcarpet75.com&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="qa">Q&amp;amp;A:&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>Should I use the &lt;code>P3D&lt;/code> for P3D v1-3 or also for v4? We are currently
+evaluating P3D v4, for now use it for all P3D versions.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>I have the same model installed, but from another distributor, what
+should I do? This can happen, many models are part of multiple
+distributions. Normally there is not need to update the distributor.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>I have a model, but the distributor is missing? Request the
+distributor, you can already do the mapping and save your stash.
+Later you can fix the distributor. Or you can use &lt;code>ZZZZ&lt;/code>, publish
+and later change/fix the distributor&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>How can I efficiently create mappings?&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>If you place random models on the stash, it will be more work.&lt;/li>
+&lt;li>Try to assign multiple attributes at once, e.g. select all
+aircraft of an airline and assign those at once&lt;/li>
+&lt;li>You can filter your aircraft and stash the filtered only
+(example: Filter by aircraft, push result to stash, assign
+aircraft ICAO in one step)&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>How do we set the distributor for FS, FSX, P3D standard models? See
+&lt;code>mapfsstandardmodels&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>What are excluded models? See &lt;code>excludedmodels&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>XPlane&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Why are some models excluded ([CSL]{.title-ref} vs
+[.acf]{.title-ref} models)? See
+&lt;code>xplanemapping&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
+&lt;code>excludedmodels&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Do we need mappings for [ACF]{.title-ref} models? Yes, see
+&lt;code>excludedmodels&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="problems">Problems?&lt;/h1>
+&lt;p>see &lt;code>problemsmapping&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: No DB model - I do not see my DB model, why?</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/mapping/nodbmodel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/mapping/nodbmodel/</guid><description>
+&lt;p>see also &lt;code>nodbdata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
+&lt;code>matchingsettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;h1 id="the-db-icon">The DB icon&lt;/h1>
+&lt;p>You can see by the database icon if a model has already database data or
+not. The concept is the same for all view. Here you can see 2 examples,
+in the pilot client view every model has a DB entry, in the mapping view
+not.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Model_data_icon.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Own_models.png" alt="image">&lt;/p>
+&lt;p>::: {.note}
+::: {.title}
+Note
+:::&lt;/p>
+&lt;p>To use a model without DB data you need to enable this in your settings.
+:::&lt;/p>
+&lt;h1 id="i-do-not-see-my-mapping-why">I do not see my mapping, why?&lt;/h1>
+&lt;p>I have created a mapping, but still do not see a DB icon? This can have
+several reasons:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>depending on your DB role you can only create change requests, see
+&lt;code>dbroles&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . &lt;strong>Change requests have to
+be released&lt;/strong>, before that you do not see the very model.&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Actually it is easy to check, you can just go to the
+&lt;a href="https://datastore.swift-project.org/page/publicaircraftmodel.php">datastore model
+view&lt;/a>
+and check if the model is there. Just sort by date latest
+first, then you should see your model at top. If not, it has
+to be released first.&lt;/li>
+&lt;li>you can also check your roles on the login page.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Login_roles.png" alt="image">&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>If the model is in the DB, either the shared files are not yet
+generated, or in the mapping tool you just have to update the view.&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>In the mapping tool you can also update to the latest DB data
+via the context menu&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/mapping_tool_context_menu.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>If you really want to see the details of the data, you can
+check them in the launcher's update view. There you can see
+en detail the status of the shared data, the cache, and the DB
+data. The cache data are the ones you are using in swift.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Data_overview.png" alt="image">&lt;/p>
+&lt;p>NOTE: If you really need to update to very last data for testing,
+you could do it here.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Once you have latest DB data in your cache, you need to consolidate
+your models and model set. If you do not know what consolidation is,
+see &lt;code>whydataconsolidation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>You can consolidate via the background updater which
+automatically consolidates from time to time&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Background_updater.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>You can consolidate with the context menu&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Consolidate_data_in_mapping_tool.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>swift pilot client can consolidate when you download new
+models, see &lt;code>updatemodeldata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

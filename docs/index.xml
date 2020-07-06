@@ -1,24 +1,24 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Documentation</title><link>https://swift-project.github.io/docs/</link><description>Recent content in Documentation on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Checklist: Check before your 1st flight</title><link>https://swift-project.github.io/docs/help/useswiftchecklist/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/useswiftchecklist/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Documentation</title><link>https://swift-project.github.io/docs/</link><description>Recent content in Documentation on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Checklist: Check before your 1st flight</title><link>https://swift-project.github.io/docs/manual/useswiftchecklist/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/useswiftchecklist/</guid><description>
 &lt;h2 id="general-all-simulators">General (all simulators)&lt;/h2>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Have you installed the models for multiplayer aircraft? &lt;a href="https://swift-project.github.io/docs/installation/downloadmodels/">See here&lt;/a>&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> If not done during the launcher wizard, &lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/modelsandmodelset/createms/">create a model set&lt;/a> for your simulator in use.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> It not done during the launcher wizard, &lt;a href="https://swift-project.github.io/docs/help/spc/definehotkey/">define a PTT key&lt;/a>&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/crashreports/">Enable crashdump reports&lt;/a> so developers can analyze the cause of crashes better.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> If not done during the launcher wizard, &lt;a href="https://swift-project.github.io/docs/manual/swiftgeneral/modelsandmodelset/createms/">create a model set&lt;/a> for your simulator in use.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> It not done during the launcher wizard, &lt;a href="https://swift-project.github.io/docs/manual/spc/definehotkey/">define a PTT key&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;a href="https://swift-project.github.io/docs/manual/swiftgeneral/crashreports/">Enable crashdump reports&lt;/a> so developers can analyze the cause of crashes better.&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Close other pilot clients, so the voice port is not blocked.&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Do not touch the gnd.flag and fast position settings unless you know what you are doing!&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Do not run &lt;em>swift&lt;/em> core and &lt;strong>standalone&lt;/strong> GUI on the same machine, you can run core+remote UI. But normally core is only needed for &lt;a href="https://swift-project.github.io/docs/installation/distributedswift/">distributed swift&lt;/a>.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Do you see &lt;strong>validation errors&lt;/strong>? If you see multiple validation, something in your setup is wrong: &lt;a href="https://swift-project.github.io/docs/help/spc/modelsetvalidation/whyvalidationerrors/">see here&lt;/a>.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Do not run &lt;em>swift&lt;/em> core and &lt;strong>standalone&lt;/strong> GUI on the same machine, you can run core+remote UI. But normally core is only needed for &lt;a href="https://swift-project.github.io/docs/manual/distributedswift/">distributed swift&lt;/a>.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Do you see &lt;strong>validation errors&lt;/strong>? If you see multiple validation, something in your setup is wrong: &lt;a href="https://swift-project.github.io/docs/manual/spc/modelsetvalidation/whyvalidationerrors/">see here&lt;/a>.&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Make sure malware protection allows swift to run, recently users reported issues with TrueImage Active protection.&lt;/li>
 &lt;/ul>
 &lt;h2 id="os-specific">OS specific&lt;/h2>
 &lt;h3 id="macos">macOS:&lt;/h3>
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Enable the microphone for &lt;em>swift&lt;/em>, see &lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/macosnosound/">here&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Enable the microphone for &lt;em>swift&lt;/em>, see &lt;a href="https://swift-project.github.io/docs/manual/swiftgeneral/macosnosound/">here&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="windows">Windows&lt;/h3>
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> make sure swift can access your microphone, &lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/nomiconwindows/">see here&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> make sure swift can access your microphone, &lt;a href="https://swift-project.github.io/docs/manual/swiftgeneral/nomiconwindows/">see here&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="linux">Linux&lt;/h3>
 &lt;ul>
@@ -41,17 +41,17 @@ Vulkan then you won't see any aircraft.&lt;/p>
 &lt;p>&lt;input disabled="" type="checkbox"> CSL files need to be inside the &lt;code>XPlane&lt;/code> folder, it is advisable to avoid spaces and special characters in the file paths&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;input disabled="" type="checkbox"> disable other simulator plugins using multiplayer planes (such as other pilot clients, or traffic tools) may conflict with &lt;em>swift&lt;/em>. Or entirely move them out of the plugin folder if you have problems such as not working animations (gear down), see &lt;a href="https://swift-project.github.io/docs/installation/troubleshooting/">here&lt;/a> under XPlane.&lt;/p>
+&lt;p>&lt;input disabled="" type="checkbox"> disable other simulator plugins using multiplayer planes (such as other pilot clients, or traffic tools) may conflict with &lt;em>swift&lt;/em>. Or entirely move them out of the plugin folder if you have problems such as not working animations (gear down), see &lt;a href="https://swift-project.github.io/docs/troubleshooting/">here&lt;/a> under XPlane.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;input disabled="" type="checkbox"> for &lt;code>BlueBell&lt;/code> models apply the vertical offset fix (make
 sure to do this correctly and NOT ending up with cascaded directories)&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>see &lt;a href="https://swift-project.github.io/docs/installation/downloadbluebell/">Bluebell CSL and Vertical Offset Fix&lt;/a>,&lt;/p>
+&lt;p>see &lt;a href="https://swift-project.github.io/docs/installation/xplane/downloadbluebell/">Bluebell CSL and Vertical Offset Fix&lt;/a>,&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/troubleshooting/">troubleshooting&lt;/a> and&lt;/p>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/troubleshooting/">troubleshooting&lt;/a> and&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;a href="https://swift-project.github.io/docs/installation/xplane/xplanecg/">XPlane Aircraft too high or too low&lt;/a>&lt;/p>
@@ -70,7 +70,7 @@ add this directory&lt;/p>
 &lt;p>&lt;input disabled="" type="checkbox"> FSX: make sure the terrain probe is installed, see &lt;a href="https://swift-project.github.io/docs/installation/fsx/fsxprobe/">Installation of the FSX/P3D terrain probe&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;input disabled="" type="checkbox"> Enable &lt;a href="https://swift-project.github.io/docs/help/spc/settings/sbareasettings/">SimConnect SB4 offsets settings&lt;/a> in the driver
+&lt;p>&lt;input disabled="" type="checkbox"> Enable &lt;a href="https://swift-project.github.io/docs/manual/spc/settings/sbareasettings/">SimConnect SB4 offsets settings&lt;/a> in the driver
 settings if you want to use XPDR updates from PMDG and other aircraft&lt;/p>
 &lt;/li>
 &lt;li>
@@ -87,7 +87,7 @@ settings if you want to use XPDR updates from PMDG and other aircraft&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;input disabled="" type="checkbox"> Since Windows Update 1909 the auto connect to the simulator does NOT
-work anymore, see &lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/fs9mp/">Connecting FS9 manually through multiplayer&lt;/a>&lt;/p>
+work anymore, see &lt;a href="https://swift-project.github.io/docs/manual/swiftgeneral/fs9mp/">Connecting FS9 manually through multiplayer&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;input disabled="" type="checkbox"> Consider the gnd. elevation recording: &lt;a href="https://swift-project.github.io/docs/installation/fs9/fs9elevation/">FS9 elevation&lt;/a>&lt;/p>
@@ -97,18 +97,18 @@ work anymore, see &lt;a href="https://swift-project.github.io/docs/help/swiftgen
 &lt;p>If &lt;em>swift&lt;/em> is connected with your simulator, you shall see the simulator
 LED as on&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/swift_LED_bar.png" alt="image">&lt;/p>
-&lt;p>If NOT, make sure your simulator driver is enabled, see &lt;a href="https://swift-project.github.io/docs/help/spc/settings/configuresim/">Configure / select the used simulator, P3D version FSX version&lt;/a>&lt;/p>
+&lt;p>If NOT, make sure your simulator driver is enabled, see &lt;a href="https://swift-project.github.io/docs/manual/spc/settings/configuresim/">Configure / select the used simulator, P3D version FSX version&lt;/a>&lt;/p>
 &lt;p>If the simulator does NOT connect, sometime it helps to un-check and
 check again the simulator (simulator settings)&lt;/p>
 &lt;p>Simulator disconnects: Do not run core and standalone GUI at the same
 time.&lt;/p>
 &lt;p>For XPlane:&lt;/p>
 &lt;ul>
-&lt;li>If no connection, check that the &lt;em>XSwiftBus&lt;/em> on simulator side and &lt;em>swift&lt;/em> side do match: &lt;a href="https://swift-project.github.io/docs/help/spc/settings/xswiftbussettings/">XSwiftBus settings&lt;/a>&lt;/li>
+&lt;li>If no connection, check that the &lt;em>XSwiftBus&lt;/em> on simulator side and &lt;em>swift&lt;/em> side do match: &lt;a href="https://swift-project.github.io/docs/manual/spc/settings/xswiftbussettings/">XSwiftBus settings&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>For FSX/P3D&lt;/p>
 &lt;ul>
-&lt;li>For P3D x64 check the correct P3D version: &lt;a href="https://swift-project.github.io/docs/help/spc/settings/p3dversion/">Setting the correct P3D version (x64 only)&lt;/a>&lt;/li>
+&lt;li>For P3D x64 check the correct P3D version: &lt;a href="https://swift-project.github.io/docs/manual/spc/settings/p3dversion/">Setting the correct P3D version (x64 only)&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Installation on Windows</title><link>https://swift-project.github.io/docs/installation/windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/windows/</guid><description>
 &lt;h2 id="download">Download&lt;/h2>
 &lt;p>Download the latest installer from &lt;a href="https://github.com/swift-project/pilotclient/releases">here&lt;/a>.&lt;/p>
@@ -125,10 +125,13 @@ Close all running swift applications before starting the installation
 &lt;p>You might see a warning when you start the installer:&lt;/p>
 &lt;img src=http://img.swift-project.org/Windows_protected_your_PC.png alt="Windows security warning" width="500px"/>
 &lt;p>You need to ignore this as we have no official MS certification.&lt;/p>
-&lt;p>If you encounter any problems then see &lt;a href="https://swift-project.github.io/docs/installation/troubleshooting/">troubleshooting&lt;/a>.&lt;/p>
+&lt;p>If you encounter any problems then see &lt;a href="https://swift-project.github.io/docs/troubleshooting/">troubleshooting&lt;/a>.&lt;/p>
 &lt;h2 id="initial-configuration">Initial configuration&lt;/h2>
 &lt;p>You&amp;rsquo;ve successfully installed swift. Congrats!&lt;/p>
-&lt;p>You can now move forward to start the configuration. &lt;a href="https://swift-project.github.io/docs/installation/simselect/">Click here&lt;/a>&lt;/p></description></item><item><title>Docs: Installation on MacOS</title><link>https://swift-project.github.io/docs/installation/macos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/macos/</guid><description>
+&lt;p>You can now move forward to start the configuration. &lt;a href="https://swift-project.github.io/docs/installation/simselect/">Click here&lt;/a>&lt;/p></description></item><item><title>Docs: Public download server</title><link>https://swift-project.github.io/docs/manual/publicdownload/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/publicdownload/</guid><description>
+&lt;p>Go to the download server: &lt;a href="https://datastore.swift-project.org/page/publicartifacts.php">Public
+Download&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>IMPORTANT&lt;/strong>: Use a random URL please.&lt;/p></description></item><item><title>Docs: Installation on MacOS</title><link>https://swift-project.github.io/docs/installation/macos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/macos/</guid><description>
 &lt;h2 id="download">Download&lt;/h2>
 &lt;p>Download the latest 32-bit installer from &lt;a href="https://github.com/swift-project/pilotclient/releases">here&lt;/a>.&lt;/p>
 &lt;div class="alert alert-warning" role="alert">
@@ -146,28 +149,25 @@ Close all running swift applications before starting the installation
 &lt;p>You need to ignore this as we have no official MS certification.&lt;/p>
 &lt;h2 id="initial-configuration">Initial configuration&lt;/h2>
 &lt;p>You&amp;rsquo;ve successfully installed swift. Congrats!&lt;/p>
-&lt;p>You can now move forward to start the configuration. &lt;a href="https://swift-project.github.io/docs/installation/simselect/">Click here&lt;/a>&lt;/p></description></item><item><title>Docs: Public download server</title><link>https://swift-project.github.io/docs/help/publicdownload/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/publicdownload/</guid><description>
-&lt;p>Go to the download server: &lt;a href="https://datastore.swift-project.org/page/publicartifacts.php">Public
-Download&lt;/a>.&lt;/p>
-&lt;p>&lt;strong>IMPORTANT&lt;/strong>: Use a random URL please.&lt;/p></description></item><item><title>Docs: Installation on Linux</title><link>https://swift-project.github.io/docs/installation/linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/linux/</guid><description>
-&lt;h2 id="download">Download&lt;/h2>
-&lt;p>Download the latest installer from &lt;a href="https://github.com/swift-project/pilotclient/releases">here&lt;/a>.&lt;/p>
-&lt;h2 id="run-the-installer">Run the installer&lt;/h2>
-&lt;p>After downloading, modify the installer to be executable &lt;code>chmod +x swiftinstaller-linux-64-&amp;lt;version&amp;gt;.run&lt;/code> and double-click on it in your favorite file browser or run it from console &lt;code>./swiftinstaller-linux-64-&amp;lt;version&amp;gt;.run&lt;/code>&lt;/p>
-&lt;p>If you encounter any problems then see &lt;a href="https://swift-project.github.io/docs/installation/troubleshooting/">troubleshooting&lt;/a>.&lt;/p>
-&lt;h2 id="initial-configuration">Initial configuration&lt;/h2>
-&lt;p>You&amp;rsquo;ve successfully installed swift. Congrats!&lt;/p>
-&lt;p>You can now move forward to start the configuration. &lt;a href="https://swift-project.github.io/docs/installation/simselect/">Click here&lt;/a>&lt;/p>
-&lt;h2 id="self-compilation">Self-compilation&lt;/h2>
-&lt;p>As usual for Linux programs you could theoretically self-compile swift as it is open-source. Unfortunately a secret key is needed to allow swift connect to official VATSIM servers. This key is build into the official installers.&lt;/p>
-&lt;p>So if you plan to use swift on VATSIM you need to use the installer. Otherwise you can use your self-compiled version. See here for more information.&lt;/p></description></item><item><title>Docs: Initial configuration</title><link>https://swift-project.github.io/docs/installation/simselect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/simselect/</guid><description>
+&lt;p>You can now move forward to start the configuration. &lt;a href="https://swift-project.github.io/docs/installation/simselect/">Click here&lt;/a>&lt;/p></description></item><item><title>Docs: Initial configuration</title><link>https://swift-project.github.io/docs/installation/simselect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/simselect/</guid><description>
 &lt;p>Select your simulator:&lt;/p>
 &lt;p>&lt;a href="https://swift-project.github.io/docs/installation/fsx/">FSX&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://swift-project.github.io/docs/installation/p3dv3/">P3D (v1-v4)&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://swift-project.github.io/docs/installation/p3d/">P3D (v4 or later)&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://swift-project.github.io/docs/installation/fs9/">FS9&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://swift-project.github.io/docs/installation/xplane/">X-Plane&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/fg/">Flightgear&lt;/a>&lt;/p></description></item><item><title>Docs: swift features</title><link>https://swift-project.github.io/docs/help/features/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/features/</guid><description>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/installation/fg/">Flightgear&lt;/a>&lt;/p></description></item><item><title>Docs: Installation on Linux</title><link>https://swift-project.github.io/docs/installation/linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/linux/</guid><description>
+&lt;h2 id="download">Download&lt;/h2>
+&lt;p>Download the latest installer from &lt;a href="https://github.com/swift-project/pilotclient/releases">here&lt;/a>.&lt;/p>
+&lt;h2 id="run-the-installer">Run the installer&lt;/h2>
+&lt;p>After downloading, modify the installer to be executable &lt;code>chmod +x swiftinstaller-linux-64-&amp;lt;version&amp;gt;.run&lt;/code> and double-click on it in your favorite file browser or run it from console &lt;code>./swiftinstaller-linux-64-&amp;lt;version&amp;gt;.run&lt;/code>&lt;/p>
+&lt;p>If you encounter any problems then see &lt;a href="https://swift-project.github.io/docs/troubleshooting/">troubleshooting&lt;/a>.&lt;/p>
+&lt;h2 id="initial-configuration">Initial configuration&lt;/h2>
+&lt;p>You&amp;rsquo;ve successfully installed swift. Congrats!&lt;/p>
+&lt;p>You can now move forward to start the configuration. &lt;a href="https://swift-project.github.io/docs/installation/simselect/">Click here&lt;/a>&lt;/p>
+&lt;h2 id="self-compilation">Self-compilation&lt;/h2>
+&lt;p>As usual for Linux programs you could theoretically self-compile swift as it is open-source. Unfortunately a secret key is needed to allow swift connect to official VATSIM servers. This key is build into the official installers.&lt;/p>
+&lt;p>So if you plan to use swift on VATSIM you need to use the installer. Otherwise you can use your self-compiled version. See here for more information.&lt;/p></description></item><item><title>Docs: swift features</title><link>https://swift-project.github.io/docs/manual/features/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/features/</guid><description>
 &lt;h1 id="supported-network-protocols-and-features">Supported network protocols and features&lt;/h1>
 &lt;ul>
 &lt;li>VATSIM FSD and voice&lt;/li>
@@ -231,7 +231,7 @@ tool)&lt;/li>
 &lt;ul>
 &lt;li>configurable model matching&lt;/li>
 &lt;li>matching script for own matching logic&lt;/li>
-&lt;/ul></description></item><item><title>Docs: swift launcher</title><link>https://swift-project.github.io/docs/help/launcher/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/launcher/</guid><description>
+&lt;/ul></description></item><item><title>Docs: swift launcher</title><link>https://swift-project.github.io/docs/manual/launcher/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/launcher/</guid><description>
 &lt;p>&lt;img src="http://img.swift-project.org/Launcher_core_mode.png" alt="image">&lt;/p>
 &lt;ul>
 &lt;li>
@@ -309,12 +309,12 @@ role=&amp;quot;ref&amp;rdquo;}&lt;/li>
 configuration wizard will be launched when the installer finishes. The
 configuration wizard allows you to set default values for the most
 important setting values and download the DB data.&lt;/p>
-&lt;p>See &lt;code>launcher_wizard&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: swift map (moving map)</title><link>https://swift-project.github.io/docs/help/swiftmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftmap/</guid><description>
+&lt;p>See &lt;code>launcher_wizard&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: swift map (moving map)</title><link>https://swift-project.github.io/docs/manual/swiftmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftmap/</guid><description>
 &lt;ul>
 &lt;li>Start swift map: &lt;a href="https://map.swift-project.org/Display.htm">https://map.swift-project.org/Display.htm&lt;/a>&lt;/li>
 &lt;li>The project has been migrated from VATGM:
 &lt;a href="http://vatgm.codeplex.com/documentation">http://vatgm.codeplex.com/documentation&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: swift public beta</title><link>https://swift-project.github.io/docs/help/beta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/beta/</guid><description>
+&lt;/ul></description></item><item><title>Docs: swift public beta</title><link>https://swift-project.github.io/docs/manual/beta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/beta/</guid><description>
 &lt;h1 id="welcome-to-swift-public-beta">Welcome to swift public beta&lt;/h1>
 &lt;ul>
 &lt;li>&lt;strong>No registration needed&lt;/strong> for public beta, that is why it is called
@@ -482,7 +482,7 @@ ready to setup everything else for your first connection to the network.&lt;/p>
 &lt;li>Use the &lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
 &lt;li>Check our &lt;code>troubleshooting&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} page or
 ask for help in the usual channels.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: A remote hotkey example (remote PTT)</title><link>https://swift-project.github.io/docs/help/spc/settings/remoteptt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/spc/settings/remoteptt/</guid><description>
+&lt;/ul></description></item><item><title>Docs: A remote hotkey example (remote PTT)</title><link>https://swift-project.github.io/docs/manual/spc/settings/remoteptt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/settings/remoteptt/</guid><description>
 &lt;p>Example:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -517,7 +517,7 @@ MSI]{.title-ref} (not on the laptop) I see the PTT LED &amp;quot;on&amp;quot;,
 &lt;p>&lt;img src="http://img.swift-project.org/remotesound2.png" alt="image">&lt;/p>
 &lt;/blockquote>
 &lt;/li>
-&lt;/ul></description></item><item><title>Docs: Accounts explained and how to troubleshoot</title><link>https://swift-project.github.io/docs/help/alpha/accounts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/alpha/accounts/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Accounts explained and how to troubleshoot</title><link>https://swift-project.github.io/docs/manual/alpha/accounts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/alpha/accounts/</guid><description>
 &lt;p>::: {.todo}
 This page needs major rework.&lt;/p>
 &lt;p>order to participate in swift testing a few accounts are needed and
@@ -559,9 +559,9 @@ are absolutely free to register here or with slack. It is your personal
 decision. We only use slack at this time because it is convenient, we
 are not related in any kind of business association. No login with
 VATSIM If you see this, VATSIM has not yet approved your id. If this
-does not disappear within 3 days, please contact us. We then crosscheck.&lt;/p></description></item><item><title>Docs: ACF aircraft (XPlane) excluded in mapping tool</title><link>https://swift-project.github.io/docs/help/smt/acfexcluded/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/smt/acfexcluded/</guid><description>
+does not disappear within 3 days, please contact us. We then crosscheck.&lt;/p></description></item><item><title>Docs: ACF aircraft (XPlane) excluded in mapping tool</title><link>https://swift-project.github.io/docs/manual/smt/acfexcluded/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/acfexcluded/</guid><description>
 &lt;p>See &lt;code>xplanemapping&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
-&lt;code>excludedmodels&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Adding icons (airlines, VAs, other organizations etc.)</title><link>https://swift-project.github.io/docs/help/alpha/newicons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/alpha/newicons/</guid><description>
+&lt;code>excludedmodels&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Adding icons (airlines, VAs, other organizations etc.)</title><link>https://swift-project.github.io/docs/manual/alpha/newicons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/alpha/newicons/</guid><description>
 &lt;p>::: {.important}
 ::: {.title}
 Important
@@ -580,15 +580,15 @@ see &lt;code>opentasks&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;
 described in the next step!&lt;/li>
 &lt;li>You can just click here to create a new task. Just drag and drop the
 icons into the task or use the file button.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Advanced - solving problems</title><link>https://swift-project.github.io/docs/help/swiftgeneral/swiftadvanced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/swiftadvanced/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Advanced - solving problems</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/swiftadvanced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/swiftadvanced/</guid><description>
 &lt;ul>
-&lt;li>&lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/faq/">Questions and answers (aka FAQs)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/swiftcmdargs/">swift command line arguments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://swift-project.github.io/docs/installation/troubleshooting/">Troubleshooting installation and 1st start&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/tracinginterpolation/">Tracing interpolation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/matching/tracingmatching/">Tracing model matching&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/tracingnetwork/">Tracing network packets (FSD log) and network statistics&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Advanced login popup (since 0.9.2)</title><link>https://swift-project.github.io/docs/help/spc/advloginscreen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/spc/advloginscreen/</guid><description>
+&lt;li>&lt;a href="https://swift-project.github.io/docs/manual/swiftgeneral/faq/">Questions and answers (aka FAQs)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://swift-project.github.io/docs/manual/swiftgeneral/swiftcmdargs/">swift command line arguments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://swift-project.github.io/docs/troubleshooting/">Troubleshooting installation and 1st start&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://swift-project.github.io/docs/manual/swiftgeneral/tracinginterpolation/">Tracing interpolation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://swift-project.github.io/docs/manual/swiftgeneral/matching/tracingmatching/">Tracing model matching&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://swift-project.github.io/docs/manual/swiftgeneral/tracingnetwork/">Tracing network packets (FSD log) and network statistics&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Advanced login popup (since 0.9.2)</title><link>https://swift-project.github.io/docs/manual/spc/advloginscreen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/advloginscreen/</guid><description>
 &lt;p>Since &lt;em>swift 0.9.2&lt;/em> an advanced login screen is available. It can be
 reached by pressing &lt;code>SHIFT&lt;/code> and Connect button.&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/advlogin.png" alt="image">&lt;/p>
@@ -788,7 +788,7 @@ better granularity, and there are classifications which are mutual
 exclusive, but maybe we can also just merge both categories and
 distinguish fixed wing/rotorcraft by the ICAO info or the newly
 established &amp;quot;details&amp;quot;&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Aircraft parts and gnd. flag / ground flag</title><link>https://swift-project.github.io/docs/help/swiftgeneral/partsandgndflag/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/partsandgndflag/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Aircraft parts and gnd. flag / ground flag</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/partsandgndflag/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/partsandgndflag/</guid><description>
 &lt;h1 id="aircraft-parts">Aircraft parts&lt;/h1>
 &lt;p>Aircraft parts are used to transfer aircraft information about &amp;quot;gear&amp;quot;,
 &amp;quot;spoilers&amp;quot;, &amp;quot;flaps&amp;quot;, &amp;quot;lights&amp;quot;. They also transfer a &lt;strong>GND flag&lt;/strong>
@@ -862,7 +862,7 @@ ELV)&lt;/li>
 &lt;h1 id="see-also">See also&lt;/h1>
 &lt;ul>
 &lt;li>&lt;code>ongroundscenarios&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Aircraft range and max. aircraft number (aka visibility range)</title><link>https://swift-project.github.io/docs/help/spc/settings/aircraftrange/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/spc/settings/aircraftrange/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Aircraft range and max. aircraft number (aka visibility range)</title><link>https://swift-project.github.io/docs/manual/spc/settings/aircraftrange/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/settings/aircraftrange/</guid><description>
 &lt;p>You can restrict the number of aircraft and the maximum range of
 rendered aircraft. We do not recommend to do so, unless you have
 particular reasons for that, as it can lead to surprising results
@@ -872,7 +872,7 @@ particular reasons for that, as it can lead to surprising results
 &lt;h1 id="disable-all-aircraft">Disable all aircraft&lt;/h1>
 &lt;p>If in some situations you need to disable all rendered aircraft you can
 do this from the context menu.&lt;/p>
-&lt;p>&lt;img src="http://img.swift-project.org/disableallaircraft.png" alt="image">&lt;/p></description></item><item><title>Docs: Alpha Q and A (questions and answers)</title><link>https://swift-project.github.io/docs/help/alpha/qa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/alpha/qa/</guid><description>
+&lt;p>&lt;img src="http://img.swift-project.org/disableallaircraft.png" alt="image">&lt;/p></description></item><item><title>Docs: Alpha Q and A (questions and answers)</title><link>https://swift-project.github.io/docs/manual/alpha/qa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/alpha/qa/</guid><description>
 &lt;h1 id="i-am-confused-about-all-the-sites">I am confused about all the sites&lt;/h1>
 &lt;p>Can be explained: * This site (&lt;a href="https://dev.swift-project.org">https://dev.swift-project.org&lt;/a>) is
 about swift development and bug reports * The datastore
@@ -925,7 +925,7 @@ development&lt;/li>
 &lt;li>Close swift before updating.&lt;/li>
 &lt;/ul>
 &lt;p>General swift Q&amp;amp;A&lt;/p>
-&lt;p>&lt;code>faq&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: ATC failed to connect error 10061</title><link>https://swift-project.github.io/docs/help/swiftgeneral/faq/atcfailedtoconnect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/faq/atcfailedtoconnect/</guid><description>
+&lt;p>&lt;code>faq&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: ATC failed to connect error 10061</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/faq/atcfailedtoconnect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/faq/atcfailedtoconnect/</guid><description>
 &lt;p>If a connection to a single ATC station fails check if the station
 really supports voice control. Some people set up a voice room but do
 NOT provide voice ATC.&lt;/p>
@@ -1001,7 +1001,7 @@ actual QNH QFE elevation&lt;/p>
 QFE&lt;/strong> set QNH, and elevation, elevation, x2, set set QNH, and
 QFE actual QNH, actual QNH, QNH, and QFE elevation
 elevation set QNH, and set QNH, and QFE &lt;br>
-QFE elevation QFE elevation elevation&lt;/h2></description></item><item><title>Docs: Background updater</title><link>https://swift-project.github.io/docs/help/smt/backupdate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/smt/backupdate/</guid><description>
+QFE elevation QFE elevation elevation&lt;/h2></description></item><item><title>Docs: Background updater</title><link>https://swift-project.github.io/docs/manual/smt/backupdate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/backupdate/</guid><description>
 &lt;p>The background updater allows to automatically reload and consolidate
 data in the mapping tool. This helps when other users also create new
 mappings and you want to keep your data synchronized with the latest
@@ -1036,7 +1036,7 @@ OBJ8 SOLID YES __Bluebell_Mil/F18D/F18D_US1_BA7.obj
 &lt;li>Acft F18 Airline RCH Livery BA7 (Blue Angels acrobatic)&lt;/li>
 &lt;/ul>
 &lt;p>Also the B744 has multiple CARGO liveries, and some regional jets have
-multiple liveries per airline.&lt;/p></description></item><item><title>Docs: Bluebell CSL and Vertical Offset Fix: Download and Installation</title><link>https://swift-project.github.io/docs/installation/downloadbluebell/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/downloadbluebell/</guid><description>
+multiple liveries per airline.&lt;/p></description></item><item><title>Docs: Bluebell CSL and Vertical Offset Fix: Download and Installation</title><link>https://swift-project.github.io/docs/installation/xplane/downloadbluebell/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/xplane/downloadbluebell/</guid><description>
 &lt;p>::: {.todo}
 Add download link
 :::&lt;/p>
@@ -1584,7 +1584,7 @@ exceptions:&lt;/p>
 &lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#8f5902;font-style:italic">// Display dialog box with ex.status().message()
 &lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
 &lt;span style="color:#8f5902;font-style:italic">// RAII object destroyed here and batch is committed if exception was not thrown.
-&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Cannot connect to simulator / no simulator plugin</title><link>https://swift-project.github.io/docs/help/swiftgeneral/cannotconnectsim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/cannotconnectsim/</guid><description>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Cannot connect to simulator / no simulator plugin</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/cannotconnectsim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/cannotconnectsim/</guid><description>
 &lt;ul>
 &lt;li>If NOT selected to the simulator the simulator LED is OFF.&lt;/li>
 &lt;li>Make sure the used simulator is selected (checked)&lt;/li>
@@ -1598,7 +1598,7 @@ install the corresponding plugin (aka driver)&lt;/li>
 &lt;ul>
 &lt;li>&lt;strong>XPlane specific&lt;/strong>: Verify the settings
 &lt;code>xswiftbussettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Changing / fixing a mapping</title><link>https://swift-project.github.io/docs/help/smt/changemapping/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/smt/changemapping/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Changing / fixing a mapping</title><link>https://swift-project.github.io/docs/manual/smt/changemapping/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/changemapping/</guid><description>
 &lt;p>Let's say you want to fix/change a particular mapping.&lt;/p>
 &lt;ul>
 &lt;li>locate this mapping in the mapping DB data&lt;/li>
@@ -1627,7 +1627,7 @@ install the corresponding plugin (aka driver)&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://img.swift-project.org/changemapping7.png" alt="image">&lt;/p>
 &lt;p>Aircraft ICAO codes can be requested here:
-&lt;a href="https://datastore.swift-project.org/">https://datastore.swift-project.org/&lt;/a>&lt;/p></description></item><item><title>Docs: Choosing a callsign</title><link>https://swift-project.github.io/docs/help/swiftgeneral/faq/choosecs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/faq/choosecs/</guid><description>
+&lt;a href="https://datastore.swift-project.org/">https://datastore.swift-project.org/&lt;/a>&lt;/p></description></item><item><title>Docs: Choosing a callsign</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/faq/choosecs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/faq/choosecs/</guid><description>
 &lt;p>For VATSIM see also
 &lt;a href="https://www.vatsim.net/pilot-resource-centre/general-lessons/choosing-callsign">https://www.vatsim.net/pilot-resource-centre/general-lessons/choosing-callsign&lt;/a>.&lt;/p></description></item><item><title>Docs: CLANG \"implicit copy constructor\"</title><link>https://swift-project.github.io/docs/knowhow/programming/clangimplicitcopyctor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/clangimplicitcopyctor/</guid><description>
 &lt;p>&lt;code>CLANG warning: definition of implicit copy assignment operator for 'CMeasurementUnit' is deprecated because it has a user-declared destructor&lt;/code>&lt;/p>
@@ -1862,7 +1862,7 @@ install the corresponding plugin (aka driver)&lt;/li>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>See also &lt;a href="http://en.cppreference.com/w/cpp/compiler_support">http://en.cppreference.com/w/cpp/compiler_support&lt;/a>&lt;/p></description></item><item><title>Docs: Configure / select the used simulator, P3D version FSX version</title><link>https://swift-project.github.io/docs/help/spc/settings/configuresim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/spc/settings/configuresim/</guid><description>
+&lt;p>See also &lt;a href="http://en.cppreference.com/w/cpp/compiler_support">http://en.cppreference.com/w/cpp/compiler_support&lt;/a>&lt;/p></description></item><item><title>Docs: Configure / select the used simulator, P3D version FSX version</title><link>https://swift-project.github.io/docs/manual/spc/settings/configuresim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/settings/configuresim/</guid><description>
 &lt;p>&lt;img src="http://img.swift-project.org/Emulated_driver.png" alt="image">&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/swift_pilot_client_-_configure_simulator.png" alt="image">&lt;/p>
 &lt;h1 id="supported-driver">Supported driver&lt;/h1>
@@ -1886,7 +1886,7 @@ to use swift without simulator in special cases.&lt;/p>
 &lt;li>&lt;code>aircraftrange&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
 &lt;li>number of max. remote aircraft to be shown&lt;/li>
 &lt;li>max distance of remote aircraft to be shown&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Connect to an online flight simulator network (VATSIM, FSD login page)</title><link>https://swift-project.github.io/docs/help/spc/connectnw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/spc/connectnw/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Connect to an online flight simulator network (VATSIM, FSD login page)</title><link>https://swift-project.github.io/docs/manual/spc/connectnw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/connectnw/</guid><description>
 &lt;p>Before a connection to an online flight simulation network is made,
 several configuration parameters need to be set. Most of them will
 already be pre-filled and do not need to be touched. Only very few
@@ -2003,7 +2003,7 @@ have been taken to select the visible aircraft model. See
 &lt;/ol>
 &lt;p>In order to set a partner callsign and/or modify the send network data
 you can use the advanced login popup, see
-&lt;code>advloginscreen&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p></description></item><item><title>Docs: Connecting FS9 manually through multiplayer</title><link>https://swift-project.github.io/docs/help/swiftgeneral/fs9mp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/fs9mp/</guid><description>
+&lt;code>advloginscreen&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p></description></item><item><title>Docs: Connecting FS9 manually through multiplayer</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/fs9mp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/fs9mp/</guid><description>
 &lt;p>Should auto-connect between FS9 and swift not work, you will notice that
 the status-light on the right side of &lt;strong>sim&lt;/strong> is off and swift is not
 able to detect the &lt;strong>aircraft model&lt;/strong> that you are currently using in
@@ -2018,7 +2018,7 @@ within a few seconds. Select it and then click on &lt;strong>Join&lt;/strong>&lt
 &lt;p>After joining swift's multiplayer-session, change back to swift GUI and
 check that the status-light next to &lt;strong>sim&lt;/strong> is lit and that swift is
 able to detect your aircraft model&lt;/p>
-&lt;p>&lt;img src="http://img.swift-project.org/swift_FS9_connection_04.jpg" alt="image">&lt;/p></description></item><item><title>Docs: Crash reports / enable crash dumps</title><link>https://swift-project.github.io/docs/help/swiftgeneral/crashreports/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/crashreports/</guid><description>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_FS9_connection_04.jpg" alt="image">&lt;/p></description></item><item><title>Docs: Crash reports / enable crash dumps</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/crashreports/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/crashreports/</guid><description>
 &lt;p>swift can send crash reports to our server, so we can check what is
 going wrong. However, this is also a privacy issue, as we need to send
 detailed information.&lt;/p>
@@ -2086,7 +2086,7 @@ executable [minidump_stackwalk]{.title-ref} ## Windows: Link TBD
 if you don't have it locally already&lt;/p>
 &lt;/blockquote>
 &lt;p>Run the command in a terminal: [minidump_stackwalk &amp;lt;path to dump
-file&amp;gt; &amp;lt;path to symbol files&amp;gt; &amp;gt; stacktrace.txt]{.title-ref}&lt;/p></description></item><item><title>Docs: Creating a Windows crash dump (swift hanging)</title><link>https://swift-project.github.io/docs/help/swiftgeneral/createcrashdump/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/swiftgeneral/createcrashdump/</guid><description>
+file&amp;gt; &amp;lt;path to symbol files&amp;gt; &amp;gt; stacktrace.txt]{.title-ref}&lt;/p></description></item><item><title>Docs: Creating a Windows crash dump (swift hanging)</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/createcrashdump/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/createcrashdump/</guid><description>
 &lt;p>::: {.important}
 ::: {.title}
 Important
@@ -2169,7 +2169,7 @@ because it has opened up on a different screen.&lt;/li>
 &lt;li>No unauthorized usage or copying allowed.&lt;/li>
 &lt;li>Usage is only allowed within swift software components.&lt;/li>
 &lt;li>When you (&amp;ldquo;the user&amp;rdquo;) enter/upload data to this DB, swift can use them now and forever.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Data provisioning (where do the mappings come from?)</title><link>https://swift-project.github.io/docs/help/datastore/dataprovisioning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/datastore/dataprovisioning/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Data provisioning (where do the mappings come from?)</title><link>https://swift-project.github.io/docs/manual/datastore/dataprovisioning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/datastore/dataprovisioning/</guid><description>
 &lt;p>The &lt;em>swift&lt;/em> model data are stored in the &lt;a href="https://datastore.swift-project.org/page/index.php">datastore
 database&lt;/a>. This
 database contains all mappings, ICAO codes etc. used with swift.&lt;/p>

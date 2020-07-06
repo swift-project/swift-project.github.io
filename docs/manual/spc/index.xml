@@ -1,0 +1,766 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – swift pilot client system</title><link>https://swift-project.github.io/docs/manual/spc/</link><description>Recent content in swift pilot client system on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/manual/spc/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Advanced login popup (since 0.9.2)</title><link>https://swift-project.github.io/docs/manual/spc/advloginscreen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/advloginscreen/</guid><description>
+&lt;p>Since &lt;em>swift 0.9.2&lt;/em> an advanced login screen is available. It can be
+reached by pressing &lt;code>SHIFT&lt;/code> and Connect button.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/advlogin.png" alt="image">&lt;/p>
+&lt;p>Here you can&lt;/p>
+&lt;ul>
+&lt;li>add a partner callsign for flying in a shared cockpit:
+&lt;code>sharedcockpit&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>override livery and model string data to appear as a different
+aircraft&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Connect to an online flight simulator network (VATSIM, FSD login page)</title><link>https://swift-project.github.io/docs/manual/spc/connectnw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/connectnw/</guid><description>
+&lt;p>Before a connection to an online flight simulation network is made,
+several configuration parameters need to be set. Most of them will
+already be pre-filled and do not need to be touched. Only very few
+parameters need a one off configuration. The following two sections
+explain how to connect to VATSIM or any other private FSD network.&lt;/p>
+&lt;p>Generally all changes you make are automatically saved and restored next
+time you launch the application.&lt;/p>
+&lt;ol>
+&lt;li>Network Configuration
+========================&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="http://img.swift-project.org/network1.png" alt="image">&lt;/p>
+&lt;p>&lt;strong>Server Selection:&lt;/strong> In order to connect to a VATSIM server, make sure
+to select the &lt;code>VATSIM&lt;/code> tab. The combobox shows a list of active VATSIM
+servers. This list is updated automatically on a regular basis. Select
+the server of your choice. The selection is saved while connecting.&lt;/p>
+&lt;p>In order to connect to another custom FSD server, change to
+&lt;code>Other servers&lt;/code> tab and select the server from the combobox. By default,
+swift does not offer any preconfigured custom FSD server. Go to
+&lt;code>Settings-&amp;gt;Servers&lt;/code> or use the shortcut button &lt;code>goto settings&lt;/code> to add
+and edit custom servers. One typical scenario for a custom FSD
+connection would be to connect to Euroscope to setup a Tower View. See
+&lt;code>towerview&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} for more details.&lt;/p>
+&lt;p>&lt;strong>Mode Selection&lt;/strong> As a regular pilot, you want to use &lt;code>Normal&lt;/code>
+connection mode. The second mode is offered for shared cockpit users,
+further details &lt;code>sharedcockpit&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;p>&lt;strong>FSD Details&lt;/strong> The default values are fine for regular usage. See
+advanced section for more information.&lt;/p>
+&lt;p>&lt;strong>Voice&lt;/strong> The default values are fine for regular usage. See advanced
+section for more information.&lt;/p>
+&lt;p>&lt;strong>Matching log&lt;/strong> The default values are fine for regular usage. See
+advanced section and &lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} for more
+information.&lt;/p>
+&lt;ol start="2">
+&lt;li>Pilots Info
+==============&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="http://img.swift-project.org/network2.png" alt="image">&lt;/p>
+&lt;p>This section requires you to enter your CID, password, real name and
+home base. Use the binoculars to get a helper dialog to select the
+airport ICAO code or just type it into the field - a completer will help
+you.&lt;/p>
+&lt;p>=== 3. Own aircraft ===&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/network3.png" alt="image">&lt;/p>
+&lt;p>This section configures the details of your used aircraft. If a
+simulator is connected already and the used aircraft model was known to
+swift (the Model name has a green border), then all parameters are
+expected to be filled correctly. Use the blue circle to refresh it, if
+the model name does not seem to be correct. Also correct any wrong
+items.&lt;/p>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>Having a mapping of the &amp;quot;own&amp;quot; (i.e. the flown) aircraft in the
+database is a CONVENIENCE feature. You can always manually set the ICAO
+code for aircraft/airline in the login screen.
+:::&lt;/p>
+&lt;ul>
+&lt;li>Red: Aircraft information missing, simulator not connected If your
+simulator is connected, but the model not picked up, use the reload
+button next to the &amp;quot;red box&amp;quot;.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/redbox.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Yellow: This aircraft can be used, but it is not know in the DB yet.
+You need to fill in the aircraft data manually&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/yellowbox.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Green: Model known in DB, all filled in automatically&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/greenbox.png" alt="image">&lt;/p>
+&lt;p>&lt;strong>Finally enter your selected callsign.&lt;/strong>. If you need help here, see
+&lt;code>choosecs&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;ol start="4">
+&lt;li>Advanced Settings, FSD Details
+=================================&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="http://img.swift-project.org/FSDSetup2.png" alt="image">&lt;/p>
+&lt;p>Different flight simulator networks offer different features. Those can
+be enabled and disabled for this specific network.&lt;/p>
+&lt;p>&lt;strong>Parts&lt;/strong>&lt;/p>
+&lt;p>Aircraft parts are a VATSIM specific extension of the FSD protocol to
+synchronize aircraft parts (gear, flaps, engines, lights, etc.). Using
+the extension on other private FSD networks other than VATSIM might
+work. Consult the network responsible in case of doubts.&lt;/p>
+&lt;p>&lt;strong>Gnd.Flag&lt;/strong>&lt;/p>
+&lt;p>This flag configures whether the ground flag is sent as part of a pilot
+position update. On VATSIM, this is not the case. IVAO and other FSD
+networks make use of it.&lt;/p>
+&lt;p>&lt;strong>Fast pos.&lt;/strong>&lt;/p>
+&lt;p>A flag that controls whether fast position updates are in use in this
+FSD network. This generally works only between swift clients.&lt;/p>
+&lt;p>&lt;strong>Text codec&lt;/strong>&lt;/p>
+&lt;p>FSD protocol is pure ASCII. Most FSD networks do not define which
+minimum string encoding is supported by the server and clients. If
+another string encoding is required, it can be changed here.&lt;/p>
+&lt;p>&lt;strong>Voice&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/udpport.png" alt="image">&lt;/p>
+&lt;p>VATSIM only: This setting allows to change the default VATSIM Voice UDP
+port, in case the default port is already in use or the user would like
+to change it.&lt;/p>
+&lt;p>&lt;strong>Matching log&lt;/strong>&lt;/p>
+&lt;p>The two check boxes enable or disable the creation of matching logs.
+Those are helpful to understand why a particular remote aircraft is
+displayed (as for example [A320 DLH]{.title-ref}). The matching log is a
+very verbose trace of what information was available which decisions
+have been taken to select the visible aircraft model. See
+&lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;ol start="5">
+&lt;li>Advanced login popup
+=======================&lt;/li>
+&lt;/ol>
+&lt;p>In order to set a partner callsign and/or modify the send network data
+you can use the advanced login popup, see
+&lt;code>advloginscreen&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p></description></item><item><title>Docs: Flight plan</title><link>https://swift-project.github.io/docs/manual/spc/flightplan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/flightplan/</guid><description>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>If the flight plan window is too small for you, see
+&lt;code>swiftuiconcepts&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . You can display the FP
+in its own window. And use the tooltips for the various input fields if
+you need help!
+:::&lt;/p>
+&lt;h1 id="standard-operations">Standard operations&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>load/send to send or load to /from used network&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>load/save to save or load from disk&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>vPilot format&lt;/li>
+&lt;li>SB4 format&lt;/li>
+&lt;li>&lt;em>swift&lt;/em> JSON format&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>Actions:&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_Flight_Plan_buttons.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>validate checks flighplan&lt;/li>
+&lt;li>strict decides if strict check rules are applied&lt;/li>
+&lt;li>prefill fills flight plan based on current aircraft&lt;/li>
+&lt;li>reset the flight plan&lt;/li>
+&lt;/ul>
+&lt;h1 id="download-from-simbrief">Download from SimBrief&lt;/h1>
+&lt;p>&lt;img src="http://img.swift-project.org/simbrief.png" alt="image">&lt;/p>
+&lt;h1 id="synchronize-flight-plan-with-simulator-data">Synchronize flight plan with simulator data&lt;/h1>
+&lt;p>If your aircraft model (the one you fly) is known in the DB &lt;strong>AND&lt;/strong> the
+flight plan was &lt;strong>NOT&lt;/strong> sent yet, then your flight plan plan will be
+automatically updated (ICAO, callsign) whenever you change your aircraft
+in the simulator.&lt;/p>
+&lt;p>If you wish to override your flight plan data with the simulator data
+regardless of the state, you can use the &amp;quot;circle&amp;quot; icon next to the
+callsign.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/fp.png" alt="image">&lt;/p>
+&lt;h1 id="altitude-popup-metric-altitudes">Altitude popup, metric altitudes&lt;/h1>
+&lt;p>You can use the altitude dialog to enter metric altitudes or get help
+with the altitude entry&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Altitude_dialog.png" alt="image">&lt;/p>
+&lt;h1 id="flight-plan-numbering">Flight plan numbering&lt;/h1>
+&lt;p>The &lt;em>swift&lt;/em> numbering is based on the &lt;a href="https://upload.wikimedia.org/wikipedia/commons/e/e4/Flightplan.PNG">FAA flight
+plan&lt;/a>.
+Aircraft/equipment (3) is split into 2 fields (&lt;em>swift&lt;/em>), remarks (11)
+are at the bottom.&lt;/p>
+&lt;h1 id="remember-remarks">Remember remarks&lt;/h1>
+&lt;p>As it can be useful to reuse recently sent remarks you can now use the
+remarks history. Just click the remarks buttons to fill in the remarks
+fields.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/remarks.png" alt="image">&lt;/p>
+&lt;h1 id="flight-plan-of-other-aircraft">Flight plan of other Aircraft&lt;/h1>
+&lt;p>You can see the flight plan of other aircraft from the aircraft views
+context menu.&lt;/p></description></item><item><title>Docs: Flying with swift</title><link>https://swift-project.github.io/docs/manual/spc/flightwithswift/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/flightwithswift/</guid><description>
+&lt;ul>
+&lt;li>&lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>connectnw&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>flightplan&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>metar&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>textmsg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>spcmm&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>instantmap&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>settings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>sharedcockpit&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>disableafv&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;p>::: {.toctree glob=&amp;rdquo;&amp;rdquo; caption=&amp;quot;Content in this chapter&amp;rdquo;}
+disableafv modelsetinclient incognito integratecomunit manualchangemodel
+metar xplanefollow sharedcockpit aircraftviews
+:::&lt;/p></description></item><item><title>Docs: Hotkeys such as PTT (push to talk), Joystick hotkey not working</title><link>https://swift-project.github.io/docs/manual/spc/definehotkey/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/definehotkey/</guid><description>
+&lt;p>&lt;img src="http://img.swift-project.org/Hotkeys.png" alt="image">&lt;/p>
+&lt;h1 id="general">General:&lt;/h1>
+&lt;ul>
+&lt;li>Hotkeys as the push to talk (PTT) button can be defined under
+settings -&amp;gt; hotkeys&lt;/li>
+&lt;li>Hotkeys can be &lt;strong>keyboard keys&lt;/strong> or &lt;strong>joystick buttons&lt;/strong>&lt;/li>
+&lt;li>Hotkeys are machine dependent , when you use a distributed version
+of &lt;em>swift&lt;/em> the hotkey can originate from your local machine or the
+remote machine&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/hotkeys2.png" alt="image">&lt;/p>
+&lt;h1 id="troubleshooting-and-testing">Troubleshooting and testing:&lt;/h1>
+&lt;ul>
+&lt;li>if a combination is not working &lt;strong>delete it and add it again&lt;/strong>. It
+can be that the identifier of the key has changed and the code hence
+is not recognized).&lt;/li>
+&lt;li>if you want to test a particular key combination, you can assign the
+&amp;quot;swift hotkey test message&amp;quot; (see screenshot). You will see a small
+popup when you press the key combination (indicating the combination
+works).&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Hotkey_test.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>you can use the tooltip to see details in the hotkey dialog&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/hotkeys3.png" alt="image">&lt;/p></description></item><item><title>Docs: Instant mapping (create a mapping before you fly - Quick mapping wizard)</title><link>https://swift-project.github.io/docs/manual/spc/instantmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/instantmap/</guid><description>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>Having a mapping of the &amp;quot;own&amp;quot; (i.e. the flown) aircraft in the
+database is a CONVENIENCE feature. You can always manually set the ICAO
+code for aircraft/airline in the login screen.
+:::&lt;/p>
+&lt;p>You can directly create a &lt;code>new mapping &amp;lt;mm&amp;gt;&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;} from the login page. So when you see the model you are
+flying in not yet in the swift database please help us and provide the
+correct information. Other users will appreciate your support.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Instant_mapping.png" alt="image">&lt;/p>
+&lt;p>Use the little green swift button to launch the wizard. Go thru the
+different values and fill in the values. These values will be used as
+filter values in the following pages.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Instant_mapping_intro.png" alt="image">&lt;/p>
+&lt;p>On the aircraft ICAO page you need to select the appropriate entry. The
+value are filtered by the values from the first page, but you could also
+clear the filter and search values from the scratch.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Instant_mapping_aircraft_ICAO.png" alt="image">&lt;/p>
+&lt;p>Now there are two options&lt;/p>
+&lt;ol>
+&lt;li>you will see an airline based list&lt;/li>
+&lt;li>or a search form the closest color livery&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="http://img.swift-project.org/Instant_mapping_airline_Lufthansa.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Instant_mapping_color.png" alt="image">&lt;/p>
+&lt;p>Assigning a distributor will later allow to set preference or filters&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Instant_mapping_distributor.png" alt="image">&lt;/p>
+&lt;p>You are almost done, a last verification to check if the data are
+correct.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Instant_mapping_verification.png" alt="image">&lt;/p>
+&lt;p>::: {.note}
+::: {.title}
+Note
+:::&lt;/p>
+&lt;p>It can take a moment before you see the mapping, see
+&lt;code>nodbmodel&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}
+:::&lt;/p></description></item><item><title>Docs: Model set validation</title><link>https://swift-project.github.io/docs/manual/spc/modelsetvalidation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/modelsetvalidation/</guid><description>
+&lt;p>&lt;strong>General&lt;/strong>&lt;/p>
+&lt;p>&lt;em>swift&lt;/em> assumes that the &lt;strong>models in your set are properly installed and
+working for your simulator&lt;/strong>. If not, it can happen that &lt;em>swift&lt;/em> uses a
+model (as result of the matching procedure) which then fails to render.&lt;/p>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>The normal situation should be that there are no validation errors. Fix
+your model set if models are removed or changed. So it is your
+responsibility to keep your model set up to date. However there are some
+tools helping you.
+:::&lt;/p>
+&lt;p>It can happen that models fail even though there is no validation error,
+see &lt;code>disabledmodels&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;strong>Reasons for validation errors&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>have you moved your model directories?&lt;/li>
+&lt;li>have you deleted models?&lt;/li>
+&lt;li>have you run updates that might have changed the models?&lt;/li>
+&lt;/ul>
+&lt;p>All that requires updating the own models and the model set. Check the
+model file path of the models in your model set, then you can see where
+&lt;em>swift&lt;/em> expects the models. If you want to fix the path, you can
+re-create the model set, see &lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;p>&lt;strong>How to enable validation?&lt;/strong>&lt;/p>
+&lt;p>From the settings (use SHIFT + settings button to get to the first
+page), click matching, scroll down a bit&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/failurehandling.png" alt="image">&lt;/p>
+&lt;p>&lt;strong>Pilot client validations&lt;/strong>&lt;/p>
+&lt;p>In the matching settings you can setup how &lt;em>swift&lt;/em> handles validation.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Matching_settings.png" alt="image">&lt;/p>
+&lt;ol>
+&lt;li>Verify set at startup: Checks your model set after &lt;em>swift&lt;/em> was
+started.
+&lt;ol>
+&lt;li>this requires &lt;em>swift&lt;/em> can access the model files (disk access to
+the model files)&lt;/li>
+&lt;li>this takes a while before completed (and runs in background)&lt;/li>
+&lt;li>models failing will be temporarily disabled&lt;/li>
+&lt;li>&lt;em>swift&lt;/em> gives up if there are too many files failing, because it
+then assumes there is a general issue&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>temporarily remove models failing. This means if a model fails
+during the matching process it will not be used anymore this session
+and the model will be disabled&lt;/li>
+&lt;li>in order to avoid seeing a disabled model you can select the &amp;quot;use
+other model option&amp;quot;. &lt;em>swift&lt;/em> then tries to use another model before
+it fails, but gives up after some time&lt;/li>
+&lt;/ol>
+&lt;p>This is how the result dialog looks like. There you can temp. disable
+such models.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Validation_dialog.png" alt="image">&lt;/p>
+&lt;p>After you have disabled models you wold see them &amp;quot;in red&amp;quot; in the model
+view (might be you have to press &amp;quot;load set&amp;quot; to refresh the view).&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Temp_disabled_models.png" alt="image">&lt;/p>
+&lt;p>Btw, you can also temp. disable a model from the context menu.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Context_menu_temp_disable.png" alt="image">&lt;/p>
+&lt;p>&lt;strong>Trigger validation in pilot client&lt;/strong>&lt;/p>
+&lt;p>From the model page in the client, click the [validate]{.title-ref}
+button,&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/triggervalidation.png" alt="image">&lt;/p>
+&lt;p>In the validation popup you either see messages already (if there are
+results already), or press [trigger validation]{.title-ref} to start the
+validation (which takes a while before there are results)&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/triggervalidation1.png" alt="image">&lt;/p>
+&lt;p>&lt;strong>Validation in mapping tool&lt;/strong>&lt;/p>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>This does a live check (unlike the background check of the pilot client
+above). In case the files are not accessible on a remote drive it can
+cause the mapping tool to hang before a timeout is reported.
+:::&lt;/p>
+&lt;p>In the mapping tool just select the models to be checked and run the
+validation.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Context_menu_model_validation_mapping_tool.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Mapping_tool_validation.png" alt="image">&lt;/p>
+&lt;p>If there was a previous validation in the &lt;em>swift&lt;/em> pilot client yielding
+some invalid models, those can be also highlighted in the mapping tool.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Highlite_invalid.png" alt="image">&lt;/p>
+&lt;p>&lt;strong>A real world example&lt;/strong>&lt;/p>
+&lt;p>see &lt;code>modelsetvalidationexample&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>::: {.toctree caption=&amp;quot;Content in this chapter&amp;rdquo;}
+modelsetvalidationexample disabledmodels whyvalidationerrors
+:::&lt;/p></description></item><item><title>Docs: P3D and FSX remote SimConnect access</title><link>https://swift-project.github.io/docs/manual/spc/p3dremote/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/p3dremote/</guid><description>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>Remote SimConnect allows you to run a &amp;quot;standalone&amp;quot; GUI connecting to a
+remote FSX/P3D via a &amp;quot;remote SimConnect&amp;quot; configuration. This is
+something different as a distributed &lt;em>swift&lt;/em> GUI connected with a core.
+:::&lt;/p>
+&lt;p>If you want to read about remote swift UI:
+&lt;code>distributedswift&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;h1 id="enable-the-server-side-where-fsx-or-p3d-runs">Enable the server side (where FSX or P3D runs)&lt;/h1>
+&lt;ul>
+&lt;li>From the official &lt;a href="https://www.prepar3d.com/SDKv4/sdk/simconnect_api/configuration_files/configuration_files_overview.html">P3D
+documentation&lt;/a>&lt;/li>
+&lt;li>Another remote [SimConnect]{.title-ref} config &lt;a href="https://www.fsdeveloper.com/wiki/index.php?title=Remote_connection">tutorial is
+here&lt;/a>.&lt;/li>
+&lt;li>In &lt;code>%APPDATA%\Lockheed Martin\Prepar3D v4&lt;/code> (or &lt;code>Microsoft/FSX&lt;/code>)
+create a &lt;code>SimConnect.xml&lt;/code> file&lt;/li>
+&lt;li>Example: My path looks like this for FSX:
+&lt;code>C:\Users\[username]\AppData\Roaming\Microsoft\FSX&lt;/code>&lt;/li>
+&lt;li>This file is only needed when remote access is required&lt;/li>
+&lt;li>For me the file is identical for P3Dv4 and FSX&lt;/li>
+&lt;li>In case one needs to create [SimConnect]{.title-ref} log files, the
+[.ini`file is here: `C:Users[username]DocumentsFlight Simulator
+X FilesSimConnect.ini]{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>Example file: TODO ADD&lt;/p>
+&lt;h1 id="enable-the-client-side-where-swift-runs">Enable the client side (where &lt;em>swift&lt;/em> runs)&lt;/h1>
+&lt;ul>
+&lt;li>On the client machine, go to the &lt;code>Documents&lt;/code> folder, something like
+this: &lt;code>C:\Users\[username]\Documents&lt;/code>&lt;/li>
+&lt;li>In the documents folder place a &lt;code>SimConnect.cfg&lt;/code> file corresponding
+with the above server&lt;/li>
+&lt;/ul>
+&lt;p>Example file: TODO ADD&lt;/p>
+&lt;p>You can alternatively use the config option from the &lt;em>swift&lt;/em> settings&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/SimConnect_swift_config.png" alt="image">&lt;/p>
+&lt;h1 id="logging-simconnect">Logging SimConnect&lt;/h1>
+&lt;p>&lt;a href="https://forum.simflight.com/topic/45074-fsx-help-logging-simconnect/">https://forum.simflight.com/topic/45074-fsx-help-logging-simconnect/&lt;/a>&lt;/p></description></item><item><title>Docs: P3D and swift - 32 or 64 bit?</title><link>https://swift-project.github.io/docs/manual/spc/p3d32vs64bit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/p3d32vs64bit/</guid><description>
+&lt;p>The ideal choice for using P3D with swift is the 64bit version. However,
+for P3D before V4.2 you need to use the 32bit version. You can try the
+64bit version, but likely the driver will not connect.&lt;/p>
+&lt;p>You can also use the 32bit version with the newer P3D versions, but then
+always the legacy FSX driver will be used. (as you can see in the
+screenshot).&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/P3D_with_swift_x86.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>The swift x64 {64bit} version uses the latest P3D SimConnect API and
+library&lt;/li>
+&lt;li>The swift x86 (32bit) version uses the FSX SimConnect API and
+[dll]{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>Hint: use the correct P3D version or use the one comes closest.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/p3dversion.png" alt="image">&lt;/p>
+&lt;h1 id="why-would-i-want-to-use-the-p3d-x64-version">Why would I want to use the P3D x64 version?&lt;/h1>
+&lt;ul>
+&lt;li>First of all, because you can use a x64 version not having the
+memory restrictions of a x86 version. But that does not really
+matter for normal users. So if you use P3D and FSX and you only want
+to use the x86/32bit version you are fine (time will tell if this
+remains true).&lt;/li>
+&lt;li>Also, because in the mid and long term the new &lt;code>SimConnect&lt;/code> uses
+newer P3D API functions not available in legacy &lt;code>SimConnect&lt;/code>. So far
+the difference between old and new API is minor, but steadily
+increasing. As of 4.2 we already use newer functions, and we also
+will use even better ones available in 4.3 and later.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Settings (pilot client)</title><link>https://swift-project.github.io/docs/manual/spc/settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/settings/</guid><description>
+&lt;p>&lt;strong>Pilot client settings&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_pilot_client_settings.png" alt="image">&lt;/p>
+&lt;p>You can get to the settings page via the &amp;quot;settings&amp;quot; button. Two
+important hints:&lt;/p>
+&lt;ul>
+&lt;li>the pages have shortcuts, check them out by reading the tooltip&lt;/li>
+&lt;li>pressing SHIFT {key SHIFT} + settings will always get you to the
+overview page&lt;/li>
+&lt;/ul>
+&lt;p>Settings:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>configuresim&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} , also to configure
+max. aircraft to be shown/max. distance of aircraft to be shown, see
+&lt;code>aircraftrange&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>audio&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} , see also
+&lt;code>notificationsounds_spc&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>hotkeys&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>remoteptt&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>matchingsettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>[&lt;code>interpolationsettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>weathersettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>simmessages&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;p>XPlane:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>xswiftbussettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;p>P3D/FSX:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>sbareasettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>p3dversion&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;p>::: {.toctree caption=&amp;quot;Content in this chapter&amp;rdquo;}
+remoteptt aircraftrange configuresim hidecallsign interpolationsettings
+matchingsettings maxaircraft notificationsounds resetscreen p3dversion
+sbareasettings simmessages modeldirectories weathersettings
+xplanedriversettings xswiftbussettings
+:::&lt;/p></description></item><item><title>Docs: swift and FSUIPC</title><link>https://swift-project.github.io/docs/manual/spc/fsuipc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/fsuipc/</guid><description>
+&lt;ul>
+&lt;li>For //swift //+ FS9 FSUIPC is required (mandatory)&lt;/li>
+&lt;li>For //swift //+ FSX/P3D is normally not needed and optional (you
+could use it to query XPDR state/ident). but normally the SimConnect
+SB4 synchronization should already work, see
+&lt;code>sbareasettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul></description></item><item><title>Docs: swift audio</title><link>https://swift-project.github.io/docs/manual/spc/audio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/audio/</guid><description>
+&lt;p>See also:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>nonotification&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>notificationsounds_spc&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>troubleshootvoice&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;h1 id="audio-settings">Audio settings&lt;/h1>
+&lt;p>Audio settings to select devices and notification sounds&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Audio_settings.png" alt="image">&lt;/p></description></item><item><title>Docs: swift core</title><link>https://swift-project.github.io/docs/manual/spc/core/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/core/</guid><description>
+&lt;p>see also &lt;code>distributedswift&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;h1 id="the-swift-core">The swift core&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>the swift core is containing the central pilot client functionality&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>connect to the network (e.g. VATSIM, local FSD server etc.)&lt;/li>
+&lt;li>connect to the simulator (via a plugin driver)&lt;/li>
+&lt;li>doing the model matching&lt;/li>
+&lt;li>voice connectivity&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Operations:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>The swift pilot client can be run as one executable together
+with the UI (core included)&lt;/li>
+&lt;li>or the core runs independently from the UI (2 executables),
+interacting with the UI via DBus&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_core.png" alt="image">&lt;/p></description></item><item><title>Docs: swift launcher wizard</title><link>https://swift-project.github.io/docs/manual/spc/launcher_wizard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/launcher_wizard/</guid><description>
+&lt;p>You can start the configuration wizard from the launcher. Normally the
+configuration wizard will be launched when the installer finishes. The
+configuration wizard allows you to set default values for the most
+important setting values and download the DB data.&lt;/p>
+&lt;p>You can copy data from other swift versions via the &lt;code>launcher&lt;/code> -&amp;gt;
+[wizard]{.title-ref}&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/wizard.png" alt="image">&lt;/p>
+&lt;p>Copy settings &lt;code>copyswiftdata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: swift pilot client model matching</title><link>https://swift-project.github.io/docs/manual/spc/spcmm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/spcmm/</guid><description>
+&lt;ul>
+&lt;li>&lt;code>dataprovisioning&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>mm&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} (fundamentals)&lt;/li>
+&lt;li>&lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>matchingresult&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>modelset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>aircraftviews&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>matchinghints&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>modelsetinclient&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul></description></item><item><title>Docs: swift pilot client text message handling (disable overlay messages)</title><link>https://swift-project.github.io/docs/manual/spc/textmsg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/textmsg/</guid><description>
+&lt;h1 id="detached-message-window">Detached message window&lt;/h1>
+&lt;p>You can detach the &lt;code>message window&lt;/code> (like any other window)&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Detached_message_window.png" alt="image">&lt;/p>
+&lt;h1 id="overlay-messages">Overlay messages&lt;/h1>
+&lt;p>From the ATC and cockpit view you can use overlay text messages directly
+in the window&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/ATC_overlay_window.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Overlay_text_messages.png" alt="image">&lt;/p>
+&lt;h1 id="private-message-buttons">Private message buttons&lt;/h1>
+&lt;p>You can use the &lt;code>private message buttons&lt;/code> to send private messages to
+the closest ATC stations&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Private_message_buttons.png" alt="image">&lt;/p>
+&lt;h1 id="configure-text-messages">Configure text messages&lt;/h1>
+&lt;ul>
+&lt;li>Defining which text messages are relayed to the simulator&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/Text_messages_to_simulator.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Defining which text messages are shown as overlay in the client&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/messagesoverlaysettings.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Set focus as wanted&lt;/li>
+&lt;/ul>
+&lt;h1 id="disable-overlay-messages">Disable overlay messages&lt;/h1>
+&lt;p>Disable all checkboxes for overlay messages&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/disableoverlay.png" alt="image">&lt;/p>
+&lt;h1 id="text-message-views">Text message views&lt;/h1>
+&lt;p>Normally you have text views for each radio channel and/or private text
+messages. The UNICOM and COM1/2 channels are permanent while the private
+channels can be closed.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/textmessages.png" alt="image">&lt;/p>
+&lt;p>That leads us to the role of the &lt;code>ALL&lt;/code> view. This is a sortable table
+view (and no HTML text view as the other ones). It's role is different:
+It can help you to find a message again if you have already closed the
+private message tab or you do not know where it was.&lt;/p>
+&lt;p>If you do not know how to resize the columns we recommend the &amp;quot;UI tips
+and tricks&amp;quot; &lt;code>pctutorials&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>Hint: You can use the tooltip to see longer messages .. image::
+&lt;a href="http://img.swift-project.org/longmessage.png">http://img.swift-project.org/longmessage.png&lt;/a>&lt;/p>
+&lt;h1 id="relay-messages-to-simulator">Relay messages to simulator&lt;/h1>
+&lt;p>&lt;code>simmessages&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: swift pilot client tutorials</title><link>https://swift-project.github.io/docs/manual/spc/spctutorials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/spctutorials/</guid><description>
+&lt;ul>
+&lt;li>&lt;code>pctutorials&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>smttutorials&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul></description></item><item><title>Docs: swift pilot client tutorials (YouTube videos)</title><link>https://swift-project.github.io/docs/manual/spc/pctutorials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/pctutorials/</guid><description>
+&lt;p>&lt;code>smttutorials&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>Enable CC and HD for YouTube to see closed captions and reasonable
+quality
+:::&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Playlist
+&lt;a href="https://www.youtube.com/playlist?list=PLHQ0-JnmgGSic-UXiNoVyEKfSRd-0iXIS">https://www.youtube.com/playlist?list=PLHQ0-JnmgGSic-UXiNoVyEKfSRd-0iXIS&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Download and install (Multiple tutorials by AF (external)&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>&lt;a href="https://youtu.be/SAOZq_mgBcY">https://youtu.be/SAOZq_mgBcY&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://youtu.be/lmGE5MzKoOI">https://youtu.be/lmGE5MzKoOI&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://youtu.be/vs8i6BxSQ10">https://youtu.be/vs8i6BxSQ10&lt;/a> (Configuration in launcher
+wizard)&lt;/li>
+&lt;li>&lt;a href="https://youtu.be/cbOEN7BC2KI">https://youtu.be/cbOEN7BC2KI&lt;/a> (Useful info about &lt;em>swift&lt;/em> UI)&lt;/li>
+&lt;li>&lt;a href="https://youtu.be/ptTPs_RXMNw">https://youtu.be/ptTPs_RXMNw&lt;/a> (Enable the log and fine the
+results)&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>core and UI &lt;a href="https://youtu.be/Q4MuTdJs7UI">https://youtu.be/Q4MuTdJs7UI&lt;/a> (swift distributed UI and
+core)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Advanced UI &lt;a href="https://youtu.be/dtnuBZCk6FE">https://youtu.be/dtnuBZCk6FE&lt;/a> (swift navigator and
+status bar)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Drago's tutorials
+&lt;a href="https://www.youtube.com/playlist?list=PL0_hSfPVc4FlMNyfOF8U0liCtQOOuAVt2">https://www.youtube.com/playlist?list=PL0_hSfPVc4FlMNyfOF8U0liCtQOOuAVt2&lt;/a>
+(Multiple tutorials by Drago (&lt;strong>EXTERNAL&lt;/strong>)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>FG connection &lt;a href="https://youtu.be/l5O3tRobYPY">https://youtu.be/l5O3tRobYPY&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: swift user data</title><link>https://swift-project.github.io/docs/manual/spc/userdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/userdata/</guid><description>
+&lt;p>You can find your swift user data in the application data directory,
+which depends on the OS you are using. On Windows this directory will be
+&lt;code>AppData/Local/org.swift-project&lt;/code>. As you can install multiple swift
+versions on your system, you might see a directory for each of those
+installation. Within such a directory you will find sub directories for
+log, cache, and settings data.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_application_data.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_application_data_subdirs.png" alt="image">&lt;/p>
+&lt;p>You can also access these directories from your swift applications'
+File menu.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_file_data_dirs.png" alt="image">&lt;/p>
+&lt;p>Hint: In the &lt;code>launcher_wizard&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} you can
+transfer settings and cache data between different swift installations.&lt;/p></description></item><item><title>Docs: Tower view for controllers with EuroScope, vStars</title><link>https://swift-project.github.io/docs/manual/spc/towerview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/towerview/</guid><description>
+&lt;h1 id="using-swift-as-tower-view-with-euroscope-atc-client">Using Swift as Tower View with Euroscope ATC Client&lt;/h1>
+&lt;p>Using X-Plane 11 (XP11) or Prepar3D v4.x (P3D)):&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>Start&lt;/code> &lt;strong>Euroscope&lt;/strong> at the airport of your choice. It is not
+necessary to start Euroscope's Proxy Server.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>Connect&lt;/code> Euroscope to VATSIM.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>Start&lt;/code> X-Plane 11 or P3D at an airport of your choice&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>For &lt;strong>X-Plane 11&lt;/strong>, use any aircraft (e.g. C172) on a remote
+stand. Once started, select Tower (shift+5) or Free Camera
+(c).&lt;/li>
+&lt;li>For &lt;strong>P3D&lt;/strong>, select 'Tower Controller' from the main startup
+page/Location/Starting Location (bottom of list).&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>Start&lt;/code> the &lt;em>swiftGUI&lt;/em>&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Under &lt;strong>Settings =&amp;gt; Servers&lt;/strong>, create a server for localhost
+by filling in a suitable name (e.g.) 'Tower View' and a
+description (e.g. 'Local Tower View').&lt;/li>
+&lt;li>As &lt;strong>address&lt;/strong> use 'localhost' or the IP-address of the
+computer that runs Euroscope, set &lt;strong>port&lt;/strong> 6809.&lt;/li>
+&lt;li>Set &lt;strong>Eco.&lt;/strong> to 'VATSIM' and &lt;strong>type&lt;/strong> to 'FSD [VATSIM]'.&lt;/li>
+&lt;li>Fill in anything in the boxes for &lt;strong>real name&lt;/strong>, &lt;strong>ID&lt;/strong> and
+&lt;strong>password&lt;/strong> (none of them are used for a proxy connection,
+but the boxes cannot be empty).&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/TowerView_ServerSetup.jpg" alt="image">&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Click on the &lt;em>swift&lt;/em> &lt;strong>Connect widget&lt;/strong>. On top you will find the
+&lt;strong>Network&lt;/strong> options, there select the &lt;strong>Other Servers&lt;/strong> tab (do not
+use VATSIM tab) and then the Tower Server that you just created.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/TowerView_SelectServer.jpg" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>The information in the &lt;strong>Own aircraft&lt;/strong> section do not matter, you
+can fill in any bogus data.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/ownaircraft.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Click on [Connect]{.title-ref}. Live VATSIM aircraft will appear in
+X-Plane 11/P3D after several seconds, your &lt;em>swift&lt;/em> Aircraft and
+Models pages will be populated, too.&lt;/li>
+&lt;/ul>
+&lt;h1 id="vstars">vStars&lt;/h1>
+&lt;ol>
+&lt;li>
+&lt;p>Open SwiftGUI&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select &amp;quot;Settings&amp;quot;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select &amp;quot;Servers&amp;quot;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fill in, for the server descriptions...&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>Name: Localhost&lt;/li>
+&lt;li>Description: Tower View&lt;/li>
+&lt;li>Eco./type VATSIM then FSD[VATSIM]&lt;/li>
+&lt;li>Addr./port: localhost then 6809&lt;/li>
+&lt;li>Leave the rest blank&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Select &amp;quot;save&amp;quot;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Run vSTARS and connect&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Run &lt;code>.startproxy&lt;/code> in vSTARS&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In SwiftGUI, select &amp;quot;Connect&amp;quot;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select &amp;quot;Other servers&amp;quot;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select &amp;quot;Localhost: Tower View&amp;quot; from the dropdown&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select &amp;quot;connect&amp;quot;&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Remark: &amp;quot;The one tricky thing is if your doing it on separate computers
+you have to put in the computer that owns the proxy as the IP address
+and start the proxy before connecting&amp;quot;&lt;/p>
+&lt;h1 id="impressions">Impressions&lt;/h1>
+&lt;p>&lt;strong>Tower view impressions (X-Plane 11)&lt;/strong>&lt;/p>
+&lt;p>Euroscope with vSMR plugin&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/towerview.png" alt="image">&lt;/p>
+&lt;p>Traffic situation on the radar as seen in X-Plane 11&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/towerview2.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/towerview3.png" alt="image">&lt;/p></description></item><item><title>Docs: Update model data (for the client)</title><link>https://swift-project.github.io/docs/manual/spc/updatemodeldata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/updatemodeldata/</guid><description>
+&lt;p>Read also: &lt;code>dataprovisioning&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>When new model data (more precisely &amp;quot;shared data&amp;quot;, a copy of the DB
+data) are published, you will see an update screen in the pilot client.
+Those data include airline data, model data, new liveries etc. New data
+will be published if new mappings (&lt;code>mm&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} )
+are created, data are corrected, new airlines are added. &lt;strong>It will NOT
+update the program, only data&lt;/strong>.&lt;/p>
+&lt;p>This update will do two things.&lt;/p>
+&lt;ul>
+&lt;li>download the latest model data (ICAO codes, models, liveries .&amp;hellip;)&lt;/li>
+&lt;li>consolidate the data, see &lt;code>whydataconsolidation&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;} . This means your model set data are updated.&lt;/li>
+&lt;/ul>
+&lt;p>::: {.note}
+::: {.title}
+Note
+:::&lt;/p>
+&lt;p>This step can take a while to complete as all the data will be
+downloaded and merged (consolidated) with your simulator models.
+Normally you can just run the update without doing anything.
+:::&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/client_model_update.png" alt="image">&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/client_update_consolidation.png" alt="image">&lt;/p>
+&lt;p>Remark: When you run the mapping tool the latest DB data will be
+automatically downloaded, so in that case you already have the latest
+data .&lt;/p></description></item></channel></rss>

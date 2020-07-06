@@ -1,0 +1,221 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – swift datastore</title><link>https://swift-project.github.io/docs/manual/datastore/</link><description>Recent content in swift datastore on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/manual/datastore/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Change requests for ICAO codes and liveries</title><link>https://swift-project.github.io/docs/manual/datastore/cr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/datastore/cr/</guid><description>
+&lt;p>::: {.toctree glob=&amp;rdquo;&amp;rdquo; hidden=&amp;rdquo;&amp;quot;}
+./*
+:::&lt;/p>
+&lt;p>&lt;strong>Sources&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Official ICAO codes:
+&lt;a href="http://www.icao.int/publications/DOC8643/Pages/Search.aspx">www.icao.int&lt;/a>&lt;/li>
+&lt;li>IATA codes: &lt;a href="http://www.airlinecodes.co.uk/arctypes.asp">http://www.airlinecodes.co.uk/arctypes.asp&lt;/a>&lt;/li>
+&lt;li>IATA codes &lt;a href="http://www.flugzeuginfo.net/table_accodes_iata_en.php">http://www.flugzeuginfo.net/table_accodes_iata_en.php&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Change requests&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/preview-DatatoreChangeRequests.png" alt="image">&lt;/p>
+&lt;p>ICAO codes and liveries cannot be changed directly by users. &lt;strong>You have
+to request them:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>Go to the
+&lt;a href="https://datastore.swift-project.org/page/index.php">datastore&lt;/a>&lt;/li>
+&lt;li>Select change request&lt;/li>
+&lt;li>Specify your identity&lt;/li>
+&lt;li>Now you can decide, select an existing entry (change request) or
+just start with an empty id (new code)&lt;/li>
+&lt;li>Specify the new/correct values&lt;/li>
+&lt;li>Submit the change request&lt;/li>
+&lt;/ol>
+&lt;p>Also read &lt;code>icaohints&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Data provisioning (where do the mappings come from?)</title><link>https://swift-project.github.io/docs/manual/datastore/dataprovisioning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/datastore/dataprovisioning/</guid><description>
+&lt;p>The &lt;em>swift&lt;/em> model data are stored in the &lt;a href="https://datastore.swift-project.org/page/index.php">datastore
+database&lt;/a>. This
+database contains all mappings, ICAO codes etc. used with swift.&lt;/p>
+&lt;p>There are &lt;strong>two ways&lt;/strong> to obtain these data. &lt;em>swift&lt;/em> will always
+download the data and store them locally in cache files.&lt;/p>
+&lt;ul>
+&lt;li>the mapping tool will download the data via web services directly
+from the database&lt;/li>
+&lt;li>the client (pilot client) will download the data as files, we call
+them &lt;em>shared data file&lt;/em> . The files are generated from the database
+and distributed to different servers. The content of the //shared
+files// is basically the same as in the web services, but it is a
+snapshot of the time when they are generated.&lt;/li>
+&lt;/ul>
+&lt;p>Some explanations:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>for mapping (direct access to swift database)&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>the mapping tool writes directly to the database as all users
+editing the data always need the latest data. Also they have
+to work on the same data.&lt;/li>
+&lt;li>if the database is down, users can still use the cached data,
+but not write data. This is not really a problem as the users
+can save the stash and continue at a later time&lt;/li>
+&lt;li>there are only a few users concurrently creating mappings.
+Creating mappings is a specialized task only for power users.&lt;/li>
+&lt;li>Since only few members work directly with the database it is
+not a performance problem.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>for the pilot client (shared files)&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>there are much more users using the pilot client&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>during a flight the model data must not be updated, as this
+would consume too much time and affect interpolation&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>there are too many users so that not everybody can download
+directly from the database.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>the pilot client downloads the shared files. as these files
+are available on multiple servers:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>the download is redundant, if one server is down the
+shared files can be downloaded from another server&lt;/li>
+&lt;li>the traffic is distributed, the swift team can open new
+download servers and hence share the network traffic&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Download developer and alpha versions from datastore</title><link>https://swift-project.github.io/docs/manual/datastore/downloadalpha/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/datastore/downloadalpha/</guid><description>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>alpha/developer versions are early access versions for testing. We
+recommend to keep a more stable version in parallel.
+:::&lt;/p>
+&lt;p>See &lt;code>copyswiftdata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;h1 id="download-alpha">Download alpha&lt;/h1>
+&lt;ol>
+&lt;li>
+&lt;p>To download alpha you need to go here:
+&lt;a href="https://datastore.swift-project.org/">https://datastore.swift-project.org/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Login with your VATSIM SSO account and create an account&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>If already approved, you see the download page, you are good
+to go!&lt;/li>
+&lt;li>If not, you'll see an info that your account awaits approval&lt;/li>
+&lt;li>If your VATSIM account has expired, get that fixed,
+&lt;code>see here &amp;lt;qa&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Now you can ask for a tester account (same as alpha account) - but
+for that &lt;strong>we need at least need your real name or VATSIM id&lt;/strong>.
+Otherwise we cannot find you in the user list.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You should see a link to the download page (see below). If you &lt;strong>DO
+NOT SEE this link&lt;/strong> let us know so we can enable you as tester.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="http://img.swift-project.org/alphadownload.png" alt="image">&lt;/p>
+&lt;ol>
+&lt;li>After we have enabled the link you need logoff -&amp;gt; login again
+before the link becomes visible&lt;/li>
+&lt;/ol>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>We need your real name, or your VATSIM id, to grant access for developer
+versions. Just by your nickname (like &amp;quot;TheFlyingDude&amp;quot;) we can NOT find
+your account!
+:::&lt;/p></description></item><item><title>Docs: Register for the swift datastore</title><link>https://swift-project.github.io/docs/manual/datastore/registerdatastore/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/datastore/registerdatastore/</guid><description>
+&lt;ul>
+&lt;li>If you are a VATSIM user: &lt;a href="https://datastore.swift-project.org">Register for SSO
+(Single-Sign-On)&lt;/a> with your
+VATSIM account, then you can use your VATSIM credentials with the
+swift mapping database.&lt;/li>
+&lt;li>After you have registered &lt;a href="https://datastore.swift-project.org">here
+(SSO)&lt;/a> a swift admin will
+approve your account.&lt;/li>
+&lt;li>Problems &lt;code>with VATSIM SSO &amp;lt;qa&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}?&lt;/li>
+&lt;li>If you are not a VATSIM member use the the chatroom to request an
+account&lt;/li>
+&lt;li>You can register your email with swift datastore to allow a reset of
+your password and receive notifications. However, as best practice
+we advice you to use a secondary email in case something goes wrong
+(but this general advice is true for all public services and not
+swift only).&lt;/li>
+&lt;/ul>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>After you have registered with SSO the 1st time, an administrator needs
+to approve your account first
+:::&lt;/p></description></item><item><title>Docs: swift mapping roles</title><link>https://swift-project.github.io/docs/manual/datastore/mappingroles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/datastore/mappingroles/</guid><description>
+&lt;hr>
+&lt;p>role meaning&lt;/p>
+&lt;hr>
+&lt;p>alpha can access alpha program downloads&lt;/p>
+&lt;p>bulk can perform direct uploads from swift mapping tool&lt;/p>
+&lt;h2 id="mapping-admin---can-create-new-liveries-aircraft-icaos-airline-icaos">mapping admin can create new liveries, aircraft ICAOs, airline ICAOs&lt;/h2></description></item><item><title>Docs: Tracing changes in datastore</title><link>https://swift-project.github.io/docs/manual/datastore/tracingchanges/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/datastore/tracingchanges/</guid><description>
+&lt;h1 id="change-request">Change request&lt;/h1>
+&lt;p>::: {.note}
+::: {.title}
+Note
+:::&lt;/p>
+&lt;p>Requires mapping admin role or higher, &lt;code>mappingroles&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;}
+:::&lt;/p>
+&lt;p>Each change request is archived. From the &amp;quot;changed&amp;quot; column it is
+possible to show a popup window displaying the changed attributes.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Changed_attributes_CRs.png" alt="image">{height=&amp;quot;150px&amp;rdquo;}&lt;/p>
+&lt;h1 id="work-history">Work history&lt;/h1>
+&lt;p>::: {.note}
+::: {.title}
+Note
+:::&lt;/p>
+&lt;p>Requires mapping admin role or higher, &lt;code>mappingroles&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;}
+:::&lt;/p>
+&lt;p>Each modification is stored in the work history. From the &amp;quot;changed&amp;quot;
+column it is possible to show a popup window displaying the changed
+attributes.&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Changed_attributes_work_history.png" alt="image">{height=&amp;quot;150px&amp;rdquo;}&lt;/p></description></item><item><title>Docs: VAs (virtual airlines) in swift</title><link>https://swift-project.github.io/docs/manual/datastore/va/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/datastore/va/</guid><description>
+&lt;p>The FSD protocol (which is used by VATSIM and other networks) transfers&lt;/p>
+&lt;ul>
+&lt;li>your callsign&lt;/li>
+&lt;li>your aircraft ICAO designator&lt;/li>
+&lt;li>your airline ICAO designator&lt;/li>
+&lt;li>your model string (FsInn extension)&lt;/li>
+&lt;li>your livery string (not standardized for VATSIM, hence pretty
+useless)&lt;/li>
+&lt;/ul>
+&lt;p>Unlike in real aviation there or some challenges regarding airlines&lt;/p>
+&lt;ul>
+&lt;li>there are VAs using the ICAO code of real airlines&lt;/li>
+&lt;li>people fly ceased airlines (not possible in real world)&lt;/li>
+&lt;li>people use wrong airline codes&lt;/li>
+&lt;/ul>
+&lt;p>All that can lead to ambiguous airline codes. Also VATSIM only uses 3
+letter ICAO codes. So there is no chance to distinguish a virtual
+airline from a real airline.&lt;/p>
+&lt;p>&lt;em>swift&lt;/em> however distinguishes VAs and real airlines. In your database we
+use a 4 letter airline code for VAs, but this works only from &lt;em>swift&lt;/em> to
+&lt;em>swift&lt;/em>.&lt;/p>
+&lt;p>Example:&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/va1.png" alt="image">{height=&amp;quot;200px&amp;rdquo;}&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/va2.png" alt="image">{height=&amp;quot;200px&amp;rdquo;}&lt;/p>
+&lt;p>If you want to add your VA to the &lt;em>swift&lt;/em> database you can do so, see
+&lt;code>cr&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . These airlines will be recognized
+by &lt;em>swift&lt;/em> clients (&lt;code>icaohints&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} ). You can
+also add the airline name in the FP if you use other clients.&lt;/p>
+&lt;p>To create a mapping see &lt;code>createmappings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}.&lt;/p></description></item></channel></rss>

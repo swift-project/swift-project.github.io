@@ -57,7 +57,7 @@ could work on&lt;/p>
 &lt;p>Requires: C++ skills, installation of Qt Creator&lt;/p>
 &lt;ul>
 &lt;li>Radar screen, pilot client. Create a UI for a radar screen (similar) to the one in FsInn. Populate this with data&lt;/li>
-&lt;li>Integrate a small web server in the swift core, which will provide JSON web services as API to swift. Then the web service API will be used with the &lt;a href="https://swift-project.github.io/docs/help/swiftmap/">swift Map&lt;/a>:
+&lt;li>Integrate a small web server in the swift core, which will provide JSON web services as API to swift. Then the web service API will be used with the &lt;a href="https://swift-project.github.io/docs/manual/swiftmap/">swift Map&lt;/a>:
 &lt;ul>
 &lt;li>we could integrate a small server, e.g. like &lt;a href="http://stefanfrings.de/qtwebapp/tutorial/index.html">this one&lt;/a>&lt;/li>
 &lt;li>We would make the API of the &lt;em>swift&lt;/em> core available as web services, see doygen.&lt;/li>
@@ -88,13 +88,13 @@ Creator, more focused on the UI builder, stylesheets&lt;/p>
 &lt;/ul>
 &lt;h2 id="no-programming-skills-required">no programming skills required&lt;/h2>
 &lt;ul>
-&lt;li>help with the efforts to create mappings, see &lt;a href="https://swift-project.github.io/docs/help/swiftgeneral/mapping/maphints/">Mapping hints&lt;/a>&lt;/li>
+&lt;li>help with the efforts to create mappings, see &lt;a href="https://swift-project.github.io/docs/manual/swiftgeneral/mapping/maphints/">Mapping hints&lt;/a>&lt;/li>
 &lt;li>help us to complete the airline icons. Provide us with airline icons we can integrate, see &lt;a href="https://swift-project.github.io/docs/gi/airlineicons/">here&lt;/a> . Mind the copyright!&lt;/li>
 &lt;li>ATC icons: We are using icons to represent the different ATC stations. Those icons currently have a low resolution. We could use them in higher resolutions and streamlined.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://img.swift-project.org/ATC_icons.png" alt="image">&lt;/p>
 &lt;ul>
-&lt;li>Read how to attach icons here: &lt;a href="https://swift-project.github.io/docs/help/alpha/newicons/">Adding icons&lt;/a>&lt;/li>
+&lt;li>Read how to attach icons here: &lt;a href="https://swift-project.github.io/docs/manual/alpha/newicons/">Adding icons&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Providing airline icons (VA icons, military organization icons)</title><link>https://swift-project.github.io/docs/gi/airlineicons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/gi/airlineicons/</guid><description>
 &lt;p>swift can display airline icons in its views. This is optional, but a
 nice eye catcher. If you want to add missing icons please consider the
@@ -143,7 +143,7 @@ choose the most appropriate one
 &lt;/ul>
 &lt;/li>
 &lt;li>
-&lt;p>To add new icons read &lt;a href="https://swift-project.github.io/docs/help/alpha/newicons/">Adding new icons&lt;/a>&lt;/p>
+&lt;p>To add new icons read &lt;a href="https://swift-project.github.io/docs/manual/alpha/newicons/">Adding new icons&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ul></description></item><item><title>Docs: Reporting bugs and requesting features</title><link>https://swift-project.github.io/docs/gi/reportingbugs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/gi/reportingbugs/</guid><description>
 &lt;div class="alert alert-primary" role="alert">

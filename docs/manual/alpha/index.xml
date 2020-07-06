@@ -1,0 +1,215 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – swift alpha program (swift alpha and developer versions)</title><link>https://swift-project.github.io/docs/manual/alpha/</link><description>Recent content in swift alpha program (swift alpha and developer versions) on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/manual/alpha/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Accounts explained and how to troubleshoot</title><link>https://swift-project.github.io/docs/manual/alpha/accounts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/alpha/accounts/</guid><description>
+&lt;p>::: {.todo}
+This page needs major rework.&lt;/p>
+&lt;p>order to participate in swift testing a few accounts are needed and
+hopefully this here will help to understand what they are and whom to
+ask.
+:::&lt;/p>
+&lt;p>Before we can help, we need to understand what the problem is. We
+received requests like &amp;quot;I cannot login&amp;quot;, &amp;quot;I have not been approved&amp;quot;,
+etc. Please tell us what you are talking about. What is not working&lt;/p>
+&lt;p>Downloading the software? The login to slack? The login to this site
+here? Below you find some information about the different accounts,
+please let us know where you face the problem.&lt;/p>
+&lt;p>::: {.warning}
+::: {.title}
+Warning
+:::&lt;/p>
+&lt;p>Make sure you can receive email from us and the invitations for slack,
+this site here etc. do NOT go to your SPAM folder.
+:::&lt;/p>
+&lt;p>Downloading the software Downloading the software for alpha test:
+&lt;a href="https://datastore.swift-project.org/">https://datastore.swift-project.org/&lt;/a> Most users login with VATSIM SSO.
+If this is the first time, a user credential will be created. This
+credential will be approved by one of the swift admins Typical problems:
+Some users just login with VATSIM SSO, never contact us, and just
+disappear. Those accounts will never be approved. Become a alpha tester,
+or alpha tester for VATSIM You need to contact us, nothing will happen
+before we have your full real name, VATSIM id (if applicable), and a
+valid email address When you are becoming a member of the testing team,
+you will receive 2 invitations (emails): One for this site here:
+&lt;a href="https://dev.swift-project.org/">https://dev.swift-project.org/&lt;/a> This is required for &amp;quot;bug reports&amp;quot;,
+... One for slack:: this is the most agile form in getting in touch
+with us to interactively resolve problems. Did you get the emails. Did
+you verify your account here? Also we need to forward your credentials
+to VATSIM who will allow you testing with a development client in the
+network. Legal information: In doing this you deal with 3 parties: Us,
+legal info is here. VATSIM, you have to check their legal information,
+and if you install slack, also the corresponding information there. You
+are absolutely free to register here or with slack. It is your personal
+decision. We only use slack at this time because it is convenient, we
+are not related in any kind of business association. No login with
+VATSIM If you see this, VATSIM has not yet approved your id. If this
+does not disappear within 3 days, please contact us. We then crosscheck.&lt;/p></description></item><item><title>Docs: Adding icons (airlines, VAs, other organizations etc.)</title><link>https://swift-project.github.io/docs/manual/alpha/newicons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/alpha/newicons/</guid><description>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>Add new icons as task, see below
+:::&lt;/p>
+&lt;ul>
+&lt;li>Read &lt;code>airlineicons&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} for format, naming
+etc.&lt;/li>
+&lt;li>If you have multiple icons please use a container like
+[zip]{.title-ref}, [rar]{.title-ref} or similar&lt;/li>
+&lt;li>Sign the (all online)&lt;/li>
+&lt;li>Yes, a feature for an easy upload was nice. If you could do that,
+see &lt;code>opentasks&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
+&lt;code>gi&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . Currently you have to do it as
+described in the next step!&lt;/li>
+&lt;li>You can just click here to create a new task. Just drag and drop the
+icons into the task or use the file button.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Alpha Q and A (questions and answers)</title><link>https://swift-project.github.io/docs/manual/alpha/qa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/alpha/qa/</guid><description>
+&lt;h1 id="i-am-confused-about-all-the-sites">I am confused about all the sites&lt;/h1>
+&lt;p>Can be explained: * This site (&lt;a href="https://dev.swift-project.org">https://dev.swift-project.org&lt;/a>) is
+about swift development and bug reports * The datastore
+(&lt;a href="https://datastore.swift-project.org">https://datastore.swift-project.org&lt;/a>) contains the mappings and alpha
+users can download the swift development versions. * The alpha
+downloads can be downloaded from
+&lt;a href="https://datastore.swift-project.org/page/alpha.html">https://datastore.swift-project.org/page/alpha.html&lt;/a>&lt;/p>
+&lt;h1 id="what-is-sso">What is SSO?&lt;/h1>
+&lt;p>SSO means single sign on, you do not need an extra username/password but
+you can use your VATSIM credentials.&lt;/p>
+&lt;h1 id="i-cannot-login-with-with-vatsim-sso">I cannot login with with VATSIM SSO&lt;/h1>
+&lt;p>Do a simple test, try to login to &lt;a href="https://forums.vatsim.net">https://forums.vatsim.net&lt;/a> If SSO
+does not work with you? * If not, there is a problem with your VATSIM
+credentials - you need to clarify with VATSIM. * If this works and not
+with datastore, let us know * &lt;strong>Other hint:&lt;/strong> if you have a 6 digit
+VATSIM id, try to add a leading 0: 123456 -&amp;gt; 0123456 * If this still
+does not work, contact us via&lt;/p>
+&lt;h1 id="installation">Installation&lt;/h1>
+&lt;ul>
+&lt;li>Please read &lt;code>installation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} chapter
+directory concept.&lt;/li>
+&lt;/ul>
+&lt;h1 id="general">General&lt;/h1>
+&lt;ul>
+&lt;li>My account is not approved yet. We approve users step by step (in
+waves). We want to handle user requests/issue before we accept new
+users testing&lt;/li>
+&lt;li>Where can I file bug reports?
+&lt;code>Here &amp;lt;reportingbugs&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}, check the
+&lt;code>status page &amp;lt;status&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} first.&lt;/li>
+&lt;li>Why is there no voice in the YouTube tutorials? Simple, matter of
+time. They are subtitled because subtitles can be easily added and
+adjusted - so resources is the reason&lt;/li>
+&lt;li>Why is A and B not happening, happening faster etc.? Resources,
+easiest way of speeding up things, join and do it. Are capacity
+limit is reached.&lt;/li>
+&lt;li>I did not get a response to my query? Be patient, or ask again.
+Hobby project, limited resources (maybe we should set up a telephone
+hotline holding queue as in professional projects]]&lt;/li>
+&lt;li>In the alpha chat room, how to disable all the email notifications?
+Go to the top of the page, settings, you can change it there&lt;/li>
+&lt;/ul>
+&lt;h1 id="updates">Updates&lt;/h1>
+&lt;ul>
+&lt;li>Check the &lt;code>status page &amp;lt;status&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} to
+see if something is ready&lt;/li>
+&lt;li>Currently you have to manually download, improved feature in
+development&lt;/li>
+&lt;li>You can override a swift installation, or just delete the folder.&lt;/li>
+&lt;li>Close swift before updating.&lt;/li>
+&lt;/ul>
+&lt;p>General swift Q&amp;amp;A&lt;/p>
+&lt;p>&lt;code>faq&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: alpha status</title><link>https://swift-project.github.io/docs/manual/alpha/status/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/alpha/status/</guid><description>
+&lt;p>Also check &lt;code>qa&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;hr>
+&lt;p>Public &lt;code>whatsnew&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} Public versions&lt;/p>
+&lt;hr>
+&lt;p>201907xx &lt;code>092&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>201905xx &lt;code>091&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>201904xx &lt;code>090&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>201901xx &lt;code>089&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>201811xx &lt;code>087&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>201809xx &lt;code>086&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>201808xx &lt;code>085&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>201806xx &lt;code>084&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>201709xx &lt;code>083&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>201704xx &lt;code>082&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>20170427 &lt;code>081&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>20170427 Workaround for MacOS &lt;code>installation&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>20170427 MacOS installer currently broken. -&amp;gt; under investigation&lt;/p>
+&lt;p>20170425 Bug for bootstrap download failure -&amp;gt; under investigation&lt;/p>
+&lt;h2 id="20170424---mandatory-description-field-issue-resolved">20170424 Mandatory description field, issue resolved&lt;/h2>
+&lt;p>::: {.toctree glob=&amp;rdquo;&amp;rdquo; caption=&amp;quot;Content of this chapter&amp;rdquo;}
+./*
+:::&lt;/p></description></item><item><title>Docs: Jenkins Download</title><link>https://swift-project.github.io/docs/manual/alpha/jenkinsdownload/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/alpha/jenkinsdownload/</guid><description>
+&lt;h2 id="legal">Legal&lt;/h2>
+&lt;p>By downloading Jenkins builds you agree with the sift legal terms
+outlined &lt;a href="https://datastore.swift-project.org/page/legal.php">here&lt;/a>.&lt;/p>
+&lt;h2 id="background">Background&lt;/h2>
+&lt;p>swift installer is being built autonomously via Jenkins Continuous
+Integration (&lt;a href="https://build.swift-project.org">https://build.swift-project.org&lt;/a>). For every published
+change a set of per-configured tasks called jobs is executed to test for
+build errors, run unit tests and produces a new installer. Usually at
+the end of a development cycle, those installers will be made available
+to the different release channels. But it might also be necessary to
+directly download from Jenkins for short test and fix cycles.&lt;/p>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Important&lt;/h4>
+Installing from Jenkins is a bit different than via the official release
+channels. The differences will be explained here.
+&lt;/div>
+&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;p>While we are in a closed testing phase, all installer downloads are
+restricted. This means, an extra account to log into Jenkins is
+required. Anonymous download is not possible. As soon as you received
+your login details, log yourself in and change your password. This can
+be done either by clicking on the small arrow next to your name after
+login.&lt;/p>
+&lt;p>or simply by using the url
+&lt;a href="https://build.swift-project.org/user/">https://build.swift-project.org/user/&lt;/a>&amp;lt;username&amp;gt;/configure. Don't
+forget to replace &amp;lt;username&amp;gt; with your actual user name.&lt;/p>
+&lt;h2 id="downloading-the-installer">Downloading the Installer&lt;/h2>
+&lt;p>The different jobs listed in Jenkins have a very specific pattern, which
+can look confusing to someone not being used to the development process
+of swift. Jobs are created, modified and deleted on a daily basis. But
+the good news is, that as tester, you don't need to know which job will
+have the installer for you to test. The developer will either tell you
+the job name or pass you directly the link to the download.&lt;/p>
+&lt;p>The link will usually guide you to the jobs archived artifacts (file
+names are examples only and might change):&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Artifact&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>swiftinstaller-windows-64-0.8.4.806011712.exe&lt;/td>
+&lt;td>swift installer&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>swiftsymbols-windows-64-0.8.4.806011712.tar.gz&lt;/td>
+&lt;td>Symbols package (can be ignored)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>xswiftbus-windows-64-0.8.4.806011712.7z&lt;/td>
+&lt;td>XSwiftBus X-Plane Plugin&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>swift installer is required for everyone. XSwiftBus is only necessary if
+you are going to use X-Plane. Note that this version of X-Plane only
+contains the so called thin plugin. So only the binaries for a specific
+toolset of compiler, architecture and OS, e.g. only MSVC Windows 64 bit.&lt;/p>
+&lt;ul>
+&lt;li>so you go from the start page to the relevant version.&lt;/li>
+&lt;li>then the build number, &amp;quot;red&amp;quot; dots mean the build failed&lt;/li>
+&lt;li>then you see the installer&lt;/li>
+&lt;/ul>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>For &lt;em>swift&lt;/em> itself, the install process is not different compared to the
+release channels. The major difference is that, xswiftbus is not
+downloaded automatically for you, but you need to extract and copy the
+downloaded XSwiftBus package content yourself into the path
+&lt;code>&amp;lt;X-Plane Root&amp;gt;/Resources/plugins/xswiftbus&lt;/code>&lt;/p>
+&lt;h2 id="updating">Updating&lt;/h2>
+&lt;p>It is always recommended to uninstall the previous version of swift
+before installing the new version. All data and settings will be kept as
+long as you install in the same directory. See also
+&lt;code>copyswiftdata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item></channel></rss>

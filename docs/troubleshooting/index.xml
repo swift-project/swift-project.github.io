@@ -1,0 +1,365 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Troubleshooting</title><link>https://swift-project.github.io/docs/troubleshooting/</link><description>Recent content in Troubleshooting on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/troubleshooting/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Setting input device permissions / Creating an udev rule</title><link>https://swift-project.github.io/docs/troubleshooting/linuxinputdevicepermissions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/troubleshooting/linuxinputdevicepermissions/</guid><description>
+&lt;p>By default your distro (hopefully) has read/write access to the input
+devices disabled on user accounts. If these were allowed it would be a
+tremendous security hole, as any user on the system could see every
+input event (including keyboard events such as you typing your banking
+password, etc).&lt;/p>
+&lt;p>One may be inclined to run swift as root, or to
+&lt;code>chmod 777 /dev/input/event*&lt;/code>, however this is not advisable for the
+aforementioned reasons.&lt;/p>
+&lt;p>The approach we will take is to create an co`input` group, add
+yourself to it, and then create a udev rule that provides the necessary
+settings.&lt;/p>
+&lt;h1 id="creating-an-input-group">Creating an Input Group&lt;/h1>
+&lt;p>This is simple stuff. Create a group and add yourself to it:&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">sudo groupadd input
+sudo gpasswd -a username input
+&lt;/code>&lt;/pre>&lt;p>Now log out of your shell, and log back in, so that you are part of the
+input group. You can verify that the change took place by running the
+&lt;code>groups&lt;/code> command.&lt;/p>
+&lt;h1 id="creating-a-udev-rule">Creating a udev Rule&lt;/h1>
+&lt;p>Unfortunately this may vary by distro, however the concepts will likely
+be exactly the same or highly similar - this method is known to be true
+for openSUSE. You need to locate the udev rules.d directory, which is
+usually in [/etc/udev/rules.d]{.title-ref}. Next create a rule file for
+the input device nodes. Your distro may already have a rule file for
+this purpose, however we still want to create our own since their file
+may get replaced during a distro upgrade. Make sure that the new file
+has a priority higher than that of any other file with an event rule in
+it. For example as root, create the file
+`/etc/udev/rules.d/99-input.rules`:&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">KERNEL==&amp;quot;event*&amp;quot;, NAME=&amp;quot;input/%k&amp;quot;, MODE=&amp;quot;660&amp;quot;, GROUP=&amp;quot;input&amp;quot;
+KERNEL==&amp;quot;js*&amp;quot;, NAME=&amp;quot;input/%k&amp;quot;, MODE=&amp;quot;664&amp;quot;, GROUP=&amp;quot;input&amp;quot;
+&lt;/code>&lt;/pre>&lt;p>In Ubuntu, you need to add colons like this:&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">KERNEL==&amp;quot;event*&amp;quot;, NAME=&amp;quot;input/%k&amp;quot;, MODE:=&amp;quot;660&amp;quot;, GROUP=&amp;quot;input&amp;quot;
+KERNEL==&amp;quot;js*&amp;quot;, NAME=&amp;quot;input/%k&amp;quot;, MODE:=&amp;quot;664&amp;quot;, GROUP=&amp;quot;input&amp;quot;
+&lt;/code>&lt;/pre>&lt;p>Then you just need to reload udev rules so that the permissions get
+updated.&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">udevadm control --reload-rules
+udevadm trigger
+&lt;/code>&lt;/pre>&lt;p>Note that on my system, reloading udev had no effect. I ended up having
+to reboot, which did the trick. If anyone knows of a way to make the
+changes take place without a reboot, please fix this section!&lt;/p>
+&lt;p>Now check the permissions on &lt;code>/dev/input/event*&lt;/code> and verify that the
+group ownership on the device nodes are set to `input`:&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">$ ls -al /dev/input/
+total 0
+drwxr-xr-x 4 root root 440 Jun 6 12:32 .
+drwxr-xr-x 21 root root 4480 Jun 10 09:00 ..
+drwxr-xr-x 2 root root 120 Jun 6 12:32 by-id
+drwxr-xr-x 2 root root 140 Jun 6 12:32 by-path
+crw-rw---- 1 root input 13, 64 Jun 10 09:00 event0
+crw-rw---- 1 root input 13, 65 Jun 10 09:00 event1
+crw-rw---- 1 root input 13, 74 Jun 10 09:00 event10
+crw-rw---- 1 root input 13, 75 Jun 10 09:00 event11
+crw-rw---- 1 root input 13, 76 Jun 10 09:00 event12
+crw-rw---- 1 root input 13, 77 Jun 10 09:00 event13
+crw-rw---- 1 root input 13, 78 Jun 10 09:00 event14
+crw-rw---- 1 root input 13, 79 Jun 10 09:00 event15
+crw-rw---- 1 root input 13, 66 Jun 10 09:00 event2
+crw-rw---- 1 root input 13, 67 Jun 10 09:00 event3
+crw-rw---- 1 root input 13, 68 Jun 10 09:00 event4
+crw-rw---- 1 root input 13, 69 Jun 10 09:00 event5
+crw-rw---- 1 root input 13, 70 Jun 10 09:00 event6
+crw-rw---- 1 root input 13, 71 Jun 10 09:00 event7
+crw-rw---- 1 root input 13, 72 Jun 10 09:00 event8
+crw-rw---- 1 root input 13, 73 Jun 10 09:00 event9
+crw-r----- 1 root root 13, 63 Jun 10 09:00 mice
+crw-r----- 1 root root 13, 32 Jun 10 09:00 mouse0
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Setup data / bootstrap file</title><link>https://swift-project.github.io/docs/troubleshooting/bootstrapfile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/troubleshooting/bootstrapfile/</guid><description>
+&lt;h1 id="what-is-the-bootstrap-file">What is the bootstrap file?&lt;/h1>
+&lt;p>The [bootstrap file]{.title-ref} contains fundamental setup information
+for &lt;em>swift&lt;/em>. Without those data &lt;strong>swift&lt;/strong> cannot work properly. Normally
+the data are loaded / updated from the internet each time &lt;em>swift&lt;/em>
+starts, in case no connection can be established at this very moment
+cached data are used.&lt;/p>
+&lt;h1 id="the-bootstrap-resolution-screen">The bootstrap resolution screen&lt;/h1>
+&lt;p>If the [bootstrap file]{.title-ref} cannot be loaded a resolution screen
+is displayed. Possible reasons why &lt;code>bootstrap file&lt;/code> loading might fail
+are:&lt;/p>
+&lt;ul>
+&lt;li>typo in the URL&lt;/li>
+&lt;li>&lt;em>swift&lt;/em> servers are down (please understand we keep copies of the
+file at multiple locations)&lt;/li>
+&lt;li>network problem on user's side&lt;/li>
+&lt;li>if the bootstrap file has been loaded before the locally stored
+(cached) version is used&lt;/li>
+&lt;li>if the user provides an explicit URL (command line) only this URL is
+used&lt;/li>
+&lt;/ul>
+&lt;p>Options to resolve the problems * ignore the bootstrap URL and hence
+use the cached data (requires at least one successful load before that)
+* use the local file copy (from the swift installer) * use the cache
+file of another swift installation&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Bootstrap_resolution_screen.png" alt="image">&lt;/p></description></item><item><title>Docs: swift does not connect with XPlane on MacOS (session bus, P2P)</title><link>https://swift-project.github.io/docs/troubleshooting/noconnectonmac/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/troubleshooting/noconnectonmac/</guid><description>
+&lt;p>For some people swift only works with session bus on MacOS.&lt;/p>
+&lt;p>Reason: UNKNOWN, if you figure it out - let us know!&lt;/p>
+&lt;p>Reported for: Mac OS 10.15.4&lt;/p>
+&lt;p>Here it is shown how to switch to session bus:&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/sessionbus.png" alt="image">&lt;/p>
+&lt;p>In the launcher:&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/sessionbus_launcher.png" alt="image">&lt;/p></description></item><item><title>Docs: Troubleshoot voice (no ATC, no MIC, no sound, sample rates, WASAPI)</title><link>https://swift-project.github.io/docs/troubleshooting/troubleshootvoice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/troubleshooting/troubleshootvoice/</guid><description>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;em>swift&lt;/em> has &lt;strong>no hot plug and play for all types yet,&lt;/strong> some sound
+hardware needs to be plugged in/on before starting &lt;em>swift&lt;/em>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>is the device correctly selected in the settings?
+&lt;code>audio&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>make sure the &lt;em>swift&lt;/em> volume ist [100]{.title-ref} and voice not
+muted in &lt;em>swift&lt;/em>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>check your PTT button&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Is the PTT button defined, see &lt;code>hotkeys&lt;/code>{.interpreted-text
+role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Does it work, If you press it, do you see the LED flashing?&lt;/li>
+&lt;li>If it is defined but does NOT work, remove it and add it
+again!&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>on &lt;strong>MacOSX&lt;/strong> make sure mic privilege is granted
+&lt;code>macosnosound&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Linux&lt;/strong>: We read keyboard and joystick stuff from
+&lt;code>/dev/input/event*&lt;/code> and &lt;code>js*&lt;/code>. Those files have to be readable by
+your user. Typically they are owned by group input or such so if you
+add your user to that group then it will work.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Windows&lt;/strong>: &lt;code>nomiconwindows&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Is loopback working&lt;/strong>? If not, this would mean some issue of
+&lt;em>swift&lt;/em> and your hardware. You would need to have RX2 enabled to
+hear loopback&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/loopback.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>Make sure TX/RX (transmit/receive are enabled). If you sync. swift
+with your aircraft cockpit and your cockpit COM units are disabled,
+this can be your COM unit is &amp;quot;disabled&amp;quot;. See
+&lt;code>integratecomunit&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/li>
+&lt;li>&lt;strong>Check yourself on the AFV map&lt;/strong>: &lt;a href="https://afv-map.vatsim.net/">https://afv-map.vatsim.net/&lt;/a> Is
+your callsign shown, and your frequencies correct?&lt;/li>
+&lt;/ul>
+&lt;h1 id="sample-rate">Sample rate&lt;/h1>
+&lt;p>&lt;em>swift&lt;/em> uses the following values for output and tries to find the
+closest audio setup on your machine. It might help to adjust your sample
+rates (Google for &amp;quot;Windows Audio sample rate&amp;quot;).&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">outputFormat.setSampleRate(48000);
+outputFormat.setChannelCount(1);
+outputFormat.setSampleSize(32);
+outputFormat.setSampleType(QAudioFormat::Float);
+outputFormat.setByteOrder(QAudioFormat::LittleEndian);
+outputFormat.setCodec(&amp;quot;audio/pcm&amp;quot;);
+&lt;/code>&lt;/pre>&lt;pre>&lt;code class="language-{.}" data-lang="{.}">inputFormat.setSampleRate(m_sampleRate); // normally 48000
+inputFormat.setChannelCount(1);
+inputFormat.setSampleSize(16);
+inputFormat.setSampleType(QAudioFormat::SignedInt);
+inputFormat.setByteOrder(QAudioFormat::LittleEndian);
+inputFormat.setCodec(&amp;quot;audio/pcm&amp;quot;);
+&lt;/code>&lt;/pre>&lt;h1 id="changing-the-driver-windows-only-wasapi">Changing the driver (Windows only, WASAPI)&lt;/h1>
+&lt;p>&lt;em>swift&lt;/em> for Windows comes with two audio plugins, WASAPI and a Windows
+plugin. You can remove one of those and try which works better for you.
+&lt;strong>Just move them to another directory&lt;/strong> (outside swift), so you can copy
+them back if needed.&lt;/p>
+&lt;p>{F43386}&lt;/p>
+&lt;ul>
+&lt;li>Go into your swift installation bin path (e.g.
+&lt;code>C:\Program Files\swift-0.9.3-64bit\bin&lt;/code>).&lt;/li>
+&lt;li>Change to subfolder &lt;code>audio&lt;/code>&lt;/li>
+&lt;li>Since &lt;em>swift&lt;/em> 0.9.4.206 we have disabled the WASAPI driver, you can
+find them here (just copy them in the directory, use the 32 or 64bit
+version as required by your installation).&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/wasapidriver.png" alt="image">&lt;/p>
+&lt;p>To remove:&lt;/p>
+&lt;ul>
+&lt;li>Find dlls containing &amp;quot;wasapi&amp;quot; or &amp;quot;windows&amp;quot;&lt;/li>
+&lt;li>Move them to a backup directory outside swift&lt;/li>
+&lt;li>So as a result, you SHALL have only the &amp;quot;wasapi&amp;quot; &lt;strong>OR&lt;/strong> the
+&amp;quot;windows&amp;quot; ones in the [audio]{.title-ref} subdir&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Troubleshooting installation and 1st start</title><link>https://swift-project.github.io/docs/troubleshooting/troubleshootfirststart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/troubleshooting/troubleshootfirststart/</guid><description>
+&lt;p>&lt;strong>1) All simulators, OS&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Checklist&lt;/strong>&lt;/p>
+&lt;p>Read this &lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;strong>Setup / bootstrap file trouble&lt;/strong>&lt;/p>
+&lt;p>See &lt;code>bootstrapfile&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;p>&lt;strong>&lt;em>swift&lt;/em> does not start / connect&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Could be a Virus scanner/Security suite issue, maybe check if swift
+needs some permission there&lt;/li>
+&lt;li>Firewall, ports open .&amp;hellip;&lt;/li>
+&lt;li>if you see something like
+&lt;code>&amp;quot;ASSERT failure in QList &amp;lt;T&amp;gt;::operator &amp;quot;index out of range&amp;quot;, file C:\QT\5.12.0\msvc2017_64\include\ Qtcore/qlist.h,line 552&amp;quot;&lt;/code>
+your settings could be corrupt, solution
+&lt;code>resetscreen&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>sometimes it can help to uncheck and check again the simulator again
+(simulator settings)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>swift hangs after start&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>could be that the screen geometry values are incorrect, see
+&lt;code>resetscreen&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>or even &lt;code>registrydelete&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>also we had people having issues with&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>malware protection&lt;/li>
+&lt;li>recently some reports with TrueImage Active protection came up
+(that blocking swift)&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Validation errors&lt;/strong>&lt;/p>
+&lt;p>See &lt;code>whyvalidationerrors&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;strong>No Mic / cannot talk to controller&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>troubleshootvoice&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>MacOS user? See &lt;code>macosnosound&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Windows: &lt;code>nomiconwindows&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>The Qt WIFI problem&lt;/strong>&lt;/p>
+&lt;p>If you see messages like &lt;code>No network access point&lt;/code> or &lt;code>No network&lt;/code> and
+&lt;strong>you are using WIFI&lt;/strong> then you likely suffer from a Qt bug. In some
+versions the Qt framework (the library &lt;em>swift&lt;/em> uses) is broken. Qt has
+promised to fix that. However, you can try the following workaround. In
+your &lt;em>swift&lt;/em> installation directory you will see a directory &lt;code>bearer&lt;/code>,
+just remove this directory and try again.&lt;/p>
+&lt;p>&lt;strong>2) Simulator specific&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>P3D/FSX specific&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>I only see &amp;quot;Constellations&amp;quot;. Most likely you have no model set, an
+improper model set, see &lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>If the simulator does NOT connect, see
+&lt;code>configuresim&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>make sure you have the correct &lt;em>swift&lt;/em> version,
+&lt;code>32bitor64bitinstaller&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>If you cannot connect the simulator and &lt;em>swift&lt;/em>: If you run P3D &amp;quot;as
+admin&amp;quot;, run swift &amp;quot;as admin&amp;quot;&lt;/li>
+&lt;li>make sure you use the correct P3D driver version. If this version
+does not (yet) exists, selected the version which comes closest.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/driver.png" alt="image">&lt;/p>
+&lt;h1 id="x-plane-specific">X-Plane specific&lt;/h1>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code>Warn of XSquawkBox/xPilot conflict
+: - *XSwiftBus* doesn\'t work properly if xsquawkbox or x-ivap
+is also installed since only one can have control of X-Plane
+multiplayer aircraft. *swift* will raise a warning in case
+another plugin is controlling the multiplayer aircraft.
+- Remove or disable the conflicting plugin and restart
+X-Plane. Plugins are still loaded even if they are disabled.
+Disabled just means that any callbacks registered by the
+plugin will not be called. Some people have to remove the
+plugins from the folder, some do not.
+- Maybe you consider a 3rd party tool like
+`xorganizer`{.interpreted-text role=&amp;quot;ref&amp;quot;}
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Bluebell CSL models sunken in ground&lt;/strong> (vertical offset fix) , see
+&lt;code>xplanecg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>XPlane models in model set, &lt;strong>but not rendered&lt;/strong>. &lt;strong>Solution&lt;/strong>: CSL
+files need to be inside the &lt;code>XPlane&lt;/code> folder. Moving the XPlane
+models might require to reload your swift model cache, then
+recreating the model set.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>swift&lt;/em> cannot connect to XPlane simulator side plugin:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Check if the settings of the &lt;em>swift&lt;/em> side and XPlane side do
+match, &lt;code>xswiftbussettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/li>
+&lt;li>If the simulator LED is &amp;quot;on&amp;quot; the simulator can be connected:&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_LED_bar.png" alt="image">&lt;/p>
+&lt;ul>
+&lt;li>XPlane not connecting with &lt;em>swift&lt;/em> on MacOS, see
+&lt;code>noconnectonmac&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>HINT:&lt;/strong> Some users did have problems with spaces in their model
+directory paths&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Aircraft animation&lt;/strong> as gear down &lt;strong>not working&lt;/strong>:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>There are some known conflicts with other XPlane add-ons as
+those keep common multiplayer animation [datarefs]{.title-ref}
+(being shared between all pilot clients) locked and the
+&lt;em>swift&lt;/em> dataref registration fails.&lt;/li>
+&lt;li>In order to resolve the problem move the conflicting plugin
+out of your plugin folder and restart. The conflict is known
+to cause trouble with gear animations and such.&lt;/li>
+&lt;li>Problems with the following plugins have been reported: all
+other client plugins like XSB, x-ivap, fscloud, fs2play&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>FS9 specific&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>FS9 needs two connections: &lt;code>DirectPlay&lt;/code> Multiplayer and &lt;code>FSUIPC&lt;/code>
+since DP MP doesn't have all required details&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>&lt;code>DirectPlay&lt;/code> is auto connected if swift runs on the same
+machine and has been properly installed (adding itself as
+&amp;quot;lobby-able&amp;quot; application on windows registry)&lt;/li>
+&lt;li>See &lt;code>fs9mp&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>When you run FS9 as admin, then &lt;code>FSUIPC&lt;/code> isn't connecting, because
+&lt;em>swift&lt;/em> running as non admin blocks the connection. Run both as
+admin.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Some people have have reported issues with models not from the
+&lt;code>aircraft&lt;/code> folder of FS9&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>some users have problems with the auto-connect to FS9 since Win10
+1909 update, see &lt;code>fs9mp&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>fs9elevation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>3) OS specific&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Some issues with Mac OS&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>XPlane not connecting with &lt;em>swift&lt;/em> on MacOS, see
+&lt;code>noconnectonmac&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}.&lt;/li>
+&lt;li>Not validated: Installation in &lt;code>Application&lt;/code> failt, but in XPlane
+directory it works.&lt;/li>
+&lt;/ul>
+&lt;p>::: {.toctree glob=&amp;rdquo;&amp;rdquo; caption=&amp;quot;Content in this chapter&amp;rdquo;}
+./*
+:::&lt;/p></description></item></channel></rss>
