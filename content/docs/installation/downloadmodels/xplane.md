@@ -1,6 +1,43 @@
 ---
-title: 'X-CSL: Download and Installation'
+title: X-Plane models
 ---
+
+
+## Bluebell Models
+-   Downloaded BB and opened the zip
+
+![image](http://img.swift-project.org/bb1.png)
+
+-   After extracting this looks like this
+
+![image](http://img.swift-project.org/bb2.png)
+
+- Now the offset fix, without that models would appear too low, see [here]({{< ref "xplanecg" >}})
+
+{{% alert title="Important" color="warning" %}}
+Make sure to install that correctly, sometimes users install that one directory level too low, you must replace the `xsb_aicraft.txt` files
+{{% /alert %}}
+- Normally it will be correct if you need to override the overwriting
+
+![image](http://img.swift-project.org/bb3.png)
+
+- You can also check you see the offset in the `xsb_aircraft.txt` file
+
+![image](http://img.swift-project.org/bb4.png)
+
+- Working folder example:
+
+![image](http://img.swift-project.org/bb5.png)
+
+- **WRONG** folder example, cascaded (\"Airbus in Airbus\")
+
+![image](http://img.swift-project.org/bb6.png)
+
+- **WRONG** folder example, offset file folder in `BB` folder
+
+![image](http://img.swift-project.org/bb7.png)
+
+## X-CSL
 
 To get the X-CSL model sets you need to use the **X-CSL Updater
 program** that you will download from the [X-CSL
@@ -30,3 +67,9 @@ When you are done you can close X-CSL Updater and start *swift\'s*
 **Mapping Tool** (*swiftData*), because now you\'ll need to update your
 \"Active Model Set\". For this please refer to our respective Tutorials
 and help pages.
+
+## Gliders
+
+- <https://forums.x-plane.org/index.php?/files/category/180-gliders-and-motor-gliders/>
+- <https://store.x-plane.org/Antares-20E_p_346.html>
+- <https://store.x-plane.org/VSKYLABS-Scheibe-SF-25C-Falke-Project_p_743.html>
