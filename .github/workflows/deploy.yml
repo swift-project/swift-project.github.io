@@ -7,6 +7,7 @@ on:
 
 env:
   baseURL: https://swift-project.github.io
+  CNAME_URL: swift-project.org
 
 jobs:
   deploy:
@@ -28,6 +29,7 @@ jobs:
           rm -rf public 
           git worktree add -B master public origin/master
           rm -rf public/*
+          echo ${{ env.CNAME_URL }} > public/CNAME
       - name: Build
         run: hugo --minify --baseURL ${{ env.baseURL }}
       - name: Deploy 🚀
