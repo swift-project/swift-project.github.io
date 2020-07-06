@@ -2126,38 +2126,50 @@ because it has opened up on a different screen.&lt;/li>
 &lt;li>see
 &lt;a href="https://www.technipages.com/bring-off-screen-window-back-onto-screen">https://www.technipages.com/bring-off-screen-window-back-onto-screen&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Credits</title><link>https://swift-project.github.io/docs/legal/credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/legal/credits/</guid><description>
-&lt;p>Credits
-Main contributors
-Roland W.
-Mathew S.
-Klaus B.
-Contributors
-Lars T. (FG)
-Peter B. (traffic simulator)
-Michal G.
-Used software libraries
-See the 3rd party licenses
-Used icons, graphics etc.
-FAMFAMFAM icons used, both in client and on websites, see here
-DIAGONA icons: © 2013 Yusuke Kamiyamane (site). All rights reserved. These icons are licensed under a Creative Commons Attribution 3.0 License.
-icondrawer icons: Using icons of &lt;a href="http://www.icondrawer.com/">http://www.icondrawer.com/&lt;/a> on web site and with client
-Screenshots and aviation photos courtesy of: Lukas E., Timm R., Christoph J., Rainer J., Wolfgang S., Wiki Commons (Creative Commons) images
-Misc
-Ben S. for X-Plane support
-Ross C. for joint development of aircraft parts concept and vPilot rules permission
-Kieran H., Kai K., Christoph N., Dominik S. for support
-Sascha S. for kicking off the project
-BitRock for sponsoring a free license for Open Source projects
-FSC e.V. for testing and ideas&lt;/p></description></item><item><title>Docs: Data copyright</title><link>https://swift-project.github.io/docs/legal/copyright/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/legal/copyright/</guid><description>
-&lt;p>swift CLA
-Read on Wikipedia what a CLA is and why it is needed.
-You need to register with our development site
-Then you need to sign the CLA here
-Data copyright
-All data stored in the database are legal property of swift.
-No unauthorized usage or copying allowed.
-Usage is only allowed within swift software components.
-When you (&amp;ldquo;the user&amp;rdquo;) enter/upload data to this DB, swift can use them now and forever.&lt;/p></description></item><item><title>Docs: Data provisioning (where do the mappings come from?)</title><link>https://swift-project.github.io/docs/help/datastore/dataprovisioning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/datastore/dataprovisioning/</guid><description>
+&lt;h2 id="main-contributors">Main contributors&lt;/h2>
+&lt;ul>
+&lt;li>Roland W.&lt;/li>
+&lt;li>Mathew S.&lt;/li>
+&lt;li>Klaus B.&lt;/li>
+&lt;/ul>
+&lt;h2 id="contributors">Contributors&lt;/h2>
+&lt;ul>
+&lt;li>Lars T. (FG)&lt;/li>
+&lt;li>Peter B. (traffic simulator)&lt;/li>
+&lt;li>Michal G.&lt;/li>
+&lt;/ul>
+&lt;h2 id="used-software-libraries">Used software libraries&lt;/h2>
+&lt;p>&lt;a href="https://swift-project.github.io/docs/legal/third_party_licenses/">See the 3rd party licenses&lt;/a>&lt;/p>
+&lt;h2 id="used-icons-graphics-etc">Used icons, graphics etc.&lt;/h2>
+&lt;ul>
+&lt;li>FAMFAMFAM icons used, both in client and on websites, see here&lt;/li>
+&lt;li>DIAGONA icons: © 2013 Yusuke Kamiyamane (site). All rights reserved. These icons are licensed under a Creative Commons Attribution 3.0 License.&lt;/li>
+&lt;li>icondrawer icons: Using icons of &lt;a href="http://www.icondrawer.com/">http://www.icondrawer.com/&lt;/a> on web site and with client&lt;/li>
+&lt;/ul>
+&lt;h2 id="screenshots-and-aviation-photos-courtesy-of">Screenshots and aviation photos courtesy of:&lt;/h2>
+&lt;ul>
+&lt;li>Lukas E.&lt;/li>
+&lt;li>Timm R.&lt;/li>
+&lt;li>Christoph J.&lt;/li>
+&lt;li>Rainer J.&lt;/li>
+&lt;li>Wolfgang S.&lt;/li>
+&lt;li>Wiki Commons (Creative Commons) images&lt;/li>
+&lt;/ul>
+&lt;h2 id="misc">Misc&lt;/h2>
+&lt;ul>
+&lt;li>Ben S. for X-Plane support&lt;/li>
+&lt;li>Ross C. for joint development of aircraft parts concept and vPilot rules permission&lt;/li>
+&lt;li>Kieran H., Kai K., Christoph N., Dominik S. for support&lt;/li>
+&lt;li>Sascha S. for kicking off the project&lt;/li>
+&lt;li>BitRock for sponsoring a free license for Open Source projects&lt;/li>
+&lt;li>FSC e.V. for testing and ideas&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Data copyright</title><link>https://swift-project.github.io/docs/legal/copyright/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/legal/copyright/</guid><description>
+&lt;ul>
+&lt;li>All data stored in the database are legal property of swift.&lt;/li>
+&lt;li>No unauthorized usage or copying allowed.&lt;/li>
+&lt;li>Usage is only allowed within swift software components.&lt;/li>
+&lt;li>When you (&amp;ldquo;the user&amp;rdquo;) enter/upload data to this DB, swift can use them now and forever.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Data provisioning (where do the mappings come from?)</title><link>https://swift-project.github.io/docs/help/datastore/dataprovisioning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/help/datastore/dataprovisioning/</guid><description>
 &lt;p>The &lt;em>swift&lt;/em> model data are stored in the &lt;a href="https://datastore.swift-project.org/page/index.php">datastore
 database&lt;/a>. This
 database contains all mappings, ICAO codes etc. used with swift.&lt;/p>
