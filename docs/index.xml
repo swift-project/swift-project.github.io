@@ -874,7 +874,7 @@ particular reasons for that, as it can lead to surprising results
 do this from the context menu.&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/disableallaircraft.png" alt="image">&lt;/p></description></item><item><title>Docs: Alpha Q and A (questions and answers)</title><link>https://swift-project.github.io/docs/manual/alpha/qa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/alpha/qa/</guid><description>
 &lt;h1 id="i-am-confused-about-all-the-sites">I am confused about all the sites&lt;/h1>
-&lt;p>Can be explained: * This site (&lt;a href="https://dev.swift-project.org">https://dev.swift-project.org&lt;/a>) is
+&lt;p>Can be explained: * This site (&lt;a href="https://github.com/swift-project">https://github.com/swift-project&lt;/a>) is
 about swift development and bug reports * The datastore
 (&lt;a href="https://datastore.swift-project.org">https://datastore.swift-project.org&lt;/a>) contains the mappings and alpha
 users can download the swift development versions. * The alpha

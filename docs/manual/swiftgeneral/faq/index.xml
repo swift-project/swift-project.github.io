@@ -12,9 +12,14 @@ NOT provide voice ATC.&lt;/p>
 &lt;ul>
 &lt;li>If you fail to see other aircraft please check:
 &lt;code>notrendered&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>Top 4 XPlane problems:
-&lt;a href="https://dev.swift-project.org/phame/post/view/10/top_4_swift_and_xplane_topics/">https://dev.swift-project.org/phame/post/view/10/top_4_swift_and_xplane_topics/&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: I see no other traffic</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/faq/notraffic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/faq/notraffic/</guid><description>
+&lt;li>Top 4 XPlane problems:&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code>Based on yesterday's experience, there are 4 top problems using //swift// and XPlane
+* no models are shown / no other aircraft, in most of the cases the aircraft folder is in the wrong place. see [here](https://swift-project.github.io/docs/manual/swiftgeneral/notrendered/) or you did not create a model set
+* landing gear not visible or always visible: conflict with other pilot client, remove any other pilot client or AI traffic plugin you have installed, e.g. XSquawkBox, X-IvAp, PilotEdge, WorldTraffic.
+* aircraft are too high or low: The offset fix is not installed or incorrectly installed. [See here](https://swift-project.github.io/docs/installation/xplane/xplanecg/)
+* If you **move your model folder you need to reload your models in the mapping tool and recreate the model set** [see](https://swift-project.github.io/docs/manual/swiftgeneral/modelsandmodelset/createms/)
+&lt;/code>&lt;/pre></description></item><item><title>Docs: I see no other traffic</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/faq/notraffic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/faq/notraffic/</guid><description>
 &lt;ul>
 &lt;li>If you fail to see other aircraft please check:
 &lt;code>notrendered&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>

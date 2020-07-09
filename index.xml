@@ -65,14 +65,7 @@ swift&amp;lt;-&amp;gt;Flightgear API version on connection via dbus.&lt;/li>
 &lt;li>Other aircraft on the ground are now really set to Flightgear's
 ground altitude and not hovering anymore.&lt;/li>
 &lt;/ul>
-&lt;h2 id="fixed-issues-login-required">Fixed issues (login required)&lt;/h2>
-&lt;ul>
-&lt;li>List of fixed bugs:
-&lt;a href="https://dev.swift-project.org/maniphest/query/jl6HKojM8qtF/">https://dev.swift-project.org/maniphest/query/jl6HKojM8qtF/&lt;/a>&lt;/li>
-&lt;li>And of course all 093 fixes are included
-&lt;a href="https://dev.swift-project.org/maniphest/query/KJbxELvKISgX/">https://dev.swift-project.org/maniphest/query/KJbxELvKISgX/&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>Also fixed:&lt;/p>
+&lt;p>Fixed bugs:&lt;/p>
 &lt;ul>
 &lt;li>TEMP WORKAROUND: Disabled crashpad for Linux as it is buggy (will be
 re-enabled as soon as it is fixed)&lt;/li>
@@ -111,9 +104,6 @@ sheets&lt;/p></description></item><item><title>Blog: Release of 0.9.3</title><li
 The 0.9.3 versions do NOT work with the old VATSIM voice servers, only with AFV.
 &lt;/div>
 &lt;h2 id="fixed-issues-in-093">Fixed issues in 093&lt;/h2>
-&lt;ul>
-&lt;li>See &lt;a href="https://dev.swift-project.org/maniphest/query/KJbxELvKISgX/">https://dev.swift-project.org/maniphest/query/KJbxELvKISgX/&lt;/a> (login required)&lt;/li>
-&lt;/ul>
 &lt;h2 id="what-is-afv">What is AFV?&lt;/h2>
 &lt;p>Audio for VATSIM (AFV) is the new voice codec for VATSIM, more
 information can be found here and here.&lt;/p>
@@ -175,7 +165,7 @@ installations at any time in the wizard.&lt;/p>
 &lt;li>advanced login screen to modify/set livery, model string and partner callsign (pilot/co-pilot), see Advanced login popup (since 0.9.2)&lt;/li>
 &lt;li>the sort order of text messages can be changed.&lt;/li>
 &lt;/ul></description></item><item><title>Blog: Release of 0.9.0</title><link>https://swift-project.github.io/blog/2019/04/27/release-of-0.9.0/</link><pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2019/04/27/release-of-0.9.0/</guid><description>
-&lt;p>Issues: &lt;a href="https://dev.swift-project.org/maniphest/query/7nqUaT07BtX8/">https://dev.swift-project.org/maniphest/query/7nqUaT07BtX8/&lt;/a>&lt;/p></description></item><item><title>Blog: Release of 0.9.1</title><link>https://swift-project.github.io/blog/2019/04/27/release-of-0.9.1/</link><pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2019/04/27/release-of-0.9.1/</guid><description>
+&lt;p>Fixed various issues.&lt;/p></description></item><item><title>Blog: Release of 0.9.1</title><link>https://swift-project.github.io/blog/2019/04/27/release-of-0.9.1/</link><pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2019/04/27/release-of-0.9.1/</guid><description>
 &lt;div class="alert alert-warning" role="alert">
 &lt;h4 class="alert-heading">Warning&lt;/h4>
 Testers/alpha users need to manually install XSwiftBus (download and copy)
@@ -183,7 +173,7 @@ Testers/alpha users need to manually install XSwiftBus (download and copy)
 &lt;ul>
 &lt;li>Version 0.9.1 fixes some bugs
 &lt;ul>
-&lt;li>the critical FSD packet bug, see &lt;a href="https://dev.swift-project.org/phame/post/view/14/crash/">https://dev.swift-project.org/phame/post/view/14/crash/&lt;/a>&lt;/li>
+&lt;li>the critical FSD packet bug&lt;/li>
 &lt;li>some XPlane aircraft issues, causing aircraft not correctly&lt;/li>
 &lt;li>removed from XP&lt;/li>
 &lt;li>fixed an UI based crash which could crash swift mapping tool&lt;/li>
@@ -193,7 +183,7 @@ Testers/alpha users need to manually install XSwiftBus (download and copy)
 &lt;li>now hot plug and play for joystick hotkeys&lt;/li>
 &lt;li>swift does now proceed with connection to xswiftbus even if versions do not match&lt;/li>
 &lt;li>XPlane CSL no longer stops parsing &lt;code>xsb\_aircraft.txt&lt;/code> if an error occurred.&lt;/li>
-&lt;li>for various other fixes see full list of issues fixed: &lt;a href="https://dev.swift-project.org/maniphest/query/E91DVCMxGNWl/">https://dev.swift-project.org/maniphest/query/E91DVCMxGNWl/&lt;/a>&lt;/li>
+&lt;li>Various other bugfixes.&lt;/li>
 &lt;/ul>
 &lt;p>We recommend you install 0.9.1 parallel to 0.9.0, then test it and if
 your are happy with it, uninstall 0.9.0. There is no need to re-create
