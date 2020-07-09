@@ -6,6 +6,12 @@ The emoji cryingface.svg was designed by OpenMoji - the open source emoji and ic
 
 All documents under content/en/docs are licensed under GNU Free Document License Version 1.3 (see https://www.gnu.org/licenses/fdl-1.3.en.html)
 
+## Prerequisites
+
+- git (https://git-scm.com/downloads)
+- npm (https://www.npmjs.com/get-npm)
+- hugo (https://gohugo.io/getting-started/installing)
+
 ## Running the website locally
 
 Clone the repository with 
