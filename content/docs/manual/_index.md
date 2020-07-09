@@ -1,6 +1,7 @@
 ---
 title: User manual
 weight: 2
+description: Detailed description of most swift components and features
 ---
 
 -   [getting involved]({{< ref "gi" >}}) as developer, tester, designer,

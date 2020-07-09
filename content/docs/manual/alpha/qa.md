@@ -5,7 +5,7 @@ title: Alpha Q and A (questions and answers)
 I am confused about all the sites
 =================================
 
-Can be explained: \* This site (<https://dev.swift-project.org>) is
+Can be explained: \* This site (<https://github.com/swift-project>) is
 about swift development and bug reports \* The datastore
 (<https://datastore.swift-project.org>) contains the mappings and alpha
 users can download the swift development versions. \* The alpha

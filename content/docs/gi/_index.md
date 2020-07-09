@@ -1,6 +1,7 @@
 ---
 title: Getting involved
 weight: 99
+description: We're always looking for new supporters. Not only C++ developers!
 ---
 
 We would like to share our workload. So if you are interested in joining
