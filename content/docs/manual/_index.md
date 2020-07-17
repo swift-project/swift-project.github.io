@@ -1,6 +1,6 @@
 ---
 title: User manual
-weight: 2
+weight: 3
 description: Detailed description of most swift components and features
 ---
 

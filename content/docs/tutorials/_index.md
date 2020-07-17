@@ -1,17 +1,19 @@
 ---
-title: swift pilot client tutorials (YouTube videos)
+title: "Tutorials"
+linkTitle: "Tutorials"
+description: Video tutorials about various topics
+weight: 2
+menu:
+  main:
+    weight: 20
 ---
 
-`smttutorials`{.interpreted-text role="ref"}
-
-::: {.important}
-::: {.title}
-Important
-:::
-
+{{% alert title="Important" color="warning" %}}
 Enable CC and HD for YouTube to see closed captions and reasonable
 quality
-:::
+{{% /alert %}}
+
+## Client Tutorials
 
 -   Playlist
     <https://www.youtube.com/playlist?list=PLHQ0-JnmgGSic-UXiNoVyEKfSRd-0iXIS>
@@ -37,3 +39,18 @@ quality
     (Multiple tutorials by Drago (**EXTERNAL**)
 
 -   FG connection <https://youtu.be/l5O3tRobYPY>
+
+
+## Mapping tutorials
+
+
+-   Playlist:
+    [Youtube](https://www.youtube.com/playlist?list=PLHQ0-JnmgGSirFPAO3EmI2orpAwR49dbJ)
+-   mapping tool window handling <https://youtu.be/Xkr_tYGlHfA>
+-   mapping tool fundamentals <https://youtu.be/ybUGvrkXfCg>
+-   mapping tool filters <https://youtu.be/GbCaHpFP_jw>
+-   1st model set <https://youtu.be/qR39IjDFwEE>
+-   mapping distributor / aircraft ICAO <https://youtu.be/_pXn1tvYiyY>
+-   mapping color livery <https://youtu.be/iQoP96NlPcU>
+-   save stash <https://youtu.be/0eu8bMpzkRk>
+-   publish <https://youtu.be/EVBjzKQkOy4>
