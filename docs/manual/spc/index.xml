@@ -565,55 +565,7 @@ and tricks&amp;quot; &lt;code>pctutorials&lt;/code>{.interpreted-text role=&amp;
 &lt;p>Hint: You can use the tooltip to see longer messages .. image::
 &lt;a href="http://img.swift-project.org/longmessage.png">http://img.swift-project.org/longmessage.png&lt;/a>&lt;/p>
 &lt;h1 id="relay-messages-to-simulator">Relay messages to simulator&lt;/h1>
-&lt;p>&lt;code>simmessages&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: swift pilot client tutorials</title><link>https://swift-project.github.io/docs/manual/spc/spctutorials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/spctutorials/</guid><description>
-&lt;ul>
-&lt;li>&lt;code>pctutorials&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>smttutorials&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;/ul></description></item><item><title>Docs: swift pilot client tutorials (YouTube videos)</title><link>https://swift-project.github.io/docs/manual/spc/pctutorials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/pctutorials/</guid><description>
-&lt;p>&lt;code>smttutorials&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
-&lt;p>::: {.important}
-::: {.title}
-Important
-:::&lt;/p>
-&lt;p>Enable CC and HD for YouTube to see closed captions and reasonable
-quality
-:::&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Playlist
-&lt;a href="https://www.youtube.com/playlist?list=PLHQ0-JnmgGSic-UXiNoVyEKfSRd-0iXIS">https://www.youtube.com/playlist?list=PLHQ0-JnmgGSic-UXiNoVyEKfSRd-0iXIS&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Download and install (Multiple tutorials by AF (external)&lt;/p>
-&lt;blockquote>
-&lt;ul>
-&lt;li>&lt;a href="https://youtu.be/SAOZq_mgBcY">https://youtu.be/SAOZq_mgBcY&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://youtu.be/lmGE5MzKoOI">https://youtu.be/lmGE5MzKoOI&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://youtu.be/vs8i6BxSQ10">https://youtu.be/vs8i6BxSQ10&lt;/a> (Configuration in launcher
-wizard)&lt;/li>
-&lt;li>&lt;a href="https://youtu.be/cbOEN7BC2KI">https://youtu.be/cbOEN7BC2KI&lt;/a> (Useful info about &lt;em>swift&lt;/em> UI)&lt;/li>
-&lt;li>&lt;a href="https://youtu.be/ptTPs_RXMNw">https://youtu.be/ptTPs_RXMNw&lt;/a> (Enable the log and fine the
-results)&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;/li>
-&lt;li>
-&lt;p>core and UI &lt;a href="https://youtu.be/Q4MuTdJs7UI">https://youtu.be/Q4MuTdJs7UI&lt;/a> (swift distributed UI and
-core)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Advanced UI &lt;a href="https://youtu.be/dtnuBZCk6FE">https://youtu.be/dtnuBZCk6FE&lt;/a> (swift navigator and
-status bar)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Drago's tutorials
-&lt;a href="https://www.youtube.com/playlist?list=PL0_hSfPVc4FlMNyfOF8U0liCtQOOuAVt2">https://www.youtube.com/playlist?list=PL0_hSfPVc4FlMNyfOF8U0liCtQOOuAVt2&lt;/a>
-(Multiple tutorials by Drago (&lt;strong>EXTERNAL&lt;/strong>)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>FG connection &lt;a href="https://youtu.be/l5O3tRobYPY">https://youtu.be/l5O3tRobYPY&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul></description></item><item><title>Docs: swift user data</title><link>https://swift-project.github.io/docs/manual/spc/userdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/userdata/</guid><description>
+&lt;p>&lt;code>simmessages&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: swift user data</title><link>https://swift-project.github.io/docs/manual/spc/userdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/userdata/</guid><description>
 &lt;p>You can find your swift user data in the application data directory,
 which depends on the OS you are using. On Windows this directory will be
 &lt;code>AppData/Local/org.swift-project&lt;/code>. As you can install multiple swift
