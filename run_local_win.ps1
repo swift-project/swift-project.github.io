@@ -1,0 +1,1 @@
+.\build\hugo\hugo.exe server --enableGitInfo=false
