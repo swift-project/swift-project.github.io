@@ -1,7 +1,4 @@
 ---
 title: Aviation
+description: Aviation-related information
 ---
-
-::: {.toctree caption="Content in this chapter"}
-verticaldistance icaodb
-:::
