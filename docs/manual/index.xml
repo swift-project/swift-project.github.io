@@ -109,116 +109,7 @@ time.&lt;/p>
 &lt;p>For FSX/P3D&lt;/p>
 &lt;ul>
 &lt;li>For P3D x64 check the correct P3D version: &lt;a href="https://swift-project.github.io/docs/manual/spc/settings/p3dversion/">Setting the correct P3D version (x64 only)&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Public download server</title><link>https://swift-project.github.io/docs/manual/publicdownload/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/publicdownload/</guid><description>
-&lt;p>Go to the download server: &lt;a href="https://datastore.swift-project.org/page/publicartifacts.php">Public
-Download&lt;/a>.&lt;/p>
-&lt;p>&lt;strong>IMPORTANT&lt;/strong>: Use a random URL please.&lt;/p></description></item><item><title>Docs: Testing swift</title><link>https://swift-project.github.io/docs/manual/testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/testing/</guid><description>
-&lt;ul>
-&lt;li>
-&lt;p>In order to participate in testing you need to be a member of
-&lt;code>alpha&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>downloadalpha&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
-&lt;code>32bitor64bitinstaller&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>installation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Current status, see&lt;/p>
-&lt;blockquote>
-&lt;ul>
-&lt;li>&lt;code>teststatus&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>teststages&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>status&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} (Versions, what's new)&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>reportingbugs&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
-&lt;code>resolvingbugs&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Test teams&lt;/p>
-&lt;blockquote>
-&lt;ul>
-&lt;li>&lt;code>vatsimtest&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} also see
-&lt;code>vatsimtestinfo&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>fscalpha&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>contact&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>History&lt;/strong>&lt;/p>
-&lt;p>&lt;code>first_flight&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
-&lt;p>::: {.toctree caption=&amp;quot;Content in this chapter&amp;rdquo; glob=&amp;rdquo;&amp;quot;}
-./*
-:::&lt;/p></description></item><item><title>Docs: swift alpha program (swift alpha and developer versions)</title><link>https://swift-project.github.io/docs/manual/alpha/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/alpha/</guid><description>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">TODO&lt;/h4>
-This page needs major rework
-&lt;/div>
-&lt;img style="float: right;" src="http://img.swift-project.org/preview-swift_alpha_program.png">
-&lt;h3 id="general-information">General information&lt;/h3>
-&lt;ul>
-&lt;li>The swift alpha program allows you to participate in swift tests,
-access to early versions of swift, creating bug reports and feature
-requests.&lt;/li>
-&lt;li>By downloading swift you agree with the terms outlined here&lt;/li>
-&lt;li>The swift release cycle is: Jenkins builds -&amp;gt; developer versions
--&amp;gt; alpha versions -&amp;gt; public beta -&amp;gt; stable.&lt;/li>
-&lt;li>The swift alpha program allows access to development versions of
-swift, this means you will use the versions clarified for testing.&lt;/li>
-&lt;li>please stay calm and patient if you face problems and discuss them
-with the developer team. For direct questions we have the &amp;quot;alpha
-chatroom&amp;quot; (login/registration required)&lt;/li>
-&lt;li>Contact and Discord channel. Please enable emails from
-swift-project.org and swiftnoreply(at)gmail.com for notifications&lt;/li>
-&lt;li>Understand which version to download and check installation hints
-before you install. You can check what is new in each individual
-version here: alpha status&lt;/li>
-&lt;li>Check the QAs&lt;/li>
-&lt;li>The swift ecosystem: swiftecosystem&lt;/li>
-&lt;li>Please allow us to use crash reports, see Crash reports / enable
-crash dumps&lt;/li>
-&lt;/ul>
-&lt;h3 id="register">Register&lt;/h3>
-&lt;p>In order to participate in &amp;quot;swift alpha&amp;quot; you need two accounts one
-account. See Accounts explained and how to troubleshoot&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>For Phabricator, you are looking at it right now. Here the swift
-documentation resides, you can file bug reports etc.&lt;/p>
-&lt;blockquote>
-&lt;ul>
-&lt;li>Read the registration policy&lt;/li>
-&lt;li>If not already done, register with Phabricator (this is where
-you are right now) by pressing the login button. Unfortunately
-this site does not support SSO with VATSIM yet.&lt;/li>
-&lt;li>If this does not work, contact us and ask for an account&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;/li>
-&lt;li>
-&lt;p>the swift datastore, this is where we create mappings and you can
-download the alpha version now the alpha versions are public, so you
-don't need to register to download them from swift datastore&lt;/p>
-&lt;blockquote>
-&lt;ul>
-&lt;li>swift datastore&lt;/li>
-&lt;li>Register for the swift datastore&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="download-the-developer-and-alpha-software">Download the developer and alpha software&lt;/h3>
-&lt;p>See Download developer and alpha versions from datastore&lt;/p>
-&lt;h3 id="testing-swift">Testing swift&lt;/h3>
-&lt;p>See Testing swift&lt;/p></description></item><item><title>Docs: swift datastore</title><link>https://swift-project.github.io/docs/manual/datastore/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/datastore/</guid><description>
+&lt;/ul></description></item><item><title>Docs: swift datastore</title><link>https://swift-project.github.io/docs/manual/datastore/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/datastore/</guid><description>
 &lt;p>&lt;strong>What is the swift datastore&lt;/strong>&lt;/p>
 &lt;p>The swift datastore is the central database for swift&lt;/p>
 &lt;ul>
@@ -502,12 +393,7 @@ role=&amp;quot;ref&amp;rdquo;}&lt;/li>
 configuration wizard will be launched when the installer finishes. The
 configuration wizard allows you to set default values for the most
 important setting values and download the DB data.&lt;/p>
-&lt;p>See &lt;code>launcher_wizard&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: swift map (moving map)</title><link>https://swift-project.github.io/docs/manual/swiftmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftmap/</guid><description>
-&lt;ul>
-&lt;li>Start swift map: &lt;a href="https://map.swift-project.org/Display.htm">https://map.swift-project.org/Display.htm&lt;/a>&lt;/li>
-&lt;li>The project has been migrated from VATGM:
-&lt;a href="http://vatgm.codeplex.com/documentation">http://vatgm.codeplex.com/documentation&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: swift mapping tool</title><link>https://swift-project.github.io/docs/manual/smt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/</guid><description>
+&lt;p>See &lt;code>launcher_wizard&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: swift mapping tool</title><link>https://swift-project.github.io/docs/manual/smt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/</guid><description>
 &lt;p>&lt;strong>Tool for creating mappings in the swift DB&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -631,55 +517,13 @@ hotkeys instantmap launcher_wizard
 ./modelsetvalidation/modelsetvalidation p3dremote p3d32vs64bit
 ./settings/settings towerview updatemodeldata fsuipc audio core spcmm
 textmsg spctutorials pctutorials userdata
-:::&lt;/p></description></item><item><title>Docs: swift public beta</title><link>https://swift-project.github.io/docs/manual/beta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/beta/</guid><description>
-&lt;h1 id="welcome-to-swift-public-beta">Welcome to swift public beta&lt;/h1>
-&lt;ul>
-&lt;li>&lt;strong>No registration needed&lt;/strong> for public beta, that is why it is called
-&amp;quot;public&amp;quot;&lt;/li>
-&lt;li>&lt;strong>Download *swift*:&lt;/strong> &lt;a href="https://datastore.swift-project.org/page/publicartifacts.php">Public beta
-download&lt;/a>.
-Use a random URL please.&lt;/li>
-&lt;/ul>
-&lt;h1 id="help-and-tutorials">Help and tutorials&lt;/h1>
-&lt;ul>
-&lt;li>&lt;code>installation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>help&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>pctutorials&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;a href="http://swift-project.org">swift homepage&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h1 id="further-information">Further information&lt;/h1>
-&lt;ul>
-&lt;li>
-&lt;p>Public beta starts with swift 0.9.0.x or newer&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>whatsnew&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} - new features etc. of a
-swift version&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Do I need any account (other than VATSIM) to use &lt;em>swift&lt;/em>?&lt;/p>
-&lt;blockquote>
-&lt;ul>
-&lt;li>Only if you want to report a bug, get an account here with
-your real name. See registration information.&lt;/li>
-&lt;li>if you want to create a mapping you need to login at
-&lt;a href="https://datastore.swift-project.org">datastore&lt;/a> with SSO once
-before you can do.&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Running a distributed swift (remote core)</title><link>https://swift-project.github.io/docs/manual/distributedswift/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/distributedswift/</guid><description>
-&lt;p>::: {.note}
-::: {.title}
-Note
-:::&lt;/p>
-&lt;p>There is also a YT video about this, see &lt;code>pctutorials&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}
-:::&lt;/p>
-&lt;h1 id="overview">Overview&lt;/h1>
-&lt;p>&lt;em>swift&lt;/em> can be run distributed. That means the core (see
-&lt;code>core&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} ]) and the GUI (&lt;em>swift&lt;/em> front end)
+:::&lt;/p></description></item><item><title>Docs: Running a distributed swift (remote core)</title><link>https://swift-project.github.io/docs/manual/distributedswift/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/distributedswift/</guid><description>
+&lt;div class="alert alert-primary" role="alert">
+&lt;h4 class="alert-heading">Warning&lt;/h4>
+There is also a YouTube video about this, see &lt;a href="https://swift-project.github.io/docs/tutorials/">here&lt;/a>
+&lt;/div>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>&lt;em>swift&lt;/em> can be run distributed. That means the core (see &lt;a href="https://swift-project.github.io/docs/manual/spc/core/">swift core&lt;/a>) and the GUI (&lt;em>swift&lt;/em> front end)
 are split up. A normal scenario would be to run the core on the same
 machine where the flight simulator (e.g. XPlane) is started, and the UI
 runs on a second (remote) computer. However, you can also run core and
@@ -697,8 +541,8 @@ will stay within the &lt;strong>GUI&lt;/strong> process.&lt;/p>
 to run gui and core in separate applications (possibly also on two
 different machines in the network). All Audio (inkluding VATSIM voice)
 will stay within the &lt;strong>core&lt;/strong> process.&lt;/p>
-&lt;h1 id="how-to-run-swift-on-two-different-machines-in-the-network">How to run swift on two different machines in the network&lt;/h1>
-&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;h2 id="how-to-run-swift-on-two-different-machines-in-the-network">How to run swift on two different machines in the network&lt;/h2>
+&lt;h3 id="prerequisites">Prerequisites&lt;/h3>
 &lt;ul>
 &lt;li>core and UI must be of the same version, do not mix different
 versions&lt;/li>
@@ -707,7 +551,7 @@ between the two machines need to be possible (check firewall
 settings etc.)&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://img.swift-project.org/Allow_access.png" alt="image">&lt;/p>
-&lt;h2 id="instructions">Instructions&lt;/h2>
+&lt;h3 id="instructions">Instructions&lt;/h3>
 &lt;ol>
 &lt;li>Launch swift launcher on core machine first. &lt;strong>Select Core mode
 &amp;quot;GUI and core&amp;quot;&lt;/strong> depending on which machine you want audio.&lt;/li>
@@ -723,11 +567,10 @@ mode&lt;/em>* as you selected on the core machine.&lt;/li>
 IP address&lt;/strong> you selected in step 2. GUI will try to connect now to
 core.&lt;/li>
 &lt;/ol>
-&lt;p>As an alternative, one can use &lt;code>swiftcmdargs&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;} to setup shortcuts to launch GUI and core more quickly.
+&lt;p>As an alternative, one can use link&lt;a href="https://swift-project.github.io/docs/manual/swiftgeneral/swiftcmdargs/">command line arguments&lt;/a> to setup shortcuts to launch GUI and core more quickly.
 &lt;em>swift&lt;/em> launcher does the same (calling GUI and core process with
 specific arguments).&lt;/p>
-&lt;h2 id="what-happens-where">What happens where?&lt;/h2>
+&lt;h3 id="what-happens-where">What happens where?&lt;/h3>
 &lt;ol>
 &lt;li>model matching &amp;quot;runs&amp;quot; in the core, there your model set needs to
 reside&lt;/li>
@@ -741,29 +584,19 @@ XSwiftBus)&lt;/li>
 &lt;li>Audio can run on either side, and requires the AFV port enabled to
 the Internet&lt;/li>
 &lt;/ol>
-&lt;h1 id="simulator-on-a-different-machine">Simulator on a different machine&lt;/h1>
+&lt;h2 id="simulator-on-a-different-machine">Simulator on a different machine&lt;/h2>
 &lt;p>As an alternative to running core on the simulator machine, one can also
 setup a connection to a simulator in local network.&lt;/p>
-&lt;p>::: {.important}
-::: {.title}
-Important
-:::&lt;/p>
 &lt;p>In order to create the model set in those scenarios you need remote
-access (shared drive etc.) to the model directory.
-:::&lt;/p>
-&lt;h2 id="fsxp3d">FSX/P3D&lt;/h2>
-&lt;p>&lt;em>swift&lt;/em> using a remote SimConnect configuration:
-&lt;code>p3dremote&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . This allows to connect a
-remote FSX/P3D from a standalone &lt;em>swift&lt;/em> GUI.&lt;/p>
+access (shared drive etc.) to the model directory.&lt;/p>
+&lt;h3 id="fsxp3d">FSX/P3D&lt;/h3>
+&lt;p>&lt;em>swift&lt;/em> using a remote SimConnect configuration: See &lt;a href="https://swift-project.github.io/docs/manual/spc/p3dremote/">here&lt;/a>. This allows to connect a remote FSX/P3D from a standalone &lt;em>swift&lt;/em> GUI.&lt;/p>
 &lt;p>So there are two ways to setup a distributed scenario&lt;/p>
 &lt;ul>
-&lt;li>Distributed &lt;em>swift&lt;/em> UI on computer 1, &lt;em>swift&lt;/em> core on computer 2
-(where the simulator runs) and core using a local
-[SimConnect]{.title-ref} connection.&lt;/li>
-&lt;li>Standalone &lt;em>swift&lt;/em> UI on computer 1, connected via a remote
-[SimConnect]{.title-ref} to computer 2. &lt;strong>No core&lt;/strong>!&lt;/li>
+&lt;li>Distributed &lt;em>swift&lt;/em> UI on computer 1, &lt;em>swift&lt;/em> core on computer 2 (where the simulator runs) and core using a local &lt;code>SimConnect&lt;/code> connection.&lt;/li>
+&lt;li>Standalone &lt;em>swift&lt;/em> UI on computer 1, connected via a remote &lt;code>SimConnect&lt;/code> to computer 2. &lt;strong>No core&lt;/strong>!&lt;/li>
 &lt;/ul>
-&lt;h2 id="fs9">FS9&lt;/h2>
+&lt;h3 id="fs9">FS9&lt;/h3>
 &lt;p>You can also use &lt;code>WideFS&lt;/code> for remote connection, and run &lt;em>swift&lt;/em> as
-standalone GUI. Same as with [SimConnect]{.title-ref}. Also the
+standalone GUI. Same as with &lt;code>SimConnect&lt;/code>. Also the
 &lt;code>DirectPlay&lt;/code> connection needs to be setup for remote access.&lt;/p></description></item></channel></rss>

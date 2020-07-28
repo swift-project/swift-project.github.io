@@ -128,10 +128,7 @@ Close all running swift applications before starting the installation
 &lt;p>If you encounter any problems then see &lt;a href="https://swift-project.github.io/docs/troubleshooting/">troubleshooting&lt;/a>.&lt;/p>
 &lt;h2 id="initial-configuration">Initial configuration&lt;/h2>
 &lt;p>You&amp;rsquo;ve successfully installed swift. Congrats!&lt;/p>
-&lt;p>You can now move forward to start the configuration. &lt;a href="https://swift-project.github.io/docs/installation/simselect/">Click here&lt;/a>&lt;/p></description></item><item><title>Docs: Public download server</title><link>https://swift-project.github.io/docs/manual/publicdownload/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/publicdownload/</guid><description>
-&lt;p>Go to the download server: &lt;a href="https://datastore.swift-project.org/page/publicartifacts.php">Public
-Download&lt;/a>.&lt;/p>
-&lt;p>&lt;strong>IMPORTANT&lt;/strong>: Use a random URL please.&lt;/p></description></item><item><title>Docs: Installation on MacOS</title><link>https://swift-project.github.io/docs/installation/macos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/macos/</guid><description>
+&lt;p>You can now move forward to start the configuration. &lt;a href="https://swift-project.github.io/docs/installation/simselect/">Click here&lt;/a>&lt;/p></description></item><item><title>Docs: Installation on MacOS</title><link>https://swift-project.github.io/docs/installation/macos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/macos/</guid><description>
 &lt;h2 id="download">Download&lt;/h2>
 &lt;p>Download the latest 32-bit installer from &lt;a href="https://github.com/swift-project/pilotclient/releases">here&lt;/a>.&lt;/p>
 &lt;div class="alert alert-warning" role="alert">
@@ -309,123 +306,7 @@ role=&amp;quot;ref&amp;rdquo;}&lt;/li>
 configuration wizard will be launched when the installer finishes. The
 configuration wizard allows you to set default values for the most
 important setting values and download the DB data.&lt;/p>
-&lt;p>See &lt;code>launcher_wizard&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: swift map (moving map)</title><link>https://swift-project.github.io/docs/manual/swiftmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftmap/</guid><description>
-&lt;ul>
-&lt;li>Start swift map: &lt;a href="https://map.swift-project.org/Display.htm">https://map.swift-project.org/Display.htm&lt;/a>&lt;/li>
-&lt;li>The project has been migrated from VATGM:
-&lt;a href="http://vatgm.codeplex.com/documentation">http://vatgm.codeplex.com/documentation&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: swift public beta</title><link>https://swift-project.github.io/docs/manual/beta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/beta/</guid><description>
-&lt;h1 id="welcome-to-swift-public-beta">Welcome to swift public beta&lt;/h1>
-&lt;ul>
-&lt;li>&lt;strong>No registration needed&lt;/strong> for public beta, that is why it is called
-&amp;quot;public&amp;quot;&lt;/li>
-&lt;li>&lt;strong>Download *swift*:&lt;/strong> &lt;a href="https://datastore.swift-project.org/page/publicartifacts.php">Public beta
-download&lt;/a>.
-Use a random URL please.&lt;/li>
-&lt;/ul>
-&lt;h1 id="help-and-tutorials">Help and tutorials&lt;/h1>
-&lt;ul>
-&lt;li>&lt;code>installation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>help&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>pctutorials&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;a href="http://swift-project.org">swift homepage&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h1 id="further-information">Further information&lt;/h1>
-&lt;ul>
-&lt;li>
-&lt;p>Public beta starts with swift 0.9.0.x or newer&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>whatsnew&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} - new features etc. of a
-swift version&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Do I need any account (other than VATSIM) to use &lt;em>swift&lt;/em>?&lt;/p>
-&lt;blockquote>
-&lt;ul>
-&lt;li>Only if you want to report a bug, get an account here with
-your real name. See registration information.&lt;/li>
-&lt;li>if you want to create a mapping you need to login at
-&lt;a href="https://datastore.swift-project.org">datastore&lt;/a> with SSO once
-before you can do.&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;/li>
-&lt;/ul></description></item><item><title>Docs:</title><link>https://swift-project.github.io/docs/dev/sharedstate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/dev/sharedstate/</guid><description>
-&lt;h1 id="shared-state">Shared State&lt;/h1>
-&lt;p>&lt;code>BlackMisc::SharedState&lt;/code> is a hierarchical library of reusable building
-blocks for composing subsystems for sharing transient data between
-objects, potentially in different processes.&lt;/p>
-&lt;h2 id="endpoint-layer">Endpoint Layer&lt;/h2>
-&lt;p>The middle layer contains the mutators and observers. Mutators and
-observers correspond to commands and queries in the CQRS design pattern.
-Mutators and observers can be passive and/or active, as seen in this 2x2
-matrix:&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th> &lt;/th>
-&lt;th>Passive&lt;/th>
-&lt;th>Active&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;strong>Mutator&lt;/strong>&lt;/td>
-&lt;td>publishes events&lt;/td>
-&lt;td>handles requests&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Observer&lt;/strong>&lt;/td>
-&lt;td>subscribes events&lt;/td>
-&lt;td>submits requests&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>Events are fire-and-forget signals sent by passive mutators and received
-by passive observers. Requests are stateful signals that expect replies;
-requests are sent by active observers and received by active mutators,
-which send replies back to the observers that sent the requests.&lt;/p>
-&lt;p>Events and requests are sent across &amp;ldquo;channels&amp;rdquo;. Each channel can have
-multiple mutators and multiple observers. Each mutator and each observer
-is on exactly one channel. For an observer to communicate with a
-mutator, they must both be on the same channel. Conceptually, a channel
-is just a unique key string.&lt;/p>
-&lt;p>These concepts are implemented by concrete
-&lt;code>QObject&lt;/code> subclasses: &lt;code>CPassiveMutator&lt;/code>, &lt;code>CPassiveObserver&lt;/code>,
-&lt;code>CActiveMutator&lt;/code>, &lt;code>CActiveObserver&lt;/code>. Instances of these classes are
-created by calling their static &lt;code>create()&lt;/code> method, which returns a
-&lt;code>QSharedPointer&lt;/code> pointing to the new object. Their channel is
-determined by the &lt;code>BLACK_SHARED_STATE_CHANNEL&lt;/code> macro in the class of
-their parent object, combined with the name of their parent object.&lt;/p>
-&lt;h2 id="transportdatalink-layer">Transport/Datalink Layer&lt;/h2>
-&lt;p>The middle layer is completely decoupled from the mechanism for
-transporting events and requests. This mechanism is the responsibility
-of the bottom layer. &lt;code>IDataLink&lt;/code> is an abstract interface that is
-implemented by concrete subclasses to provide different transport
-mechanisms. A mutator is connected by passing it to the
-&lt;code>IDataLink::publish&lt;/code> method. An observer is connected by passing it to
-the &lt;code>IDataLink::subscribe&lt;/code> method.&lt;/p>
-&lt;h2 id="contentsubject-layer">Content/Subject Layer&lt;/h2>
-&lt;p>The middle layer is also completely decoupled from the payloads carried
-by the events, the requests, and the replies, which are handled by the
-top layer. A payload is a &lt;code>CVariant&lt;/code>, and its contents are opaque to the
-mutators and observers. It is for the parent objects of the mutators and
-observers to confer meaning upon the events and requests that they send
-and receive.&lt;/p>
-&lt;h2 id="references">References&lt;/h2>
-&lt;ul>
-&lt;li>CQRS design pattern:
-&lt;ul>
-&lt;li>&lt;a href="http://codebetter.com/gregyoung/2010/02/16/cqrs-task-based-uis-event-sourcing-agh/">http://codebetter.com/gregyoung/2010/02/16/cqrs-task-based-uis-event-sourcing-agh/&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://cqrs.nu/Faq/command-query-responsibility-segregation">http://cqrs.nu/Faq/command-query-responsibility-segregation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://martinfowler.com/bliki/CQRS.html">http://martinfowler.com/bliki/CQRS.html&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="endpoints-diagram">Endpoints Diagram&lt;/h2>
-&lt;p>&lt;img src="http://img.swift-project.org/sharedstate.png" alt="image">&lt;/p></description></item><item><title>Docs:</title><link>https://swift-project.github.io/docs/installation/common_configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/common_configuration/</guid><description>
+&lt;p>See &lt;code>launcher_wizard&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs:</title><link>https://swift-project.github.io/docs/installation/common_configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/common_configuration/</guid><description>
 &lt;h2 id="initial-configuration">Initial Configuration&lt;/h2>
 &lt;p>After the installation completed, &lt;em>swiftlauncher&lt;/em> will launch together
 with the initial configuration wizard. If you un-selected to launch
@@ -590,70 +471,9 @@ MSI]{.title-ref} (not on the laptop) I see the PTT LED &amp;quot;on&amp;quot;,
 &lt;p>&lt;img src="http://img.swift-project.org/remotesound2.png" alt="image">&lt;/p>
 &lt;/blockquote>
 &lt;/li>
-&lt;/ul></description></item><item><title>Docs: Accounts explained and how to troubleshoot</title><link>https://swift-project.github.io/docs/manual/alpha/accounts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/alpha/accounts/</guid><description>
-&lt;p>::: {.todo}
-This page needs major rework.&lt;/p>
-&lt;p>order to participate in swift testing a few accounts are needed and
-hopefully this here will help to understand what they are and whom to
-ask.
-:::&lt;/p>
-&lt;p>Before we can help, we need to understand what the problem is. We
-received requests like &amp;quot;I cannot login&amp;quot;, &amp;quot;I have not been approved&amp;quot;,
-etc. Please tell us what you are talking about. What is not working&lt;/p>
-&lt;p>Downloading the software? The login to slack? The login to this site
-here? Below you find some information about the different accounts,
-please let us know where you face the problem.&lt;/p>
-&lt;p>::: {.warning}
-::: {.title}
-Warning
-:::&lt;/p>
-&lt;p>Make sure you can receive email from us and the invitations for slack,
-this site here etc. do NOT go to your SPAM folder.
-:::&lt;/p>
-&lt;p>Downloading the software Downloading the software for alpha test:
-&lt;a href="https://datastore.swift-project.org/">https://datastore.swift-project.org/&lt;/a> Most users login with VATSIM SSO.
-If this is the first time, a user credential will be created. This
-credential will be approved by one of the swift admins Typical problems:
-Some users just login with VATSIM SSO, never contact us, and just
-disappear. Those accounts will never be approved. Become a alpha tester,
-or alpha tester for VATSIM You need to contact us, nothing will happen
-before we have your full real name, VATSIM id (if applicable), and a
-valid email address When you are becoming a member of the testing team,
-you will receive 2 invitations (emails): One for this site here:
-&lt;a href="https://dev.swift-project.org/">https://dev.swift-project.org/&lt;/a> This is required for &amp;quot;bug reports&amp;quot;,
-... One for slack:: this is the most agile form in getting in touch
-with us to interactively resolve problems. Did you get the emails. Did
-you verify your account here? Also we need to forward your credentials
-to VATSIM who will allow you testing with a development client in the
-network. Legal information: In doing this you deal with 3 parties: Us,
-legal info is here. VATSIM, you have to check their legal information,
-and if you install slack, also the corresponding information there. You
-are absolutely free to register here or with slack. It is your personal
-decision. We only use slack at this time because it is convenient, we
-are not related in any kind of business association. No login with
-VATSIM If you see this, VATSIM has not yet approved your id. If this
-does not disappear within 3 days, please contact us. We then crosscheck.&lt;/p></description></item><item><title>Docs: ACF aircraft (XPlane) excluded in mapping tool</title><link>https://swift-project.github.io/docs/manual/smt/acfexcluded/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/acfexcluded/</guid><description>
+&lt;/ul></description></item><item><title>Docs: ACF aircraft (XPlane) excluded in mapping tool</title><link>https://swift-project.github.io/docs/manual/smt/acfexcluded/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/acfexcluded/</guid><description>
 &lt;p>See &lt;code>xplanemapping&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
-&lt;code>excludedmodels&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Adding icons (airlines, VAs, other organizations etc.)</title><link>https://swift-project.github.io/docs/manual/alpha/newicons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/alpha/newicons/</guid><description>
-&lt;p>::: {.important}
-::: {.title}
-Important
-:::&lt;/p>
-&lt;p>Add new icons as task, see below
-:::&lt;/p>
-&lt;ul>
-&lt;li>Read &lt;code>airlineicons&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} for format, naming
-etc.&lt;/li>
-&lt;li>If you have multiple icons please use a container like
-[zip]{.title-ref}, [rar]{.title-ref} or similar&lt;/li>
-&lt;li>Sign the (all online)&lt;/li>
-&lt;li>Yes, a feature for an easy upload was nice. If you could do that,
-see &lt;code>opentasks&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
-&lt;code>gi&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . Currently you have to do it as
-described in the next step!&lt;/li>
-&lt;li>You can just click here to create a new task. Just drag and drop the
-icons into the task or use the file button.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Advanced - solving problems</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/swiftadvanced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/swiftadvanced/</guid><description>
+&lt;code>excludedmodels&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Advanced - solving problems</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/swiftadvanced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/swiftadvanced/</guid><description>
 &lt;ul>
 &lt;li>&lt;a href="https://swift-project.github.io/docs/manual/swiftgeneral/faq/">Questions and answers (aka FAQs)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://swift-project.github.io/docs/manual/swiftgeneral/swiftcmdargs/">swift command line arguments&lt;/a>&lt;/li>
@@ -945,60 +765,7 @@ particular reasons for that, as it can lead to surprising results
 &lt;h1 id="disable-all-aircraft">Disable all aircraft&lt;/h1>
 &lt;p>If in some situations you need to disable all rendered aircraft you can
 do this from the context menu.&lt;/p>
-&lt;p>&lt;img src="http://img.swift-project.org/disableallaircraft.png" alt="image">&lt;/p></description></item><item><title>Docs: Alpha Q and A (questions and answers)</title><link>https://swift-project.github.io/docs/manual/alpha/qa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/alpha/qa/</guid><description>
-&lt;h1 id="i-am-confused-about-all-the-sites">I am confused about all the sites&lt;/h1>
-&lt;p>Can be explained: * This site (&lt;a href="https://github.com/swift-project">https://github.com/swift-project&lt;/a>) is
-about swift development and bug reports * The datastore
-(&lt;a href="https://datastore.swift-project.org">https://datastore.swift-project.org&lt;/a>) contains the mappings and alpha
-users can download the swift development versions. * The alpha
-downloads can be downloaded from
-&lt;a href="https://datastore.swift-project.org/page/alpha.html">https://datastore.swift-project.org/page/alpha.html&lt;/a>&lt;/p>
-&lt;h1 id="what-is-sso">What is SSO?&lt;/h1>
-&lt;p>SSO means single sign on, you do not need an extra username/password but
-you can use your VATSIM credentials.&lt;/p>
-&lt;h1 id="i-cannot-login-with-with-vatsim-sso">I cannot login with with VATSIM SSO&lt;/h1>
-&lt;p>Do a simple test, try to login to &lt;a href="https://forums.vatsim.net">https://forums.vatsim.net&lt;/a> If SSO
-does not work with you? * If not, there is a problem with your VATSIM
-credentials - you need to clarify with VATSIM. * If this works and not
-with datastore, let us know * &lt;strong>Other hint:&lt;/strong> if you have a 6 digit
-VATSIM id, try to add a leading 0: 123456 -&amp;gt; 0123456 * If this still
-does not work, contact us via&lt;/p>
-&lt;h1 id="installation">Installation&lt;/h1>
-&lt;ul>
-&lt;li>Please read &lt;code>installation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} chapter
-directory concept.&lt;/li>
-&lt;/ul>
-&lt;h1 id="general">General&lt;/h1>
-&lt;ul>
-&lt;li>My account is not approved yet. We approve users step by step (in
-waves). We want to handle user requests/issue before we accept new
-users testing&lt;/li>
-&lt;li>Where can I file bug reports?
-&lt;code>Here &amp;lt;reportingbugs&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}, check the
-&lt;code>status page &amp;lt;status&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} first.&lt;/li>
-&lt;li>Why is there no voice in the YouTube tutorials? Simple, matter of
-time. They are subtitled because subtitles can be easily added and
-adjusted - so resources is the reason&lt;/li>
-&lt;li>Why is A and B not happening, happening faster etc.? Resources,
-easiest way of speeding up things, join and do it. Are capacity
-limit is reached.&lt;/li>
-&lt;li>I did not get a response to my query? Be patient, or ask again.
-Hobby project, limited resources (maybe we should set up a telephone
-hotline holding queue as in professional projects]]&lt;/li>
-&lt;li>In the alpha chat room, how to disable all the email notifications?
-Go to the top of the page, settings, you can change it there&lt;/li>
-&lt;/ul>
-&lt;h1 id="updates">Updates&lt;/h1>
-&lt;ul>
-&lt;li>Check the &lt;code>status page &amp;lt;status&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} to
-see if something is ready&lt;/li>
-&lt;li>Currently you have to manually download, improved feature in
-development&lt;/li>
-&lt;li>You can override a swift installation, or just delete the folder.&lt;/li>
-&lt;li>Close swift before updating.&lt;/li>
-&lt;/ul>
-&lt;p>General swift Q&amp;amp;A&lt;/p>
-&lt;p>&lt;code>faq&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: ATC failed to connect error 10061</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/faq/atcfailedtoconnect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/faq/atcfailedtoconnect/</guid><description>
+&lt;p>&lt;img src="http://img.swift-project.org/disableallaircraft.png" alt="image">&lt;/p></description></item><item><title>Docs: ATC failed to connect error 10061</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/faq/atcfailedtoconnect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/faq/atcfailedtoconnect/</guid><description>
 &lt;p>If a connection to a single ATC station fails check if the station
 really supports voice control. Some people set up a voice room but do
 NOT provide voice ATC.&lt;/p>
@@ -2270,4 +2037,317 @@ because it has opened up on a different screen.&lt;/li>
 &lt;li>No unauthorized usage or copying allowed.&lt;/li>
 &lt;li>Usage is only allowed within swift software components.&lt;/li>
 &lt;li>When you (&amp;ldquo;the user&amp;rdquo;) enter/upload data to this DB, swift can use them now and forever.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul></description></item><item><title>Docs: Data provisioning (where do the mappings come from?)</title><link>https://swift-project.github.io/docs/manual/datastore/dataprovisioning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/datastore/dataprovisioning/</guid><description>
+&lt;p>The &lt;em>swift&lt;/em> model data are stored in the &lt;a href="https://datastore.swift-project.org/page/index.php">datastore
+database&lt;/a>. This
+database contains all mappings, ICAO codes etc. used with swift.&lt;/p>
+&lt;p>There are &lt;strong>two ways&lt;/strong> to obtain these data. &lt;em>swift&lt;/em> will always
+download the data and store them locally in cache files.&lt;/p>
+&lt;ul>
+&lt;li>the mapping tool will download the data via web services directly
+from the database&lt;/li>
+&lt;li>the client (pilot client) will download the data as files, we call
+them &lt;em>shared data file&lt;/em> . The files are generated from the database
+and distributed to different servers. The content of the //shared
+files// is basically the same as in the web services, but it is a
+snapshot of the time when they are generated.&lt;/li>
+&lt;/ul>
+&lt;p>Some explanations:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>for mapping (direct access to swift database)&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>the mapping tool writes directly to the database as all users
+editing the data always need the latest data. Also they have
+to work on the same data.&lt;/li>
+&lt;li>if the database is down, users can still use the cached data,
+but not write data. This is not really a problem as the users
+can save the stash and continue at a later time&lt;/li>
+&lt;li>there are only a few users concurrently creating mappings.
+Creating mappings is a specialized task only for power users.&lt;/li>
+&lt;li>Since only few members work directly with the database it is
+not a performance problem.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>for the pilot client (shared files)&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>there are much more users using the pilot client&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>during a flight the model data must not be updated, as this
+would consume too much time and affect interpolation&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>there are too many users so that not everybody can download
+directly from the database.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>the pilot client downloads the shared files. as these files
+are available on multiple servers:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>the download is redundant, if one server is down the
+shared files can be downloaded from another server&lt;/li>
+&lt;li>the traffic is distributed, the swift team can open new
+download servers and hence share the network traffic&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Datenschutz</title><link>https://swift-project.github.io/docs/legal/datareceiver/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/legal/datareceiver/</guid><description>
+&lt;h2 id="datenaustausch">Datenaustausch&lt;/h2>
+&lt;ul>
+&lt;li>swift tauscht Daten zwischen seinen einzelnen Web-Anwendungen aus, z.B. dev.swift-project.org und datastore.swift-project.org .&lt;/li>
+&lt;li>swift stellt Daten (&amp;ldquo;mappings, &amp;ldquo;aircraft data&amp;rdquo;) weltweit zum Download zur Verfügung.&lt;/li>
+&lt;li>swift stellt seine Software weltweit zum Download zur Verfügung.&lt;/li>
+&lt;li>swift empfängt Benutzerdaten von VATSIM zur Anmeldung (&amp;ldquo;Single Sign On&amp;rdquo;). Diese Anmeldedaten werden aus der VATSIM Infrastruktur übermittelt. VATSIM ist ein weltweites Netzwerk, d.h. EU/außerhalb EU.&lt;/li>
+&lt;/ul>
+&lt;h2 id="data-exchange">Data exchange&lt;/h2>
+&lt;ul>
+&lt;li>swift shares data among its own ecosystem, i.e. the various applications like dev.swift-project.org and datastore.swift-project.org .&lt;/li>
+&lt;li>swift data for flight simulation (&amp;ldquo;mappings, &amp;ldquo;aircraft data&amp;rdquo;) are provided worldwide.&lt;/li>
+&lt;li>swift software can be downloaded worldwide.&lt;/li>
+&lt;li>swift receives and uses user data/credentials for authentication (&amp;ldquo;Single Sign On&amp;rdquo;). Those data are transferred from the VATSIM network, which operates worldwide (i.e. EU/non EU).&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Datenschutzerklärung</title><link>https://swift-project.github.io/docs/legal/dsgvo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/legal/dsgvo/</guid><description>
+&lt;p>Verantwortliche Stelle im Sinne der Datenschutzgesetze ist:&lt;/p>
+&lt;p>swift gem.Impressum, &lt;a href="https://swift-project.github.io/docs/legal/impressum/">siehe hier&lt;/a>&lt;/p>
+&lt;h3 id="erfassung-allgemeiner-informationen">Erfassung allgemeiner Informationen&lt;/h3>
+&lt;p>Wenn Sie auf unsere Webseite zugreifen, werden automatisch Informationen allgemeiner Natur erfasst. Diese Informationen (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das verwendete Betriebssystem, den Domainnamen Ihres Internet Service Providers und Ähnliches. Hierbei handelt es sich ausschließlich um Informationen, welche keine Rückschlüsse auf Ihre Person zulassen. Diese Informationen sind technisch notwendig, um von Ihnen angeforderte Inhalte von Webseiten korrekt auszuliefern und fallen bei Nutzung des Internets zwingend an. Anonyme Informationen dieser Art werden von uns statistisch ausgewertet, um unseren Internetauftritt und die dahinterstehende Technik zu optimieren.&lt;/p>
+&lt;h3 id="cookies">Cookies&lt;/h3>
+&lt;p>Wie viele andere Webseiten verwenden wir auch so genannte „Cookies“. Cookies sind kleine Textdateien, die von einem Webseitenserver auf Ihre Festplatte übertragen werden. Hierdurch erhalten wir automatisch bestimmte Daten wie z. B. IP-Adresse, verwendeter Browser, Betriebssystem über Ihren Computer und Ihre Verbindung zum Internet.&lt;/p>
+&lt;p>Cookies können nicht verwendet werden, um Programme zu starten oder Viren auf einen Computer zu übertragen. Anhand der in Cookies enthaltenen Informationen können wir Ihnen die Navigation erleichtern und die korrekte Anzeige unserer Webseiten ermöglichen.&lt;/p>
+&lt;p>In keinem Fall werden die von uns erfassten Daten an Dritte weitergegeben oder ohne Ihre Einwilligung eine Verknüpfung mit personenbezogenen Daten hergestellt.&lt;/p>
+&lt;p>Natürlich können Sie unsere Website grundsätzlich auch ohne Cookies betrachten. Internet-Browser sind regelmäßig so eingestellt, dass sie Cookies akzeptieren. Sie können die Verwendung von Cookies jederzeit über die Einstellungen Ihres Browsers deaktivieren. Bitte verwenden Sie die Hilfefunktionen Ihres Internetbrowsers, um zu erfahren, wie Sie diese Einstellungen ändern können. Bitte beachten Sie, dass einzelne Funktionen unserer Website möglicherweise nicht funktionieren, wenn Sie die Verwendung von Cookies deaktiviert haben.&lt;/p>
+&lt;h3 id="registrierung-auf-unserer-webseite">Registrierung auf unserer Webseite&lt;/h3>
+&lt;p>Bei der Registrierung für die Nutzung unserer personalisierten Leistungen werden einige personenbezogene Daten erhoben, wie Name, Anschrift, Kontakt- und Kommunikationsdaten wie Telefonnummer und E-Mail-Adresse. Sind Sie bei uns registriert, können Sie auf Inhalte und Leistungen zugreifen, die wir nur registrierten Nutzern anbieten. Angemeldete Nutzer haben zudem die Möglichkeit, bei Bedarf die bei Registrierung angegebenen Daten jederzeit zu ändern oder zu löschen. Selbstverständlich erteilen wir Ihnen darüber hinaus jederzeit Auskunft über die von uns über Sie gespeicherten personenbezogenen Daten. Gerne berichtigen bzw. löschen wir diese auch auf Ihren Wunsch, soweit keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Zur Kontaktaufnahme in diesem Zusammenhang nutzen Sie bitte die am Ende dieser Datenschutzerklärung angegebenen Kontaktdaten.&lt;/p>
+&lt;h3 id="ssl-verschlüsselung">SSL-Verschlüsselung&lt;/h3>
+&lt;p>Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden wir dem aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (z. B. SSL) über HTTPS.&lt;/p>
+&lt;h3 id="kommentarfunktion">Kommentarfunktion&lt;/h3>
+&lt;p>Wenn Nutzer Kommentare im Blog hinterlassen, werden neben diesen Angaben auch der Zeitpunkt ihrer Erstellung und der zuvor durch den Websitebesucher gewählte Nutzername gespeichert. Dies dient unserer Sicherheit, da wir für widerrechtliche Inhalte auf unserer Webseite belangt werden können, auch wenn diese durch Benutzer erstellt wurden.&lt;/p>
+&lt;h3 id="newsletter">Newsletter&lt;/h3>
+&lt;p>Bei der Anmeldung zum Bezug unseres Newsletters werden die von Ihnen angegebenen Daten ausschließlich für diesen Zweck verwendet. Abonnenten können auch über Umstände per E-Mail informiert werden, die für den Dienst oder die Registrierung relevant sind (Beispielsweise Änderungen des Newsletterangebots oder technische Gegebenheiten).&lt;/p>
+&lt;p>Für eine wirksame Registrierung benötigen wir eine valide E-Mail-Adresse. Um zu überprüfen, dass eine Anmeldung tatsächlich durch den Inhaber einer E-Mail-Adresse erfolgt, setzen wir das „Double-opt-in“-Verfahren ein. Hierzu protokollieren wir die Bestellung des Newsletters, den Versand einer Bestätigungsmail und den Eingang der hiermit angeforderten Antwort. Weitere Daten werden nicht erhoben. Die Daten werden ausschließlich für den Newsletterversand verwendet und nicht an Dritte weitergegeben.&lt;/p>
+&lt;p>Die Einwilligung zur Speicherung Ihrer persönlichen Daten und ihrer Nutzung für den Newsletterversand können Sie jederzeit widerrufen. In jedem Newsletter findet sich dazu ein entsprechender Link. Außerdem können Sie sich jederzeit auch direkt auf dieser Webseite abmelden oder uns Ihren entsprechenden Wunsch über die am Ende dieser Datenschutzhinweise angegebene Kontaktmöglichkeit mitteilen.&lt;/p>
+&lt;h3 id="kontaktformular">Kontaktformular&lt;/h3>
+&lt;p>Treten Sie per E-Mail oder Kontaktformular mit uns in Kontakt, werden die von Ihnen gemachten Angaben zum Zwecke der Bearbeitung der Anfrage sowie für mögliche Anschlussfragen gespeichert.&lt;/p>
+&lt;h3 id="löschung-bzw-sperrung-der-daten">Löschung bzw. Sperrung der Daten&lt;/h3>
+&lt;p>Wir halten uns an die Grundsätze der Datenvermeidung und Datensparsamkeit. Wir speichern Ihre personenbezogenen Daten daher nur so lange, wie dies zur Erreichung der hier genannten Zwecke erforderlich ist oder wie es die vom Gesetzgeber vorgesehenen vielfältigen Speicherfristen vorsehen. Nach Fortfall des jeweiligen Zweckes bzw. Ablauf dieser Fristen werden die entsprechenden Daten routinemäßig und entsprechend den gesetzlichen Vorschriften gesperrt oder gelöscht.&lt;/p>
+&lt;h3 id="verwendung-von-google-analytics">Verwendung von Google Analytics&lt;/h3>
+&lt;p>Diese Webseite benutzt Google Analytics, einen Webanalysedienst der Google Inc. (folgend: Google). Google Analytics verwendet sog. „Cookies“, also Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Webseite durch Sie ermöglichen. Die durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Webseite werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Aufgrund der Aktivierung der IP-Anonymisierung auf diesen Webseiten, wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Webseite wird Google diese Informationen benutzen, um Ihre Nutzung der Webseite auszuwerten, um Reports über die Webseitenaktivitäten zusammenzustellen und um weitere mit der Webseitennutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Webseitenbetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.&lt;/p>
+&lt;p>Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Webseite vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Webseite bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: Browser-Add-on zur Deaktivierung von Google Analytics.&lt;/p>
+&lt;p>Zusätzlich oder als Alternative zum Browser-Add-On können Sie das Tracking durch Google Analytics auf unseren Seiten unterbinden, indem Sie diesen Link anklicken . Dabei wird ein Opt-Out-Cookie auf Ihrem Gerät installiert. Damit wird die Erfassung durch Google Analytics für diese Website und für diesen Browser zukünftig verhindert, so lange der Cookie in Ihrem Browser installiert bleibt.&lt;/p>
+&lt;h3 id="verwendung-von-google-maps">Verwendung von Google Maps&lt;/h3>
+&lt;p>Diese Webseite verwendet Google Maps API, um geographische Informationen visuell darzustellen. Bei der Nutzung von Google Maps werden von Google auch Daten über die Nutzung der Kartenfunktionen durch Besucher erhoben, verarbeitet und genutzt. Nähere Informationen über die Datenverarbeitung durch Google können Sie den Google-Datenschutzhinweisen entnehmen. Dort können Sie im Datenschutzcenter auch Ihre persönlichen Datenschutz-Einstellungen verändern.&lt;/p>
+&lt;p>Ausführliche Anleitungen zur Verwaltung der eigenen Daten im Zusammenhang mit Google-Produkten finden Sie hier.&lt;/p>
+&lt;h3 id="eingebettete-youtube-videos">Eingebettete YouTube-Videos&lt;/h3>
+&lt;p>Auf einigen unserer Webseiten betten wir Youtube-Videos ein. Betreiber der entsprechenden Plugins ist die YouTube, LLC, 901 Cherry Ave., San Bruno, CA 94066, USA. Wenn Sie eine Seite mit dem YouTube-Plugin besuchen, wird eine Verbindung zu Servern von Youtube hergestellt. Dabei wird Youtube mitgeteilt, welche Seiten Sie besuchen. Wenn Sie in Ihrem Youtube-Account eingeloggt sind, kann Youtube Ihr Surfverhalten Ihnen persönlich zuzuordnen. Dies verhindern Sie, indem Sie sich vorher aus Ihrem Youtube-Account ausloggen.&lt;/p>
+&lt;p>Wird ein Youtube-Video gestartet, setzt der Anbieter Cookies ein, die Hinweise über das Nutzerverhalten sammeln.&lt;/p>
+&lt;p>Wer das Speichern von Cookies für das Google-Ad-Programm deaktiviert hat, wird auch beim Anschauen von Youtube-Videos mit keinen solchen Cookies rechnen müssen. Youtube legt aber auch in anderen Cookies nicht-personenbezogene Nutzungsinformationen ab. Möchten Sie dies verhindern, so müssen Sie das Speichern von Cookies im Browser blockieren.&lt;/p>
+&lt;p>Weitere Informationen zum Datenschutz bei „Youtube“ finden Sie in der Datenschutzerklärung des Anbieters unter: &lt;a href="https://www.google.de/intl/de/policies/privacy/">https://www.google.de/intl/de/policies/privacy/&lt;/a>&lt;/p>
+&lt;h3 id="ihre-rechte-auf-auskunft-berichtigung-sperre-löschung-und-widerspruch">Ihre Rechte auf Auskunft, Berichtigung, Sperre, Löschung und Widerspruch&lt;/h3>
+&lt;p>Sie haben das Recht, jederzeit Auskunft über Ihre bei uns gespeicherten personenbezogenen Daten zu erhalten. Ebenso haben Sie das Recht auf Berichtigung, Sperrung oder, abgesehen von der vorgeschriebenen Datenspeicherung zur Geschäftsabwicklung, Löschung Ihrer personenbezogenen Daten. Bitte wenden Sie sich dazu an unseren Datenschutzbeauftragten. Die Kontaktdaten finden Sie ganz unten.&lt;/p>
+&lt;p>Damit eine Sperre von Daten jederzeit berücksichtigt werden kann, müssen diese Daten zu Kontrollzwecken in einer Sperrdatei vorgehalten werden. Sie können auch die Löschung der Daten verlangen, soweit keine gesetzliche Archivierungsverpflichtung besteht. Soweit eine solche Verpflichtung besteht, sperren wir Ihre Daten auf Wunsch.&lt;/p>
+&lt;p>Sie können Änderungen oder den Widerruf einer Einwilligung durch entsprechende Mitteilung an uns mit Wirkung für die Zukunft vornehmen.&lt;/p>
+&lt;h3 id="änderung-unserer-datenschutzbestimmungen">Änderung unserer Datenschutzbestimmungen&lt;/h3>
+&lt;p>Wir behalten uns vor, diese Datenschutzerklärung gelegentlich anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen, z. B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.&lt;/p>
+&lt;h3 id="fragen-an-den-datenschutzbeauftragten">Fragen an den Datenschutzbeauftragten&lt;/h3>
+&lt;p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an unseren Datenschutzbeauftragten:&lt;/p>
+&lt;p>Kontaktdaten &lt;a href="https://swift-project.github.io/docs/legal/impressum/">siehe Impressum&lt;/a>&lt;/p>
+&lt;p>Die Datenschutzerklärung wurde mit dem Datenschutzerklärungs-Generator der activeMind AG erstellt .&lt;/p></description></item><item><title>Docs: DBus (swift and DBus)</title><link>https://swift-project.github.io/docs/knowhow/programming/dbus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/dbus/</guid><description>
+&lt;p>=== Windows libraries for DBus ===&lt;/p>
+&lt;p>[[ knowhow/programming/swiftbuild/dbus/ ]]&lt;/p>
+&lt;p>=== QDBusViewer ===&lt;/p>
+&lt;p>In order to use [QDBusViewer]{.title-ref} the [dbus-1.3.dll]{.title-ref}
+needs to be copied to the same folder as [QDBusViewer]{.title-ref}&lt;/p></description></item><item><title>Docs: DEC 2018 C++ review</title><link>https://swift-project.github.io/docs/knowhow/programming/dec2018review/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/dec2018review/</guid><description>
+&lt;p>== QString ==&lt;/p>
+&lt;ul>
+&lt;li>Old: [QStringLiteral(&amp;quot;{ &amp;quot;) % foo % QStringLiteral(&amp;quot;
+}&amp;quot;)]{.title-ref}&lt;/li>
+&lt;li>New: [u&amp;quot;{ &amp;quot; % foo % u&amp;quot; }&amp;quot;]{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>When a string is only a single character you can use a UTF-16 character
+literal:&lt;/p>
+&lt;ul>
+&lt;li>Old: [QStringLiteral(&amp;quot;[&amp;quot;) % foo %
+QStringLiteral(&amp;quot;]&amp;quot;)]{.title-ref}&lt;/li>
+&lt;li>New: [u'[' % foo % u']']{.title-ref}&lt;/li>
+&lt;/ul>
+&lt;p>See full detailed info here: [[ knowhow/programming/qt-strings/ ]]&lt;/p>
+&lt;p>== Loops ==&lt;/p>
+&lt;p>One more performance point: to loop over the values of a
+[QHash]{.title-ref} or [QMap]{.title-ref} or [CDictionary]{.title-ref}
+there is no need to call [.values()]{.title-ref}, just loop over the
+container itself:&lt;/p>
+&lt;pre>&lt;code class="language-{.cpp}" data-lang="{.cpp}">for (const auto &amp;amp;value : map.values()) { ... } // old
+for (const auto &amp;amp;value : map) { ... } // new
+&lt;/code>&lt;/pre>&lt;p>Calling [.values()]{.title-ref} is just copying them into a
+[QList]{.title-ref} for no reason. Furthermore, to loop over the keys,
+we have [makeKeysRange]{.title-ref} in `blackmisc/range.h`:&lt;/p>
+&lt;pre>&lt;code class="language-{.cpp}" data-lang="{.cpp}">for (const auto &amp;amp;key : map.keys()) { ... } // old
+for (const auto &amp;amp;key : makeKeysRange(map)) { ... } // new
+&lt;/code>&lt;/pre>&lt;p>This avoids copying the keys into a [QList]{.title-ref}, as it just
+adapts the begin and end iterators. And to loop over keys //and//
+values, we have `makePairsRange`:&lt;/p>
+&lt;pre>&lt;code class="language-{.cpp}" data-lang="{.cpp}">for (const auto &amp;amp;key : map.keys()) /*********** old */
+{
+doSomethingWithKey(key);
+doSomethingWithValue(map[key]);
+}
+for (const auto pair : makePairsRange(map)) /* new */
+{
+doSomethingWithKey(pair.first);
+doSomethingWithValue(pair.second);
+}
+&lt;/code>&lt;/pre>&lt;p>This avoids copying the keys into a [QList]{.title-ref} //and//
+performing a lookup for each one. In C++17 we will be able to unpack the
+pair like this:&lt;/p>
+&lt;pre>&lt;code class="language-{.cpp}" data-lang="{.cpp}">for (const auto [key, value] : makePairsRange(map))
+{
+doSomethingWithKey(key);
+doSomethingWithValue(value);
+}
+&lt;/code>&lt;/pre>&lt;p>I think I have fixed it to use these everywhere possible in our
+codebase. Caveat: [makeKeysRange]{.title-ref} and
+[makePairsRange]{.title-ref} only work with lvalues. You will get a
+compile error if you try to use them with rvalues, because it would be
+unsafe.&lt;/p></description></item><item><title>Docs: Delete swift registry values (Windows only)</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/registrydelete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/registrydelete/</guid><description>
+&lt;p>The entries can be deleted from the launcher tool menu (since 0.9.4).&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/clearreg.png" alt="image">&lt;/p>
+&lt;p>If you want to do that manually, see
+&lt;a href="https://doc.qt.io/qt-5/qsettings.html#locations-where-application-settings-are-stored">https://doc.qt.io/qt-5/qsettings.html#locations-where-application-settings-are-stored&lt;/a>&lt;/p>
+&lt;p>Background: swift saves screen geometry values (windows positions and
+sizes) in the registry. If those are corrupt/invalid (new screen, new
+screen size) it can cause swift to hang.&lt;/p>
+&lt;hr>
+&lt;p>From the above Qt source:
+&lt;a href="https://doc.qt.io/qt-5/qsettings.html#locations-where-application-settings-are-stored">https://doc.qt.io/qt-5/qsettings.html#locations-where-application-settings-are-stored&lt;/a>&lt;/p>
+&lt;p>::: {.important}
+::: {.title}
+Important
+:::&lt;/p>
+&lt;p>&lt;code>MySoft&lt;/code> and &lt;code>Star Runner&lt;/code> are example names from the Qt documentation,
+would would find &lt;code>swift-project.org&lt;/code> and the swift application names
+instead.
+:::&lt;/p>
+&lt;pre>&lt;code class="language-{.}" data-lang="{.}">On Unix systems, if the file format is NativeFormat, the following files are used by default:
+$HOME/.config/MySoft/Star Runner.conf (Qt for Embedded Linux: $HOME/Settings/MySoft/Star Runner.conf)
+$HOME/.config/MySoft.conf (Qt for Embedded Linux: $HOME/Settings/MySoft.conf)
+for each directory &amp;lt;dir&amp;gt; in $XDG_CONFIG_DIRS: &amp;lt;dir&amp;gt;/MySoft/Star Runner.conf
+for each directory &amp;lt;dir&amp;gt; in $XDG_CONFIG_DIRS: &amp;lt;dir&amp;gt;/MySoft.conf
+Note: If XDG_CONFIG_DIRS is unset, the default value of /etc/xdg is used.
+On macOS versions 10.2 and 10.3, these files are used by default:
+$HOME/Library/Preferences/com.MySoft.Star Runner.plist
+$HOME/Library/Preferences/com.MySoft.plist
+/Library/Preferences/com.MySoft.Star Runner.plist
+/Library/Preferences/com.MySoft.plist
+On Windows, NativeFormat settings are stored in the following registry paths:
+HKEY_CURRENT_USER\Software\MySoft\Star Runner
+HKEY_CURRENT_USER\Software\MySoft\OrganizationDefaults
+HKEY_LOCAL_MACHINE\Software\MySoft\Star Runner
+HKEY_LOCAL_MACHINE\Software\MySoft\OrganizationDefaults
+Note: On Windows, for 32-bit programs running in WOW64 mode, settings are stored in the following registry path: HKEY_LOCAL_MACHINE\Software\WOW6432node.
+If the file format is NativeFormat, this is &amp;quot;Settings/MySoft/Star Runner.conf&amp;quot; in the application's home directory.
+If the file format is IniFormat, the following files are used on Unix, macOS, and iOS:
+$HOME/.config/MySoft/Star Runner.ini (Qt for Embedded Linux: $HOME/Settings/MySoft/Star Runner.ini)
+$HOME/.config/MySoft.ini (Qt for Embedded Linux: $HOME/Settings/MySoft.ini)
+for each directory &amp;lt;dir&amp;gt; in $XDG_CONFIG_DIRS: &amp;lt;dir&amp;gt;/MySoft/Star Runner.ini
+for each directory &amp;lt;dir&amp;gt; in $XDG_CONFIG_DIRS: &amp;lt;dir&amp;gt;/MySoft.ini
+Note: If XDG_CONFIG_DIRS is unset, the default value of /etc/xdg is used.
+On Windows, the following files are used:
+FOLDERID_RoamingAppData\MySoft\Star Runner.ini
+FOLDERID_RoamingAppData\MySoft.ini
+FOLDERID_ProgramData\MySoft\Star Runner.ini
+FOLDERID_ProgramData\MySoft.ini
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Design and use of value classes</title><link>https://swift-project.github.io/docs/dev/values/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/dev/values/</guid><description>
+&lt;h1 id="the-canonical-value-class">The canonical value class&lt;/h1>
+&lt;p>Our value classes all follow a similar pattern of common methods:&lt;/p>
+&lt;ul>
+&lt;li>A &lt;code>registerMetadata&lt;/code> method to register the class with the metatype
+system.&lt;/li>
+&lt;li>Stringification methods to generate a string representation of an
+object.&lt;/li>
+&lt;li>Comparison operators for comparing two objects of the same class.&lt;/li>
+&lt;li>An overload of &lt;code>qHash&lt;/code> to generate a hash of an object.&lt;/li>
+&lt;li>Methods to marshal and unmarshal an object as a DBus argument.&lt;/li>
+&lt;li>Methods to serialize to and from a JSON structure.&lt;/li>
+&lt;li>A method to get the icon representing the object.&lt;/li>
+&lt;li>Methods to access the properties of the object by an index.&lt;/li>
+&lt;/ul>
+&lt;p>The most common case, in which the methods are implemented using the
+&lt;code>metaclass&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} system, is supported by
+deriving the class from &lt;code>CValueObject&lt;/code>, which is a convenience class
+template which derives from all the most commonly used mixin classes,
+using multiple inheritance.&lt;/p>
+&lt;h1 id="meta-types-and-cvariant">Meta types and &lt;code>CVariant&lt;/code>&lt;/h1>
+&lt;p>Any of our value objects can be stored in a [CVariant]{.title-ref}, and
+the canonical methods of the stored object can be accessed through the
+methods of &lt;code>CVariant&lt;/code>. This is facilitated by a meta type system built
+on top of Qt's meta type system, using
+&lt;code>BlackMisc::registerMetaValueType()&lt;/code> and &lt;a href="https://en.wikipedia.org/wiki/Duck_typing">duck
+typing&lt;/a>. This allows value
+objects to be treated polymorphically while retaining value semantics
+and without introducing virtual methods in the public API.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> It is not
+neccessary for all of the canonical methods to be present in an object
+stored in a &lt;code>CVariant&lt;/code>; it is a runtime error to attempt to use a method
+of a &lt;code>CVariant&lt;/code> storing an object which doesn't support that method.&lt;/p>
+&lt;h1 id="mixin-classes">Mixin classes&lt;/h1>
+&lt;p>::: {.note}
+::: {.title}
+Note
+:::&lt;/p>
+&lt;p>Some Q&amp;amp;A about mixins from the meetings
+&lt;a href="https://dev.vatsim-germany.org/boards/22/topics/2672?r=2676#message-2676">here&lt;/a>.
+:::&lt;/p>
+&lt;p>Sometimes it doesn't make sense for a particular value class to
+implement one or more of the canonical methods. In these cases, instead
+of deriving from &lt;code>CValueObject&lt;/code>, a value class can derive directly from
+the specific mixin classes which it needs. This allows for extensive
+code reuse through inheritance without violating the &lt;a href="https://en.wikipedia.org/wiki/Liskov_substitution_principle">Liskov
+substitution
+principle&lt;/a>
+and without coupling together unrelated responsibilities. All of the
+mixin classes, as well as &lt;code>CValueObject&lt;/code>, use the
+&lt;a href="https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern">CRTP&lt;/a>.
+Some of the mixins require their template argument type to satisfy
+particular
+&lt;a href="https://en.wikipedia.org/wiki/Concept_%28generic_programming%29">concepts&lt;/a>.
+This is documented in their Doxygen class documentation. The concepts
+required when deriving from &lt;code>CValueObject&lt;/code> are the union of all the
+required concepts of the mixins which &lt;code>CValueObject&lt;/code> uses.&lt;/p>
+&lt;h1 id="inheritance">Inheritance&lt;/h1>
+&lt;p>Occasionally, we have value classes which represent specializations of
+other value classes, and therefore derive from those other value
+classes. For example, &lt;code>CHeading&lt;/code> derives from &lt;code>CAngle&lt;/code>, and &lt;code>CAltitude&lt;/code>
+derives from &lt;code>CLength&lt;/code>. In these cases, there is a base class which
+derives from certain mixins, and a derived class which derives from the
+base class and some other mixins. A base and a derived class might
+derive from some of the same mixins. For example, &lt;code>CAngle&lt;/code> derives from
+&lt;code>Mixin::MetaType&amp;lt;CAngle&amp;gt;&lt;/code> and &lt;code>CHeading&lt;/code> derives from
+&lt;code>Mixin::MetaType&amp;lt;CHeading&amp;gt;&lt;/code>. In these cases, it is necessary to use a
+&lt;a href="http://en.cppreference.com/w/cpp/language/using_declaration#In_class_definition">using
+declaration&lt;/a>
+to disambiguate which methods should be inherited in the derived class.
+In this example, the definition of &lt;code>CHeading&lt;/code> has a
+&lt;code>using Mixin::MetaType&amp;lt;CHeading&amp;gt;::registerMetadata;&lt;/code> to tell the
+compiler that it wants to inherit the &lt;code>registerMetadata&lt;/code> method of
+&lt;code>Mixin::MetaType&amp;lt;CHeading&amp;gt;&lt;/code>, not the &lt;code>registerMetadata&lt;/code> method of
+&lt;code>CAngle&lt;/code>. To reduce duplication of these &lt;code>using&lt;/code> declarations, there are
+macros provided with the mixin classes to automatically introduce the
+appropriate declarations into a derived class.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Virtual methods in frequently-used CRTP class templates have a
+detrimental effect on compilation times, because they inhibit lazy
+instantiation of methods. &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item></channel></rss>

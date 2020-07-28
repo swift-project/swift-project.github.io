@@ -1,77 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Developer documentation</title><link>https://swift-project.github.io/docs/dev/</link><description>Recent content in Developer documentation on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs:</title><link>https://swift-project.github.io/docs/dev/sharedstate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/dev/sharedstate/</guid><description>
-&lt;h1 id="shared-state">Shared State&lt;/h1>
-&lt;p>&lt;code>BlackMisc::SharedState&lt;/code> is a hierarchical library of reusable building
-blocks for composing subsystems for sharing transient data between
-objects, potentially in different processes.&lt;/p>
-&lt;h2 id="endpoint-layer">Endpoint Layer&lt;/h2>
-&lt;p>The middle layer contains the mutators and observers. Mutators and
-observers correspond to commands and queries in the CQRS design pattern.
-Mutators and observers can be passive and/or active, as seen in this 2x2
-matrix:&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th> &lt;/th>
-&lt;th>Passive&lt;/th>
-&lt;th>Active&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;strong>Mutator&lt;/strong>&lt;/td>
-&lt;td>publishes events&lt;/td>
-&lt;td>handles requests&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Observer&lt;/strong>&lt;/td>
-&lt;td>subscribes events&lt;/td>
-&lt;td>submits requests&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>Events are fire-and-forget signals sent by passive mutators and received
-by passive observers. Requests are stateful signals that expect replies;
-requests are sent by active observers and received by active mutators,
-which send replies back to the observers that sent the requests.&lt;/p>
-&lt;p>Events and requests are sent across &amp;ldquo;channels&amp;rdquo;. Each channel can have
-multiple mutators and multiple observers. Each mutator and each observer
-is on exactly one channel. For an observer to communicate with a
-mutator, they must both be on the same channel. Conceptually, a channel
-is just a unique key string.&lt;/p>
-&lt;p>These concepts are implemented by concrete
-&lt;code>QObject&lt;/code> subclasses: &lt;code>CPassiveMutator&lt;/code>, &lt;code>CPassiveObserver&lt;/code>,
-&lt;code>CActiveMutator&lt;/code>, &lt;code>CActiveObserver&lt;/code>. Instances of these classes are
-created by calling their static &lt;code>create()&lt;/code> method, which returns a
-&lt;code>QSharedPointer&lt;/code> pointing to the new object. Their channel is
-determined by the &lt;code>BLACK_SHARED_STATE_CHANNEL&lt;/code> macro in the class of
-their parent object, combined with the name of their parent object.&lt;/p>
-&lt;h2 id="transportdatalink-layer">Transport/Datalink Layer&lt;/h2>
-&lt;p>The middle layer is completely decoupled from the mechanism for
-transporting events and requests. This mechanism is the responsibility
-of the bottom layer. &lt;code>IDataLink&lt;/code> is an abstract interface that is
-implemented by concrete subclasses to provide different transport
-mechanisms. A mutator is connected by passing it to the
-&lt;code>IDataLink::publish&lt;/code> method. An observer is connected by passing it to
-the &lt;code>IDataLink::subscribe&lt;/code> method.&lt;/p>
-&lt;h2 id="contentsubject-layer">Content/Subject Layer&lt;/h2>
-&lt;p>The middle layer is also completely decoupled from the payloads carried
-by the events, the requests, and the replies, which are handled by the
-top layer. A payload is a &lt;code>CVariant&lt;/code>, and its contents are opaque to the
-mutators and observers. It is for the parent objects of the mutators and
-observers to confer meaning upon the events and requests that they send
-and receive.&lt;/p>
-&lt;h2 id="references">References&lt;/h2>
-&lt;ul>
-&lt;li>CQRS design pattern:
-&lt;ul>
-&lt;li>&lt;a href="http://codebetter.com/gregyoung/2010/02/16/cqrs-task-based-uis-event-sourcing-agh/">http://codebetter.com/gregyoung/2010/02/16/cqrs-task-based-uis-event-sourcing-agh/&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://cqrs.nu/Faq/command-query-responsibility-segregation">http://cqrs.nu/Faq/command-query-responsibility-segregation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://martinfowler.com/bliki/CQRS.html">http://martinfowler.com/bliki/CQRS.html&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="endpoints-diagram">Endpoints Diagram&lt;/h2>
-&lt;p>&lt;img src="http://img.swift-project.org/sharedstate.png" alt="image">&lt;/p></description></item><item><title>Docs: Build configuration</title><link>https://swift-project.github.io/docs/dev/build-config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/dev/build-config/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Developer documentation</title><link>https://swift-project.github.io/docs/dev/</link><description>Recent content in Developer documentation on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Build configuration</title><link>https://swift-project.github.io/docs/dev/build-config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/dev/build-config/</guid><description>
 &lt;p>&lt;em>swift&lt;/em> uses &lt;a href="http://doc.qt.io/qt-5/qmake-manual.html">qmake&lt;/a> as its
 build system. The build can be configured with JSON files, and the qmake
 files can interrogate the configuration with custom qmake functions. C++
@@ -1311,7 +1238,80 @@ Endpoint is an observer of every other Endpoint.&lt;/p>
 Facade pattern, and Facade Proxies use the Proxy pattern.&lt;/p>
 &lt;p>The Command pattern suggests encapsulating event properties into a
 single value class, to avoid signals and slots with large numbers of
-parameters.&lt;/p></description></item><item><title>Docs: Style and Coding Standard</title><link>https://swift-project.github.io/docs/dev/style/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/dev/style/</guid><description>
+parameters.&lt;/p></description></item><item><title>Docs: Shared State</title><link>https://swift-project.github.io/docs/dev/sharedstate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/dev/sharedstate/</guid><description>
+&lt;h1 id="shared-state">Shared State&lt;/h1>
+&lt;p>&lt;code>BlackMisc::SharedState&lt;/code> is a hierarchical library of reusable building
+blocks for composing subsystems for sharing transient data between
+objects, potentially in different processes.&lt;/p>
+&lt;h2 id="endpoint-layer">Endpoint Layer&lt;/h2>
+&lt;p>The middle layer contains the mutators and observers. Mutators and
+observers correspond to commands and queries in the CQRS design pattern.
+Mutators and observers can be passive and/or active, as seen in this 2x2
+matrix:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th> &lt;/th>
+&lt;th>Passive&lt;/th>
+&lt;th>Active&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Mutator&lt;/strong>&lt;/td>
+&lt;td>publishes events&lt;/td>
+&lt;td>handles requests&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Observer&lt;/strong>&lt;/td>
+&lt;td>subscribes events&lt;/td>
+&lt;td>submits requests&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Events are fire-and-forget signals sent by passive mutators and received
+by passive observers. Requests are stateful signals that expect replies;
+requests are sent by active observers and received by active mutators,
+which send replies back to the observers that sent the requests.&lt;/p>
+&lt;p>Events and requests are sent across &amp;ldquo;channels&amp;rdquo;. Each channel can have
+multiple mutators and multiple observers. Each mutator and each observer
+is on exactly one channel. For an observer to communicate with a
+mutator, they must both be on the same channel. Conceptually, a channel
+is just a unique key string.&lt;/p>
+&lt;p>These concepts are implemented by concrete
+&lt;code>QObject&lt;/code> subclasses: &lt;code>CPassiveMutator&lt;/code>, &lt;code>CPassiveObserver&lt;/code>,
+&lt;code>CActiveMutator&lt;/code>, &lt;code>CActiveObserver&lt;/code>. Instances of these classes are
+created by calling their static &lt;code>create()&lt;/code> method, which returns a
+&lt;code>QSharedPointer&lt;/code> pointing to the new object. Their channel is
+determined by the &lt;code>BLACK_SHARED_STATE_CHANNEL&lt;/code> macro in the class of
+their parent object, combined with the name of their parent object.&lt;/p>
+&lt;h2 id="transportdatalink-layer">Transport/Datalink Layer&lt;/h2>
+&lt;p>The middle layer is completely decoupled from the mechanism for
+transporting events and requests. This mechanism is the responsibility
+of the bottom layer. &lt;code>IDataLink&lt;/code> is an abstract interface that is
+implemented by concrete subclasses to provide different transport
+mechanisms. A mutator is connected by passing it to the
+&lt;code>IDataLink::publish&lt;/code> method. An observer is connected by passing it to
+the &lt;code>IDataLink::subscribe&lt;/code> method.&lt;/p>
+&lt;h2 id="contentsubject-layer">Content/Subject Layer&lt;/h2>
+&lt;p>The middle layer is also completely decoupled from the payloads carried
+by the events, the requests, and the replies, which are handled by the
+top layer. A payload is a &lt;code>CVariant&lt;/code>, and its contents are opaque to the
+mutators and observers. It is for the parent objects of the mutators and
+observers to confer meaning upon the events and requests that they send
+and receive.&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>CQRS design pattern:
+&lt;ul>
+&lt;li>&lt;a href="http://codebetter.com/gregyoung/2010/02/16/cqrs-task-based-uis-event-sourcing-agh/">http://codebetter.com/gregyoung/2010/02/16/cqrs-task-based-uis-event-sourcing-agh/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://cqrs.nu/Faq/command-query-responsibility-segregation">http://cqrs.nu/Faq/command-query-responsibility-segregation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://martinfowler.com/bliki/CQRS.html">http://martinfowler.com/bliki/CQRS.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="endpoints-diagram">Endpoints Diagram&lt;/h2>
+&lt;p>&lt;img src="http://img.swift-project.org/sharedstate.png" alt="image">&lt;/p></description></item><item><title>Docs: Style and Coding Standard</title><link>https://swift-project.github.io/docs/dev/style/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/dev/style/</guid><description>
 &lt;div class="alert alert-warning" role="alert">
 &lt;h4 class="alert-heading">TODO&lt;/h4>
 Need examples.

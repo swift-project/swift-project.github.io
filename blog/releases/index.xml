@@ -174,4 +174,97 @@ Testers/alpha users need to manually install XSwiftBus (download and copy)
 your are happy with it, uninstall 0.9.0. There is no need to re-create
 your model set, you can copy settings and data from other swift
 installations at any time in the wizard.&lt;/p>
-&lt;p>See: https://swift-project.github.io/docs/installation/copyswiftdata/&lt;/p></description></item></channel></rss>
+&lt;p>See: https://swift-project.github.io/docs/installation/copyswiftdata/&lt;/p></description></item><item><title>Blog: Release of 0.8.9</title><link>https://swift-project.github.io/blog/2019/03/20/release-of-0.8.9/</link><pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2019/03/20/release-of-0.8.9/</guid><description>
+&lt;ul>
+&lt;li>
+&lt;p>Fixed various issues&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add category matching (only gliders so far)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Added more notification sounds&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Rember remarks&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>XPDR mode in status bar&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add FS9 Time, COM and XPDR synchronisation&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Initial FlightGear support&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Release of 0.8.7</title><link>https://swift-project.github.io/blog/2018/11/30/release-of-0.8.7/</link><pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2018/11/30/release-of-0.8.7/</guid><description>
+&lt;ul>
+&lt;li>Fixed various issues&lt;/li>
+&lt;li>Add possiblity to tune modelset&lt;/li>
+&lt;li>Fix XPlane model strings&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Release of 0.8.5</title><link>https://swift-project.github.io/blog/2018/07/31/release-of-0.8.5/</link><pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2018/07/31/release-of-0.8.5/</guid><description>
+&lt;ul>
+&lt;li>XPlane plugin no longer uses Qt classes. Rational: No longer a problem with other XPlane plugins using Qt&lt;/li>
+&lt;li>XPlane testing&lt;/li>
+&lt;li>Interpolation improvements&lt;/li>
+&lt;li>Model loader improvmenets&lt;/li>
+&lt;li>Wizards improvements&lt;/li>
+&lt;li>Model matching configurable&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Release of 0.8.4</title><link>https://swift-project.github.io/blog/2017/09/01/release-of-0.8.4/</link><pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2017/09/01/release-of-0.8.4/</guid><description>
+&lt;ul>
+&lt;li>swift now supports the gnd. flag (on top of supporting the gnd flag from aircraft parts). It sends the gnd flag, and supports incoming gnd flag. As there is no reliable detection of the gnd flag capability, a client is marked &amp;quot;gnd flag supporting&amp;quot; if a) a valid true gnd flag is received, or b) the client is manually set to gnd flag supporting via the context menu.&lt;/li>
+&lt;li>XSwiftBus no longer relies on the Qt libraries, that means there is no longer a clash when another add-on uses Qt libs&lt;/li>
+&lt;li>in XPlane an airplane can be followed, from the swift menu, in P3D / FSX that feature is pending&lt;/li>
+&lt;li>ground elevation queries have been unified among XP/P3D/FSX: all three allow to query the gnd elevation at an arbitrary position&lt;/li>
+&lt;li>XPlane and FSX drivers now use a common concept / codebase for interpolation&lt;/li>
+&lt;li>some adjustments have been made to be the new GDPR requirements (legal)&lt;/li>
+&lt;li>gnd guessing for aircraft without any gnd. information have been improved.&lt;/li>
+&lt;li>improved interpolation logging capabilities&lt;/li>
+&lt;li>FS9 support currently is experimental only, we focus on P3D/XPlane/FSX. FS9 development consumes a lot of time due to the fact it is the oldest platform. Plus the number of users using it is decreasing, people start to use P3D or XPlane instead.&lt;/li>
+&lt;li>Many small bugfixes&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Release of 0.8.3</title><link>https://swift-project.github.io/blog/2017/06/12/release-of-0.8.3/</link><pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2017/06/12/release-of-0.8.3/</guid><description>
+&lt;ul>
+&lt;li>Various bug fixes&lt;/li>
+&lt;li>deleted outdated XP models with old keys&lt;/li>
+&lt;li>Added server types to FSD settings
+&lt;ul>
+&lt;li>This allows to select server type in FSD settings&lt;/li>
+&lt;li>swift can now be used to connect to VATSIM and legacy FSD servers&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Added ICAO IATA and swift specific descriptions. This allows to better identify the ICAO code&lt;/li>
+&lt;li>Improved adding of AI traffic in FSX (only one object per time)&lt;/li>
+&lt;li>Fixed missing network query:&lt;/li>
+&lt;li>removedXP models stll using the old key&lt;/li>
+&lt;li>fixed bug in VATSIM data fileparsing&lt;/li>
+&lt;li>improved reverse lookup&lt;/li>
+&lt;li>Emulated driver&lt;/li>
+&lt;li>Online detection&lt;/li>
+&lt;li>Refactoring&lt;/li>
+&lt;li>detect equal models in DB data, do not publish those&lt;/li>
+&lt;li>Download XSwiftBus from launcher/wizard&lt;/li>
+&lt;li>Backend: Now supports livery CRs&lt;/li>
+&lt;li>Backend: Equal mappings will be detected.&lt;/li>
+&lt;li>Improved setup loading&lt;/li>
+&lt;li>Logout to network can be stopped&lt;/li>
+&lt;li>Backend improvements&lt;/li>
+&lt;li>SVFR change for flight plan&lt;/li>
+&lt;li>genuine x64 P3D v4 driver&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Release of 0.8.2</title><link>https://swift-project.github.io/blog/2017/05/14/release-of-0.8.2/</link><pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2017/05/14/release-of-0.8.2/</guid><description>
+&lt;ul>
+&lt;li>Improvements in logging to help diagnose bugs&lt;/li>
+&lt;li>Fixed bug connecting pilot client to X-Plane&lt;/li>
+&lt;li>Fixed airline filter bug&lt;/li>
+&lt;li>Filter by database ID&lt;/li>
+&lt;li>Fixed loading models via context menu&lt;/li>
+&lt;li>New tooltips&lt;/li>
+&lt;li>&amp;quot;Do not show again&amp;quot; checkbox for auto-updater&lt;/li>
+&lt;li>Remember previously used folder for load/save dialog&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Release of 0.8.1</title><link>https://swift-project.github.io/blog/2017/05/06/release-of-0.8.1/</link><pubDate>Sat, 06 May 2017 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2017/05/06/release-of-0.8.1/</guid><description>
+&lt;ul>
+&lt;li>Improved XPlane model keys based on discussion&lt;/li>
+&lt;li>MAC OS installation fixed&lt;/li>
+&lt;li>Stash button fixed&lt;/li>
+&lt;li>Retry when network connection is down during install&lt;/li>
+&lt;li>1st version of background updater&lt;/li>
+&lt;/ul></description></item></channel></rss>

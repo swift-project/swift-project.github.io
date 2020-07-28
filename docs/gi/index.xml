@@ -1,34 +1,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Getting involved</title><link>https://swift-project.github.io/docs/gi/</link><description>Recent content in Getting involved on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/gi/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Getting started as a developer</title><link>https://swift-project.github.io/docs/gi/gettingstarteddev/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/gi/gettingstarteddev/</guid><description>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">TODO&lt;/h4>
-This page contains outdated information!
-&lt;/div>
 &lt;h2 id="getting-the-code">Getting the code&lt;/h2>
 &lt;ul>
-&lt;li>Follow the link to rSWIFTPILOTCLIENT and click on the green button to clone the git repository. The http(s) URL can be used for anonymous read access. To use the ssh URL you must upload an ssh public key (see next steps below).&lt;/li>
+&lt;li>Clone the source-code from &lt;a href="https://github.com/swift-project/pilotclient">Github&lt;/a> with &lt;code>git clone https://github.com/swift-project/pilotclient.git&lt;/code> (or SSH if you prefer).&lt;/li>
 &lt;li>Run &lt;code>git submodule update --init&lt;/code> to clone the submodules.&lt;/li>
 &lt;li>Download and install the latest LTS version of Qt from &lt;a href="https://www.qt.io/download-qt-installer">https://www.qt.io/download-qt-installer&lt;/a>.&lt;/li>
 &lt;li>Run Qt Creator and open the project file &lt;code>swift.pro&lt;/code> in the root of your git clone.&lt;/li>
-&lt;/ul>
-&lt;h2 id="next-steps">Next steps&lt;/h2>
-&lt;ul>
-&lt;li>Before submitting your contributions to us, you need to &lt;a href="https://dev.swift-project.org/auth/start/">register&lt;/a> a username here in Phabricator.
-&lt;ul>
-&lt;li>Make sure you can receive emails sent from &lt;code>*.swift-project.org&lt;/code> and &lt;code>swiftnoreply(at)gmail.com&lt;/code> (check your spam filters).&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Once you have registered, you will be able to:
-&lt;ul>
-&lt;li>Sign the contributor license agreement to allow us to use your contributions.&lt;/li>
-&lt;li>Push Differential patches (similar to a &lt;i class="fab fa-github">&lt;/i> pull request)&lt;/li>
-&lt;li>Upload your public key for ssh access to the git repository.
-&lt;ul>
-&lt;li>Settings can be found at&lt;/li>
-&lt;li>&lt;code>https://dev.swift-project.org/settings/user/\&amp;lt;username\&amp;gt;/page/ssh/&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Improve help and tutorials</title><link>https://swift-project.github.io/docs/gi/improvehelp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/gi/improvehelp/</guid><description>
 &lt;h2 id="links">Links&lt;/h2>
 &lt;p>&lt;a href="https://swift-project.github.io/docs/gi/improvehelp/">LINK_TEXT&lt;/a>&lt;/p>
@@ -39,36 +15,12 @@ This is a warning.
 &lt;span style="color:#8f5902;font-style:italic">{{&lt;/span>&lt;span style="color:#a40000">%&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#a40000">/&lt;/span>&lt;span style="color:#000">alert&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#a40000">%&lt;/span>&lt;span style="color:#8f5902;font-style:italic">}}&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="creating-youtube-tutorials">Creating YouTube tutorials&lt;/h2>
 &lt;ul>
-&lt;li>Video capturing: Icecream Screen Recorder (free)
-&lt;ul>
-&lt;li>use 1024x768 or smaller where possible&lt;/li>
-&lt;li>mute sound, microphone and webcam for closed capture only videos&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>subtitles Aegisub (free)
-&lt;ul>
-&lt;li>save as srt for YouTube&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Open tasks (if you want to help)</title><link>https://swift-project.github.io/docs/gi/opentasks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/gi/opentasks/</guid><description>
+&lt;li>Video capturing: &lt;a href="https://obsproject.com/">Open Broadcaster Software&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Open tasks</title><link>https://swift-project.github.io/docs/gi/opentasks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/gi/opentasks/</guid><description>
 &lt;p>Here you find some high level tasks (besides open issues and fixes) you
 could work on&lt;/p>
 &lt;h2 id="as-c-programmer-swift-pilot-client">as C++ programmer, &lt;em>swift&lt;/em> pilot client&lt;/h2>
-&lt;p>Requires: C++ skills, installation of Qt Creator&lt;/p>
-&lt;ul>
-&lt;li>Radar screen, pilot client. Create a UI for a radar screen (similar) to the one in FsInn. Populate this with data&lt;/li>
-&lt;li>Integrate a small web server in the swift core, which will provide JSON web services as API to swift. Then the web service API will be used with the &lt;a href="https://swift-project.github.io/docs/manual/swiftmap/">swift Map&lt;/a>:
-&lt;ul>
-&lt;li>we could integrate a small server, e.g. like &lt;a href="http://stefanfrings.de/qtwebapp/tutorial/index.html">this one&lt;/a>&lt;/li>
-&lt;li>We would make the API of the &lt;em>swift&lt;/em> core available as web services, see doygen.&lt;/li>
-&lt;li>we would change &lt;em>swift&lt;/em> map (written in JavaScript) to call those web service and display the traffic near real time&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>swift pilot client download services. Allow to automatically update airline icons and such from the server&lt;/li>
-&lt;li>CPDLC integration&lt;/li>
-&lt;li>Read AIRAC data from locally installed data&lt;/li>
-&lt;li>Show previews of the models in the mapping tool. No idea if and how this is possible, but would be nice to have such a feature.&lt;/li>
-&lt;/ul>
+&lt;p>See &lt;a href="https://github.com/swift-project/pilotclient/issues">Github Issues&lt;/a>&lt;/p>
 &lt;h2 id="swift-pilot-client-ui-design-tasks">swift pilot client UI design tasks&lt;/h2>
 &lt;p>Requires: less C++ skills than the above, but still installation of Qt
 Creator, more focused on the UI builder, stylesheets&lt;/p>
@@ -92,10 +44,7 @@ Creator, more focused on the UI builder, stylesheets&lt;/p>
 &lt;li>help us to complete the airline icons. Provide us with airline icons we can integrate, see &lt;a href="https://swift-project.github.io/docs/gi/airlineicons/">here&lt;/a> . Mind the copyright!&lt;/li>
 &lt;li>ATC icons: We are using icons to represent the different ATC stations. Those icons currently have a low resolution. We could use them in higher resolutions and streamlined.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://img.swift-project.org/ATC_icons.png" alt="image">&lt;/p>
-&lt;ul>
-&lt;li>Read how to attach icons here: &lt;a href="https://swift-project.github.io/docs/manual/alpha/newicons/">Adding icons&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Providing airline icons (VA icons, military organization icons)</title><link>https://swift-project.github.io/docs/gi/airlineicons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/gi/airlineicons/</guid><description>
+&lt;p>&lt;img src="http://img.swift-project.org/ATC_icons.png" alt="image">&lt;/p></description></item><item><title>Docs: Providing airline icons (VA icons, military organization icons)</title><link>https://swift-project.github.io/docs/gi/airlineicons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/gi/airlineicons/</guid><description>
 &lt;p>swift can display airline icons in its views. This is optional, but a
 nice eye catcher. If you want to add missing icons please consider the
 following rules:&lt;/p>
@@ -142,86 +91,4 @@ choose the most appropriate one
 &lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>
-&lt;p>To add new icons read &lt;a href="https://swift-project.github.io/docs/manual/alpha/newicons/">Adding new icons&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Reporting bugs and requesting features</title><link>https://swift-project.github.io/docs/gi/reportingbugs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/gi/reportingbugs/</guid><description>
-&lt;div class="alert alert-primary" role="alert">
-&lt;h4 class="alert-heading">Note&lt;/h4>
-You can &lt;strong>drop attachments&lt;/strong> into the bug report edit page if you need to. Let us know your version and attach the log. files if possible (further info below)
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">TODO&lt;/h4>
-This page needs major overhaul!
-&lt;/div></description></item><item><title>Docs: Resolving bugs (review if fixed, then close)</title><link>https://swift-project.github.io/docs/gi/resolvingbugs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/gi/resolvingbugs/</guid><description>
-&lt;p>If you (here &amp;ldquo;Joe Doe&amp;rdquo;) have opened a bug report and then the bug is
-(supposed to be) fixed, you have to test, then
-&lt;code> Resolve&lt;/code>it. So developer will set the task to &lt;code>Review&lt;/code> and
-assign it &amp;quot;back to you&amp;quot; (Joe Doe in the example).&lt;/p>
-&lt;p>Then the next steps for you (the one who opened the bug) will be:&lt;/p>
-&lt;ul>
-&lt;li>you test if the problem is gone
-&lt;ul>
-&lt;li>if OK, &lt;code>Resolve&lt;/code> the task (and we are done here)&lt;/li>
-&lt;li>if still a problem, set to &lt;code>Unsatisfactory&lt;/code> and assign it back to the developer (Ralf Thorn in the example).&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul></description></item><item><title>Docs: swift download servers requirements and explanation</title><link>https://swift-project.github.io/docs/gi/downloadservers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/gi/downloadservers/</guid><description>
-&lt;h2 id="organizational-issues">Organizational issues&lt;/h2>
-&lt;p>Thanks for considering helping us by providing download capacity.
-Unfortunately these things require some administration and legal
-guidelines nowadays.&lt;/p>
-&lt;ul>
-&lt;li>As we need to reach you we prefer you create an account on this site. By that we can create an user group of those who provide download capacities, and create information only visible for you.&lt;/li>
-&lt;li>Also we have a place where we can find your email information in case we need to contact you. We do not expect a lot of issues, but we need a chance to get in touch with you.&lt;/li>
-&lt;li>Currently we will only use EU based servers for legal reasons. New new data protection laws are easier to fulfill with EU based servers, other countries have different regulations and we absolutely no capacity to check legal requirements world wide. We are programmers not lawyers.
-&lt;ul>
-&lt;li>We will inform the users that they download from an external site.&lt;/li>
-&lt;li>If possible, disable all tracking, cookies whatsoever from the download directory, otherwise we would need to have a user agreement for that.&lt;/li>
-&lt;li>Are you using Google Analytics etc.? Please exclude the download site. Again, we would need the users to agree with that.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="copying-the-artifacts">Copying the artifacts&lt;/h2>
-&lt;p>Our release management system will copy the versions via &lt;code>sftp&lt;/code> to the
-download servers. We will provide our public ssh keys, so you can allow
-us to do so. Alternatively you can provide a user/password combination,
-or even both&lt;/p>
-&lt;p>One swift version contains 4 platform downloads, around 50MB in size. So
-each version will occupy around 200MB. As we plan to keep some versions
-in parallel, we expect 2GB of disk size would be sufficient.&lt;/p>
-&lt;p>On your side we need a directory we can maintain, nothing more. We
-should be able to maintain that directory and add/delete files, and
-create sub directories as needed.&lt;/p>
-&lt;p>We will publish public beta and stable versions on your server,
-developer test versions (&amp;quot;alpha&amp;quot; versions) reside on our server only.&lt;/p>
-&lt;p>That directory needs to be accessible via &lt;code>http/s&lt;/code> with a neutral URL.
-Neutral means the URL shall not contain any offensive terms or such, but
-apart from that anything is fine: Example:
-&lt;a href="http://datastore.swift.siliconmind.de/artifacts/">http://datastore.swift.siliconmind.de/artifacts/&lt;/a>. You can allow
-directory browsing.&lt;/p>
-&lt;p>Besides the files we will place a static index.html file in that
-directory. If you can manage, this file shall be displayed in case the
-user provides a directory URL. This page will roughly look like this:&lt;/p>
-&lt;p>Furthermore we will create redirect URLs like
-&lt;a href="https://download1.swift-project.net/">https://download1.swift-project.net/&lt;/a> and if you can manage to accept
-these URLs, fine.&lt;/p>
-&lt;p>So as a summary: If your URL is &lt;a href="http://foo.bar/swiftdownloads">http://foo.bar/swiftdownloads&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="http://foo.bar/swiftdownloads/">http://foo.bar/swiftdownloads/&lt;/a>&amp;lt;swift version&amp;gt; needs to work&lt;/li>
-&lt;li>&lt;a href="https://download">https://download&lt;/a>&amp;lt;1&amp;gt;.swift-project.net/&amp;lt;swift version&amp;gt; would be nice if it works&lt;/li>
-&lt;li>&lt;a href="http://foo.bar/swiftdownloads/">http://foo.bar/swiftdownloads/&lt;/a> and &lt;a href="https://download">https://download&lt;/a>&amp;lt;1&amp;gt;.swift-project.net/ would be nice to display index.html&lt;/li>
-&lt;li>directory browsing is OK&lt;/li>
-&lt;/ul>
-&lt;h2 id="bandwidth">Bandwidth&lt;/h2>
-&lt;p>We plan to have 5 download sites for the beginning. Maybe we set up 1-2
-spare sites (just configured, but not in URL download list). So what
-traffic are we expecting?&lt;/p>
-&lt;p>Honestly we have no idea, but we will learn that after we go public
-beta. The math is simple:&lt;/p>
-&lt;p>If we expect 1000 people per week (updates, new downloads etc.) to
-download swift, that makes 50MBx1000 =&amp;gt; 50GB =&amp;gt; 10GB per site (5
-sites). As said, we have absolutely no idea how many of downloads we are
-facing.&lt;/p>
-&lt;p>Currently we have no incremental installer, maybe we are able to create
-one in the future to reduce bandwidth.&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
