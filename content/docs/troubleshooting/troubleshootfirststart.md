@@ -6,55 +6,42 @@ title: Troubleshooting installation and 1st start
 
 **Checklist**
 
-Read this `useswiftchecklist`{.interpreted-text role="ref"}
+Read this [checklist]({{< ref "useswiftchecklist" >}})
 
 **Setup / bootstrap file trouble**
 
-See `bootstrapfile`{.interpreted-text role="ref"} .
+See [Bootstrap file]({{< ref "bootstrapfile" >}}).
 
 ***swift* does not start / connect**
 
--   Could be a Virus scanner/Security suite issue, maybe check if swift
-    needs some permission there
--   Firewall, ports open \....
--   if you see something like
-    `"ASSERT failure in QList <T>::operator "index out of range", file C:\QT\5.12.0\msvc2017_64\include\ Qtcore/qlist.h,line 552"`
-    your settings could be corrupt, solution
-    `resetscreen`{.interpreted-text role="ref"}
--   sometimes it can help to uncheck and check again the simulator again
-    (simulator settings)
+- Could be a Virus scanner/Security suite issue, maybe check if swift needs some permission there
+- Firewall, ports open \....
+- if you see something like
+    - `"ASSERT failure in QList <T>::operator "index out of range", file C:\QT\5.12.0\msvc2017_64\include\ Qtcore/qlist.h,line 552"`    
+    your settings could be corrupt, [see here]({{< ref "resetscreen" >}})
+- sometimes it can help to uncheck and check again the simulator again (simulator settings)
 
 **swift hangs after start**
 
--   could be that the screen geometry values are incorrect, see
-    `resetscreen`{.interpreted-text role="ref"}
-
--   or even `registrydelete`{.interpreted-text role="ref"}
-
--   also we had people having issues with
-
-    > -   malware protection
-    > -   recently some reports with TrueImage Active protection came up
-    >     (that blocking swift)
+- could be that the screen geometry values are incorrect, see [Reset the screen size]({{< ref "resetscreen" >}})
+- or even [Delete swift registry values (Windows only)]({{< ref "registrydelete" >}})
+- also we had people having issues with
+    - malware protection
+    - recently some reports with TrueImage Active protection came up (that blocking swift)
 
 **Validation errors**
 
-See `whyvalidationerrors`{.interpreted-text role="ref"}
+See [Why do I see validation errors during startup?]({{< ref "whyvalidationerrors" >}})
 
 **No Mic / cannot talk to controller**
 
--   `troubleshootvoice`{.interpreted-text role="ref"}
--   MacOS user? See `macosnosound`{.interpreted-text role="ref"}
--   Windows: `nomiconwindows`{.interpreted-text role="ref"}
+-   [Troubleshoot voice (no ATC, no MIC, no sound, sample rates, WASAPI)]({{< ref "troubleshootvoice" >}})
+-   MacOS user? See [here]({{< ref "macosnosound" >}})
+-   Windows: [Microphone not working on Windows]({{< ref "nomiconwindows" >}})
 
 **The Qt WIFI problem**
 
-If you see messages like `No network access point` or `No network` and
-**you are using WIFI** then you likely suffer from a Qt bug. In some
-versions the Qt framework (the library *swift* uses) is broken. Qt has
-promised to fix that. However, you can try the following workaround. In
-your *swift* installation directory you will see a directory `bearer`,
-just remove this directory and try again.
+If you see messages like `No network access point` or `No network` and **you are using WIFI** then you likely suffer from a Qt bug. In some versions the Qt framework (the library *swift* uses) is broken. Qt has promised to fix that. However, you can try the following workaround. In your *swift* installation directory you will see a directory `bearer`, just remove this directory and try again.
 
 **2) Simulator specific**
 

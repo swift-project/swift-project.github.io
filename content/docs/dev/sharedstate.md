@@ -1,3 +1,7 @@
+---
+title: Shared State
+---
+
 # Shared State
 
 `BlackMisc::SharedState` is a hierarchical library of reusable building

@@ -31,5 +31,3 @@ choose the most appropriate one
         - `03221_DLH.do.png` lowres version, dark optimized (approx 300:75)
         - `03221_DLH.hi.png` hires version
         - `03221_DLH.do.hi.png` hires version, dark optimized
-
--   To add new icons read [Adding new icons]({{< ref "newicons" >}})

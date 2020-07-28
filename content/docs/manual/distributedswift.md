@@ -2,20 +2,13 @@
 title: Running a distributed swift (remote core)
 ---
 
-::: {.note}
-::: {.title}
-Note
-:::
+{{% alert title="Warning" color="primary" %}}
+There is also a YouTube video about this, see [here]({{< ref "tutorials" >}})
+{{% /alert %}}
 
-There is also a YT video about this, see `pctutorials`{.interpreted-text
-role="ref"}
-:::
+## Overview
 
-Overview
-========
-
-*swift* can be run distributed. That means the core (see
-`core`{.interpreted-text role="ref"} \]) and the GUI (*swift* front end)
+*swift* can be run distributed. That means the core (see [swift core]({{< ref "core" >}})) and the GUI (*swift* front end)
 are split up. A normal scenario would be to run the core on the same
 machine where the flight simulator (e.g. XPlane) is started, and the UI
 runs on a second (remote) computer. However, you can also run core and
@@ -39,11 +32,9 @@ to run gui and core in separate applications (possibly also on two
 different machines in the network). All Audio (inkluding VATSIM voice)
 will stay within the **core** process.
 
-How to run swift on two different machines in the network
-=========================================================
+## How to run swift on two different machines in the network
 
-Prerequisites
--------------
+### Prerequisites
 
 -   core and UI must be of the same version, do not mix different
     versions
@@ -53,8 +44,7 @@ Prerequisites
 
 ![image](http://img.swift-project.org/Allow_access.png)
 
-Instructions
-------------
+### Instructions
 
 1.  Launch swift launcher on core machine first. **Select Core mode
     \"GUI and core\"** depending on which machine you want audio.
@@ -70,13 +60,11 @@ Instructions
     IP address** you selected in step 2. GUI will try to connect now to
     core.
 
-As an alternative, one can use `swiftcmdargs`{.interpreted-text
-role="ref"} to setup shortcuts to launch GUI and core more quickly.
+As an alternative, one can use link[command line arguments]({{< ref "swiftcmdargs" >}}) to setup shortcuts to launch GUI and core more quickly.
 *swift* launcher does the same (calling GUI and core process with
 specific arguments).
 
-What happens where?
--------------------
+### What happens where?
 
 1.  model matching \"runs\" in the core, there your model set needs to
     reside
@@ -90,39 +78,26 @@ What happens where?
 6.  Audio can run on either side, and requires the AFV port enabled to
     the Internet
 
-Simulator on a different machine
-================================
+## Simulator on a different machine
+
 
 As an alternative to running core on the simulator machine, one can also
 setup a connection to a simulator in local network.
 
-::: {.important}
-::: {.title}
-Important
-:::
-
 In order to create the model set in those scenarios you need remote
 access (shared drive etc.) to the model directory.
-:::
 
-FSX/P3D
--------
+### FSX/P3D
 
-*swift* using a remote SimConnect configuration:
-`p3dremote`{.interpreted-text role="ref"} . This allows to connect a
-remote FSX/P3D from a standalone *swift* GUI.
+*swift* using a remote SimConnect configuration: See [here]({{< ref "p3dremote">}}). This allows to connect a remote FSX/P3D from a standalone *swift* GUI.
 
 So there are two ways to setup a distributed scenario
 
--   Distributed *swift* UI on computer 1, *swift* core on computer 2
-    (where the simulator runs) and core using a local
-    [SimConnect]{.title-ref} connection.
--   Standalone *swift* UI on computer 1, connected via a remote
-    [SimConnect]{.title-ref} to computer 2. **No core**!
+- Distributed *swift* UI on computer 1, *swift* core on computer 2 (where the simulator runs) and core using a local `SimConnect` connection.
+- Standalone *swift* UI on computer 1, connected via a remote `SimConnect` to computer 2. **No core**!
 
-FS9
----
+### FS9
 
 You can also use `WideFS` for remote connection, and run *swift* as
-standalone GUI. Same as with [SimConnect]{.title-ref}. Also the
+standalone GUI. Same as with `SimConnect`. Also the
 `DirectPlay` connection needs to be setup for remote access.

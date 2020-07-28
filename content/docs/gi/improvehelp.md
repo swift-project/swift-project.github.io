@@ -19,8 +19,4 @@ This is a warning.
 ```
 
 ## Creating YouTube tutorials
-- Video capturing: Icecream Screen Recorder (free)
-    - use 1024x768 or smaller where possible
-    - mute sound, microphone and webcam for closed capture only videos
-- subtitles Aegisub (free)
-    - save as srt for YouTube
+- Video capturing: [Open Broadcaster Software](https://obsproject.com/)

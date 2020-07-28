@@ -1,5 +1,5 @@
 ---
-title: Open tasks (if you want to help)
+title: Open tasks
 ---
 
 Here you find some high level tasks (besides open issues and fixes) you
@@ -8,17 +8,7 @@ could work on
 ## as C++ programmer, *swift* pilot client
 
 
-Requires: C++ skills, installation of Qt Creator
-
-- Radar screen, pilot client. Create a UI for a radar screen (similar) to the one in FsInn. Populate this with data
-- Integrate a small web server in the swift core, which will provide JSON web services as API to swift. Then the web service API will be used with the [swift Map]({{< ref "swiftmap" >}}):
-    - we could integrate a small server, e.g. like [this one](http://stefanfrings.de/qtwebapp/tutorial/index.html)
-    - We would make the API of the *swift* core available as web services, see doygen.
-    - we would change *swift* map (written in JavaScript) to call those web service and display the traffic near real time
-- swift pilot client download services. Allow to automatically update airline icons and such from the server
-- CPDLC integration
-- Read AIRAC data from locally installed data
-- Show previews of the models in the mapping tool. No idea if and how this is possible, but would be nice to have such a feature.
+See [Github Issues](https://github.com/swift-project/pilotclient/issues)
 
 ## swift pilot client UI design tasks
 
@@ -46,5 +36,3 @@ Creator, more focused on the UI builder, stylesheets
 - ATC icons: We are using icons to represent the different ATC stations. Those icons currently have a low resolution. We could use them in higher resolutions and streamlined.
 
 ![image](http://img.swift-project.org/ATC_icons.png)
-
--   Read how to attach icons here: [Adding icons]({{< ref "newicons" >}})
