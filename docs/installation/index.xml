@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – Installation and Configuration</title><link>https://swift-project.github.io/docs/installation/</link><description>Recent content in Installation and Configuration on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Installation on Windows</title><link>https://swift-project.github.io/docs/installation/windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/windows/</guid><description>
 &lt;h2 id="download">Download&lt;/h2>
-&lt;p>Download the latest installer from &lt;a href="https://github.com/swift-project/pilotclient/releases">here&lt;/a>.&lt;/p>
+&lt;p>Download the latest installer from &lt;a href="https://github.com/swift-project/pilotclient/releases/latest">here&lt;/a>.&lt;/p>
 &lt;div class="alert alert-warning" role="alert">
 &lt;h4 class="alert-heading">Important&lt;/h4>
 You &lt;strong>need to use the 32-bit installer for FSX, FS9 and Prepar 3D (v1-v3)&lt;/strong> even if you have an 64-bit operating system because SimConnect for FSX is 32-bit only. For &lt;strong>X-Plane and P3Dv4 or later&lt;/strong> use the 64bit installer.
@@ -19,7 +19,7 @@ Close all running swift applications before starting the installation
 &lt;p>You&amp;rsquo;ve successfully installed swift. Congrats!&lt;/p>
 &lt;p>You can now move forward to start the configuration. &lt;a href="https://swift-project.github.io/docs/installation/simselect/">Click here&lt;/a>&lt;/p></description></item><item><title>Docs: Installation on MacOS</title><link>https://swift-project.github.io/docs/installation/macos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/macos/</guid><description>
 &lt;h2 id="download">Download&lt;/h2>
-&lt;p>Download the latest 32-bit installer from &lt;a href="https://github.com/swift-project/pilotclient/releases">here&lt;/a>.&lt;/p>
+&lt;p>Download the latest 32-bit installer from &lt;a href="https://github.com/swift-project/pilotclient/releases/latest">here&lt;/a>.&lt;/p>
 &lt;div class="alert alert-warning" role="alert">
 &lt;h4 class="alert-heading">Important&lt;/h4>
 You &lt;strong>need to use the 32-bit installer&lt;/strong> even if you have an 64-bit operating system because SimConnect for FSX is 32-bit only.
@@ -44,7 +44,7 @@ Close all running swift applications before starting the installation
 &lt;p>&lt;a href="https://swift-project.github.io/docs/installation/xplane/">X-Plane&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://swift-project.github.io/docs/installation/fg/">Flightgear&lt;/a>&lt;/p></description></item><item><title>Docs: Installation on Linux</title><link>https://swift-project.github.io/docs/installation/linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/linux/</guid><description>
 &lt;h2 id="download">Download&lt;/h2>
-&lt;p>Download the latest installer from &lt;a href="https://github.com/swift-project/pilotclient/releases">here&lt;/a>.&lt;/p>
+&lt;p>Download the latest installer from &lt;a href="https://github.com/swift-project/pilotclient/releases/latest">here&lt;/a>.&lt;/p>
 &lt;h2 id="run-the-installer">Run the installer&lt;/h2>
 &lt;p>After downloading, modify the installer to be executable &lt;code>chmod +x swiftinstaller-linux-64-&amp;lt;version&amp;gt;.run&lt;/code> and double-click on it in your favorite file browser or run it from console &lt;code>./swiftinstaller-linux-64-&amp;lt;version&amp;gt;.run&lt;/code>&lt;/p>
 &lt;p>If you encounter any problems then see &lt;a href="https://swift-project.github.io/docs/troubleshooting/">troubleshooting&lt;/a>.&lt;/p>
