@@ -5,7 +5,7 @@ weight: 3
 
 ## Download
 
-Download the latest 32-bit installer from [here](https://github.com/swift-project/pilotclient/releases).
+Download the latest 32-bit installer from [here](https://github.com/swift-project/pilotclient/releases/latest).
 
 {{% alert title="Important" color="warning" %}}
 You **need to use the 32-bit installer** even if you have an 64-bit operating system because SimConnect for FSX is 32-bit only.

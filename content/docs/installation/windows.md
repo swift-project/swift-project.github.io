@@ -5,7 +5,7 @@ weight: 2
 
 ## Download
 
-Download the latest installer from [here](https://github.com/swift-project/pilotclient/releases).
+Download the latest installer from [here](https://github.com/swift-project/pilotclient/releases/latest).
 
 {{% alert title="Important" color="warning" %}}
 You **need to use the 32-bit installer for FSX, FS9 and Prepar 3D (v1-v3)** even if you have an 64-bit operating system because SimConnect for FSX is 32-bit only. For **X-Plane and P3Dv4 or later** use the 64bit installer.

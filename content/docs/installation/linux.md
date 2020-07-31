@@ -5,7 +5,7 @@ weight: 4
 
 ## Download
 
-Download the latest installer from [here](https://github.com/swift-project/pilotclient/releases).
+Download the latest installer from [here](https://github.com/swift-project/pilotclient/releases/latest).
 
 ## Run the installer
 
