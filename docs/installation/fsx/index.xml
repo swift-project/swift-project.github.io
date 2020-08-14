@@ -2,12 +2,10 @@
 &lt;p>For the 32bit P3D/FSX driver it is recommended to install the FSX
 terrain probe. The probe allows to query simulator data around your AI
 aircraft.&lt;/p>
-&lt;p>::: {.important}
-::: {.title}
-Important
-:::&lt;/p>
-&lt;p>The probe needs to be installed before you run FSX/P3D
-:::&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Important&lt;/h4>
+The probe needs to be instelld before you run FSX/P3D
+&lt;/div>
 &lt;p>There are 3 ways to install the probe:&lt;/p>
 &lt;ul>
 &lt;li>From the settings simulator &amp;quot;plugin configuration&amp;quot;:&lt;/li>
