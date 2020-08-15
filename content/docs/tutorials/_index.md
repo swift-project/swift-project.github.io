@@ -27,6 +27,7 @@ quality
     > -   <https://youtu.be/cbOEN7BC2KI> (Useful info about *swift* UI)
     > -   <https://youtu.be/ptTPs_RXMNw> (Enable the log and fine the
     >     results)
+    > -   <https://youtu.be/iBcy72CRYSI> (Vulkan specifics)
 
 -   core and UI <https://youtu.be/Q4MuTdJs7UI> (swift distributed UI and
     core)
