@@ -509,7 +509,7 @@ is a trick to avoid this:&lt;/p>
 [feature/T123_foo]{.title-ref}&amp;quot;. It will fail if the merge is not a
 fast-forward, which is good, because we want only fast-forward merges in
 integration branches.&lt;/p></description></item><item><title>Docs: git version control and arc</title><link>https://swift-project.github.io/docs/knowhow/programming/git/git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/git/git/</guid><description>
-&lt;p>::: {.toctree glob=&amp;rdquo;&amp;rdquo; hidden=&amp;rdquo;&amp;quot;}
+&lt;p>::: {.toctree glob=&amp;quot;&amp;quot; hidden=&amp;quot;&amp;quot;}
 ./*
 :::&lt;/p>
 &lt;p>Placeholder, see TOC below&lt;/p></description></item><item><title>Docs: Jenkinsfile</title><link>https://swift-project.github.io/docs/knowhow/programming/jenkinsfile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/jenkinsfile/</guid><description>
@@ -805,7 +805,7 @@ param&lt;/p>
 | Redmine]]&lt;/p>
 &lt;p>As a result of working through the branch in the live session yesterday
 I think I got a bit closer to understanding the reasons for the conflict
-issues which have occurred with Klaus&amp;rsquo; previous two branches, so I think
+issues which have occurred with Klaus' previous two branches, so I think
 I can try to offer some lessons learned, in the form of a kind of
 standard model for doing rebasing.&lt;/p>
 &lt;p>### The branch&lt;/p>

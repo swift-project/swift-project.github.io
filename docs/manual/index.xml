@@ -120,12 +120,12 @@ time.&lt;/p>
 &lt;p>See &lt;a href="https://swift-project.github.io/docs/manual/datastore/registerdatastore/">How to register for datastore&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Mapping and ICAO change requests&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>&lt;code>dataprovisioning&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . Shared files vs.
+&lt;li>&lt;code>dataprovisioning&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} . Shared files vs.
 direct database access.&lt;/li>
-&lt;li>&lt;code>cr&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>va&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>User roles: &lt;code>mappingroles&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>tracingchanges&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>cr&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>va&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>User roles: &lt;code>mappingroles&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>tracingchanges&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul></description></item><item><title>Docs: swift features</title><link>https://swift-project.github.io/docs/manual/features/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/features/</guid><description>
 &lt;h1 id="supported-network-protocols-and-features">Supported network protocols and features&lt;/h1>
 &lt;ul>
@@ -196,18 +196,18 @@ tool)&lt;/li>
 &lt;p>Misc:&lt;/p>
 &lt;blockquote>
 &lt;ul>
-&lt;li>&lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>fs9mp&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>p3d32vs64bit&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} , see also
-&lt;code>p3dspecific&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>useswiftchecklist&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>fs9mp&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>p3d32vs64bit&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} , see also
+&lt;code>p3dspecific&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>XPlane in fullscreen mode and &lt;em>swift&lt;/em>, an idea:
-&lt;code>spacedesk&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>Backup swift &amp;lt;findcachefiles&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;},
-or &lt;code>exportmodelset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>partsandgndflag&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>registrydelete&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>spacedesk&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>Backup swift &amp;lt;findcachefiles&amp;gt;&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;},
+or &lt;code>exportmodelset&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>partsandgndflag&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>registrydelete&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>Testing own models offline: &lt;code>modelbrowser&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;/li>
@@ -215,13 +215,13 @@ role=&amp;quot;ref&amp;rdquo;}&lt;/li>
 &lt;p>Simulator related / connection with simulator:&lt;/p>
 &lt;blockquote>
 &lt;ul>
-&lt;li>&lt;code>cannotconnectsim&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>xswiftbussettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} (XPlane
+&lt;li>&lt;code>cannotconnectsim&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>xswiftbussettings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} (XPlane
 only)&lt;/li>
-&lt;li>&lt;code>xplanedriversettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} (XPlane
+&lt;li>&lt;code>xplanedriversettings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} (XPlane
 only)&lt;/li>
-&lt;li>&lt;code>fs9remote&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} (FS9)&lt;/li>
-&lt;li>&lt;code>fsuipc&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} (FS9)&lt;/li>
+&lt;li>&lt;code>fs9remote&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} (FS9)&lt;/li>
+&lt;li>&lt;code>fsuipc&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} (FS9)&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;/li>
@@ -229,13 +229,13 @@ only)&lt;/li>
 &lt;p>&lt;em>swift&lt;/em> model set and matching&lt;/p>
 &lt;blockquote>
 &lt;ul>
-&lt;li>&lt;code>whentoupdatems&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>addtoms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>matchingresult&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
-&lt;code>whyb74f&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>notrendered&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>nodbmodel&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>whentoupdatems&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>addtoms&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>createms&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>matchingresult&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} and
+&lt;code>whyb74f&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>notrendered&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>nodbmodel&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;/li>
@@ -243,9 +243,9 @@ only)&lt;/li>
 &lt;p>Find important files&lt;/p>
 &lt;blockquote>
 &lt;ul>
-&lt;li>&lt;code>findlogfiles&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>findcachefiles&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>findqss&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>findlogfiles&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>findcachefiles&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>findqss&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;/li>
@@ -254,34 +254,34 @@ only)&lt;/li>
 &lt;blockquote>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;code>tracingmatching&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} (understand
+&lt;p>&lt;code>tracingmatching&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} (understand
 why you see the model you see)&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>tracingnetwork&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;code>tracingnetwork&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>tracingparts&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;code>tracingparts&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>tracinginterpolation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} , see
+&lt;p>&lt;code>tracinginterpolation&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} , see
 also&lt;/p>
 &lt;blockquote>
 &lt;ul>
 &lt;li>&lt;code>tracinginterpolationonground&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>interpolationexamples&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>interpolationexamples&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>tracingsimconnect&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;code>tracingsimconnect&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>interpolationdisplay&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;code>interpolationdisplay&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>createcrashdump&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;code>createcrashdump&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -290,14 +290,14 @@ role=&amp;quot;ref&amp;rdquo;}&lt;/li>
 &lt;p>Sound, notifications&lt;/p>
 &lt;blockquote>
 &lt;ul>
-&lt;li>&lt;code>nonotification&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>notificationsounds_tweak&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>nomiconwindows&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>nonotification&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>notificationsounds_tweak&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>nomiconwindows&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;/li>
 &lt;/ul>
-&lt;p>::: {.toctree caption=&amp;quot;Content in this chapter&amp;rdquo;}
+&lt;p>::: {.toctree caption=&amp;ldquo;Content in this chapter&amp;rdquo;}
 swiftadvanced partsandgndflag cannotconnectsim fs9mp crashreports
 createcrashdump registrydelete tracinginterpolationonground fsxaimodel
 findcachefiles findlogfiles findqss interpolationexamples
@@ -327,7 +327,7 @@ swiftcmdargs crashafterstartup swiftdevcmdargs notstarting
 &lt;/li>
 &lt;li>
 &lt;p>and model data from &lt;code>swift datastore &amp;lt;datastore&amp;gt;&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;h1 id="start-a-standalone--distributed-swift">start a standalone / distributed swift&lt;/h1>
@@ -353,7 +353,7 @@ be correct).&lt;/li>
 &lt;/li>
 &lt;li>
 &lt;p>Hint: You can also start a distributed version via command line
-arguments: &lt;code>swiftcmdargs&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+arguments: &lt;code>swiftcmdargs&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h1 id="checking-for-updates--new-data">checking for updates / new data&lt;/h1>
@@ -367,17 +367,17 @@ arguments: &lt;code>swiftcmdargs&lt;/code>{.interpreted-text role=&amp;quot;ref&
 &lt;blockquote>
 &lt;ol>
 &lt;li>For alpha you need to be a registered user. Read here about
-the &lt;code>alpha program &amp;lt;alpha&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+the &lt;code>alpha program &amp;lt;alpha&amp;gt;&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>stable is the channel for &amp;quot;normal&amp;quot; users.&lt;/li>
 &lt;li>you can switch the channel at anytime, also you can
 &lt;code>install multiple swift versions &amp;lt;installation&amp;gt;&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ol>
 &lt;/blockquote>
 &lt;/li>
 &lt;li>
 &lt;p>see here which
-&lt;code>version to download &amp;lt;publicdownload&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;code>version to download &amp;lt;publicdownload&amp;gt;&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h1 id="configuration-wizard">configuration wizard&lt;/h1>
@@ -385,35 +385,35 @@ role=&amp;quot;ref&amp;rdquo;}&lt;/li>
 configuration wizard will be launched when the installer finishes. The
 configuration wizard allows you to set default values for the most
 important setting values and download the DB data.&lt;/p>
-&lt;p>See &lt;code>launcher_wizard&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: swift mapping tool</title><link>https://swift-project.github.io/docs/manual/smt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/</guid><description>
+&lt;p>See &lt;code>launcher_wizard&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: swift mapping tool</title><link>https://swift-project.github.io/docs/manual/smt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/</guid><description>
 &lt;p>&lt;strong>Tool for creating mappings in the swift DB&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;code>swiftuiconcepts&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;code>swiftuiconcepts&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>mttabs&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;code>mttabs&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>mm&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;code>mm&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Mappings&lt;/p>
 &lt;blockquote>
 &lt;ul>
-&lt;li>&lt;code>createmappings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
-&lt;code>mapfsstandardmodels&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>changemapping&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>dataprovisioning&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>maphints&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
-&lt;code>problemsmapping&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>createmappings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} and
+&lt;code>mapfsstandardmodels&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>changemapping&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>dataprovisioning&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>maphints&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} and
+&lt;code>problemsmapping&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>Simulator specific: &lt;code>xplanemapping&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;} | &lt;code>p3dspecific&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
+role=&amp;ldquo;ref&amp;rdquo;} | &lt;code>p3dspecific&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} and
 &lt;code>cross simulator flags &amp;lt;p3dspecific&amp;gt;&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>Related: Pilot client
-&lt;code>instant mapping &amp;lt;instantmap&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>Understanding &lt;code>dbroles&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . what
+&lt;code>instant mapping &amp;lt;instantmap&amp;gt;&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>Understanding &lt;code>dbroles&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} . what
 users can do (access rights).&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -422,36 +422,36 @@ users can do (access rights).&lt;/li>
 &lt;p>Model sets&lt;/p>
 &lt;blockquote>
 &lt;ul>
-&lt;li>&lt;code>modelset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>addtoms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>rankmodelset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
-&lt;code>distributorprefs&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>modelsetduplicates&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>tuningset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>whentoupdatems&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>testmodelset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>modelset&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>createms&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>addtoms&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>rankmodelset&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} and
+&lt;code>distributorprefs&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>modelsetduplicates&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>tuningset&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>whentoupdatems&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>testmodelset&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;/li>
 &lt;li>
 &lt;p>Data consolidation: &lt;code>whydataconsolidation&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;blockquote>
 &lt;ul>
-&lt;li>&lt;code>reloaddbdata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>Automatically: &lt;code>backupdate&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>Manually: &lt;code>consolidation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>reloaddbdata&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>Automatically: &lt;code>backupdate&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>Manually: &lt;code>consolidation&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>During a model update the data will also be &amp;quot;consolidated&amp;quot;,
-see &lt;code>updatemodeldata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+see &lt;code>updatemodeldata&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;/li>
 &lt;li>
-&lt;p>Integration with &lt;code>mcx&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>Integration with &lt;code>mcx&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Request new &lt;code>ICAO codes &amp;lt;cr&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>Request new &lt;code>ICAO codes &amp;lt;cr&amp;gt;&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Request new distributors -&amp;gt; ask us to do it, feature still missing&lt;/p>
@@ -459,9 +459,9 @@ see &lt;code>updatemodeldata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;
 &lt;/ul>
 &lt;p>&lt;strong>Tutorials&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>&lt;code>smttutorials&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>smttutorials&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
-&lt;p>::: {.toctree caption=&amp;quot;Content in this chapter&amp;rdquo;}
+&lt;p>::: {.toctree caption=&amp;ldquo;Content in this chapter&amp;rdquo;}
 acfexcluded backupdate changemapping ./createmappings/createmappings
 distributorprefs excludedmodels p3dspecific maintainmultiplemodelsets
 ./mttabs/mttabs mcx problemsmapping rankmodelset seemymappings
@@ -472,38 +472,38 @@ whydataconsolidation xplanemapping consolidation smttutorials
 &lt;ul>
 &lt;li>the pilot client UI can be used standalone or in a distributed
 environment.&lt;/li>
-&lt;li>&lt;code>the core &amp;lt;core&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}, acting as a server
+&lt;li>&lt;code>the core &amp;lt;core&amp;gt;&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}, acting as a server
 when you want to use swift on a second computer.&lt;/li>
-&lt;li>&lt;code>the launcher &amp;lt;launcher&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} used for
+&lt;li>&lt;code>the launcher &amp;lt;launcher&amp;gt;&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} used for
 installations, starting the other components, or updates.&lt;/li>
 &lt;li>The mapping tool is an independent program and
-&lt;code>described here &amp;lt;smt&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}.&lt;/li>
+&lt;code>described here &amp;lt;smt&amp;gt;&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>Topics&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>&lt;code>flightwithswift&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>sharedcockpit&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>flightplan&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>swiftgeneral&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>textmsg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>spcmm&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>instantmap&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>connectnw&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>towerview&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>configuresim&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>userdata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} , where swift stores
+&lt;li>&lt;code>flightwithswift&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>sharedcockpit&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>flightplan&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>swiftgeneral&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>textmsg&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>spcmm&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>instantmap&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>connectnw&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>towerview&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>configuresim&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>userdata&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} , where swift stores
 application data&lt;/li>
-&lt;li>&lt;code>p3dremote&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} , configure P3D and FSX
+&lt;li>&lt;code>p3dremote&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} , configure P3D and FSX
 for remote [SimConnect]{.title-ref} access&lt;/li>
-&lt;li>&lt;code>p3d32vs64bit&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>integratecomunit&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>textmsg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>p3d32vs64bit&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>integratecomunit&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>textmsg&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>Tutorials&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>&lt;code>spctutorials&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>spctutorials&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
-&lt;p>::: {.toctree caption=&amp;quot;Content in this chapter&amp;rdquo;}
+&lt;p>::: {.toctree caption=&amp;ldquo;Content in this chapter&amp;rdquo;}
 advloginscreen connectnw flightplan ./flightwithswift/flightwithswift
 hotkeys instantmap launcher_wizard
 ./modelsetvalidation/modelsetvalidation p3dremote p3d32vs64bit

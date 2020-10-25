@@ -42,7 +42,7 @@ view.&lt;/p></description></item><item><title>Docs: Cannot connect to simulator 
 &lt;li>If NOT selected to the simulator the simulator LED is OFF.&lt;/li>
 &lt;li>Make sure the used simulator is selected (checked)&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://img.swift-project.org/swift_pilot_client_-_configure_simulator.png" alt="image">{height=&amp;quot;300px&amp;rdquo;}&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_pilot_client_-_configure_simulator.png" alt="image">{height=&amp;ldquo;300px&amp;rdquo;}&lt;/p>
 &lt;ul>
 &lt;li>If you &lt;strong>do NOT see any simulator on that page&lt;/strong>, you did not
 install the corresponding plugin (aka driver)&lt;/li>
@@ -50,7 +50,7 @@ install the corresponding plugin (aka driver)&lt;/li>
 &lt;p>&lt;img src="http://img.swift-project.org/Plugins.png" alt="image">&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>XPlane specific&lt;/strong>: Verify the settings
-&lt;code>xswiftbussettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>xswiftbussettings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Connecting FS9 manually through multiplayer</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/fs9mp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/fs9mp/</guid><description>
 &lt;p>Should auto-connect between FS9 and swift not work, you will notice that
 the status-light on the right side of &lt;strong>sim&lt;/strong> is off and swift is not
@@ -85,7 +85,7 @@ have privacy concerns just disable it.&lt;/p>
 &lt;p>Enable from the wizard's legal page is also possible:&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/crashrpt.png" alt="image">&lt;/p>
 &lt;p>swift dump files are located here: &lt;code>findlogfiles&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Creating a Windows crash dump (swift hanging)</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/createcrashdump/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/createcrashdump/</guid><description>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Creating a Windows crash dump (swift hanging)</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/createcrashdump/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/createcrashdump/</guid><description>
 &lt;p>::: {.important}
 ::: {.title}
 Important
@@ -187,17 +187,17 @@ if &lt;em>swift&lt;/em> &amp;quot;thinks&amp;quot; the plane should be on ground
 &lt;li>
 &lt;p>aircraft too high or too low is caused by scenery offsets and/or
 missing/wrong vertical offsets (aka CG), see
-&lt;code>ongroundscenarios&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;code>ongroundscenarios&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>typical causes may include&lt;/p>
 &lt;blockquote>
 &lt;ul>
 &lt;li>missing CG/offset, see &lt;code>xplanecg&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>wrong XPlane elevation&lt;/li>
 &lt;li>missing FSX terrain probe, see &lt;code>fsxprobe&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>wrong gnd. flag from other party&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
@@ -213,7 +213,7 @@ role=&amp;quot;ref&amp;rdquo;}&lt;/li>
 &lt;ol>
 &lt;li>&amp;quot;Live&amp;quot; as described below, using the interpolation log. display&lt;/li>
 &lt;li>or recorded as described in &lt;code>tracinginterpolation&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;} -&amp;gt; &amp;quot;Full HTML log.&amp;quot;&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;} -&amp;gt; &amp;quot;Full HTML log.&amp;quot;&lt;/li>
 &lt;/ol>
 &lt;h1 id="understanding-the-ground-flag">Understanding the ground flag&lt;/h1>
 &lt;ul>
@@ -327,14 +327,14 @@ directory. So if you override an existing installation (same
 directory), it will use the same data. If you install to another
 place, it will use another data directory.&lt;/li>
 &lt;li>If you need to copy data among multiple swift installations you can
-use the wizard, see &lt;code>copyswiftdata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>See also: &lt;code>findlogfiles&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+use the wizard, see &lt;code>copyswiftdata&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>See also: &lt;code>findlogfiles&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>To reset the screen size, see also &lt;code>resetscreen&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;h1 id="windows-registry-windows-only">Windows Registry (Windows only)&lt;/h1>
 &lt;p>Under Windows &lt;em>swift&lt;/em> windows geometry data are stored in the registry,
-see also &lt;code>resetscreen&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+see also &lt;code>resetscreen&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>HKEY_CURRENT_USER\Software\swift-project.org&lt;/code>&lt;/li>
 &lt;li>&lt;code>HKEY_LOCAL_MACHINE\Software\swift-project.org&lt;/code>&lt;/li>
@@ -349,7 +349,7 @@ see also &lt;code>resetscreen&lt;/code>{.interpreted-text role=&amp;quot;ref&amp
 &lt;li>&lt;code>C:\Users\JoeDoe\AppData\Local\org.swift-project&lt;/code>&lt;/li>
 &lt;li>Then some magic name representing your swift version, like
 &lt;code>H%3A%2FProjects%2FQtBuilds%2Fbuild-swift-Desktop_Qt_5_11_1_MSVC2017_64bit2-Debug%2Fout%2Fdebug%2Fbin\` + :code:`logs&lt;/code>&lt;/li>
-&lt;li>See also: &lt;code>findcachefiles&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>See also: &lt;code>findcachefiles&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;p>On MacOS, the Path is :code:'~/Library/Application
 Support/org.swift-project'&lt;/p>
@@ -361,11 +361,11 @@ directory there&lt;/p>
 &lt;h1 id="find-the-crashpad-aka-crash-dump-files">Find the crashpad (aka crash dump) files&lt;/h1>
 &lt;p>&lt;img src="http://img.swift-project.org/crashdumpdir.png" alt="image">&lt;/p>
 &lt;p>The crashpad files are located next to the log directory, dmp are most
-useful file types. See also &lt;code>crashreports&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+useful file types. See also &lt;code>crashreports&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/dumps.png" alt="image">&lt;/p>
 &lt;h1 id="interpolation-log-files">Interpolation log. files&lt;/h1>
 &lt;p>Interpolation log. files from &lt;code>interpolationdisplay&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;} can also be found in the log. directory, all files for one
+role=&amp;ldquo;ref&amp;rdquo;} can also be found in the log. directory, all files for one
 timestamp belong to the same session. If you want to UPLOAD those files,
 zip them together in one archive.&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/interpolationlog.png" alt="image">&lt;/p></description></item><item><title>Docs: Find swift stylesheet files / find qss files</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/findqss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/findqss/</guid><description>
@@ -380,7 +380,7 @@ to backup your changes
 purpose as &lt;a href="https://de.wikipedia.org/wiki/Cascading_Style_Sheets">css
 files&lt;/a> for HTML.
 If you want to change the appearance of &lt;em>swift&lt;/em> you could change those
-files. See also &lt;code>thirdparty&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+files. See also &lt;code>thirdparty&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
 &lt;p>The &lt;code>qss&lt;/code> files are located in the swift install directory in the qss
 subfolder&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/qssfolder.png" alt="image">&lt;/p></description></item><item><title>Docs: FSX/P3D SimConnect\_AICreateNonATCAircraft fails, models are not rendered</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/fsxaimodel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/fsxaimodel/</guid><description>
@@ -435,16 +435,16 @@ the menu.&lt;/li>
 down, only &amp;quot;on ground&amp;quot;.&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/interpol_ex11.png" alt="image">&lt;/p>
 &lt;p>Here with manually overridden &amp;quot;GEAR DOWN&amp;quot; fron internals page
-(&lt;code>tracingparts&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} ).&lt;/p>
+(&lt;code>tracingparts&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} ).&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/overwritegear.png" alt="image">&lt;/p>
 &lt;p>A client sending gnd on/off causing an oscillating up/down aircraft&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/oscillating.png" alt="image">&lt;/p></description></item><item><title>Docs: Interpolation log. display window</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/interpolationdisplay/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/interpolationdisplay/</guid><description>
 &lt;p>The interpolation log. display allows to trace interpolation, checking
 elevations, inbound parts and situations. It is most likely the easiest
 was to trace interpolations. See also
-&lt;code>interpolationexamples&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;code>interpolationexamples&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
 &lt;p>Interpolation log. files are here: &lt;code>findlogfiles&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;} -&amp;gt; Interpolation log. files&lt;/p>
+role=&amp;ldquo;ref&amp;rdquo;} -&amp;gt; Interpolation log. files&lt;/p>
 &lt;ul>
 &lt;li>Use &lt;code>.drv intdisplay&lt;/code> to launch the window&lt;/li>
 &lt;/ul>
@@ -511,8 +511,8 @@ models&amp;quot; and move them into the model set.&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/mm2.png" alt="image">&lt;/p>
 &lt;p>Those models you see here are the ones use for model matching. This
 explains why your model set needs to be updated when you move your model
-directories, see &lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . Also
-&lt;code>modelset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+directories, see &lt;code>createms&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} . Also
+&lt;code>modelset&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
 &lt;h1 id="matching">Matching&lt;/h1>
 &lt;p>Matching is the process of finding the most suitable aircraft model of
 your simulator to represent the other parties aircraft. Hint: If
@@ -579,8 +579,8 @@ airline livery #. swift distinguishes between real an virtual airlines
 (VA). We use pseudo codes for virtual airlines (e.g. &lt;code>VDLH&lt;/code> for virtual
 Lufthansa) #. Important: Airline ICAO codes are not unique, there can
 be ambiguous codes.&lt;/p>
-&lt;p>See also: &lt;code>maphints&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
-&lt;code>reverselookup&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p></description></item><item><title>Docs: Microphone not working on Windows</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/nomiconwindows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/nomiconwindows/</guid><description>
+&lt;p>See also: &lt;code>maphints&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} and
+&lt;code>reverselookup&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p></description></item><item><title>Docs: Microphone not working on Windows</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/nomiconwindows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/nomiconwindows/</guid><description>
 &lt;ul>
 &lt;li>&lt;em>swift&lt;/em> has no hot plug and play yet, the microphone needs to be
 plugged in/on before starting &lt;em>swift&lt;/em>&lt;/li>
@@ -598,11 +598,11 @@ microphone&lt;/li>
 &lt;li>&lt;em>swift&lt;/em> receives aircraft information over the network&lt;/li>
 &lt;li>then it tries to find the most suitable model in the model set. This
 is called model matching. You can check model matching, see
-&lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/li>
+&lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/li>
 &lt;li>next &lt;em>swift&lt;/em> sends the found model to the simulator. Here something
 goes wrong and the model &lt;strong>is not rendered&lt;/strong>, You can enable model
 set validation to check the set each time swift starts, see
-&lt;code>modelsetvalidation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/li>
+&lt;code>modelsetvalidation&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/li>
 &lt;/ol>
 &lt;h1 id="what-is-the-problem">What is the problem?&lt;/h1>
 &lt;ul>
@@ -612,12 +612,12 @@ set validation to check the set each time swift starts, see
 &lt;ul>
 &lt;li>Have you moved your models (folder)? If so, reload the models
 and re-create the model set, see &lt;code>createms&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;} .&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;} .&lt;/li>
 &lt;li>For XP11, are your models located in the XPlane folder?&lt;/li>
 &lt;li>did model validation pop-up? Then &lt;em>swift&lt;/em> already tells you
 your model set is broken. You can run the validator in the
 mapping tool or the &lt;em>swift&lt;/em> pilot client, see
-&lt;code>modelsetvalidation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/li>
+&lt;code>modelsetvalidation&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/li>
 &lt;li>check the paths of your model set, make sure this path
 represents where your models are, it looks like here&lt;/li>
 &lt;/ul>
@@ -650,15 +650,15 @@ purpose, see below.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Have you restricted range/number of aircraft? See
-&lt;code>aircraftrange&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} for details&lt;/p>
+&lt;code>aircraftrange&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} for details&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Have you models in your (model) set for which no liveries/installed
 models exist?&lt;/p>
 &lt;blockquote>
 &lt;ul>
-&lt;li>See &lt;code>modelsetvalidation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/li>
-&lt;li>Model set rules, see &lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>See &lt;code>modelsetvalidation&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/li>
+&lt;li>Model set rules, see &lt;code>createms&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;/li>
@@ -691,7 +691,7 @@ won't work with a pilot client like swift.&lt;/li>
 &lt;p>The aircraft model is broken. You can test that by&lt;/p>
 &lt;blockquote>
 &lt;ul>
-&lt;li>&lt;code>modelsetvalidation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>modelsetvalidation&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>assigning that same model to another callsign, if this fails
 it is likely to be broken&lt;/li>
 &lt;li>crosscheck by manually assigning another aircraft to the
@@ -702,7 +702,7 @@ remove the broken model from the model set.&lt;/li>
 &lt;/blockquote>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>fsxaimodel&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;code>fsxaimodel&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>The other side sends a position with a considerable negative offset
@@ -720,7 +720,7 @@ remove the broken model from the model set.&lt;/li>
 rendered) in the mapping tool workbench&lt;/p>
 &lt;blockquote>
 &lt;ul>
-&lt;li>See &lt;code>mttabs&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} under workbench&lt;/li>
+&lt;li>See &lt;code>mttabs&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} under workbench&lt;/li>
 &lt;li>Show removed models in workbench&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://img.swift-project.org/Removed_models.png" alt="image">&lt;/p>
@@ -738,15 +738,15 @@ versa.&lt;/p>
 &lt;p>You can try to re-enable un-rendered aircraft and see if the issue is
 gone.&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/Re-Enable_unrendered.png" alt="image">&lt;/p></description></item><item><title>Docs: Model mapping</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/mapping/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/mapping/</guid><description>
-&lt;p>&lt;code>mm&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
-&lt;p>::: {.toctree caption=&amp;quot;Content in this chapter&amp;rdquo; glob=&amp;rdquo;&amp;quot;}
+&lt;p>&lt;code>mm&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
+&lt;p>::: {.toctree caption=&amp;ldquo;Content in this chapter&amp;rdquo; glob=&amp;quot;&amp;quot;}
 ./*
 :::&lt;/p></description></item><item><title>Docs: Model matching</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/matching/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/matching/</guid><description>
-&lt;p>::: {.toctree caption=&amp;quot;Content in this chapter&amp;rdquo;}
+&lt;p>::: {.toctree caption=&amp;ldquo;Content in this chapter&amp;rdquo;}
 matchmsg ms techdetails matchinghints matchreport reverselookup
 tracingmatching whyb74f matchingresult
 :::&lt;/p></description></item><item><title>Docs: Models (own installed models) and model set</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/modelsandmodelset/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/modelsandmodelset/</guid><description>
-&lt;p>::: {.toctree caption=&amp;quot;Content in this chapter&amp;rdquo;}
+&lt;p>::: {.toctree caption=&amp;ldquo;Content in this chapter&amp;rdquo;}
 exportmodelset addtoms createms examplemsbbxcsl modelsetandsettings
 modelsetduplicates nodbdata testmodelset tuningset modelset
 whentoupdatems xpmodeldirectories
@@ -779,8 +779,8 @@ the internal binary into console. That should work&lt;/li>
 &lt;p>&lt;strong>pilot client&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>&amp;quot;My hotkey PTT does not work&amp;quot;, see &lt;code>hotkeys&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>No sound/void on macOS: &lt;code>macosnosound&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>No sound/void on macOS: &lt;code>macosnosound&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>doing mappings&lt;/strong>&lt;/p>
 &lt;ul>
@@ -804,18 +804,18 @@ not fantasy ICAO codes or such.&lt;/li>
 &lt;li>How can I find the log. and data directories: From the &amp;quot;File menu&amp;quot;&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://img.swift-project.org/swift_directories.png" alt="image">&lt;/p>
-&lt;p>::: {.toctree caption=&amp;quot;Content in this chapter&amp;rdquo;}
+&lt;p>::: {.toctree caption=&amp;ldquo;Content in this chapter&amp;rdquo;}
 atcfailedtoconnect choosecs restrictaircraft startmap copilot
 nootherplanes notraffic modelsnotaccessible tempdisablemodel xpgear
 :::&lt;/p></description></item><item><title>Docs: Save Window</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/savewindow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/savewindow/</guid><description>
-&lt;p>See also &lt;code>swiftuiconcepts&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>See also &lt;code>swiftuiconcepts&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;p>If a window is floating the state can be saved&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/windowstate.png" alt="image">&lt;/p>
 &lt;p>Such a state can be later restored&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/windowstaterestore.png" alt="image">&lt;/p></description></item><item><title>Docs: swift and remote FS9</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/fs9remote/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/fs9remote/</guid><description>
 &lt;p>swift over network with FS9&lt;/p>
 &lt;p>External link: &lt;a href="http://757simulator.com/FS2004/swift.htm">http://757simulator.com/FS2004/swift.htm&lt;/a>&lt;/p></description></item><item><title>Docs: swift command line arguments</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/swiftcmdargs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/swiftcmdargs/</guid><description>
-&lt;p>seel also &lt;code>swiftdevcmdargs&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>seel also &lt;code>swiftdevcmdargs&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;h1 id="running-with-core">Running with core&lt;/h1>
 &lt;ol>
 &lt;li>Starting core on session bus: &lt;code>--dbus session&lt;/code>&lt;/li>
@@ -835,7 +835,7 @@ arguments.&lt;/p>
 Important
 :::&lt;/p>
 &lt;p>It is a good idea to enable crash dumps,
-&lt;code>crashreports&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}
+&lt;code>crashreports&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}
 :::&lt;/p>
 &lt;h1 id="joystick">Joystick&lt;/h1>
 &lt;p>We have had cases where loading joystick data caused &lt;em>swift&lt;/em> to crash.
@@ -844,8 +844,8 @@ it works now&lt;/p>
 &lt;h1 id="window-locations">Window locations&lt;/h1>
 &lt;p>Changes in your UI setup (new graphics card) can cause the stored
 windows sizes etc. being invalid. Delete those data as described here:
-&lt;code>resetscreen&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p></description></item><item><title>Docs: swift developer command line arguments</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/swiftdevcmdargs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/swiftdevcmdargs/</guid><description>
-&lt;p>see also &lt;code>swiftcmdargs&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;code>resetscreen&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p></description></item><item><title>Docs: swift developer command line arguments</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/swiftdevcmdargs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/swiftdevcmdargs/</guid><description>
+&lt;p>see also &lt;code>swiftcmdargs&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;h1 id="help">Help&lt;/h1>
 &lt;p>Just use &lt;code>--help&lt;/code> to see a help screen. You can use &amp;quot;help&amp;quot; with all
 executables, as launcher, core and client might have different
@@ -895,7 +895,7 @@ Note
 &lt;ul>
 &lt;li>Problem: ASSERT after starting &lt;em>swift&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>Solution: &lt;code>resetscreen&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: swift UI concepts (multiple windows, floating windows, resize views)</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/swiftuiconcepts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/swiftuiconcepts/</guid><description>
+&lt;p>Solution: &lt;code>resetscreen&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: swift UI concepts (multiple windows, floating windows, resize views)</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/swiftuiconcepts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/swiftuiconcepts/</guid><description>
 &lt;h1 id="windows">Windows&lt;/h1>
 &lt;p>&lt;em>swift&lt;/em> can be run as single window application (with tab bars) or the
 windows can be detached (double click on its tab or use the context
@@ -906,9 +906,9 @@ menu).&lt;/p>
 because the window is either floating or active.&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/Lock_tab_bar.png" alt="image">&lt;/p>
 &lt;h1 id="save-and-restore-window-states">Save and restore window states&lt;/h1>
-&lt;p>See &lt;code>savewindow&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>See &lt;code>savewindow&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;h1 id="reset-screen-size">Reset screen size&lt;/h1>
-&lt;p>&lt;code>resetscreen&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;code>resetscreen&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;h1 id="use-tooltips">Use tooltips&lt;/h1>
 &lt;p>In many cases further information can be obtained by using the tooltips.
 Just place your pointer of a field or label.&lt;/p>
@@ -944,13 +944,13 @@ packet like it was received from another swift client.&lt;/li>
 &lt;p>&lt;img src="http://img.swift-project.org/Aircraft_parts_internals.png" alt="image">&lt;/p>
 &lt;ul>
 &lt;li>You can also use the &lt;code>interpolationdisplay&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>or if you just want to test offline &lt;code>modelbrowser&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>See also &lt;code>interpolationexamples&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>See also &lt;code>interpolationexamples&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Tracing interpolation</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/tracinginterpolation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/tracinginterpolation/</guid><description>
-&lt;p>See also &lt;code>tracingmatching&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
-&lt;code>tracingnetwork&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>See also &lt;code>tracingmatching&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} and
+&lt;code>tracingnetwork&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;p>::: {.important}
 ::: {.title}
 Important
@@ -963,7 +963,7 @@ interpolation logging
 &lt;p>There are 3 possibilities to get interpolation information:&lt;/p>
 &lt;ul>
 &lt;li>in an extra window of swift (since 0.8.4):
-&lt;code>interpolationdisplay&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>interpolationdisplay&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>in the message window of XPlane/FSX/P3D. You can send the current
 interpolated situation as message to the sim, which is useful if you
 want so see it in the simulator together with the aircraft&lt;/li>
@@ -978,7 +978,7 @@ aircraft if there is no special need&lt;/p>
 elevations, inbound parts and situations. It is most likely the easiest
 was to trace interpolations.&lt;/p>
 &lt;p>Use &lt;code>.drv intdisplay&lt;/code> to launch the window. See
-&lt;code>interpolationdisplay&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} for details.&lt;/p>
+&lt;code>interpolationdisplay&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} for details.&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/Interpolation_log_display.png" alt="image">&lt;/p>
 &lt;h1 id="full-html-log">Full HTML log&lt;/h1>
 &lt;ul>
@@ -1001,7 +1001,7 @@ quickly&lt;/li>
 &lt;li>you will find the situation and parts logs generated in the log
 directory (they will be written if you type &lt;code>.drv logint write&lt;/code>)&lt;/li>
 &lt;li>If you have no idea how to find the log directory, see
-&lt;code>findlogfiles&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>findlogfiles&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://img.swift-project.org/Interpolation_setup.png" alt="image">&lt;/p>
 &lt;p>The complete log can be obtained as HTML from the &lt;em>Internals&lt;/em> page&lt;/p>
@@ -1016,14 +1016,14 @@ parts.&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/tracingnetwork1.png" alt="image">&lt;/p>
 &lt;h1 id="network-packets">Network packets&lt;/h1>
 &lt;p>Network packets (FSD log) can be analyzed from the internals page. See
-also &lt;code>tracinginterpolation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
-&lt;code>tracingmatching&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . FSD docu:
+also &lt;code>tracinginterpolation&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} and
+&lt;code>tracingmatching&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} . FSD docu:
 &lt;a href="https://studentweb.uvic.ca/~norrisng/fsd-doc/">https://studentweb.uvic.ca/~norrisng/fsd-doc/&lt;/a>&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/FSD_log.png" alt="image">&lt;/p>
 &lt;h1 id="network-statistics">Network statistics&lt;/h1>
 &lt;p>Network statistics can be enabled from the internals page. Also a log
 file is written to the log directory if enabled, see
-&lt;code>findcachefiles&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;code>findcachefiles&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/fsdstats.png" alt="image">&lt;/p></description></item><item><title>Docs: Tracing SimConnect</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/tracingsimconnect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/tracingsimconnect/</guid><description>
 &lt;p>If you notice (permanent) problems with FSX/P3D you can enable
 &lt;code>SimConnect&lt;/code> tracing. This will add further details to &lt;code>SimConnect&lt;/code>
@@ -1053,7 +1053,7 @@ users.&lt;/p>
 &lt;li>Upload your file&lt;/li>
 &lt;li>all uploads without real name will be ignored (legal reasons)&lt;/li>
 &lt;li>you can find shared files under &lt;code>thirdparty&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Virtual 2nd screen on another device</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/spacedesk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/spacedesk/</guid><description>
 &lt;p>Many people claim you always have to switch between your flight
 simulator and the Swift GUI window. I am now going to show you a way to

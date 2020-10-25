@@ -5,11 +5,11 @@ Add download link
 &lt;ul>
 &lt;li>XPlane: You can download the Bluebell models and vertical offset
 from here.&lt;/li>
-&lt;li>&lt;code>installbb&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>installbb&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>make sure the vertical offset correctly, see
-&lt;code>xplanecg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>xplanecg&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>other models for FSX, P3D: &lt;code>downloadmodels&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Use with xOrganizer</title><link>https://swift-project.github.io/docs/installation/xplane/xorganizer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/xplane/xorganizer/</guid><description>
 &lt;p>While it seems that just disabling some conflicting plugins like XSB
 does not solve the issues (still no gear or such problems) xOrganizer
@@ -30,13 +30,13 @@ Important
 :::&lt;/p>
 &lt;p>Whenever you change your model's folder (means remove it, move it etc)
 you need to re-create your model set so the paths there reflect the real
-situation, see &lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .
+situation, see &lt;code>createms&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .
 :::&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>Bluebell CSL &lt;strong>models sunken in ground/too low&lt;/strong> (vertical offset
 fix) -&amp;gt; Solution: Install the &lt;code>BB_IVAO_vert_offsets&lt;/code> fix
-(&lt;code>downloadbluebell&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} ) (simply copy the
+(&lt;code>downloadbluebell&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} ) (simply copy the
 files from the &lt;code>BB_IVAO_vert_offsets&lt;/code> folder over the original ones)
 and restart X-Plane. &lt;strong>Make sure you install it correctly!&lt;/strong> Do not
 end up in a cascaded structure, see next item.&lt;/p>
@@ -50,7 +50,7 @@ you only have one &lt;code>xsb_aircraft.txt&lt;/code> per folder.&lt;/p>
 &lt;blockquote>
 &lt;ul>
 &lt;li>
-&lt;p>For an example see &lt;code>installbb&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>For an example see &lt;code>installbb&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Working folder example:&lt;/p>
@@ -106,14 +106,14 @@ setup.&lt;/p>
 where the model comes from. Check the corresponding &lt;code>xsb_aircraft.txt&lt;/code>
 file there if it really contains the value. Many people create their
 model set from some weird place. If you change your paths, you need to
-re-create your model set, see &lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+re-create your model set, see &lt;code>createms&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/xpmodels.png" alt="image">&lt;/p></description></item><item><title>Docs: XSwiftBus installation</title><link>https://swift-project.github.io/docs/installation/xplane/xswiftbusinstallation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/installation/xplane/xswiftbusinstallation/</guid><description>
 &lt;p>X-Plane users need to download and install &lt;em>XSwiftBus&lt;/em> : &lt;em>XSwiftBus&lt;/em> is
 an X-Plane plugin that allows X-Plane and &lt;em>swift&lt;/em> to communicate with
 each other. If you want to use &lt;em>swift&lt;/em> with X-Plane you will need to
 install &lt;em>XSwiftBus&lt;/em>.&lt;/p>
 &lt;ul>
-&lt;li>see &lt;em>swift&lt;/em> and XSB &lt;code>troubleshooting&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>see &lt;em>swift&lt;/em> and XSB &lt;code>troubleshooting&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>this can be done from the launcher or update checker&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://img.swift-project.org/swift_update_checker.png" alt="image">&lt;/p>
@@ -125,5 +125,5 @@ install &lt;em>XSwiftBus&lt;/em>.&lt;/p>
 &lt;ul>
 &lt;li>Manual installation (&lt;strong>testers&lt;/strong>): Download the XSwiftBus version
 and unpack it to your XPlane plugins directory&lt;/li>
-&lt;li>For &lt;strong>developers&lt;/strong>: &lt;code>buildxswiftbus&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>For &lt;strong>developers&lt;/strong>: &lt;code>buildxswiftbus&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul></description></item></channel></rss>

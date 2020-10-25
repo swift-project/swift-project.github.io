@@ -248,7 +248,7 @@ tool)&lt;/li>
 &lt;/li>
 &lt;li>
 &lt;p>and model data from &lt;code>swift datastore &amp;lt;datastore&amp;gt;&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;h1 id="start-a-standalone--distributed-swift">start a standalone / distributed swift&lt;/h1>
@@ -274,7 +274,7 @@ be correct).&lt;/li>
 &lt;/li>
 &lt;li>
 &lt;p>Hint: You can also start a distributed version via command line
-arguments: &lt;code>swiftcmdargs&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+arguments: &lt;code>swiftcmdargs&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h1 id="checking-for-updates--new-data">checking for updates / new data&lt;/h1>
@@ -288,17 +288,17 @@ arguments: &lt;code>swiftcmdargs&lt;/code>{.interpreted-text role=&amp;quot;ref&
 &lt;blockquote>
 &lt;ol>
 &lt;li>For alpha you need to be a registered user. Read here about
-the &lt;code>alpha program &amp;lt;alpha&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+the &lt;code>alpha program &amp;lt;alpha&amp;gt;&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>stable is the channel for &amp;quot;normal&amp;quot; users.&lt;/li>
 &lt;li>you can switch the channel at anytime, also you can
 &lt;code>install multiple swift versions &amp;lt;installation&amp;gt;&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ol>
 &lt;/blockquote>
 &lt;/li>
 &lt;li>
 &lt;p>see here which
-&lt;code>version to download &amp;lt;publicdownload&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;code>version to download &amp;lt;publicdownload&amp;gt;&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h1 id="configuration-wizard">configuration wizard&lt;/h1>
@@ -306,7 +306,7 @@ role=&amp;quot;ref&amp;rdquo;}&lt;/li>
 configuration wizard will be launched when the installer finishes. The
 configuration wizard allows you to set default values for the most
 important setting values and download the DB data.&lt;/p>
-&lt;p>See &lt;code>launcher_wizard&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: A remote hotkey example (remote PTT)</title><link>https://swift-project.github.io/docs/manual/spc/settings/remoteptt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/settings/remoteptt/</guid><description>
+&lt;p>See &lt;code>launcher_wizard&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: A remote hotkey example (remote PTT)</title><link>https://swift-project.github.io/docs/manual/spc/settings/remoteptt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/settings/remoteptt/</guid><description>
 &lt;p>Example:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -342,8 +342,8 @@ MSI]{.title-ref} (not on the laptop) I see the PTT LED &amp;quot;on&amp;quot;,
 &lt;/blockquote>
 &lt;/li>
 &lt;/ul></description></item><item><title>Docs: ACF aircraft (XPlane) excluded in mapping tool</title><link>https://swift-project.github.io/docs/manual/smt/acfexcluded/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/acfexcluded/</guid><description>
-&lt;p>See &lt;code>xplanemapping&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
-&lt;code>excludedmodels&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Advanced - solving problems</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/swiftadvanced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/swiftadvanced/</guid><description>
+&lt;p>See &lt;code>xplanemapping&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} and
+&lt;code>excludedmodels&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Advanced - solving problems</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/swiftadvanced/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/swiftadvanced/</guid><description>
 &lt;ul>
 &lt;li>&lt;a href="https://swift-project.github.io/docs/manual/swiftgeneral/faq/">Questions and answers (aka FAQs)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://swift-project.github.io/docs/manual/swiftgeneral/swiftcmdargs/">swift command line arguments&lt;/a>&lt;/li>
@@ -358,7 +358,7 @@ reached by pressing &lt;code>SHIFT&lt;/code> and Connect button.&lt;/p>
 &lt;p>Here you can&lt;/p>
 &lt;ul>
 &lt;li>add a partner callsign for flying in a shared cockpit:
-&lt;code>sharedcockpit&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>sharedcockpit&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>override livery and model string data to appear as a different
 aircraft&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Aircraft classification (model matching)</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/aircraftclassification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/aircraftclassification/</guid><description>
@@ -583,7 +583,7 @@ know what you are doing.&lt;/li>
 &lt;h1 id="model-view">Model view&lt;/h1>
 &lt;p>You can check the [GND]{.title-ref} and [PARTS]{.title-ref} in the model
 view.&lt;/p></description></item><item><title>Docs: Aircraft position data (from simulator and network)</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/altitude/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/altitude/</guid><description>
-&lt;p>See also &lt;code>simalts&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>See also &lt;code>simalts&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;h1 id="p3dhttpwwwprepar3dcomsdkv3learningcenterutilitiesvariablessimulation_variableshtml-and-fsxhttpsmsdnmicrosoftcomen-uslibrarycc526981aspx">&lt;a href="http://www.prepar3d.com/SDKv3/LearningCenter/utilities/variables/simulation_variables.html">P3D&lt;/a> and &lt;a href="https://msdn.microsoft.com/en-us/library/cc526981.aspx">FSX&lt;/a>&lt;/h1>
 &lt;ul>
 &lt;li>
@@ -624,7 +624,7 @@ ELV)&lt;/li>
 &lt;h2 id="simaircraftgearacf_h_eqlbm------29933-----47176">sim/aircraft/gear/acf_h_eqlbm 2.9933 4.7176&lt;/h2>
 &lt;h1 id="see-also">See also&lt;/h1>
 &lt;ul>
-&lt;li>&lt;code>ongroundscenarios&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>ongroundscenarios&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Aircraft range and max. aircraft number (aka visibility range)</title><link>https://swift-project.github.io/docs/manual/spc/settings/aircraftrange/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/settings/aircraftrange/</guid><description>
 &lt;p>You can restrict the number of aircraft and the maximum range of
 rendered aircraft. We do not recommend to do so, unless you have
@@ -781,11 +781,11 @@ Add download link
 &lt;ul>
 &lt;li>XPlane: You can download the Bluebell models and vertical offset
 from here.&lt;/li>
-&lt;li>&lt;code>installbb&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>installbb&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>make sure the vertical offset correctly, see
-&lt;code>xplanecg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>xplanecg&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>other models for FSX, P3D: &lt;code>downloadmodels&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Build and copy XSwiftBus (from build directory)</title><link>https://swift-project.github.io/docs/knowhow/programming/swiftbuild/buildxswiftbus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/swiftbuild/buildxswiftbus/</guid><description>
 &lt;ul>
 &lt;li>Run make install once.&lt;/li>
@@ -1055,8 +1055,8 @@ versions of Qt and VS to use, and whether to build for 32 or 64 bits.
 &lt;pre>&lt;code class="language-{.}" data-lang="{.}">qmake -Wlogic -spec win32-g++ -r C:\path\to\swift\swift.pro
 mingw32-make
 &lt;/code>&lt;/pre>&lt;p>&lt;strong>With Clang&lt;/strong>&lt;/p>
-&lt;p>See &lt;code>clang&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
-&lt;p>::: {.toctree caption=&amp;quot;Content in this chapter&amp;rdquo;}
+&lt;p>See &lt;code>clang&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
+&lt;p>::: {.toctree caption=&amp;ldquo;Content in this chapter&amp;rdquo;}
 clang
 :::&lt;/p></description></item><item><title>Docs: Build on Windows with Clang</title><link>https://swift-project.github.io/docs/knowhow/programming/swiftbuild/windows/clang/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/swiftbuild/windows/clang/</guid><description>
 &lt;p>::: {.warning}
@@ -1288,7 +1288,7 @@ the same process, but at a larger scale. One process acts as central
 router, and again, the fact that signals are always received in the same
 order they were emitted ensures that all processes see a consistent
 state. This reusable design pattern is explored in more detail at
-&lt;code>relayevent&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} :.&lt;/p>
+&lt;code>relayevent&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} :.&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/cache.png" alt="image">&lt;/p>
 &lt;h1 id="specific-caches">Specific caches&lt;/h1>
 &lt;h2 id="settings">Settings&lt;/h2>
@@ -1327,7 +1327,7 @@ exceptions:&lt;/p>
 &lt;li>If NOT selected to the simulator the simulator LED is OFF.&lt;/li>
 &lt;li>Make sure the used simulator is selected (checked)&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://img.swift-project.org/swift_pilot_client_-_configure_simulator.png" alt="image">{height=&amp;quot;300px&amp;rdquo;}&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/swift_pilot_client_-_configure_simulator.png" alt="image">{height=&amp;ldquo;300px&amp;rdquo;}&lt;/p>
 &lt;ul>
 &lt;li>If you &lt;strong>do NOT see any simulator on that page&lt;/strong>, you did not
 install the corresponding plugin (aka driver)&lt;/li>
@@ -1335,7 +1335,7 @@ install the corresponding plugin (aka driver)&lt;/li>
 &lt;p>&lt;img src="http://img.swift-project.org/Plugins.png" alt="image">&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>XPlane specific&lt;/strong>: Verify the settings
-&lt;code>xswiftbussettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>xswiftbussettings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Changing / fixing a mapping</title><link>https://swift-project.github.io/docs/manual/smt/changemapping/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/changemapping/</guid><description>
 &lt;p>Let's say you want to fix/change a particular mapping.&lt;/p>
 &lt;ul>
@@ -1621,7 +1621,7 @@ to use swift without simulator in special cases.&lt;/p>
 &lt;h1 id="settings-of-max-aircraft--max-distance">Settings of max. aircraft / max. distance&lt;/h1>
 &lt;p>The simulator settings allow you to set&lt;/p>
 &lt;ul>
-&lt;li>&lt;code>aircraftrange&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>aircraftrange&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>number of max. remote aircraft to be shown&lt;/li>
 &lt;li>max distance of remote aircraft to be shown&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Connect to an online flight simulator network (VATSIM, FSD login page)</title><link>https://swift-project.github.io/docs/manual/spc/connectnw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/connectnw/</guid><description>
@@ -1647,16 +1647,16 @@ swift does not offer any preconfigured custom FSD server. Go to
 &lt;code>Settings-&amp;gt;Servers&lt;/code> or use the shortcut button &lt;code>goto settings&lt;/code> to add
 and edit custom servers. One typical scenario for a custom FSD
 connection would be to connect to Euroscope to setup a Tower View. See
-&lt;code>towerview&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} for more details.&lt;/p>
+&lt;code>towerview&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} for more details.&lt;/p>
 &lt;p>&lt;strong>Mode Selection&lt;/strong> As a regular pilot, you want to use &lt;code>Normal&lt;/code>
 connection mode. The second mode is offered for shared cockpit users,
-further details &lt;code>sharedcockpit&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+further details &lt;code>sharedcockpit&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
 &lt;p>&lt;strong>FSD Details&lt;/strong> The default values are fine for regular usage. See
 advanced section for more information.&lt;/p>
 &lt;p>&lt;strong>Voice&lt;/strong> The default values are fine for regular usage. See advanced
 section for more information.&lt;/p>
 &lt;p>&lt;strong>Matching log&lt;/strong> The default values are fine for regular usage. See
-advanced section and &lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} for more
+advanced section and &lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} for more
 information.&lt;/p>
 &lt;ol start="2">
 &lt;li>Pilots Info
@@ -1699,7 +1699,7 @@ You need to fill in the aircraft data manually&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://img.swift-project.org/greenbox.png" alt="image">&lt;/p>
 &lt;p>&lt;strong>Finally enter your selected callsign.&lt;/strong>. If you need help here, see
-&lt;code>choosecs&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;code>choosecs&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
 &lt;ol start="4">
 &lt;li>Advanced Settings, FSD Details
 =================================&lt;/li>
@@ -1734,14 +1734,14 @@ Those are helpful to understand why a particular remote aircraft is
 displayed (as for example [A320 DLH]{.title-ref}). The matching log is a
 very verbose trace of what information was available which decisions
 have been taken to select the visible aircraft model. See
-&lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
 &lt;ol start="5">
 &lt;li>Advanced login popup
 =======================&lt;/li>
 &lt;/ol>
 &lt;p>In order to set a partner callsign and/or modify the send network data
 you can use the advanced login popup, see
-&lt;code>advloginscreen&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p></description></item><item><title>Docs: Connecting FS9 manually through multiplayer</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/fs9mp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/fs9mp/</guid><description>
+&lt;code>advloginscreen&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p></description></item><item><title>Docs: Connecting FS9 manually through multiplayer</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/fs9mp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/fs9mp/</guid><description>
 &lt;p>Should auto-connect between FS9 and swift not work, you will notice that
 the status-light on the right side of &lt;strong>sim&lt;/strong> is off and swift is not
 able to detect the &lt;strong>aircraft model&lt;/strong> that you are currently using in
@@ -1775,7 +1775,7 @@ have privacy concerns just disable it.&lt;/p>
 &lt;p>Enable from the wizard's legal page is also possible:&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/crashrpt.png" alt="image">&lt;/p>
 &lt;p>swift dump files are located here: &lt;code>findlogfiles&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Crashpad</title><link>https://swift-project.github.io/docs/knowhow/programming/crashpad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/crashpad/</guid><description>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Crashpad</title><link>https://swift-project.github.io/docs/knowhow/programming/crashpad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/programming/crashpad/</guid><description>
 &lt;p>= Introduction =&lt;/p>
 &lt;p>Crashpad is a library for capturing, storing and transmitting postmortem
 crash reports from a client to an upstream collection server. Crashpad
@@ -2151,7 +2151,7 @@ object.&lt;/li>
 &lt;li>Methods to access the properties of the object by an index.&lt;/li>
 &lt;/ul>
 &lt;p>The most common case, in which the methods are implemented using the
-&lt;code>metaclass&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} system, is supported by
+&lt;code>metaclass&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} system, is supported by
 deriving the class from &lt;code>CValueObject&lt;/code>, which is a convenience class
 template which derives from all the most commonly used mixin classes,
 using multiple inheritance.&lt;/p>

@@ -16,7 +16,7 @@
 &lt;/ol></description></item><item><title>Blog: Release of 0.9.4</title><link>https://swift-project.github.io/blog/2020/01/03/release-of-0.9.4/</link><pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/blog/2020/01/03/release-of-0.9.4/</guid><description>
 &lt;h2 id="installation">Installation&lt;/h2>
 &lt;p>We recommend to keep the latest 093 until 094 works for you. See
-&lt;code>copyswiftdata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;code>copyswiftdata&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
 &lt;h2 id="version-numbering">Version numbering&lt;/h2>
 &lt;p>The 4th component of the version number is now based on the number of
 code changes, instead of the build date, so the full version numbers
@@ -39,7 +39,7 @@ Windows&lt;/li>
 &lt;h2 id="wasapi-driver">WASAPI driver&lt;/h2>
 &lt;p>The WASAPI driver caused problems/crashes for some people. We have
 disabled the driver per default. To use it just copy it back, see
-Troubleshoot voice (&lt;code>troubleshootvoice&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} )
+Troubleshoot voice (&lt;code>troubleshootvoice&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} )
 WASAPI&lt;/p>
 &lt;h2 id="x-plane">X-Plane&lt;/h2>
 &lt;ul>
@@ -133,11 +133,11 @@ because VATSIM now uses some invalid voice room URLs.&lt;/li>
 your are happy with it, uninstall 0.9.1. There is no need to re-create
 your model set, you can copy settings and data from other swift
 installations at any time in the wizard.&lt;/p>
-&lt;p>See &lt;code>copyswiftdata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>See &lt;code>copyswiftdata&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;h2 id="fixesfeatures">Fixes/Features&lt;/h2>
 &lt;ul>
 &lt;li>List of bug fixes&lt;/li>
-&lt;li>A first version of matching script, see &lt;code>ms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>A first version of matching script, see &lt;code>ms&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>Airline groups now can be configured for their matching behaviour&lt;/li>
 &lt;li>Logged interpolation now exports values as kml which can be verified in Google Earth. See how to log. interpolation here: Tracing interpolation. You will find the log files here: Find swift log files, crashdump files, interpolation log. files, the kml files are in the same directory.&lt;/li>
 &lt;li>Linear interpolation was broken, hopefully now fixed&lt;/li>

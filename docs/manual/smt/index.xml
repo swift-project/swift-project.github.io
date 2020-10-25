@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – swift mapping tool</title><link>https://swift-project.github.io/docs/manual/smt/</link><description>Recent content in swift mapping tool on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/manual/smt/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: ACF aircraft (XPlane) excluded in mapping tool</title><link>https://swift-project.github.io/docs/manual/smt/acfexcluded/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/acfexcluded/</guid><description>
-&lt;p>See &lt;code>xplanemapping&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
-&lt;code>excludedmodels&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Background updater</title><link>https://swift-project.github.io/docs/manual/smt/backupdate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/backupdate/</guid><description>
+&lt;p>See &lt;code>xplanemapping&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} and
+&lt;code>excludedmodels&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Background updater</title><link>https://swift-project.github.io/docs/manual/smt/backupdate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/backupdate/</guid><description>
 &lt;p>The background updater allows to automatically reload and consolidate
 data in the mapping tool. This helps when other users also create new
 mappings and you want to keep your data synchronized with the latest
@@ -42,11 +42,11 @@ automatically performing the 2 steps shown below:&lt;/p>
 &lt;p>Aircraft ICAO codes can be requested here:
 &lt;a href="https://datastore.swift-project.org/">https://datastore.swift-project.org/&lt;/a>&lt;/p></description></item><item><title>Docs: Create mappings for swift</title><link>https://swift-project.github.io/docs/manual/smt/createmappings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/createmappings/</guid><description>
 &lt;ul>
-&lt;li>Tutorials: &lt;code>smttutorials&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>effmappings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>cr&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>maphints&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>problemsmapping&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Tutorials: &lt;code>smttutorials&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>effmappings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>cr&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>maphints&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>problemsmapping&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;p>::: {.important}
 ::: {.title}
@@ -59,7 +59,7 @@ something goes wrong you can reload your work and publish it again.
 &lt;p>In order to create mappings you need to login within the swift
 datastore: In the mapping tool, go to the &amp;quot;Settings and Login&amp;quot; tab,
 and login with the DB. After the login you can see your roles as
-explained in &lt;code>mappingroles&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+explained in &lt;code>mappingroles&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/Mapping_tool_login.png" alt="image">&lt;/p>
 &lt;p>&lt;strong>Models with/without mapping&lt;/strong>&lt;/p>
 &lt;p>Models which already have a database mapping are indicated by a database
@@ -68,7 +68,7 @@ mappings only if it not yet exists.&lt;/p>
 &lt;p>It can also happen, that your data are outdated and in the meantime
 someone has created a mapping for model, which is not yet shown with the
 database icon. You can read more about
-&lt;code>data consolidation here &amp;lt;smt&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}.&lt;/p>
+&lt;code>data consolidation here &amp;lt;smt&amp;gt;&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}.&lt;/p>
 &lt;p>Another good reason to change an existing mapping is if it is wrong. In
 this case you can correct the mapping. The procedure (for you) is the
 same, regardless if you create a new mapping or modify an existing one.&lt;/p>
@@ -107,21 +107,21 @@ history entries. Therefor publishing identical entries is rejected. You
 will see a message like this in such a case:&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/Backend_no_changes.png" alt="image">&lt;/p>
 &lt;p>&lt;strong>Problems?&lt;/strong>&lt;/p>
-&lt;p>see &lt;code>problemsmapping&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
-&lt;p>::: {.toctree glob=&amp;rdquo;&amp;rdquo; caption=&amp;quot;Content in this chapter&amp;rdquo;}
+&lt;p>see &lt;code>problemsmapping&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
+&lt;p>::: {.toctree glob=&amp;quot;&amp;quot; caption=&amp;ldquo;Content in this chapter&amp;rdquo;}
 ./*
 :::&lt;/p></description></item><item><title>Docs: Distributor preferences</title><link>https://swift-project.github.io/docs/manual/smt/distributorprefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/distributorprefs/</guid><description>
 &lt;p>The distributor preferences can be used to prioritize models if a
 certain vendor/distributor.&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/distributorprefs.png" alt="image">&lt;/p>
-&lt;p>Read the details under &lt;code>rankmodelset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Excluded models in mapping tool</title><link>https://swift-project.github.io/docs/manual/smt/excludedmodels/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/excludedmodels/</guid><description>
+&lt;p>Read the details under &lt;code>rankmodelset&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Excluded models in mapping tool</title><link>https://swift-project.github.io/docs/manual/smt/excludedmodels/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/excludedmodels/</guid><description>
 &lt;p>Some models are marked as x &lt;strong>excluded&lt;/strong> (meaning in that context here,
 that the model shall not be used for matching). Typical reasons for that
 are:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>XPlane &lt;code>.acf&lt;/code> models (flyable aircraft) cannot be used for matching.
-See &lt;code>xplanemapping&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+See &lt;code>xplanemapping&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Some AI models for FSX/P3D do not show valid aircraft and are
@@ -136,7 +136,7 @@ consume too many resources&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>It is still useful to create mappings for such models!&lt;/strong>, see
-&lt;code>reverselookup&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;code>reverselookup&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;blockquote>
 &lt;ul>
 &lt;li>for automatic flight plan information&lt;/li>
@@ -206,7 +206,7 @@ beneath the model set view&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>&amp;quot;Model set&amp;quot;, here you define your model set, those are the models
-used for model matching, see also &lt;code>mm&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}
+used for model matching, see also &lt;code>mm&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}
 .&lt;/p>
 &lt;/li>
 &lt;li>
@@ -254,8 +254,8 @@ with matching.&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/Matching_settings.png" alt="image">&lt;/p>
 &lt;p>&lt;strong>2 - Database tab&lt;/strong>&lt;/p>
 &lt;p>Displays all database data, and allows to reload DB data. See
-&lt;code>reloaddbdata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
-&lt;p>::: {.toctree glob=&amp;rdquo;&amp;rdquo; caption=&amp;quot;Content in this chapter&amp;rdquo;}
+&lt;code>reloaddbdata&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
+&lt;p>::: {.toctree glob=&amp;quot;&amp;quot; caption=&amp;ldquo;Content in this chapter&amp;rdquo;}
 ./*
 :::&lt;/p></description></item><item><title>Docs: Model Converter X (P3D/FSX family)</title><link>https://swift-project.github.io/docs/manual/smt/mcx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/mcx/</guid><description>
 &lt;p>You can view models directly with MCX. MCX is an external tool, see
@@ -290,12 +290,12 @@ not yet shown in the database view. This issue will be resolved after a
 data consolidation, a restart of the mapping tool, or when you update
 the database view. * A model is shown in the DB tool, but not in own
 model set/own models. Check out &lt;code>backupdate&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;} and &lt;code>consolidation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Ranking (sorting) a model set</title><link>https://swift-project.github.io/docs/manual/smt/rankmodelset/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/rankmodelset/</guid><description>
-&lt;p>See also &lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} ,
-&lt;code>tuningset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+role=&amp;ldquo;ref&amp;rdquo;} and &lt;code>consolidation&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Ranking (sorting) a model set</title><link>https://swift-project.github.io/docs/manual/smt/rankmodelset/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/smt/rankmodelset/</guid><description>
+&lt;p>See also &lt;code>createms&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} ,
+&lt;code>tuningset&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;h1 id="sorting-ranking-a-model-set">Sorting (ranking) a model set&lt;/h1>
 &lt;p>Depending on the settings (&lt;code>matchingsettings&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;} ), it can be configured &lt;strong>if two models have the same
+role=&amp;ldquo;ref&amp;rdquo;} ), it can be configured &lt;strong>if two models have the same
 matching score, which one is taken&lt;/strong>.&lt;/p>
 &lt;p>Just a few hints at the very beginning&lt;/p>
 &lt;ul>
@@ -309,7 +309,7 @@ achieve by that? See [[ help/smt/modelsetduplicates/ ]].&lt;/li>
 &lt;/ul>
 &lt;h1 id="remove-duplicates">Remove duplicates&lt;/h1>
 &lt;p>If you have no duplicates there is no real need for ranking, see
-&lt;code>modelsetduplicates&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . Ranking is needed
+&lt;code>modelsetduplicates&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} . Ranking is needed
 if more than one model have the same score, but if you have only one
 aircraft/livery combination it is not very likely that this happens.&lt;/p>
 &lt;h1 id="manually-ranking">Manually ranking&lt;/h1>
@@ -379,7 +379,7 @@ entries.&lt;/p>
 models tab. See the screenshots below.&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>See also: &lt;code>whydataconsolidation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>See also: &lt;code>whydataconsolidation&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Consolidation with DB data means, that the latest DB data on your
@@ -391,9 +391,9 @@ whenever new DB data are available.&lt;/p>
 &lt;li>Hint : When you start the mapping tool the latest DB data will
 always be downloaded&lt;/li>
 &lt;li>Another way to obtain the DB data is with the launcher, see
-&lt;code>launcher&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>launcher&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>You can keep your mapping tool data up to date while working
-with the &lt;code>backupdate&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+with the &lt;code>backupdate&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;/li>
@@ -438,11 +438,11 @@ the latest DB data. There are multiple ways to accomplish this&lt;/p>
 &lt;blockquote>
 &lt;ul>
 &lt;li>Manually via the context menu:
-&lt;code>consolidation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>consolidation&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>Automatically in background: &lt;code>backupdate&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>During the model update for the client, see
-&lt;code>updatemodeldata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>updatemodeldata&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;/li>
@@ -463,9 +463,9 @@ confuse model set and own models, we talk about the model set here)&lt;/li>
 &lt;li>But we use the &lt;code>.acf&lt;/code> in the database so we know which plane the
 local user is flying, so we can pass that info to the other clients
 on the network.&lt;/li>
-&lt;li>See also &lt;code>excludedmodels&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>See also &lt;code>excludedmodels&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>Do we need mappings for [ACF]{.title-ref} models? Yes, see
-&lt;code>excludedmodels&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>excludedmodels&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;h1 id="model-directories">Model directories&lt;/h1>
 &lt;ul>
@@ -481,5 +481,5 @@ models.&lt;/li>
 &lt;h1 id="vertical-offset-fix">Vertical offset fix&lt;/h1>
 &lt;ul>
 &lt;li>Install the vertical offset fix for BlueBell models if needed, see
-&lt;code>troubleshooting&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>troubleshooting&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul></description></item></channel></rss>

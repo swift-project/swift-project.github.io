@@ -186,11 +186,11 @@ your settings could be corrupt, &lt;a href="https://swift-project.github.io/docs
 &lt;p>&lt;strong>P3D/FSX specific&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>I only see &amp;quot;Constellations&amp;quot;. Most likely you have no model set, an
-improper model set, see &lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+improper model set, see &lt;code>createms&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>If the simulator does NOT connect, see
-&lt;code>configuresim&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>configuresim&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>make sure you have the correct &lt;em>swift&lt;/em> version,
-&lt;code>32bitor64bitinstaller&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>32bitor64bitinstaller&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>If you cannot connect the simulator and &lt;em>swift&lt;/em>: If you run P3D &amp;quot;as
 admin&amp;quot;, run swift &amp;quot;as admin&amp;quot;&lt;/li>
 &lt;li>make sure you use the correct P3D driver version. If this version
@@ -217,7 +217,7 @@ plugins from the folder, some do not.
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>Bluebell CSL models sunken in ground&lt;/strong> (vertical offset fix) , see
-&lt;code>xplanecg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;code>xplanecg&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>XPlane models in model set, &lt;strong>but not rendered&lt;/strong>. &lt;strong>Solution&lt;/strong>: CSL
@@ -230,13 +230,13 @@ recreating the model set.&lt;/p>
 &lt;blockquote>
 &lt;ul>
 &lt;li>Check if the settings of the &lt;em>swift&lt;/em> side and XPlane side do
-match, &lt;code>xswiftbussettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/li>
+match, &lt;code>xswiftbussettings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/li>
 &lt;li>If the simulator LED is &amp;quot;on&amp;quot; the simulator can be connected:&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://img.swift-project.org/swift_LED_bar.png" alt="image">&lt;/p>
 &lt;ul>
 &lt;li>XPlane not connecting with &lt;em>swift&lt;/em> on MacOS, see
-&lt;code>noconnectonmac&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/li>
+&lt;code>noconnectonmac&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;/li>
@@ -271,7 +271,7 @@ since DP MP doesn't have all required details&lt;/p>
 &lt;li>&lt;code>DirectPlay&lt;/code> is auto connected if swift runs on the same
 machine and has been properly installed (adding itself as
 &amp;quot;lobby-able&amp;quot; application on windows registry)&lt;/li>
-&lt;li>See &lt;code>fs9mp&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>See &lt;code>fs9mp&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;/li>
@@ -286,20 +286,20 @@ admin.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>some users have problems with the auto-connect to FS9 since Win10
-1909 update, see &lt;code>fs9mp&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+1909 update, see &lt;code>fs9mp&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>fs9elevation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;code>fs9elevation&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>3) OS specific&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>Some issues with Mac OS&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>XPlane not connecting with &lt;em>swift&lt;/em> on MacOS, see
-&lt;code>noconnectonmac&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}.&lt;/li>
+&lt;code>noconnectonmac&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}.&lt;/li>
 &lt;li>Not validated: Installation in &lt;code>Application&lt;/code> failt, but in XPlane
 directory it works.&lt;/li>
 &lt;/ul>
-&lt;p>::: {.toctree glob=&amp;rdquo;&amp;rdquo; caption=&amp;quot;Content in this chapter&amp;rdquo;}
+&lt;p>::: {.toctree glob=&amp;quot;&amp;quot; caption=&amp;ldquo;Content in this chapter&amp;rdquo;}
 ./*
 :::&lt;/p></description></item></channel></rss>

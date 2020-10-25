@@ -113,7 +113,7 @@ the same process, but at a larger scale. One process acts as central
 router, and again, the fact that signals are always received in the same
 order they were emitted ensures that all processes see a consistent
 state. This reusable design pattern is explored in more detail at
-&lt;code>relayevent&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} :.&lt;/p>
+&lt;code>relayevent&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} :.&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/cache.png" alt="image">&lt;/p>
 &lt;h1 id="specific-caches">Specific caches&lt;/h1>
 &lt;h2 id="settings">Settings&lt;/h2>
@@ -163,7 +163,7 @@ object.&lt;/li>
 &lt;li>Methods to access the properties of the object by an index.&lt;/li>
 &lt;/ul>
 &lt;p>The most common case, in which the methods are implemented using the
-&lt;code>metaclass&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} system, is supported by
+&lt;code>metaclass&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} system, is supported by
 deriving the class from &lt;code>CValueObject&lt;/code>, which is a convenience class
 template which derives from all the most commonly used mixin classes,
 using multiple inheritance.&lt;/p>
@@ -1226,8 +1226,8 @@ be connected to the Endpoints served by the Proxy Facades. The the
 signal of the Concrete Facade should be left unconnected.&lt;/p>
 &lt;h1 id="known-uses">Known Uses&lt;/h1>
 &lt;ul>
-&lt;li>&lt;code>cache&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>logging&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>cache&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>logging&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>Hotkey events&lt;/li>
 &lt;/ul>
 &lt;h1 id="related-patterns">Related Patterns&lt;/h1>

@@ -1,5 +1,5 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift project – swift datastore</title><link>https://swift-project.github.io/docs/manual/datastore/</link><description>Recent content in swift datastore on swift project</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://swift-project.github.io/docs/manual/datastore/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Change requests for ICAO codes and liveries</title><link>https://swift-project.github.io/docs/manual/datastore/cr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/datastore/cr/</guid><description>
-&lt;p>::: {.toctree glob=&amp;rdquo;&amp;rdquo; hidden=&amp;rdquo;&amp;quot;}
+&lt;p>::: {.toctree glob=&amp;quot;&amp;quot; hidden=&amp;quot;&amp;quot;}
 ./*
 :::&lt;/p>
 &lt;p>&lt;strong>Sources&lt;/strong>&lt;/p>
@@ -23,7 +23,7 @@ just start with an empty id (new code)&lt;/li>
 &lt;li>Specify the new/correct values&lt;/li>
 &lt;li>Submit the change request&lt;/li>
 &lt;/ol>
-&lt;p>Also read &lt;code>icaohints&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Data provisioning (where do the mappings come from?)</title><link>https://swift-project.github.io/docs/manual/datastore/dataprovisioning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/datastore/dataprovisioning/</guid><description>
+&lt;p>Also read &lt;code>icaohints&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Data provisioning (where do the mappings come from?)</title><link>https://swift-project.github.io/docs/manual/datastore/dataprovisioning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/datastore/dataprovisioning/</guid><description>
 &lt;p>The &lt;em>swift&lt;/em> model data are stored in the &lt;a href="https://datastore.swift-project.org/page/index.php">datastore
 database&lt;/a>. This
 database contains all mappings, ICAO codes etc. used with swift.&lt;/p>
@@ -95,7 +95,7 @@ Important
 &lt;p>alpha/developer versions are early access versions for testing. We
 recommend to keep a more stable version in parallel.
 :::&lt;/p>
-&lt;p>See &lt;code>copyswiftdata&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>See &lt;code>copyswiftdata&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;h1 id="download-alpha">Download alpha&lt;/h1>
 &lt;ol>
 &lt;li>
@@ -110,7 +110,7 @@ recommend to keep a more stable version in parallel.
 to go!&lt;/li>
 &lt;li>If not, you'll see an info that your account awaits approval&lt;/li>
 &lt;li>If your VATSIM account has expired, get that fixed,
-&lt;code>see here &amp;lt;qa&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>see here &amp;lt;qa&amp;gt;&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ol>
 &lt;/blockquote>
 &lt;/li>
@@ -145,7 +145,7 @@ swift mapping database.&lt;/li>
 &lt;li>After you have registered &lt;a href="https://datastore.swift-project.org">here
 (SSO)&lt;/a> a swift admin will
 approve your account.&lt;/li>
-&lt;li>Problems &lt;code>with VATSIM SSO &amp;lt;qa&amp;gt;&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}?&lt;/li>
+&lt;li>Problems &lt;code>with VATSIM SSO &amp;lt;qa&amp;gt;&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}?&lt;/li>
 &lt;li>If you are not a VATSIM member use the the chatroom to request an
 account&lt;/li>
 &lt;li>You can register your email with swift datastore to allow a reset of
@@ -173,23 +173,23 @@ to approve your account first
 Note
 :::&lt;/p>
 &lt;p>Requires mapping admin role or higher, &lt;code>mappingroles&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}
+role=&amp;ldquo;ref&amp;rdquo;}
 :::&lt;/p>
 &lt;p>Each change request is archived. From the &amp;quot;changed&amp;quot; column it is
 possible to show a popup window displaying the changed attributes.&lt;/p>
-&lt;p>&lt;img src="http://img.swift-project.org/Changed_attributes_CRs.png" alt="image">{height=&amp;quot;150px&amp;rdquo;}&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/Changed_attributes_CRs.png" alt="image">{height=&amp;ldquo;150px&amp;rdquo;}&lt;/p>
 &lt;h1 id="work-history">Work history&lt;/h1>
 &lt;p>::: {.note}
 ::: {.title}
 Note
 :::&lt;/p>
 &lt;p>Requires mapping admin role or higher, &lt;code>mappingroles&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}
+role=&amp;ldquo;ref&amp;rdquo;}
 :::&lt;/p>
 &lt;p>Each modification is stored in the work history. From the &amp;quot;changed&amp;quot;
 column it is possible to show a popup window displaying the changed
 attributes.&lt;/p>
-&lt;p>&lt;img src="http://img.swift-project.org/Changed_attributes_work_history.png" alt="image">{height=&amp;quot;150px&amp;rdquo;}&lt;/p></description></item><item><title>Docs: VAs (virtual airlines) in swift</title><link>https://swift-project.github.io/docs/manual/datastore/va/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/datastore/va/</guid><description>
+&lt;p>&lt;img src="http://img.swift-project.org/Changed_attributes_work_history.png" alt="image">{height=&amp;ldquo;150px&amp;rdquo;}&lt;/p></description></item><item><title>Docs: VAs (virtual airlines) in swift</title><link>https://swift-project.github.io/docs/manual/datastore/va/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/datastore/va/</guid><description>
 &lt;p>The FSD protocol (which is used by VATSIM and other networks) transfers&lt;/p>
 &lt;ul>
 &lt;li>your callsign&lt;/li>
@@ -212,10 +212,10 @@ airline from a real airline.&lt;/p>
 use a 4 letter airline code for VAs, but this works only from &lt;em>swift&lt;/em> to
 &lt;em>swift&lt;/em>.&lt;/p>
 &lt;p>Example:&lt;/p>
-&lt;p>&lt;img src="http://img.swift-project.org/va1.png" alt="image">{height=&amp;quot;200px&amp;rdquo;}&lt;/p>
-&lt;p>&lt;img src="http://img.swift-project.org/va2.png" alt="image">{height=&amp;quot;200px&amp;rdquo;}&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/va1.png" alt="image">{height=&amp;ldquo;200px&amp;rdquo;}&lt;/p>
+&lt;p>&lt;img src="http://img.swift-project.org/va2.png" alt="image">{height=&amp;ldquo;200px&amp;rdquo;}&lt;/p>
 &lt;p>If you want to add your VA to the &lt;em>swift&lt;/em> database you can do so, see
-&lt;code>cr&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . These airlines will be recognized
-by &lt;em>swift&lt;/em> clients (&lt;code>icaohints&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} ). You can
+&lt;code>cr&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} . These airlines will be recognized
+by &lt;em>swift&lt;/em> clients (&lt;code>icaohints&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} ). You can
 also add the airline name in the FP if you use other clients.&lt;/p>
-&lt;p>To create a mapping see &lt;code>createmappings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}.&lt;/p></description></item></channel></rss>
+&lt;p>To create a mapping see &lt;code>createmappings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}.&lt;/p></description></item></channel></rss>

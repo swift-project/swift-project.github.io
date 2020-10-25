@@ -64,7 +64,7 @@ to use swift without simulator in special cases.&lt;/p>
 &lt;h1 id="settings-of-max-aircraft--max-distance">Settings of max. aircraft / max. distance&lt;/h1>
 &lt;p>The simulator settings allow you to set&lt;/p>
 &lt;ul>
-&lt;li>&lt;code>aircraftrange&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>aircraftrange&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>number of max. remote aircraft to be shown&lt;/li>
 &lt;li>max distance of remote aircraft to be shown&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Hide callsign in XPlane (XPlane labels)</title><link>https://swift-project.github.io/docs/manual/spc/settings/hidecallsign/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/settings/hidecallsign/</guid><description>
@@ -90,11 +90,11 @@ aircraft label status. ** Changes will be saved when closing swiftGUI.&lt;/p>
 &lt;li>SAVE the settings&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://img.swift-project.org/interpolationdialog.png" alt="image">&lt;/p></description></item><item><title>Docs: Matching settings, using models without mapping entry / no DB entry</title><link>https://swift-project.github.io/docs/manual/spc/settings/matchingsettings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/settings/matchingsettings/</guid><description>
-&lt;p>Back to &lt;code>settings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;p>Back to &lt;code>settings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
 &lt;h1 id="matching-settings">Matching settings&lt;/h1>
 &lt;p>In the matching settings you can configure how matching works/your
 preferences. If you want to test your settings you can use the model
-matcher, see mapping tool &lt;code>testmodelset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+matcher, see mapping tool &lt;code>testmodelset&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/Matching_settings1.png" alt="image">&lt;/p>
 &lt;h1 id="reset-matching-script">Reset matching script&lt;/h1>
 &lt;p>Reset your settings (&lt;code>reset all&lt;/code>) and &lt;strong>save your settings&lt;/strong>.&lt;/p>
@@ -102,11 +102,11 @@ matcher, see mapping tool &lt;code>testmodelset&lt;/code>{.interpreted-text role
 &lt;p>&lt;img src="http://img.swift-project.org/matchingscript3.png" alt="image">&lt;/p>
 &lt;h1 id="matching-script">Matching script&lt;/h1>
 &lt;p>Matching script allows to apply your own matching logic, see
-&lt;code>ms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;code>ms&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;h1 id="using-models-without-db-entry">Using models without DB entry&lt;/h1>
 &lt;p>Using models without DB entries (i.e. without mappings) is not the
 recommend way. You can create mapping like described here:
-&lt;code>createmappings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+&lt;code>createmappings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
 &lt;p>However, if you want to use models without mappings:&lt;/p>
 &lt;ul>
 &lt;li>allow those to be used in the model set, so enable it in the mapping
@@ -119,10 +119,10 @@ tool. This allows those models to be added in the model set&lt;/li>
 matching&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://img.swift-project.org/matchingsettings.png" alt="image">&lt;/p></description></item><item><title>Docs: Max. aircraft to be shown or max. distance of aircraft to be shown</title><link>https://swift-project.github.io/docs/manual/spc/settings/maxaircraft/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/settings/maxaircraft/</guid><description>
-&lt;p>See * &lt;code>aircraftrange&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} *
-&lt;code>configuresim&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Notification sounds and text message sounds (and testing sounds)</title><link>https://swift-project.github.io/docs/manual/spc/settings/notificationsounds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/settings/notificationsounds/</guid><description>
+&lt;p>See * &lt;code>aircraftrange&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} *
+&lt;code>configuresim&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Notification sounds and text message sounds (and testing sounds)</title><link>https://swift-project.github.io/docs/manual/spc/settings/notificationsounds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/settings/notificationsounds/</guid><description>
 &lt;p>You can enable notification sounds for various events. To use your own
-sounds see &lt;code>notificationsounds_spc&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+sounds see &lt;code>notificationsounds_spc&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/Audio_settings.png" alt="image">&lt;/p>
 &lt;h1 id="testing-notification-sounds">Testing notification sounds&lt;/h1>
 &lt;p>You can test the sounds by un-checking and checking the notification
@@ -195,9 +195,9 @@ used&lt;/li>
 &lt;li>changing the values here does NOT automatically update the model
 list and model set, the new values are affecting the paths in the
 model set when you re-create it. See &lt;code>createms&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;} .&lt;/li>
-&lt;li>See &lt;code>modelsetandsettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>XPlane example: &lt;code>xpmodeldirectories&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;} .&lt;/li>
+&lt;li>See &lt;code>modelsetandsettings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>XPlane example: &lt;code>xpmodeldirectories&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://img.swift-project.org/simsettings.png" alt="image">&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/simsetup.png" alt="image">&lt;/p></description></item><item><title>Docs: Weather settings</title><link>https://swift-project.github.io/docs/manual/spc/settings/weathersettings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/settings/weathersettings/</guid><description>
@@ -217,7 +217,7 @@ simulation from the weather page directly&lt;/p>
 &lt;li>Weather is on, you can deactivate it&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://img.swift-project.org/weatheron.png" alt="image">&lt;/p></description></item><item><title>Docs: XPlane driver settings</title><link>https://swift-project.github.io/docs/manual/spc/settings/xplanedriversettings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/settings/xplanedriversettings/</guid><description>
-&lt;p>see als &lt;code>xswiftbussettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>see als &lt;code>xswiftbussettings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;h1 id="driver-settings">Driver settings&lt;/h1>
 &lt;p>The driver settings can be found here: Settings --&amp;gt; Simulator --&amp;gt;
 then click on the 3 dots right next to &amp;quot;X-Plane&amp;quot;&lt;/p>
@@ -226,7 +226,7 @@ then click on the 3 dots right next to &amp;quot;X-Plane&amp;quot;&lt;/p>
 technical tricks. Those can affect the stability and the performance of
 XPlane. Changing requires restarting XPlane.&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/tcassettings.png" alt="image">&lt;/p></description></item><item><title>Docs: XSwiftBus settings</title><link>https://swift-project.github.io/docs/manual/spc/settings/xswiftbussettings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/spc/settings/xswiftbussettings/</guid><description>
-&lt;p>see also &lt;code>xplanedriversettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>see also &lt;code>xplanedriversettings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;p>When changing the connection details between &lt;em>swift&lt;/em> and &lt;em>XSwiftBus&lt;/em>,
 the modification needs to be applied in sync on both sides. Otherwise
 connection issues can occur.&lt;/p>

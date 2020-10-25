@@ -18,7 +18,7 @@ as per default&lt;/strong>.&lt;/p>
 callsign. In case you need to report a bug please paste the matching
 messages.&lt;/p>
 &lt;p>Hint: The matching result also depends on the settings:
-&lt;code>matchingsettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;code>matchingsettings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/swift_pilot_client_matching_messages.png" alt="image">&lt;/p>
 &lt;p>If you need a quick overview you can use the model view to see how the
 aircraft and livery a mapped.&lt;/p>
@@ -38,7 +38,7 @@ we cannot help you debugging and fixing it.
 :::&lt;/p>
 &lt;p>There are many cases where users want to apply their own model matching
 logic. Many cases can be configured in the settings, see
-&lt;code>matchingsettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . Matching script allow
+&lt;code>matchingsettings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} . Matching script allow
 to write your own matching logic beyond the scope of the settings.&lt;/p>
 &lt;p>=== How matching works in &lt;em>swift&lt;/em> ===&lt;/p>
 &lt;ol>
@@ -48,7 +48,7 @@ livery) we try to turn these data into swift database ICAO data. By
 that we validate the network data, unify them and turn them into our
 objects. This is what we call &lt;strong>reverse lookup&lt;/strong>.&lt;/li>
 &lt;li>Then we use these unified data and try to find the best match in
-your model set, see &lt;code>mm&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} . This is
+your model set, see &lt;code>mm&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} . This is
 what we call &lt;strong>model matching&lt;/strong>.&lt;/li>
 &lt;/ol>
 &lt;p>swift exposes some of its APIs to matching script:&lt;/p>
@@ -72,7 +72,7 @@ the stage most suitable for your needs.&lt;/p>
 enable and change your script there and see the output.&lt;/p>
 &lt;p>&lt;img src="http://img.swift-project.org/matchingscript1.png" alt="image">&lt;/p>
 &lt;h1 id="technical-details">Technical details&lt;/h1>
-&lt;p>&lt;code>techdetails&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>&lt;code>techdetails&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;h1 id="some-general-information-about-using-matching-script">Some general information about using matching script&lt;/h1>
 &lt;ul>
 &lt;li>with matching script you can define your individual matching logic,
@@ -136,22 +136,22 @@ Q_INVOKABLE QString findCombinedTypeWithClosestColorLivery(const QString &amp;am
 &lt;h1 id="fundamentals">Fundamentals&lt;/h1>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;code>mm&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} , understand the fundamentals&lt;/p>
+&lt;p>&lt;code>mm&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} , understand the fundamentals&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Matching depends on the settings:
-&lt;code>matchingsettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;code>matchingsettings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Without model set model matching is not possible. So check that you
 have created a model set:&lt;/p>
 &lt;blockquote>
 &lt;ul>
-&lt;li>Model set in &lt;code>spc&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Model set in &lt;code>spc&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://img.swift-project.org/swift_pilot_client_aircraft_models.png" alt="image">&lt;/p>
 &lt;ul>
-&lt;li>Model set in &lt;code>smt&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>Model set in &lt;code>smt&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://img.swift-project.org/swift_datastore_model_set.png" alt="image">&lt;/p>
 &lt;/blockquote>
@@ -161,7 +161,7 @@ have created a model set:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>Use the matching messages to understand how a particular aircraft is
-matched. See &lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+matched. See &lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;img src="http://img.swift-project.org/swift_pilot_client_matching_messages.png" alt="image">&lt;/p>
 &lt;/blockquote>
@@ -197,34 +197,34 @@ particular ICAO code combination installed&lt;/li>
 what is going on. But please understand that model matching depends on
 many factors&lt;/p>
 &lt;ul>
-&lt;li>your model set, see &lt;code>createms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>your model set, see &lt;code>createms&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>the login data of the other party&lt;/li>
 &lt;li>your model matching settings, seer &lt;code>settings&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;p>So we have seen many cases where fantasy ICAO codes are used, or user
 login under mismatching credentials (like using
 &lt;code>DLH123`as callsign, but login as :code:`BAW&lt;/code>)&lt;/p>
 &lt;p>To investigate of what is going on we need a matching log. swift can
 show en detail what happens during matching we need a matching log:
-&lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;p>Only this will tell us what has happend. Discussions without a log are
 NOT productive.&lt;/p>
 &lt;p>Some hints:&lt;/p>
 &lt;ul>
 &lt;li>If you are just unhappy with a matching during a flight just change
-it manually, see &lt;code>manualchangemodel&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+it manually, see &lt;code>manualchangemodel&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>You can add more models to your set to cover more cases. But just
 adding models is pointless, you have to add models missing. Use the
 statistics to see your coverage.&lt;/li>
 &lt;li>Validate your model set to see if there are issues, see
-&lt;code>modelsetvalidation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} and
-&lt;code>modelsetvalidationexample&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>modelsetvalidation&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} and
+&lt;code>modelsetvalidationexample&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Reverse lookup</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/matching/reverselookup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/matching/reverselookup/</guid><description>
 &lt;p>Reverse lookup means we use the mapping data (aka &amp;quot;mappings&amp;quot;) to
 conclude from a model to ICAO data or. liveries. Normally we use ICAO
 data and livery information to find a model (this is called &amp;quot;model
-matching&amp;quot;, see also &lt;code>mm&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} ).&lt;/p>
+matching&amp;quot;, see also &lt;code>mm&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} ).&lt;/p>
 &lt;p>In reverse lookup we use the model string&lt;/p>
 &lt;ul>
 &lt;li>to fill in the flight plan&lt;/li>
@@ -241,24 +241,24 @@ detailed and accurate&lt;/p>
 &lt;p>see&lt;/p>
 &lt;blockquote>
 &lt;ul>
-&lt;li>&lt;code>matchinghints&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} (understand why you see
+&lt;li>&lt;code>matchinghints&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} (understand why you see
 the model you see)&lt;/li>
-&lt;li>&lt;code>matchingsettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>exportmodelset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} in case you need to
+&lt;li>&lt;code>matchingsettings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>exportmodelset&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} in case you need to
 upload it for debugging&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;p>see also:&lt;/p>
 &lt;ul>
-&lt;li>&lt;code>tracinginterpolation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>tracingnetwork&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>tracingparts&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>tracinginterpolation&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>tracingnetwork&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>tracingparts&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Why do I see a B74F instead of the B747 passenger version?</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/matching/whyb74f/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/matching/whyb74f/</guid><description>
 &lt;p>FSD (&amp;quot;the VATSIM protocol&amp;quot;) uses the aircraft and airline ICAO codes
 to identify other pilot's aircraft. Unfortunately many use
 pseudo/fantasy ICAO codes. Our source for ICAO codes is the official
-ICAO database: &lt;code>icaodb&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+ICAO database: &lt;code>icaodb&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;p>As an example let's look at the &lt;code>B747&lt;/code>, as you can see neither &lt;code>B747&lt;/code>
 nor &lt;code>B74F&lt;/code> are valid codes. That means, by using official ICAO codes
 there is no way to distinguish a freight B747 from a combi or pax
@@ -276,9 +276,9 @@ following options:&lt;/p>
 &lt;ul>
 &lt;li>remove models you do not want to see from your model set&lt;/li>
 &lt;li>use matching script to write your own logic: &lt;code>ms&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>remove duplicates from your model set:
-&lt;code>modelsetduplicates&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>modelsetduplicates&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Why do I see airline FOO for airline BAR aircraft?</title><link>https://swift-project.github.io/docs/manual/swiftgeneral/matching/matchingresult/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/manual/swiftgeneral/matching/matchingresult/</guid><description>
 &lt;p>Matching means to find the most suitable model for another pilot in your
 model set. If the other pilot flies a [DLH B744]{.title-ref} and you
@@ -296,24 +296,24 @@ aircraft type&lt;/li>
 &lt;p>So there is not &amp;quot;best&amp;quot; solution, it depends on multiple factors. The
 result in swift depends on&lt;/p>
 &lt;p># the models you have in your &lt;em>swift&lt;/em> model set, &lt;code>mm&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;} # your model matching settings, see
-&lt;code>matchingsettings&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} # your own matching
-script (if you have written any), see &lt;code>ms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+role=&amp;ldquo;ref&amp;rdquo;} # your model matching settings, see
+&lt;code>matchingsettings&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} # your own matching
+script (if you have written any), see &lt;code>ms&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;p>This means the result for &lt;em>swift&lt;/em> users can be (very) different
 depending on the mentioned points. If you want to understand your
 matching result, just create a matching log -
-[&lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+[&lt;code>matchmsg&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
 &lt;p>To improve your matching check &lt;code>matchinghints&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;} . But there are things you can check by yourself.&lt;/p>
+role=&amp;ldquo;ref&amp;rdquo;} . But there are things you can check by yourself.&lt;/p>
 &lt;ul>
 &lt;li>Do you use models without swift DB entry? Those might be unreliable
 because not enough information are available.&lt;/li>
 &lt;li>Check your settings, see &lt;code>matchingsettings&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;li>Check the matching log, in many cases this is already
 self-explanatory&lt;/li>
 &lt;li>If you want to see airline [FOO]{.title-ref}, do you have models for
 [FOO]{.title-ref}? Check your coverage:
-&lt;code>tuningset&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>You could use your own logic, see &lt;code>ms&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>tuningset&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>You could use your own logic, see &lt;code>ms&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul></description></item></channel></rss>

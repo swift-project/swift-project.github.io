@@ -189,7 +189,7 @@ exclusive, but maybe we can also just merge both categories and
 distinguish fixed wing/rotorcraft by the ICAO info or the newly
 established &amp;quot;details&amp;quot;&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Aircraft position data (from simulator and network)</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/altitude/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/altitude/</guid><description>
-&lt;p>See also &lt;code>simalts&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p>
+&lt;p>See also &lt;code>simalts&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p>
 &lt;h1 id="p3dhttpwwwprepar3dcomsdkv3learningcenterutilitiesvariablessimulation_variableshtml-and-fsxhttpsmsdnmicrosoftcomen-uslibrarycc526981aspx">&lt;a href="http://www.prepar3d.com/SDKv3/LearningCenter/utilities/variables/simulation_variables.html">P3D&lt;/a> and &lt;a href="https://msdn.microsoft.com/en-us/library/cc526981.aspx">FSX&lt;/a>&lt;/h1>
 &lt;ul>
 &lt;li>
@@ -230,7 +230,7 @@ ELV)&lt;/li>
 &lt;h2 id="simaircraftgearacf_h_eqlbm------29933-----47176">sim/aircraft/gear/acf_h_eqlbm 2.9933 4.7176&lt;/h2>
 &lt;h1 id="see-also">See also&lt;/h1>
 &lt;ul>
-&lt;li>&lt;code>ongroundscenarios&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>ongroundscenarios&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul></description></item><item><title>Docs: BB multi livery example</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/bbmultilivery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/bbmultilivery/</guid><description>
 &lt;p>BB_Mil/xsb_aircraft.txt&lt;/p>
 &lt;pre>&lt;code class="language-{.}" data-lang="{.}">OBJ8_AIRCRAFT F16D_US4_926
@@ -354,7 +354,7 @@ FSX:SP2 through P3D v3.2.&lt;/li>
 &lt;li>Scenery altitude, aka true altitude&lt;/li>
 &lt;li>Scenery AGL, altitude above ground&lt;/li>
 &lt;li>Pressure altitude&lt;/li>
-&lt;li>see also &lt;code>altitude&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;li>see also &lt;code>altitude&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;h1 id="fsxp3d">FSX/P3D&lt;/h1>
 &lt;p>SimConnect variables
@@ -398,8 +398,8 @@ can&lt;/p>
 &lt;ul>
 &lt;li>calculate the AGL (&amp;quot;above ground&amp;quot;)&lt;/li>
 &lt;li>avoid model underflows, see also
-&lt;code>ongroundscenarios&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
-&lt;li>&lt;code>xivapclamp&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/li>
+&lt;code>ongroundscenarios&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
+&lt;li>&lt;code>xivapclamp&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/li>
 &lt;/ul>
 &lt;h1 id="there-are-2-general-concepts">There are 2 general concepts&lt;/h1>
 &lt;p>From 0.8.4 onward we use &amp;quot;probing&amp;quot; for all incoming network positions
@@ -427,7 +427,7 @@ next or previous situation&lt;/li>
 &lt;/blockquote>
 &lt;/li>
 &lt;/ul>
-&lt;p>see also &lt;code>openresearch&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Simulator weather, where does the swift weather come from?</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/simulatorweather/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/simulatorweather/</guid><description>
+&lt;p>see also &lt;code>openresearch&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: Simulator weather, where does the swift weather come from?</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/simulatorweather/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/simulatorweather/</guid><description>
 &lt;h1 id="simulator-weather">Simulator Weather&lt;/h1>
 &lt;h2 id="scope">Scope&lt;/h2>
 &lt;p>This page collects different information regarding weather creation and
@@ -441,7 +441,7 @@ this page is a central place to store and share knowledge.&lt;/p>
 implemented in &lt;em>swift&lt;/em>. We do not plan to implement a sophisticated
 weather engine, but a simple one for those who have no other engine.&lt;/p>
 &lt;p>You can enable/disable &lt;em>swift&lt;/em> weather from &lt;code>settings&lt;/code>{.interpreted-text
-role=&amp;quot;ref&amp;rdquo;} .&lt;/p>
+role=&amp;ldquo;ref&amp;rdquo;} .&lt;/p>
 &lt;h2 id="weather-sources">Weather Sources&lt;/h2>
 &lt;p>The following real weather sources exist and can be used to retrieve
 real time data. They are listed in the order of priority how they should
@@ -524,8 +524,8 @@ different altitude layers.&lt;/p>
 python based X-Plane weather plugin licensed under GPLv2.&lt;/li>
 &lt;/ul>
 &lt;/blockquote></description></item><item><title>Docs: Tracing and debugging interpolation / matching</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/tracing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/tracing/</guid><description>
-&lt;p>This topic is located here: &lt;code>swiftgeneral&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}
-and &lt;code>tracinginterpolation&lt;/code>{.interpreted-text role=&amp;quot;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: X-IVAP clamp on ground and ground handling flag</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/xivapclamp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/xivapclamp/</guid><description>
+&lt;p>This topic is located here: &lt;code>swiftgeneral&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}
+and &lt;code>tracinginterpolation&lt;/code>{.interpreted-text role=&amp;ldquo;ref&amp;rdquo;}&lt;/p></description></item><item><title>Docs: X-IVAP clamp on ground and ground handling flag</title><link>https://swift-project.github.io/docs/knowhow/simandinterpolation/xivapclamp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/knowhow/simandinterpolation/xivapclamp/</guid><description>
 &lt;p>Clamping only avoids &amp;quot;underflow into ground&amp;quot;&lt;/p>
 &lt;pre>&lt;code class="language-{.}" data-lang="{.}">double getCorrectYValue(double inX, double inY, double inZ, double inModelYOffset, bool inIsClampingOn) {
 if (!inIsClampingOn) {
