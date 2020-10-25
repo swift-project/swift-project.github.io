@@ -166,7 +166,7 @@ enable = false
         desc = "Development takes place here!"
 [[params.links.developer]]
 	name = "Doxygen documentation"
-	url = "https://example.org/doxygen"
+	url = "https://apidocs.swift-project.org/"
 	icon = "fas fa-laptop-code"
         desc = "Development documentation"
 
