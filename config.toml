@@ -149,7 +149,7 @@ enable = false
         desc = "Like us on Facebook to get the latest news!"
 [[params.links.user]]
 	name = "Discord"
-	url = "https://discord.gg/vc3uHEk"
+	url = "https://discord.gg/R7Atd9A"
 	icon = "fab fa-discord"
         desc = "Contact us on Discord!"
 [[params.links.user]]
