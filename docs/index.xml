@@ -2217,7 +2217,7 @@ appropriate declarations into a derived class.&lt;/p>
 &lt;li id="fn:1" role="doc-endnote">
 &lt;p>Virtual methods in frequently-used CRTP class templates have a
 detrimental effect on compilation times, because they inhibit lazy
-instantiation of methods. &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+instantiation of methods.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Docs: Directory structure</title><link>https://swift-project.github.io/docs/dev/dirstructure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://swift-project.github.io/docs/dev/dirstructure/</guid><description>
