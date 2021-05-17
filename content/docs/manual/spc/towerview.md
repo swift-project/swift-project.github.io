@@ -49,7 +49,7 @@ Using X-Plane 11 (XP11) or Prepar3D v4.x (P3D)):
     X-Plane 11/P3D after several seconds, your *swift* Aircraft and
     Models pages will be populated, too.
 
-vStars
+vSTARS
 ======
 
 1.  Open SwiftGUI
