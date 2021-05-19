@@ -171,6 +171,16 @@ enable = false
         desc = "Development documentation"
 
 [[menu.main]]
+    name = "Documentation"
+    weight = 20
+    url = "https://docs.swift-project.org/"
+
+[[menu.main]]
+    name = "Tutorials"
+    weight = 20
+    url = "https://docs.swift-project.org/doku.php?id=tutorials"
+
+[[menu.main]]
     name = "Datastore"
     weight = 50
     url = "https://datastore.swift-project.org/page/index.php"
