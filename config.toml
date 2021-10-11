@@ -109,7 +109,7 @@ github_project_repo = "https://github.com/swift-project"
 algolia_docsearch = false
 
 # Enable Lunr.js offline search
-offlineSearch = true
+offlineSearch = false
 
 # User interface configuration
 [params.ui]
@@ -179,6 +179,11 @@ enable = false
     name = "Tutorials"
     weight = 20
     url = "https://docs.swift-project.org/doku.php?id=tutorials"
+
+[[menu.main]]
+    name = "Contact & Help"
+    weight = 30
+    url = "https://discord.gg/R7Atd9A"
 
 [[menu.main]]
     name = "Datastore"
