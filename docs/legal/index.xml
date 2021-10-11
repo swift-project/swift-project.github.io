@@ -160,7 +160,7 @@ c/o tbd , tbd&lt;/p>
 &lt;/ul>
 &lt;p>All swift software programs are licensed under the GPL v3 license. You can find the details here&lt;/p>
 &lt;p>The following terms apply to all swift programs:&lt;/p>
-&lt;pre>&lt;code>swift pilot client suite
+&lt;pre tabindex="0">&lt;code>swift pilot client suite
 Copyright (C) 2016, 2017, 2018 swift Team
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -173,7 +173,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 &lt;/code>&lt;/pre>&lt;p>and&lt;/p>
-&lt;pre>&lt;code>swift pilot client suite
+&lt;pre tabindex="0">&lt;code>swift pilot client suite
 Copyright (C) 2016, 2017, 2018 swift Team
 This program comes with ABSOLUTELY NO WARRANTY; for details see
 see here https://datastore.swift-project.org/page/legal.php.
@@ -200,7 +200,7 @@ For the copyright of our data (ie. the data in the database and caches) see the 
 &lt;li>Project website http://www.boost.org/&lt;/li>
 &lt;li>Source code http://www.boost.org/users/history/&lt;/li>
 &lt;/ul>
-&lt;pre>&lt;code>Boost Software License - Version 1.0 - August 17th, 2003
+&lt;pre tabindex="0">&lt;code>Boost Software License - Version 1.0 - August 17th, 2003
 Permission is hereby granted, free of charge, to any person or organization
 obtaining a copy of the software and accompanying documentation covered by
 this license (the &amp;quot;Software&amp;quot;) to use, reproduce, display, distribute,
@@ -225,7 +225,7 @@ DEALINGS IN THE SOFTWARE.
 &lt;li>Project website https://crashpad.chromium.org/index.html&lt;/li>
 &lt;li>Source code https://chromium.googlesource.com/crashpad/crashpad&lt;/li>
 &lt;/ul>
-&lt;pre>&lt;code> Apache License
+&lt;pre tabindex="0">&lt;code> Apache License
 Version 2.0, January 2004
 http://www.apache.org/licenses/
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
@@ -399,7 +399,7 @@ limitations under the License.
 &lt;li>Source code (swift git hub repo) https://github.com/swift-project/libxplanemp&lt;/li>
 &lt;li>Copyright (c) 2006, Ben Supnik and Chris Serio.&lt;/li>
 &lt;/ul>
-&lt;pre>&lt;code>Permission is hereby granted, free of charge, to any person obtaining a copy of
+&lt;pre tabindex="0">&lt;code>Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in
 the Software without restriction, including without limitation the rights to
 use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
@@ -423,7 +423,7 @@ Jean-Marc Valin, Timothy B. Terriberry,
 CSIRO, Gregory Maxwell, Mark Borgerding,
 Erik de Castro Lopo&lt;/li>
 &lt;/ul>
-&lt;pre>&lt;code>Redistribution and use in source and binary forms, with or without
+&lt;pre tabindex="0">&lt;code>Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
 are met:
 - Redistributions of source code must retain the above copyright
@@ -459,7 +459,7 @@ https://datatracker.ietf.org/ipr/1526/
 &lt;li>Project website http://www.portaudio.com/&lt;/li>
 &lt;li>Source code http://www.portaudio.com/download.html&lt;/li>
 &lt;/ul>
-&lt;pre>&lt;code>PortAudio Portable Real-Time Audio Library
+&lt;pre tabindex="0">&lt;code>PortAudio Portable Real-Time Audio Library
 PortAudio API Header File
 Latest version available at: http://www.portaudio.com
 Copyright (c) 1999-2006 Ross Bencina and Phil Burk
@@ -492,7 +492,7 @@ license above.
 &lt;li>Source code https://code.qt.io
 GNU LESSER GENERAL PUBLIC LICENSE&lt;/li>
 &lt;/ul>
-&lt;pre>&lt;code> The Qt Toolkit is Copyright (C) 2016 The Qt Company Ltd.
+&lt;pre tabindex="0">&lt;code> The Qt Toolkit is Copyright (C) 2016 The Qt Company Ltd.
 Contact: http://www.qt.io/licensing/
 You may use, distribute and copy the Qt Toolkit under the terms of
 GNU Lesser General Public License version 3, which is displayed below.
@@ -637,7 +637,7 @@ permanent authorization for you to choose that version for the Library.
 &lt;li>Copyright 2003 EpicGames&lt;/li>
 &lt;li>Copyright 1992-1994 Jutta Degener, Carsten Bormann&lt;/li>
 &lt;/ul>
-&lt;pre>&lt;code>Redistribution and use in source and binary forms, with or without
+&lt;pre tabindex="0">&lt;code>Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
 are met:
 - Redistributions of source code must retain the above copyright
@@ -664,14 +664,14 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 &lt;li>Project website https://dev.vatsim.net&lt;/li>
 &lt;li>Source code https://dev.vatsim.net&lt;/li>
 &lt;/ul>
-&lt;pre>&lt;code>Creative Commons License
+&lt;pre tabindex="0">&lt;code>Creative Commons License
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 &lt;/code>&lt;/pre>&lt;h2 id="qwt">Qwt&lt;/h2>
 &lt;ul>
 &lt;li>Project website https://qwt.sourceforge.io/&lt;/li>
 &lt;li>Source code https://qwt.sourceforge.io/&lt;/li>
 &lt;/ul>
-&lt;pre>&lt;code> Qwt License
+&lt;pre tabindex="0">&lt;code> Qwt License
 Version 1.0, January 1, 2003
 The Qwt library and included programs are provided under the terms
 of the GNU LESSER GENERAL PUBLIC LICENSE (LGPL) with the following
