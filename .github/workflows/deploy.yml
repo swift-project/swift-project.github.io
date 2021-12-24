@@ -35,6 +35,8 @@ jobs:
           echo ${{ env.CNAME_URL }} > public/CNAME
       - name: Build
         run: hugo --minify --baseURL ${{ env.baseURL }}
+      - name: Create README
+        run: echo '# DO NOT COMMIT/PUSH TO MASTER! ONLY FOR GITHUB PAGES!' > public/README.md
       - name: Deploy 🚀
         run: |
           git config user.email "action@github.com"
